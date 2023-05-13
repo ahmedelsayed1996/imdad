@@ -8,18 +8,18 @@
   
   <!-- <router-link to="/customer">customer</router-link> -->
   <!-- <CustomerPage></CustomerPage> -->
-  <CustomerDetailsPage></CustomerDetailsPage>
+  <!-- <CustomerDetailsPage></CustomerDetailsPage> -->
   <!-- <FinancePage></FinancePage> -->
-<!-- <DriverPage></DriverPage> -->
+<DriverPage></DriverPage>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue';
 // import DashboardPage from '@/pages/dashboard.vue'
 // import CustomerPage from './pages/customer/customer.vue'
-import CustomerDetailsPage from './pages/customer/customerdetails.vue'
+// import CustomerDetailsPage from './pages/customer/customerdetails.vue'
 // import FinancePage from './pages/Finance/Finance.vue'
-// import DriverPage from './pages/Driver/driver.vue'
+import DriverPage from './pages/Driver/driver.vue'
 
 export default {
   name: 'App',
@@ -27,9 +27,9 @@ export default {
     // HelloWorld,
     // DashboardPage,
     // CustomerPage,
-    CustomerDetailsPage,
+    // CustomerDetailsPage,
     // FinancePage,
-    // DriverPage,
+    DriverPage,
 
   }
 }
