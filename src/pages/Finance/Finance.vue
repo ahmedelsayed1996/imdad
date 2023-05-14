@@ -229,9 +229,7 @@
 
     </div>
 </template>
-<!-- <template>
-    <h1>hello world</h1>
-</template> -->
+
 <script>
 import '../../.././public/assets/css/style.css'
 // import Chart from 'chart.js/auto';
@@ -245,56 +243,6 @@ export default {
         DoughnutPage,
         LinePage,
     }
-    // mounted() {
-    //     console.log("chart start")
-    //     const ctx = document.getElementById('myChart');
-    //     new Chart(ctx, {
-    //         type: 'bar',
-    //         data: {
-    //             labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-    //             datasets: [{
-    //                 label: '# of Votes',
-    //                 data: [12, 19, 3, 5, 2, 3],
-    //                 borderWidth: 1
-    //             }]
-    //         },
-    //         options: {
-    //             scales: {
-    //                 y: {
-    //                     beginAtZero: true
-    //                 }
-    //             }
-    //         }
-    //     });
-    // }
-    // props: {
-    //   msg: String
-    // }
+  
 }
 </script>
-
-
-<!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
-<!-- <script>
-  const ctx = document.getElementById('myChart');
-
-  new Chart(ctx, {
-    type: 'bar',
-    data: {
-      labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-      datasets: [{
-        label: '# of Votes',
-        data: [12, 19, 3, 5, 2, 3],
-        borderWidth: 1
-      }]
-    },
-    options: {
-      scales: {
-        y: {
-          beginAtZero: true
-        }
-      }
-    }
-  });
-</script> -->

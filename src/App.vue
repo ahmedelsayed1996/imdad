@@ -3,14 +3,14 @@
   <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   <!-- <h1>hello</h1> -->
   <!-- <DashboardPage></DashboardPage> -->
-
   <!-- <h1>hello wdasd lorem</h1> -->
   
   <!-- <router-link to="/customer">customer</router-link> -->
   <!-- <CustomerPage></CustomerPage> -->
   <!-- <CustomerDetailsPage></CustomerDetailsPage> -->
   <!-- <FinancePage></FinancePage> -->
-<DriverPage></DriverPage>
+  <!-- <DriverPage></DriverPage> -->
+  <GeneralReportsPage></GeneralReportsPage>
 </template>
 
 <script>
@@ -19,7 +19,8 @@
 // import CustomerPage from './pages/customer/customer.vue'
 // import CustomerDetailsPage from './pages/customer/customerdetails.vue'
 // import FinancePage from './pages/Finance/Finance.vue'
-import DriverPage from './pages/Driver/driver.vue'
+// import DriverPage from './pages/Driver/driver.vue'
+import GeneralReportsPage from './pages/Reports/generalreports.vue'
 
 export default {
   name: 'App',
@@ -29,7 +30,8 @@ export default {
     // CustomerPage,
     // CustomerDetailsPage,
     // FinancePage,
-    DriverPage,
+    // DriverPage,
+    GeneralReportsPage,
 
   }
 }

@@ -315,10 +315,14 @@
                             <a href="javascript:void(0);" class="waves-effect"><span> الاعدادات <i class="icon-pencil"></i><span
                                         class="float-right menu-arrow"><i class="mdi mdi-chevron-right"></i></span>
                                 </span></a>
-                            <!-- <ul class="submenu">
-                                <li><a href="#"> Google Map</a></li>
-                                <li><a href="#"> Vector Map</a></li>
-                            </ul> -->
+                            <ul class="submenu">
+                                <li><a href="#"> السياسة الخصوصية للبائع </a></li>
+                                <li><a href="#">  اتفاقيه الموصل</a></li>
+                                <li><a href="#"> السياسة الخصوصية للموصل </a></li>
+                                <li><a href="#">  اتفاقيه الاستخدام</a></li>
+                                <li><a href="#">  سياسه الخصوصيه</a></li>
+                                <li><a href="#">  شروط الاستخدام</a></li>
+                            </ul>
                         </li>
                         <li>
                             <a href="javascript:void(0);" class="waves-effect"><span> المراسلات والدعم الفني <i class="icon-paper-sheet"></i><span

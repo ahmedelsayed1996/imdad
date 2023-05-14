@@ -1,5 +1,6 @@
 <template>
     <div class="container-fluid ">
+        <button class="btn btn-success d-flex m-3 btn-imdad">تتبع</button>
         <div class="row">
             <div class="col-sm-6 col-xl-6">
                 <canvas id="circle" width="100" height="100"></canvas>
@@ -117,29 +118,29 @@
         </div>
         <hr style="border: 2px solid black;"/>
         <div class="row">
-            <div class="col-xl-12">
+            <div class="col-xl-12 ">
                 <h4 class="mt-0 header-title mb-4 headLine btn btn-success w-25"> إضافة موصل :</h4>
-                <div class="card m-b-30">
-                    <div class="card-body">
+                <div class="card m-b-30 text-bg-light ">
+                    <div class="card-body ">
 
 
-                        <div class="table-responsive">
-                            <table class="table table-hover">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">الاسم</th>
-                                        <th scope="col">المنطقة </th>
-                                        <th scope="col">عدد الطلبات</th>
-                                        <th scope="col">المرتجع </th>
-                                        <th scope="col">الرصيد</th>
-                                        <th scope="col"> تسويه الرصيد</th>
-                                        <th scope="col"> تعديل</th>
-                                        <th scope="col">حذف </th>
+                        <div class="table-responsive ">
+                            <table class="table">
+                                <thead >
+                                    <tr >
+                                        <th class="text-black" scope="col">الاسم</th>
+                                        <th class="text-black" scope="col">المنطقة </th>
+                                        <th class="text-black" scope="col">عدد الطلبات</th>
+                                        <th class="text-black" scope="col">المرتجع </th>
+                                        <th class="text-black" scope="col">الرصيد</th>
+                                        <th class="text-black" scope="col"> تسويه الرصيد</th>
+                                        <th class="text-black" scope="col"> تعديل</th>
+                                        <th class="text-black" scope="col">حذف </th>
                                     </tr>
                                 </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>عصام قادر</td>
+                                <tbody >
+                                    <tr >
+                                        <td >عصام قادر</td>
                                         <td>
                                            صنعاء
                                             <!-- <span class="badge badge-success">Delivered</span> -->
