@@ -41,13 +41,21 @@
                 <div class="tab-content">
                   <div class="tab-pane fade show active" id="home">
                     <h3 class="headLine my-3">اختر التقرير الفرعي :</h3>
-                    <select class="form-select form-select-sm w-75 d-inline" aria-label="Default select example">
-                      <option selected>Open this select menu</option>
-                      <option value="1">One</option>
-                      <option value="2">Two</option>
-                      <option value="3">Three</option>
-                    </select>
-                    <button class="btn btn-success w-25 d-inline ">عرض</button>
+                    <div class="w-75  d-inline">
+                      <button class="btn btn-success w-25 d-inline ">عرض</button>
+                      <select class=" form-select w-75 " id="table-dropdown" v-model="selectedTable">
+                        <option value="table1">مبيعات المنتجات</option>
+                        <option value="table2"> مبيعات التصنيفات</option>
+                        <option value="table3"> مبيعات الماركات</option>
+                        <option value="table4"> مبيعات الاكواد</option>
+                        <option value="table5"> مبيعات كوبونات التخفيض</option>
+                        <option value="table6"> مبيعات المدن</option>
+                        <option value="table7"> مبيعات الفروع</option>
+                        <option value="table8"> ملخص </option>
+                      </select>
+                      <div id="table-container" v-html="tableHTML"></div>
+                      
+                    </div>
                   </div>
                   <div class="tab-pane fade" id="profile">
                     <h3>المنتجات</h3>
@@ -63,7 +71,7 @@
                   </div>
                   <div class="tab-pane fade" id="contact">
                     <h3>الاكثر طلبا</h3>
-                    <p>This is the contact tab content.</p>
+                    <p >This is the contact tab content.</p>
                   </div>
                 </div>
               </div>
@@ -74,7 +82,33 @@
 
 export default {
     name: 'GeneralReportsPage',
-}
+    data() {
+    return {
+      selectedTable: "",
+      tableHTML: "",
+    };
+  },
+  watch: {
+    selectedTable() {
+      if (this.selectedTable === "table1") {
+        this.tableHTML = "<table class='table table-light' ><thead dir='rtl'><tr><th scope='col'><mark>#</mark></th><th scope='col'>الماركة</th><th scope='col'>النوع</th><th scope='col'>السعر</th><th scope='col'>الكمية المباعة</th><th scope='col'>المبيعات قبل التخفيض</th><th scope='col'>التخفيض</th><th scope='col'>اجمالي كلفه المبيعات</th><th scope='col'>صافي المبيعات</th><th scope='col'>الضرائب</th><th scope='col'>اجمالي المبيعات</th></tr></thead><tbody><tr><th scope='row'>1</th><td>zara</td><td>منتج جاهز</td><td>80 ري</td><td>1</td><td>100 ري</td><td>_</td><td>zara</td><td>80 ري</td> <td>12 ري</td> <td>92 ري</td></tr><td>2</td><td>Uturn</td><td>منتج جاهز</td><td>43 ري</td><td>1</td><td>55 ري</td><td>_</td><td>35 ري</td><td>56 ري</td><td>56 ري</td><td>87 ري</td></tbody></table>";
+      } else if (this.selectedTable === "table2") {
+        this.tableHTML = "<table>2</table>";
+      } else if (this.selectedTable === "table3") {
+        this.tableHTML = "<table><tr><td>Table 2 Row 1</td><td>Table 2 Row 1 Column 2</td></tr><tr><td>Table 2 Row 2</td><td>Table 2 Row 2 Column 2</td></tr></table>";
+      } else if (this.selectedTable === "table4") {
+        this.tableHTML = "<table><tr><td>Table 2 Row 1</td><td>Table 2 Row 1 Column 2</td></tr><tr><td>Table 2 Row 2</td><td>Table 2 Row 2 Column 2</td></tr></table>";
+      } else if (this.selectedTable === "table5") {
+        this.tableHTML = "<table><tr><td>Table 2 Row 1</td><td>Table 2 Row 1 Column 2</td></tr><tr><td>Table 2 Row 2</td><td>Table 2 Row 2 Column 2</td></tr></table>";
+      } else if (this.selectedTable === "table6") {
+        this.tableHTML = "<table><tr><td>Table 2 Row 1</td><td>Table 2 Row 1 Column 2</td></tr><tr><td>Table 2 Row 2</td><td>Table 2 Row 2 Column 2</td></tr></table>";
+      } else if (this.selectedTable === "table7") {
+        this.tableHTML = "<table><tr><td>Table 2 Row 1</td><td>Table 2 Row 1 Column 2</td></tr><tr><td>Table 2 Row 2</td><td>Table 2 Row 2 Column 2</td></tr></table>";
+      }
+    },
+  },
+};
+
 </script>
 
 
