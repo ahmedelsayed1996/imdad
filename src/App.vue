@@ -32,6 +32,8 @@ export default {
     // FinancePage,
     // DriverPage,
     GeneralReportsPage,
+    // BranchesPage,
+    // SellersPage
 
   }
 }

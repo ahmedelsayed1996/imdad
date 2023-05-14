@@ -4100,4 +4100,11 @@ table.focus-on tbody tr.focused td {
     color: white;
     align-items: center;
 }
+.btn-imdad{
+    background-color: purple;
+  }
+  #add-btn:hover{
+  background-color: purple;
+  color: aliceblue;
+  }
 
