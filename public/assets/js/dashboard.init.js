@@ -13,48 +13,48 @@ setTimeout(function(){
 
       //creates area chart
       Dashboard.prototype.createAreaChart = function (element, pointSize, lineWidth, data, xkey, ykeys, labels, lineColors) {
-          Morris.Area({
-              element: element,
-              pointSize: 0,
-              lineWidth: 0,
-              data: data,
-              xkey: xkey,
-              ykeys: ykeys,
-              labels: labels,
-              resize: true,
-              gridLineColor: '#2a2c44',
-              hideHover: 'auto',
-              lineColors: lineColors,
-              fillOpacity: .9,
-              behaveLikeLine: true
-          });
+        //   Morris.Area({
+        //       element: element,
+        //       pointSize: 0,
+        //       lineWidth: 0,
+        //       data: data,
+        //       xkey: xkey,
+        //       ykeys: ykeys,
+        //       labels: labels,
+        //       resize: true,
+        //       gridLineColor: '#2a2c44',
+        //       hideHover: 'auto',
+        //       lineColors: lineColors,
+        //       fillOpacity: .9,
+        //       behaveLikeLine: true
+        //   });
       },
 
       //creates Donut chart
       Dashboard.prototype.createDonutChart = function (element, data, colors) {
-          Morris.Donut({
-              element: element,
-              data: data,
-              resize: true,
-              labelColor: '#a5a6ad',
-            backgroundColor: '#222437',
-              colors: colors
-          });
+        //   Morris.Donut({
+        //       element: element,
+        //       data: data,
+        //       resize: true,
+        //       labelColor: '#a5a6ad',
+        //     backgroundColor: '#222437',
+        //       colors: colors
+        //   });
       },
           //creates line chart Dark
     Dashboard.prototype.createLineChart1 = function(element, data, xkey, ykeys, labels, lineColors) {
-      Morris.Line({
-          element: element,
-          data: data,
-          xkey: xkey,
-          ykeys: ykeys,
-          labels: labels,
-          gridLineColor: '#2a2c44',
-          hideHover: 'auto',
-          pointSize: 3,
-          resize: true, //defaulted to true
-          lineColors: lineColors
-      });
+    //   Morris.Line({
+    //       element: element,
+    //       data: data,
+    //       xkey: xkey,
+    //       ykeys: ykeys,
+    //       labels: labels,
+    //       gridLineColor: '#2a2c44',
+    //       hideHover: 'auto',
+    //       pointSize: 3,
+    //       resize: true, //defaulted to true
+    //       lineColors: lineColors
+    //   });
   },
 
 
@@ -73,7 +73,7 @@ setTimeout(function(){
               {y: '2018', a: 75, b: 240, c:120},
               {y: '2019', a: 30, b: 30, c:30}
           ];
-          this.createAreaChart('morris-area-example', 0, 0, $areaData, 'y', ['a', 'b', 'c'], ['Series A', 'Series B', 'Series C'], ['#fcbe2d', '#02c58d', '#30419b']);
+        //   this.createAreaChart('morris-area-example', 0, 0, $areaData, 'y', ['a', 'b', 'c'], ['Series A', 'Series B', 'Series C'], ['#fcbe2d', '#02c58d', '#30419b']);
 
           //creating donut chart
           var $donutData = [
@@ -81,7 +81,7 @@ setTimeout(function(){
               {label: "In-Store Sales", value: 30},
               {label: "Mail-Order Sales", value: 20}
           ];
-          this.createDonutChart('morris-donut-example', $donutData, ['#fcbe2d', '#30419b', '#02c58d']);
+        //   this.createDonutChart('morris-donut-example', $donutData, ['#fcbe2d', '#30419b', '#02c58d']);
 
                   //create line chart Dark
         var $data1  = [
@@ -93,7 +93,7 @@ setTimeout(function(){
           { y: '2014', a: 75,  b: 65 },
           { y: '2015', a: 100, b: 90 }
       ];
-      this.createLineChart1('morris-line-example', $data1, 'y', ['a', 'b'], ['Series A', 'Series B'], ['#30419b', '#02c58d']);
+   push //   this.createLineChart1('morris-line-example', $data1, 'y', ['a', 'b'], ['Series A', 'Series B'], ['#30419b', '#02c58d']);
 
 
 

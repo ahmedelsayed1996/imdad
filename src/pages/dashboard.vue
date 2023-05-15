@@ -736,13 +736,13 @@
                     <div class="row">
 
                         <h3 class="mt-0  mb-4 headLine"> ارباح العام <i class="mdi mdi-chart-histogram bg-primary  text-white"></i> </h3>
-                        <div class="col-xl-12">
+                        <!-- <div class="col-xl-12">
                             <div class="card m-b-30">
                                 <div class="card-body">
                                     <div id="morris-area-example" class="morris-charts morris-chart-height"></div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <br />
 
                         
@@ -754,19 +754,19 @@
                     <div class="row">
                         
                         <div class="col-xl-6">
-                            <div class="card m-b-30">
+                            <!-- <div class="card m-b-30">
                                 <div class="card-body">
                                     <div id="morris-donut-example" class="morris-charts morris-chart-height"></div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="col-xl-6">
-                            <div class="card m-b-30">
+                            <!-- <div class="card m-b-30">
                                 <div class="card-body">
                                     <h4 class="mt-0 header-title mb-4">Sales Analytics</h4>
                                     <div id="morris-line-example" class="morris-chart" style="height: 360px"></div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <!-- end row -->
