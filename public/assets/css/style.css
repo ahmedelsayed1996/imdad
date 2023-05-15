@@ -4102,9 +4102,14 @@ table.focus-on tbody tr.focused td {
 }
 .btn-imdad{
     background-color: purple;
+    color: white;
   }
-  #add-btn:hover{
+  /* #add-btn:hover{
   background-color: purple;
   color: aliceblue;
-  }
-
+  } */
+.btn-imdad:hover{
+    background-color: white;
+    color: purple;
+    border: solid 1px purple;
+}

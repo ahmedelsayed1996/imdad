@@ -10,7 +10,8 @@
   <!-- <CustomerDetailsPage></CustomerDetailsPage> -->
   <!-- <FinancePage></FinancePage> -->
   <!-- <DriverPage></DriverPage> -->
-  <GeneralReportsPage></GeneralReportsPage>
+  <!-- <GeneralReportsPage></GeneralReportsPage> -->
+  <analyticsPage></analyticsPage>
 </template>
 
 <script>
@@ -20,7 +21,8 @@
 // import CustomerDetailsPage from './pages/customer/customerdetails.vue'
 // import FinancePage from './pages/Finance/Finance.vue'
 // import DriverPage from './pages/Driver/driver.vue'
-import GeneralReportsPage from './pages/Reports/generalreports.vue'
+// import GeneralReportsPage from './pages/Reports/generalreports.vue'
+import analyticsPage from './pages/Analytics/analytics.vue'
 
 export default {
   name: 'App',
@@ -31,9 +33,11 @@ export default {
     // CustomerDetailsPage,
     // FinancePage,
     // DriverPage,
-    GeneralReportsPage,
+    // GeneralReportsPage,
     // BranchesPage,
-    // SellersPage
+    // SellersPage,
+    analyticsPage
+
 
   }
 }
