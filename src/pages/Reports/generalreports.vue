@@ -1,8 +1,8 @@
 <template>
   <div class="container-fluid ">
-    <div class="row">
-      <div class="input-group m-3  col-sm-12 col-xl-3">
-        <label class="input-group-text" for="inputGroupSelect01"><i class="mdi mdi-calendar"></i> تار.يخ التقر.ير
+    <div class="row my-3">
+      <div class="input-group   col-sm-12 col-xl-6">
+        <label class="input-group-text btn-imdad" for="inputGroupSelect01"><i class="mdi mdi-calendar "></i> تاريخ التقرير
         </label>
         <select class="form-select" id="inputGroupSelect01">
           <option selected>April 22,2023 - May 21,2023</option>
@@ -11,11 +11,16 @@
           <option selected>Oct 22,2023 - Dec 21,2023</option>
         </select>
       </div>
+      <div class="col-md-6 text-end col-sm-12">
+        <button type="button" class="btn btn-outline btn-imdad">
+            <i class="bi bi-printer"></i> طباعة
+        </button>
+    </div>
     </div>
 
     <div class="row">
       <div class=" col-sm-12 col-xl-3">
-        <h2 class="headLine mx-3">نوع التقر.ير :</h2>
+        <h2 class="headLine mx-3">نوع التقرير :</h2>
       </div><br />
 
       <div>
@@ -42,9 +47,9 @@
 
         <div class="tab-content">
           <div class="tab-pane fade show active" id="sales">
-            <h3 class="headLine my-3">اختر التقر.ير الفرعي :</h3>
-            <div class="container">
-              <select class="dropdown form-select" id="table-dropdown" v-model="selectedTable">
+            <h3 class="headLine my-3">اختر التقرير الفرعي :</h3>
+            <div class="w-75  d-inline">
+              <select class=" form-select w-75 " id="table-dropdown" v-model="selectedTable">
                 <option selected value="table1">مبيعات المنتجات</option>
                 <option value="table2"> مبيعات التصنيفات</option>
                 <option value="table3"> مبيعات الماركات</option>
@@ -55,25 +60,26 @@
                 <option value="table8">طلبات المنتجات</option>
                 <option value="table9"> ملخص </option>
               </select>
-              <button class="button btn btn-imdad text-light" id="add-btn">عرض</button>
+              <button class="btn btn-imdad w-25 ">عرض</button>
+
               <div id="table-container" v-html="tableHTML"></div>
+
             </div>
           </div>
           <div class="tab-pane fade" id="products">
             <h3 class="headLine my-3">اختر التقرير الفرعي :</h3>
-            <div class=" container">
-              <select class=" form-select  dropdown" id="table-dropdown" v-model="selectedTable">
-                <option value="table10" selected>المنتجات الاكثر مبيعا </option>
-                <option value="table11"> اعلمني عند التوفير</option>
+            <div class="w-75  d-inline">
+              <button class="btn btn-imdad w-25 d-inline ">عرض</button>
+              <select class=" form-select w-75 " id="table-dropdown" v-model="selectedTable">
+                <option value="table10" selected >المنتجات الاكثر مبيعا  </option>
+                <option value="table11">  اعلمني عند التوفير</option>
                 <option value="table12"> المنتجات الاكثر ربحا </option>
-                <option value="table13"> السلالات المتروكة</option>
-
+                <option value="table13">  السلالات المتروكة</option>
+               
               </select>
-              <button class="button btn btn-imdad text-light " id="add-btn">عرض</button>
-
               <div id="table-container" v-html="tableHTML"></div>
-
             </div>
+            <div class="w-25 d-flex">hello</div>
           </div>
           <div class="tab-pane fade" id="custom">
             <h3>العملاء</h3>
@@ -83,11 +89,11 @@
             <div class="row">
               <div class="col-lg-6 col-sm-12 shadow">
                 <h3 class="headLine my-3"> الزيارات</h3>
-                <canvas id='circle'></canvas>
+                <canvas id='circle'  ></canvas>
               </div>
               <div class="col-lg-6 col-sm-12 shadow">
                 <h3 class="headLine my-3"> مصادر الزيارات </h3>
-                <canvas id="circle2"></canvas>
+                <canvas id="circle2" ></canvas>
               </div>
             </div>
           </div>
@@ -108,23 +114,6 @@
     </div>
   </div>
 </template>
-<style>
-.container {
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
-
-.button {
-  margin-right: 1rem;
-  width: 25%;
-}
-
-.dropdown {
-  width: 75%;
-  margin-left: auto;
-}
-</style>
 <script>
 import Chart from 'chart.js/auto';
 
@@ -161,9 +150,9 @@ export default {
         this.tableHTML = "<h3 class='headLine my-3'> المنتجات الاكثر مبيعا     :</h3><table class='table table-light' ><thead dir='rtl'><tr><th scope='col'><mark>#</mark></th><th scope='col'>المنتج </th><th scope='col'>تكلفة المنتج   </th><th scope='col'>سعر البيع  </th><th scope='col'>ارباح المنتج   </th><th scope='col'> عدد طلبات المنتج   </th></tr></thead><tbody><tr><th scope='row'>1</th><td>زيت الزيتون <img src='#' class='' alt='circle'></td><td> 250 ر.ي</td><td> 458 ر.ي</td><td> 8463 ر.ي</td><td> 546 ر.ي</td></tr><tr><th scope='row'>1</th><td>زيت الزيتون <img src='#' class='' alt='circle'></td><td> 250 ر.ي</td><td> 458 ر.ي</td><td> 8463 ر.ي</td><td> 54</td></tr></tbody></table>";
       } else if (this.selectedTable === "table11") {
         this.tableHTML = "<h3 class='headLine my-3'> اعلمني عند التوفير :</h3><table class='table table-light' ><thead dir='rtl'><tr><th scope='col'><mark>#</mark></th><th scope='col'>المنتج </th><th scope='col'>تكلفة المنتج   </th><th scope='col'>سعر البيع  </th><th scope='col'>ارباح المنتج   </th><th scope='col'> عدد طلبات المنتج   </th></tr></thead><tbody><tr><th scope='row'>1</th><td>زيت الزيتون <img src='#' class='' alt='circle'></td><td> 250 ر.ي</td><td> 458 ر.ي</td><td> 8463 ر.ي</td><td> 546 ر.ي</td></tr><tr><th scope='row'>1</th><td>زيت الزيتون <img src='#' class='' alt='circle'></td><td> 250 ر.ي</td><td> 458 ر.ي</td><td> 8463 ر.ي</td><td> 54</td></tr></tbody></table>";
-      } else if (this.selectedTable === "table12") {
+      }else if (this.selectedTable === "table12") {
         this.tableHTML = "<h3 class='headLine my-3'> المنتجات الاكثر ربحا   :</h3><table class='table table-light' ><thead dir='rtl'><tr><th scope='col'><mark>#</mark></th><th scope='col'>المنتج </th><th scope='col'>تكلفة المنتج   </th><th scope='col'>سعر البيع  </th><th scope='col'>ارباح المنتج   </th><th scope='col'> عدد طلبات المنتج   </th></tr></thead><tbody><tr><th scope='row'>1</th><td>زيت الزيتون <img src='#' class='' alt='circle'></td><td> 250 ر.ي</td><td> 458 ر.ي</td><td> 8463 ر.ي</td><td> 546 ر.ي</td></tr><tr><th scope='row'>1</th><td>زيت الزيتون <img src='#' class='' alt='circle'></td><td> 250 ر.ي</td><td> 458 ر.ي</td><td> 8463 ر.ي</td><td> 54</td></tr></tbody></table>";
-      } else if (this.selectedTable === "table13") {
+      }else if (this.selectedTable === "table13") {
         this.tableHTML = "<h3 class='headLine my-3'> السلالات المتروكة  :</h3><table class='table table-light' ><thead dir='rtl'><tr><th scope='col'><mark>#</mark></th><th scope='col'>المنتج </th><th scope='col'>تكلفة المنتج   </th><th scope='col'>سعر البيع  </th><th scope='col'>ارباح المنتج   </th><th scope='col'> عدد طلبات المنتج   </th></tr></thead><tbody><tr><th scope='row'>1</th><td>زيت الزيتون <img src='#' class='' alt='circle'></td><td> 250 ر.ي</td><td> 458 ر.ي</td><td> 8463 ر.ي</td><td> 546 ر.ي</td></tr><tr><th scope='row'>1</th><td>زيت الزيتون <img src='#' class='' alt='circle'></td><td> 250 ر.ي</td><td> 458 ر.ي</td><td> 8463 ر.ي</td><td> 54</td></tr></tbody></table>";
       }
     },
@@ -175,7 +164,7 @@ export default {
       datasets: [
         {
           label: 'Dataset 1',
-          data: [80, 50, 100, 75, 78],
+          data: [80, 50, 100,75,78],
           backgroundColor: [
             'rgb(255,99,132)',
             'rgb(54,162,235)',
@@ -223,62 +212,62 @@ export default {
       }
     });
     const data2 = {
-      labels: [
-        'السعودية',
-        'سوريا',
-        'قطر',
-        'امريكا',
-        'المانيا',
-        'اليمن'
-      ],
-      datasets: [{
-        label: 'My First Dataset',
-        data: [50, 80, 100, 78, 23, 84],
-        backgroundColor: [
-          'rgb(255, 99, 132)',
-          'rgb(54, 162, 235)',
-          'rgb(255, 205, 86)',
-          'rgb(45, 42, 25)',
-          'rgb(42, 78, 86)',
-          'rgb(87, 75, 86)',
-        ],
-        hoverOffset: 4
-      }]
-    };
+  labels: [
+    'السعودية',
+    'سوريا',
+    'قطر',
+    'امريكا',
+    'المانيا',
+    'اليمن'
+  ],
+  datasets: [{
+    label: 'My First Dataset',
+    data: [50, 80, 100,78,23,84],
+    backgroundColor: [
+      'rgb(255, 99, 132)',
+      'rgb(54, 162, 235)',
+      'rgb(255, 205, 86)',
+      'rgb(45, 42, 25)',
+      'rgb(42, 78, 86)',
+      'rgb(87, 75, 86)',
+    ],
+    hoverOffset: 4
+  }]
+};
     const ctx3 = document.getElementById('circle');
 
-    new Chart(ctx3, {
-      type: 'doughnut',
-      data: data2,
-    });
+  new Chart(ctx3, {
+    type: 'doughnut',
+  data: data2,
+  });
 
-    const data3 = {
-      labels: [
-
-        'روابط مباشرة',
-        'محركات بحث',
-        'مواقع التواصل',
-
-      ],
-      datasets: [{
-        label: 'My First Dataset',
-        data: [45, 55, 50],
-        backgroundColor: [
-
-          'rgb(54, 162, 235)',
-          'rgb(255, 205, 86)',
-          'rgb(45, 42, 25)',
-
-        ],
-        hoverOffset: 4
-      }]
-    };
+  const data3 = {
+  labels: [
+    
+    'روابط مباشرة',
+    'محركات بحث',
+    'مواقع التواصل',
+    
+  ],
+  datasets: [{
+    label: 'My First Dataset',
+    data: [45,55,50],
+    backgroundColor: [
+      
+      'rgb(54, 162, 235)',
+      'rgb(255, 205, 86)',
+      'rgb(45, 42, 25)',
+     
+    ],
+    hoverOffset: 4
+  }]
+};
     const ctx4 = document.getElementById('circle2');
 
-    new Chart(ctx4, {
-      type: 'doughnut',
-      data: data3,
-    });
+  new Chart(ctx4, {
+    type: 'doughnut',
+  data: data3,
+  });
   }
 };
 

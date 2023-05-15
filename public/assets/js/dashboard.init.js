@@ -93,7 +93,7 @@ setTimeout(function(){
           { y: '2014', a: 75,  b: 65 },
           { y: '2015', a: 100, b: 90 }
       ];
-   push //   this.createLineChart1('morris-line-example', $data1, 'y', ['a', 'b'], ['Series A', 'Series B'], ['#30419b', '#02c58d']);
+    //   this.createLineChart1('morris-line-example', $data1, 'y', ['a', 'b'], ['Series A', 'Series B'], ['#30419b', '#02c58d']);
 
 
 

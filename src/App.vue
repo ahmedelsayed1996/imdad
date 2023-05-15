@@ -10,8 +10,10 @@
   <!-- <CustomerDetailsPage></CustomerDetailsPage> -->
   <!-- <FinancePage></FinancePage> -->
   <!-- <DriverPage></DriverPage> -->
-  <GeneralReportsPage></GeneralReportsPage>
+  <GeneralReportsPage/>
   <!-- <analyticsPage></analyticsPage> -->
+  <!-- <VerifyCodePage/> -->
+  <!-- <LoginPage/> -->
 </template>
 
 <script>
@@ -23,6 +25,8 @@
 // import DriverPage from './pages/Driver/driver.vue'
 import GeneralReportsPage from './pages/Reports/generalreports.vue'
 // import analyticsPage from './pages/Analytics/analytics.vue'
+// import VerifyCodePage from './pages/Register/verifycode.vue'
+// import LoginPage from './pages/Register/login.vue'
 
 export default {
   name: 'App',
@@ -37,6 +41,8 @@ export default {
     // BranchesPage,
     // SellersPage,
     // analyticsPage
+    // VerifyCodePage
+    // LoginPage
 
 
   }
