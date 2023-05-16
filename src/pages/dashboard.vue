@@ -919,7 +919,7 @@
 
                         </div>
                         <div class="col-xl-6 row ">
-                            <h3 class="headLine col-xl-12 justify-content-start">افضل بائع بحسب الطلبات :</h3>
+                            <h3 class="headLine col-xl-12 justify-content-start">افضل بائع بحسب كمية الطلبات :</h3>
                             <div class="col-sm-6 col-xl-4">
                                 <div class="card align-item-center">
                                     <div class="card-heading p-4">

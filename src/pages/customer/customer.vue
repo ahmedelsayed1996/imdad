@@ -15,14 +15,14 @@
 }
 </style>
 <template>
-    <div class="container-fuild p-2 content-page ">
+    <div class="container-fuild p-2  ">
         <div class="container p-0 text-bg-light">
             <div class=" col-12 p-0 text-bg-light">
                 <div class="d-flex justify-content-between align-items-center text-bg-light">
                     <div>
                         <button type="button" class="btn btn-success btn-sm " id="export"> <i class="bi bi-person"></i>
                             استيراد العملاء</button>
-                        <button type="button" class="btn btn-success btn-sm"> + اضافة عميل جديد</button>
+                        <button type="button" class="btn btn-imdad btn-sm"> + اضافة عميل جديد</button>
                     </div>
                     <div>
                         <div class="text-start mb-2 pr-4">العملاء</div>
@@ -36,15 +36,15 @@
                 </div>
             </div>
         </div>
-        <form class="form d-flex justify-content-between p-0"  >
+        <form class="form d-flex justify-content-between p-0 w-50 m-auto"  >
             <div class="form-group mx-sm-3 mb-2 flex-grow-1">
                 <input type="text" class="form-control"
                     placeholder="ابحث عن طريق اسم العميل او رقم الهاتف او بالبريد الالكترونى">
             </div>
-            <button type="submit" class="btn btn-dark mb-2 btn-sm" id="search-button">ابدأ البحث</button>
+            <button type="submit" class="btn btn-imdad mb-2 btn-sm" id="search-button">ابدأ البحث</button>
         </form>
         <div class="mt-3 mb-3 d-flex justify-content-end p-2">
-            <button type="button" class="btn btn-success mr-2"> <i class="bi bi-person-fill"></i> تصدير جميع العملاء
+            <button type="button" class="btn btn-imdad mr-2"> <i class="bi bi-person-fill"></i> تصدير جميع العملاء
             </button>
             <button type="button" class="btn btn-danger disabled mr-2 ">حذف العملاء </button>
 
@@ -54,12 +54,13 @@
                 <thead>
                     <tr>
                         <th class="align-top"><input class="form-check-input" type="checkbox" value="" id="checkAll"></th>
-                        <th>الاسم</th>
-                        <th>رقم الجوال</th>
-                        <th>البريد الالكترونى</th>
-                        <th>المدينة</th>
-                        <th>عدد الطلبات</th>
-                        <th></th>
+                        <th><mark>الاسم</mark></th>
+                        <th>  <mark>رقم الجوال</mark></th>
+                        <th>  <mark>>البريد الالكترونى </mark></th>
+                        <th>  <mark>المدينة</mark></th>
+                        <th>  <mark>عدد الطلبات</mark></th>
+                        <th>  <mark>تعديل</mark></th>
+                        
                     </tr>
                 </thead>
 
@@ -67,10 +68,10 @@
                     <tr>
                         <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
                         <td>Ali</td>
-                        <td></td>
-                        <td></td>
+                        <td>+555615132 </td>
+                        <td>aaa@aaaa.aaaa</td>
                         <td>صنعاء</td>
-                        <td></td>
+                        <td>23</td>
                         <td>
                             <i class="bi bi-pencil-fill btn btn-warning"></i>
                             <i class="bi bi-trash btn btn-danger"></i>
