@@ -14,6 +14,9 @@
   <!-- <analyticsPage></analyticsPage> -->
   <!-- <VerifyCodePage/> -->
   <!-- <LoginPage/> -->
+  <!-- <WhatsappmsgsPage/> -->
+  <!-- <NotificationPage/> -->
+  <DiscountsPage/>
 </template>
 
 <script>
@@ -27,6 +30,9 @@ import DashboardPage from '@/pages/dashboard.vue'
 // import analyticsPage from './pages/Analytics/analytics.vue'
 // import VerifyCodePage from './pages/Register/verifycode.vue'
 // import LoginPage from './pages/Register/login.vue'
+// import WhatsappmsgsPage from './pages/Marketing/Whatsappmsgs.vue'
+// import NotificationPage from './pages/Marketing/Notification.vue'
+import DiscountsPage from './pages/Discounts/Discounts.vue'
 
 export default {
   name: 'App',
@@ -40,9 +46,12 @@ export default {
     // GeneralReportsPage,
     // BranchesPage,
     // SellersPage,
-    // analyticsPage
-    // VerifyCodePage
-    // LoginPage
+    // analyticsPage,
+    // VerifyCodePage,
+    // LoginPage,
+    // WhatsappmsgsPage,
+    // NotificationPage,
+    DiscountsPage
 
 
   }
