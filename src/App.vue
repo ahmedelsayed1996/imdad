@@ -10,10 +10,13 @@
   <!-- <CustomerDetailsPage></CustomerDetailsPage> -->
   <!-- <FinancePage></FinancePage> -->
   <!-- <DriverPage></DriverPage> -->
-  <GeneralReportsPage/>
+  <!-- <GeneralReportsPage/> -->
   <!-- <analyticsPage></analyticsPage> -->
   <!-- <VerifyCodePage/> -->
   <!-- <LoginPage/> -->
+  <!-- <WhatsappmsgsPage/> -->
+  <!-- <NotificationPage/> -->
+  <DiscountsPage/>
 </template>
 
 <script>
@@ -23,10 +26,13 @@
 // import CustomerDetailsPage from './pages/customer/customerdetails.vue'
 // import FinancePage from './pages/Finance/Finance.vue'
 // import DriverPage from './pages/Driver/driver.vue'
-import GeneralReportsPage from './pages/Reports/generalreports.vue'
+// import GeneralReportsPage from './pages/Reports/generalreports.vue'
 // import analyticsPage from './pages/Analytics/analytics.vue'
 // import VerifyCodePage from './pages/Register/verifycode.vue'
 // import LoginPage from './pages/Register/login.vue'
+// import WhatsappmsgsPage from './pages/Marketing/Whatsappmsgs.vue'
+// import NotificationPage from './pages/Marketing/Notification.vue'
+import DiscountsPage from './pages/Discounts/Discounts.vue'
 
 export default {
   name: 'App',
@@ -37,12 +43,15 @@ export default {
     // CustomerDetailsPage,
     // FinancePage,
     // DriverPage,
-    GeneralReportsPage,
+    // GeneralReportsPage,
     // BranchesPage,
     // SellersPage,
-    // analyticsPage
-    // VerifyCodePage
-    // LoginPage
+    // analyticsPage,
+    // VerifyCodePage,
+    // LoginPage,
+    // WhatsappmsgsPage,
+    // NotificationPage,
+    DiscountsPage
 
 
   }
