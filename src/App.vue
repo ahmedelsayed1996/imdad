@@ -2,15 +2,15 @@
   <!-- <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   <!-- <h1>hello</h1> -->
-  <!-- <DashboardPage></DashboardPage> -->
   <!-- <h1>hello wdasd lorem</h1> -->
   
+  <DashboardPage/>
   <!-- <router-link to="/customer">customer</router-link> -->
   <!-- <CustomerPage></CustomerPage> -->
   <!-- <CustomerDetailsPage></CustomerDetailsPage> -->
   <!-- <FinancePage></FinancePage> -->
   <!-- <DriverPage></DriverPage> -->
-  <GeneralReportsPage/>
+  <!-- <GeneralReportsPage/> -->
   <!-- <analyticsPage></analyticsPage> -->
   <!-- <VerifyCodePage/> -->
   <!-- <LoginPage/> -->
@@ -18,12 +18,12 @@
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue';
-// import DashboardPage from '@/pages/dashboard.vue'
+import DashboardPage from '@/pages/dashboard.vue'
 // import CustomerPage from './pages/customer/customer.vue'
 // import CustomerDetailsPage from './pages/customer/customerdetails.vue'
 // import FinancePage from './pages/Finance/Finance.vue'
 // import DriverPage from './pages/Driver/driver.vue'
-import GeneralReportsPage from './pages/Reports/generalreports.vue'
+// import GeneralReportsPage from './pages/Reports/generalreports.vue'
 // import analyticsPage from './pages/Analytics/analytics.vue'
 // import VerifyCodePage from './pages/Register/verifycode.vue'
 // import LoginPage from './pages/Register/login.vue'
@@ -32,12 +32,12 @@ export default {
   name: 'App',
   components: {
     // HelloWorld,
-    // DashboardPage,
+    DashboardPage,
     // CustomerPage,
     // CustomerDetailsPage,
     // FinancePage,
     // DriverPage,
-    GeneralReportsPage,
+    // GeneralReportsPage,
     // BranchesPage,
     // SellersPage,
     // analyticsPage

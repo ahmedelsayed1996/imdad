@@ -58,7 +58,11 @@
                 <option value="table6"> مبيعات المدن</option>
                 <option value="table7"> مبيعات الفروع</option>
                 <option value="table8">طلبات المنتجات</option>
-                <option value="table9"> ملخص </option>
+                <option value="table9">تصنيف البائعين </option>
+                <option value="table14">ارباح المنصه </option>
+                <option value="table15">عمولات الموصلين </option>
+                <option value="table16">عمولات العملاء </option>
+                <option value="table17"> ملخص </option>
               </select>
               <button class="btn btn-imdad w-25 ">عرض</button>
 
@@ -154,6 +158,14 @@ export default {
         this.tableHTML = "<h3 class='headLine my-3'> المنتجات الاكثر ربحا   :</h3><table class='table table-light' ><thead dir='rtl'><tr><th scope='col'><mark>#</mark></th><th scope='col'>المنتج </th><th scope='col'>تكلفة المنتج   </th><th scope='col'>سعر البيع  </th><th scope='col'>ارباح المنتج   </th><th scope='col'> عدد طلبات المنتج   </th></tr></thead><tbody><tr><th scope='row'>1</th><td>زيت الزيتون <img src='#' class='' alt='circle'></td><td> 250 ر.ي</td><td> 458 ر.ي</td><td> 8463 ر.ي</td><td> 546 ر.ي</td></tr><tr><th scope='row'>1</th><td>زيت الزيتون <img src='#' class='' alt='circle'></td><td> 250 ر.ي</td><td> 458 ر.ي</td><td> 8463 ر.ي</td><td> 54</td></tr></tbody></table>";
       }else if (this.selectedTable === "table13") {
         this.tableHTML = "<h3 class='headLine my-3'> السلالات المتروكة  :</h3><table class='table table-light' ><thead dir='rtl'><tr><th scope='col'><mark>#</mark></th><th scope='col'>المنتج </th><th scope='col'>تكلفة المنتج   </th><th scope='col'>سعر البيع  </th><th scope='col'>ارباح المنتج   </th><th scope='col'> عدد طلبات المنتج   </th></tr></thead><tbody><tr><th scope='row'>1</th><td>زيت الزيتون <img src='#' class='' alt='circle'></td><td> 250 ر.ي</td><td> 458 ر.ي</td><td> 8463 ر.ي</td><td> 546 ر.ي</td></tr><tr><th scope='row'>1</th><td>زيت الزيتون <img src='#' class='' alt='circle'></td><td> 250 ر.ي</td><td> 458 ر.ي</td><td> 8463 ر.ي</td><td> 54</td></tr></tbody></table>";
+      }  else if (this.selectedTable === "table14") {
+        this.tableHTML = "<h3 class='headLine my-3'>مبيعات كوبونات التخفيض    :</h3><table class='table table-light' ><thead dir='rtl'><tr><th scope='col'><mark>#</mark></th><th scope='col'>كود الكوبون</th><th scope='col'>تاريخ الانشاء </th><th scope='col'>مرات الاستخدام </th><th scope='col'>طريقه تطبيق الخصم </th><th scope='col'> نوع الخصم  </th><th scope='col'>المبيعات قبل التخفيض</th><th scope='col'>اجمالي التخفيض</th></tr></thead><tbody><tr><th scope='row'>1</th><td>test </td><td> 14-5-2023</td><td>1</td><td>code</td><td>نسبة مئويه </td><td>65 ر.ي</td><td>50 ر.ي</td></tr><tr><th scope='row'>1</th><td>may2023 </td><td> 14-5-2023</td><td>1</td><td>code</td><td>نسبة مئويه </td><td>65 ر.ي</td><td>50 ر.ي</td></tr></tbody></table>";
+      } else if (this.selectedTable === "table15") {
+        this.tableHTML = "<h3 class='headLine my-3'>مبيعات المدن    :</h3><table class='table table-light w-50' ><thead dir='rtl'><tr><th scope='col'><mark>#</mark></th><th scope='col'>المدينة</th><th scope='col'>إجمالي المبيعات </th></tr></thead><tbody><tr><th scope='row'>1</th><td>صنعاء</td><td> 1.542 ر.ي</td></tr><tr><th scope='row'>2</th><td>الوحده</td><td> 56.533 ر.ي</td></tr><tr><th scope='row'>3</th><td>حيدة</td><td> 1.542 ر.ي</td></tr></tbody></table>";
+      } else if (this.selectedTable === "table16") {
+        this.tableHTML = "<h3 class='headLine my-3'>مبيعات الفروع    :</h3><table class='table table-light w-50' ><thead dir='rtl'><tr><th scope='col'><mark>#</mark></th><th scope='col'>الفرع</th><th scope='col'>المدينة</th><th scope='col'>إجمالي المبيعات </th></tr></thead><tbody><tr><th scope='row'>1</th><td>الشوقة</td><td>صنعاء</td><td> 1.542 ر.ي</td></tr><tr><th scope='row'>2</th><td>العوالي</td><td>الوحده</td><td> 56.533 ر.ي</td></tr><tr><th scope='row'>3</th><td>المستودع</td><td>حيدة</td><td> 1.542 ر.ي</td></tr></tbody></table>";
+      } else if (this.selectedTable === "table17") {
+        this.tableHTML = "<h3 class='headLine my-3'>طلبات المنتجات    :</h3><table class='table table-light' ><thead dir='rtl'><tr><th scope='col'><mark>#</mark></th><th scope='col'>رقم التخزين</th><th scope='col'>الماركة</th><th scope='col'>الكمية</th><th scope='col'> الاجمالي</th><th scope='col'>رقم الطلب</th><th scope='col'>تاريخ الطلب</th><th scope='col'>حالة الطلب</th><th scope='col'>اجمالي سعر التكلفة </th><th scope='col'> مدينة العميل</th><th scope='col'>طريقه الدفع</th><th scope='col'> اسم العميل</th></tr></thead><tbody><tr><th scope='row'>هدايا</th><td>35453</td><td>zara </td><td>80 </td><td>1562 ر.ي</td><td>100353</td><td>14-5-2023</td><td>تم التنفيذ</td><td>23 ر.ي</td> <td>الوحدة</td> <td>حوالة بنكية</td><td>حمزه</td></tr><tr><th scope='row'>T-shirt</th><td>35453</td><td>zara </td><td>80 </td><td>1562 ر.ي</td><td>100353</td><td>14-5-2023</td><td>تم التنفيذ</td><td>23 ر.ي</td> <td>الوحدة</td> <td>حوالة بنكية</td><td>حمزه</td></tr></tbody></table>";
       }
     },
   },

@@ -284,8 +284,12 @@
                                 <i class="icon-coffee"></i> <span class="float-right menu-arrow"><i class="mdi mdi-chevron-right"></i></span></span>
                             </a>
                             <ul class="submenu">
-                                <li><a href="#">Material Design</a></li>
-                                <li><a href="#">Font Awesome</a></li>
+                                <li><a href="#"> البنرات</a></li>
+                                <li><a href="#">الشعارات </a></li>
+                                <li><a href="#">قسم التخفيضات </a></li>
+                                <li><a href="#"> تسويق وعروض في الموقع والتطبيق</a></li>
+                                <li><a href="#"> التخفيضات</a></li>
+                                <li><a href="#"> التسويق عبر رسائل الواتس</a></li>
 
                             </ul>
                         </li>
