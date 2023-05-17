@@ -5,8 +5,8 @@
   <!-- <h1>hello wdasd lorem</h1> -->
   <!-- <DashboardPage/> -->
   <!-- <router-link to="/customer">customer</router-link> -->
-  <CustomerPage/>
-  <CustomerDetailsPage></CustomerDetailsPage>
+  <!-- <CustomerPage/> -->
+  <!-- <CustomerDetailsPage></CustomerDetailsPage> -->
   <!-- <FinancePage></FinancePage> -->
   <!-- <DriverPage></DriverPage> -->
   <!-- <GeneralReportsPage/> -->
@@ -19,7 +19,13 @@
   <!-- <SellersDetailsPage/> -->
   <!-- <SellerPage/>  -->
   <!-- <NewSellerPage/> -->
-  <PendingProductsPage/>
+  <!-- <PendingProductsPage/> -->
+  <CustomerChatPage/>
+  <!-- <DriverChatPage/> -->
+  <!-- <SellerChatPage/> -->
+  <!-- <BranchChatPage/> -->
+  <SettingsPage/>
+
 </template>
 
 <script>
@@ -39,7 +45,12 @@
 // import SellersDetailsPage from './pages/Sellers/SellersDetails.vue'
 // import SellerPage from './pages/Sellers/Seller.vue'
 // import NewSellerPage from './pages/Sellers/NewSeller.vue'
-import PendingProductsPage from './pages/Products/PendingProducts.vue'
+// import PendingProductsPage from './pages/Products/PendingProducts.vue'
+import CustomerChatPage from './pages/Chats/CustomerChat.vue'
+// import DriverChatPage from './pages/Chats/DriverChat.vue'
+// import SellerChatPage from './pages/Chats/SellerChat.vue'
+// import BranchChatPage from './pages/Chats/BranchChat.vue'
+// import SettingsPage from './pages/Settings/Settings.vue'
 
 export default {
   name: 'App',
@@ -61,8 +72,12 @@ export default {
     // SellersDetailsPage,
     // SellerPage,
     // NewSellerPage,
-    PendingProductsPage
-
+    // PendingProductsPage,
+    CustomerChatPage,
+    // DriverChatPage,
+    // SellerChatPage,
+    // BranchChatPage,
+    // SettingsPage
 
   }
 }
