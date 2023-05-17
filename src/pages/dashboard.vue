@@ -671,7 +671,7 @@
                                         <i class="mdi mdi-pause bg-primary  text-white"></i>
                                     </div>
                                     <div>
-                                        <h5 class="font-16">الرصيد الحالي</h5>
+                                        <h5 class="font-16 text-light">الرصيد الحالي</h5>
                                     </div>
                                     <h3 class="mt-4">35 ري</h3>
                                     <div class="progress mt-4" style="height: 4px;">
@@ -689,7 +689,7 @@
                                         <i class="mdi mdi-briefcase-check bg-success text-white"></i>
                                     </div>
                                     <div>
-                                        <h5 class="font-16">إجمالي الارباح</h5>
+                                        <h5 class="font-16 text-light">إجمالي الارباح</h5>
                                     </div>
                                     <h3 class="mt-4">265 ري</h3>
                                     <div class="progress mt-4" style="height: 4px;">
@@ -707,7 +707,7 @@
                                         <i class="mdi mdi-clock bg-warning text-white"></i>
                                     </div>
                                     <div>
-                                        <h5 class="font-16">طلبات الايداع </h5>
+                                        <h5 class="font-16 text-light">طلبات الايداع </h5>
                                     </div>
                                     <h3 class="mt-4">447 ري</h3>
                                     <div class="progress mt-4" style="height: 4px;">
@@ -725,7 +725,7 @@
                                         <i class="mdi mdi-motorbike bg-danger text-white"></i>
                                     </div>
                                     <div>
-                                        <h5 class="font-16"> اجمالي الحركة المالية في المحفظة</h5>
+                                        <h5 class="font-16 text-light"> اجمالي الحركة المالية في المحفظة</h5>
                                     </div>
                                     <h3 class="mt-4">86 ري</h3>
                                     <div class="progress mt-4" style="height: 4px;">
@@ -743,7 +743,7 @@
                                         <i class="mdi mdi-calendar bg-warning text-white"></i>
                                     </div>
                                     <div>
-                                        <h5 class="font-16">معدل العمليات اليومية </h5>
+                                        <h5 class="font-16 text-light">معدل العمليات اليومية </h5>
                                     </div>
                                     <h3 class="mt-4">447 ري</h3>
                                     <div class="progress mt-4" style="height: 4px;">
@@ -1036,7 +1036,7 @@
                                             class="rounded-circle thumb-md aling-item-center">
                                     </div><br />
 
-                                    <h5 class="mt-4"> QADERFOOD </h5>
+                                    <h5 class="mt-4 text-light"> QADERFOOD </h5>
                                     <!-- <div class="progress mt-4" style="height: 4px;">
                                             <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"
                                                 aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
@@ -1059,7 +1059,7 @@
                                             class="rounded-circle thumb-md aling-item-center">
                                     </div><br />
 
-                                    <h5 class="mt-4">شائع واولاده</h5>
+                                    <h5 class="mt-4 text-light">شائع واولاده</h5>
                                     <!-- <div class="progress mt-4" style="height: 4px;">
                                             <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"
                                                 aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
@@ -1082,7 +1082,7 @@
                                             class="rounded-circle thumb-md aling-item-center">
                                     </div><br />
 
-                                    <h5 class="mt-4">مؤسسه الغراسي </h5>
+                                    <h5 class="mt-4 text-light">مؤسسه الغراسي </h5>
                                     <!-- <div class="progress mt-4" style="height: 4px;">
                                             <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"
                                                 aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
@@ -1105,7 +1105,7 @@
                                             class="rounded-circle thumb-md aling-item-center">
                                     </div><br />
 
-                                    <h5 class="mt-4"> شركه بن ربيع</h5>
+                                    <h5 class="mt-4 text-light"> شركه بن ربيع</h5>
                                     <!-- <div class="progress mt-4" style="height: 4px;">
                                             <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"
                                                 aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
@@ -1128,7 +1128,7 @@
                                             class="rounded-circle thumb-md aling-item-center">
                                     </div><br />
 
-                                    <h5 class="mt-4">شركة بن ربيع</h5>
+                                    <h5 class="mt-4 text-light">شركة بن ربيع</h5>
                                     <!-- <div class="progress mt-4" style="height: 4px;">
                                             <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"
                                                 aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
@@ -1151,7 +1151,7 @@
                                             class="rounded-circle thumb-md aling-item-center">
                                     </div><br />
 
-                                    <h5 class="mt-4">مياه حده </h5>
+                                    <h5 class="mt-4 text-light">مياه حده </h5>
                                     <!-- <div class="progress mt-4" style="height: 4px;">
                                             <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"
                                                 aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
