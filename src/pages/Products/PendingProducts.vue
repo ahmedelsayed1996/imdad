@@ -1,13 +1,27 @@
 <template>
-    <form class="form d-flex justify-content-between p-0 w-50 m-auto"  >
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          
+          منتجات معلقة
+        </a>
+        <img src="https://static-00.iconduck.com/assets.00/shopping-cart-icon-512x462-yrde1eu0.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top me-2">
+      </div>
+    </nav>
+    <div class="container mt-4">
+      <!-- Rest of your page content goes here -->
+      <form class="form d-flex justify-content-between p-0 w-50 m-auto">
         <div class="form-group mx-sm-3 mb-2 flex-grow-1">
             <input type="text" class="form-control"
                 placeholder="ابحث عن المنتج">
+           
         </div>
         <button type="submit" class="btn btn-imdad mb-2 btn-sm" id="search-button">ابدأ البحث</button>
-    </form>
-    <div class="table-container">
-      <table>
+      </form>
+      <div class="d-flex justify-content-center w-100 mt-3  ">
+        <table>
+          
         <thead>
             <tr>
             <th><mark> #SL</mark></th>
@@ -40,40 +54,43 @@
           </tr>
          
         </tbody>
-      </table>
+      
+        </table>
+      </div>
     </div>
-  </template>
-  
-  <script>
-  export default {
-    name: 'PendingProductsPage'
-  }
-  </script>
-  
-  <style>
-  .table-container {
-    background: linear-gradient(to bottom, #f0f2f5, #fff);
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  th, td {
-    padding: 10px;
-    text-align: center;
-  }
-  
-  th {
-    background-color: #f2f2f2;
-    font-weight: bold;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #f2f2f2;
-  }
-  </style>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'PendingProductsPage'
+};
+</script>
+
+<style>
+.table-container {
+  background: linear-gradient(to bottom, #f0f2f5, #fff);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+</style>

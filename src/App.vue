@@ -6,9 +6,9 @@
   <DashboardPage/>
   <!-- <router-link to="/customer">customer</router-link> -->
   <!-- <CustomerPage/> -->
-  <!-- <CustomerDetailsPage/> -->
-  <!-- <FinancePage/> -->
-  <!-- <DriverPage/> -->
+  <!-- <CustomerDetailsPage></CustomerDetailsPage> -->
+  <!-- <FinancePage></FinancePage> -->
+  <!-- <DriverPage></DriverPage> -->
   <!-- <GeneralReportsPage/> -->
   <!-- <analyticsPage/> -->
   <!-- <VerifyCodePage/> -->
@@ -20,7 +20,6 @@
   <!-- <SellerPage/>  -->
   <!-- <NewSellerPage/> -->
   <!-- <PendingProductsPage/> -->
-  <!-- <CustomerChatsPage/> -->
 </template>
 
 <script>
@@ -41,8 +40,6 @@ import DashboardPage from '@/pages/dashboard.vue'
 // import SellerPage from './pages/Sellers/Seller.vue'
 // import NewSellerPage from './pages/Sellers/NewSeller.vue'
 // import PendingProductsPage from './pages/Products/PendingProducts.vue'
-// import CustomerChatsPage from './pages/Chats/customerChats.vue'
-
 
 export default {
   name: 'App',
@@ -65,7 +62,6 @@ export default {
     // SellerPage,
     // NewSellerPage,
     // PendingProductsPage
-    // CustomerChatsPage
 
 
   }
