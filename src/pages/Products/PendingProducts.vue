@@ -2,7 +2,7 @@
     <form class="form d-flex justify-content-between p-0 w-50 m-auto"  >
         <div class="form-group mx-sm-3 mb-2 flex-grow-1">
             <input type="text" class="form-control"
-                placeholder="ابحث عن طريق اسم العميل او رقم الهاتف او بالبريد الالكترونى">
+                placeholder="ابحث عن المنتج">
         </div>
         <button type="submit" class="btn btn-imdad mb-2 btn-sm" id="search-button">ابدأ البحث</button>
     </form>

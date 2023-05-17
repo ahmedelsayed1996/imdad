@@ -9,8 +9,8 @@ const data = {
     {
       label: 'Dataset 1',
       data: [150,50,100,56,98,37,45,35,89],
-      borderColor: 'red',
-      backgroundColor: 'red',
+      borderColor: 'green',
+      backgroundColor: 'blue',
       yAxisID: 'y',
     }
   ]

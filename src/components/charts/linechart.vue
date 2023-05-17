@@ -1,5 +1,5 @@
 <template>
-    <canvas id="myChart" width="400" height="400"></canvas>
+    <canvas id="myChart" width="20" height="20"></canvas>
 </template>
 <script>
 import Chart from 'chart.js/auto';
@@ -14,7 +14,7 @@ export default {
                 labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
                 datasets: [{
                     label: 'عرض الطلبات',
-                    data: [12, 19, 3, 5, 2, 3],
+                    data: [11, 8, 3, 5, 2, 3],
                     borderWidth: 1
                 }]
             },
