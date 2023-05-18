@@ -437,7 +437,7 @@
                     <h1 class="headLine">لوحة التحكم</h1> <br />
                     <!-- end page-title -->
                     <div class="row">
-                        <div class="col-sm-6 col-xl-2">
+                        <div class="col-sm-6 col-xl-3">
                             <a href="#">
                                 <div class="card card-image  ">
                                     <div class="card-heading p-4">
@@ -445,7 +445,7 @@
                                         <i class="mdi mdi-pause bg-primary  text-white"></i>
                                     </div> -->
                                         <div>
-                                            <h5 class="font-16">الطلبات الجديدة </h5>
+                                            <h5 class="font-16"> المبيعات اليوم  </h5>
                                         </div>
                                         <h3 class="mt-4">108</h3>
                                         <!-- <div class="progress mt-4" style="height: 4px;">
@@ -458,7 +458,7 @@
                             </a>
                         </div>
 
-                        <div class="col-sm-6 col-xl-2">
+                        <div class="col-sm-6 col-xl-3">
                             <a href="#">
                                 <div class="card card-image  ">
                                     <div class="card-heading p-4">
@@ -466,7 +466,7 @@
                                         <i class="mdi mdi-pause bg-primary  text-white"></i>
                                     </div> -->
                                         <div>
-                                            <h5 class="font-16">جاري التوصيل</h5>
+                                            <h5 class="font-16">العملاء </h5>
                                         </div>
                                         <h3 class="mt-4">95</h3>
                                         <!-- <div class="progress mt-4" style="height: 4px;">
@@ -479,7 +479,7 @@
                             </a>
                         </div>
 
-                        <div class="col-sm-6 col-xl-2">
+                        <div class="col-sm-6 col-xl-3">
                             <a href="#">
                                 <div class="card card-image  ">
                                     <div class="card-heading p-4">
@@ -487,7 +487,7 @@
                                         <i class="mdi mdi-pause bg-primary  text-white"></i>
                                     </div> -->
                                         <div>
-                                            <h5 class="font-16">المبيعات </h5>
+                                            <h5 class="font-16">الدردشه </h5>
                                         </div>
                                         <h3 class="mt-4">850</h3>
                                         <!-- <div class="progress mt-4" style="height: 4px;">
@@ -500,7 +500,7 @@
                             </a>
                         </div>
 
-                        <div class="col-sm-6 col-xl-2">
+                        <div class="col-sm-6 col-xl-3">
                             <a href="#">
                                 <div class="card card-image  ">
                                     <div class="card-heading p-4">
@@ -508,7 +508,7 @@
                                         <i class="mdi mdi-pause bg-primary  text-white"></i>
                                     </div> -->
                                         <div>
-                                            <h5 class="font-16">مجموع الطلبات </h5>
+                                            <h5 class="font-16"> اجمالي المدفوعات الرقمية </h5>
                                         </div>
                                         <h3 class="mt-4">43</h3>
                                         <!-- <div class="progress mt-4" style="height: 4px;">
@@ -521,22 +521,16 @@
                             </a>
                         </div>
 
-                        <div class="col-sm-6 col-xl-2">
+                        <!-- <div class="col-sm-6 col-xl-2">
                             <a href="#">
                                 <div class="card card-image  ">
                                     <div class="card-heading p-4">
-                                        <!-- <div class="mini-stat-icon float-right">
-                                        <i class="mdi mdi-pause bg-primary  text-white"></i>
-                                    </div> -->
+                                        
                                         <div>
                                             <h5 class="font-16">الزيارات </h5>
                                         </div>
                                         <h3 class="mt-4">75</h3>
-                                        <!-- <div class="progress mt-4" style="height: 4px;">
-                                        <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"
-                                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div> -->
-                                        <!-- <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span></p> -->
+                                        
                                     </div>
                                 </div>
                             </a>
@@ -545,23 +539,16 @@
                             <a href="#">
                                 <div class="card card-image  ">
                                     <div class="card-heading p-4">
-                                        <!-- <div class="mini-stat-icon float-right">
-                                        <i class="mdi mdi-pause bg-primary  text-white"></i>
-                                    </div> -->
+                                        
                                         <div>
                                             <h5 class="font-16"> معدل التحويل</h5>
                                         </div>
                                         <h3 class="mt-4">10</h3>
-                                        <!-- <div class="progress mt-4" style="height: 4px;">
-                                        <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"
-                                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div> -->
-                                        <!-- <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span></p> -->
-                                        <!-- <button class="btn btn-success"></button> -->
+                                        
                                     </div>
                                 </div>
                             </a>
-                        </div>
+                        </div> -->
 
 
 
