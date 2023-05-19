@@ -19,8 +19,10 @@
   <!-- <SellersDetailsPage/> -->
   <!-- <SellerPage/>  -->
   <!-- <NewSellerPage/> -->
-  <PendingProductsPage/>
-  <SettingsPage/>
+  <!-- <PendingProductsPage/> -->
+  <!-- <SettingsPage/> -->
+  <!-- <ProductsPage/> -->
+  <WalletPage/>
 </template>
 
 <script>
@@ -40,8 +42,10 @@
 // import SellersDetailsPage from './pages/Sellers/SellersDetails.vue'
 // import SellerPage from './pages/Sellers/Seller.vue'
 // import NewSellerPage from './pages/Sellers/NewSeller.vue'
-import PendingProductsPage from './pages/Products/PendingProducts.vue'
-import SettingsPage from './pages/Settings/Settings.vue'
+// import PendingProductsPage from './pages/Products/PendingProducts.vue'
+// import SettingsPage from './pages/Settings/Settings.vue'
+// import ProductsPage from './pages/Products/Products.vue'
+import WalletPage from './pages/Finance/Wallet.vue'
 
 export default {
   name: 'App',
@@ -63,9 +67,10 @@ export default {
     // SellersDetailsPage,
     // SellerPage,
     // NewSellerPage,
-    PendingProductsPage,
-    SettingsPage
-
+    // PendingProductsPage,
+    // SettingsPage
+    // ProductsPage
+    WalletPage
 
   }
 }
