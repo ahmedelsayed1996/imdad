@@ -78,7 +78,6 @@
                         <td>50 ر.ي</td>
                         <td>VISA</td>
                         <td class="text-bg-success">ناجحة</td>
-                        
                     </tr>
                     <tr>
                         <td>545338</td>
