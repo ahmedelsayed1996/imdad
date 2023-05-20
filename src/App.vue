@@ -21,11 +21,12 @@
   <!-- <NewSellerPage/> -->
   <!-- <PendingProductsPage/> -->
   <!-- <SettingsPage/> -->
-  <ProductsPage/>
+  <!-- <ProductsPage/> -->
   <!-- <WalletPage/> -->
-  <!-- <CurrentBalancePage/>
-  <LastOperationPage/>
-  <DepositOperationsPage/> -->
+  <!-- <CurrentBalancePage/> -->
+  <!-- <LastOperationPage/> -->
+  <!-- <DepositOperationsPage/> -->
+  <ProductDetailsPage/>
 </template>
 
 <script>
@@ -47,11 +48,12 @@
 // import NewSellerPage from './pages/Sellers/NewSeller.vue'
 // import PendingProductsPage from './pages/Products/PendingProducts.vue'
 // import SettingsPage from './pages/Settings/Settings.vue'
-import ProductsPage from './pages/Products/Products.vue'
+// import ProductsPage from './pages/Products/Products.vue'
 // import WalletPage from './pages/Finance/Wallet.vue'
 // import CurrentBalancePage from './pages/Finance/CurrentBalance.vue'
 // import LastOperationPage from './pages/Finance/LastOperation.vue'
 // import DepositOperationsPage from './pages/Finance/DepositOperations.vue'
+import ProductDetailsPage from './pages/Products/ProductDetails.vue'
 
 export default {
   name: 'App',
@@ -75,11 +77,12 @@ export default {
     // NewSellerPage,
     // PendingProductsPage,
     // SettingsPage
-    ProductsPage
+    // ProductsPage
     // WalletPage,
     // CurrentBalancePage,
     // LastOperationPage,
     // DepositOperationsPage,
+    ProductDetailsPage,
 
   }
 }
