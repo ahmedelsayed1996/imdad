@@ -6,7 +6,7 @@
   <!-- <DashboardPage/> -->
   <!-- <router-link to="/customer">customer</router-link> -->
   <!-- <CustomerPage/> -->
-  <!-- <CustomerDetailsPage></CustomerDetailsPage> -->
+  <!-- <CustomerDetailsPage/> -->
   <!-- <FinancePage/> -->
   <!-- <DriverPage></DriverPage> -->
   <!-- <GeneralReportsPage/> -->
@@ -15,17 +15,20 @@
   <!-- <LoginPage/> -->
   <!-- <WhatsappmsgsPage/> -->
   <!-- <NotificationPage/> -->
-  <!-- <DiscountsPage/> -->
+  <DiscountsPage/>
   <!-- <SellersDetailsPage/> -->
   <!-- <SellerPage/>  -->
   <!-- <NewSellerPage/> -->
   <!-- <PendingProductsPage/> -->
   <!-- <SettingsPage/> -->
-  <ProductsPage/>
+  <!-- <ProductsPage/> -->
   <!-- <WalletPage/> -->
   <!-- <CurrentBalancePage/>
   <LastOperationPage/>
   <DepositOperationsPage/> -->
+  <!-- <BranchesPage/> -->
+  <!-- <BranchChatPage/> -->
+  <ProductControlPage/>
 </template>
 
 <script>
@@ -41,18 +44,20 @@
 // import LoginPage from './pages/Register/login.vue'
 // import WhatsappmsgsPage from './pages/Marketing/Whatsappmsgs.vue'
 // import NotificationPage from './pages/Marketing/Notification.vue'
-// import DiscountsPage from './pages/Discounts/Discounts.vue'
+import DiscountsPage from './pages/Discounts/Discounts.vue'
 // import SellersDetailsPage from './pages/Sellers/SellersDetails.vue'
 // import SellerPage from './pages/Sellers/Seller.vue'
 // import NewSellerPage from './pages/Sellers/NewSeller.vue'
 // import PendingProductsPage from './pages/Products/PendingProducts.vue'
 // import SettingsPage from './pages/Settings/Settings.vue'
-import ProductsPage from './pages/Products/Products.vue'
+// import ProductsPage from './pages/Products/Products.vue'
 // import WalletPage from './pages/Finance/Wallet.vue'
 // import CurrentBalancePage from './pages/Finance/CurrentBalance.vue'
 // import LastOperationPage from './pages/Finance/LastOperation.vue'
 // import DepositOperationsPage from './pages/Finance/DepositOperations.vue'
-
+// import BranchesPage from './pages/Branches/Branches.vue'
+// import BranchChatPage from './pages/Chats/BranchChat.vue'
+import ProductControlPage from './pages/Products/ProductControl.vue'
 export default {
   name: 'App',
   components: {
@@ -69,17 +74,19 @@ export default {
     // LoginPage,
     // WhatsappmsgsPage,
     // NotificationPage,
-    // DiscountsPage,
+    DiscountsPage,
     // SellersDetailsPage,
     // SellerPage,
     // NewSellerPage,
     // PendingProductsPage,
     // SettingsPage
-    ProductsPage
+    // ProductsPage
     // WalletPage,
     // CurrentBalancePage,
     // LastOperationPage,
     // DepositOperationsPage,
+    // BranchChatPage
+    ProductControlPage
 
   }
 }

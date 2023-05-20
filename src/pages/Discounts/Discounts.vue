@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <h2 class="headLine mb-3">منتجات التخفيضات</h2>
+        <h2 class="headLine mb-3 bg-light">منتجات التخفيضات</h2>
       <div class="row">
         <div class="col-md-4">
         <div class="card mb-3 bg-light text-right">
