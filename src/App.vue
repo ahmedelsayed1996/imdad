@@ -29,6 +29,10 @@
   <!-- <BranchesPage/> -->
   <!-- <BranchChatPage/> -->
   <ProductControlPage/>
+  <!-- <CurrentBalancePage/> -->
+  <!-- <LastOperationPage/> -->
+  <!-- <DepositOperationsPage/> -->
+  <ProductDetailsPage/>
 </template>
 
 <script>
@@ -58,6 +62,8 @@ import DiscountsPage from './pages/Discounts/Discounts.vue'
 // import BranchesPage from './pages/Branches/Branches.vue'
 // import BranchChatPage from './pages/Chats/BranchChat.vue'
 import ProductControlPage from './pages/Products/ProductControl.vue'
+import ProductDetailsPage from './pages/Products/ProductDetails.vue'
+
 export default {
   name: 'App',
   components: {
@@ -87,6 +93,7 @@ export default {
     // DepositOperationsPage,
     // BranchChatPage
     ProductControlPage
+    ProductDetailsPage,
 
   }
 }
