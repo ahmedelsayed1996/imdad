@@ -58,7 +58,7 @@
                   </button>
                 </div>
               </div>
-              <div class="form-group d-flex">
+              <!-- <div class="form-group d-flex">
                 <label for="switcher1">هل تريد بيع المنتجات بالاجل</label>
                 <div class="form-check text-start">
                   <button type="button" class="btn btn-success mx-2" data-bs-toggle="modal"
@@ -69,7 +69,7 @@
                     <i class="bi bi-trash   px-5"></i>
                   </button>
                 </div>
-              </div>
+              </div> -->
               <div class="form-group d-flex">
                 <label for="switcher2"> هل تريد اضافه عمولات عن شراء كميات</label>
                 <div class="form-check text-start">

@@ -114,6 +114,7 @@
                             <th><mark> حجم المنتج</mark></th>
                             <th><mark> متوفر</mark></th>
                             <th><mark> سعر البيع</mark></th>
+                            <th><mark>  البائع</mark></th>
                             <th><mark>العمليات </mark></th>
                         </tr>
                     </thead>
@@ -131,7 +132,12 @@
                                 <label class="form-check-label" for="switcher1"></label>
                               </div></td>
                             <td>5465 ر.ي</td>
-                            <td><i class="bi bi-car btn btn-primary"></i></td>
+                            <td>الادارة </td>
+                            <td>
+                                <i class="bi bi-eye btn btn-primary mx-2"></i>
+                                <i class="bi bi-pencil-fill btn btn-warning mx-2"></i>
+                                <i class="bi bi-trash btn btn-danger"></i>
+                            </td>
                             
 
                         </tr>
@@ -147,9 +153,15 @@
                                 <input type="checkbox" id="switcher1" v-model="switcher1" class="form-check-input">
                                 <label class="form-check-label" for="switcher1"></label>
                               </div></td>
-                            <td>5465 ر.ي</td>
-                            <td><i class="bi bi-car btn btn-primary"></i></td>
                             
+
+                            <td>5465 ر.ي</td>
+                            <td>الادارة </td>
+                            <td>
+                                <i class="bi bi-eye btn btn-primary mx-2"></i>
+                                <i class="bi bi-pencil-fill btn btn-warning mx-2"></i>
+                                <i class="bi bi-trash btn btn-danger"></i>
+                            </td>                            
 
                         </tr>
                         <tr>
@@ -167,8 +179,13 @@
                                 <label class="form-check-label" for="switcher1"></label>
                               </div></td>
                             <td>5465 ر.ي</td>
-                            <td><i class="bi bi-car btn btn-primary"></i></td>
-                            
+                            <td>الادارة </td>
+
+                            <td>
+                                <i class="bi bi-eye btn btn-primary mx-2"></i>
+                                <i class="bi bi-pencil-fill btn btn-warning mx-2"></i>
+                                <i class="bi bi-trash btn btn-danger"></i>
+                            </td>                            
 
                         </tr>
                         <tr>
@@ -184,8 +201,13 @@
                                 <label class="form-check-label" for="switcher1"></label>
                               </div></td>
                             <td>5465 ر.ي</td>
-                            <td><i class="bi bi-car btn btn-primary"></i></td>
-                            
+                            <td> الادارة</td>
+
+                            <td>
+                                <i class="bi bi-eye btn btn-primary mx-2"></i>
+                                <i class="bi bi-pencil-fill btn btn-warning mx-2"></i>
+                                <i class="bi bi-trash btn btn-danger"></i>
+                            </td>                            
 
                         </tr>
 
