@@ -8,14 +8,14 @@
   <!-- <CustomerPage/> -->
   <!-- <CustomerDetailsPage/> -->
   <!-- <FinancePage/> -->
-  <!-- <DriverPage></DriverPage> -->
-  <!-- <GeneralReportsPage/> -->
+  <!-- <DriverPage/> -->
+    <!-- <GeneralReportsPage/> -->
   <!-- <analyticsPage/> -->
   <!-- <VerifyCodePage/> -->
   <!-- <LoginPage/> -->
   <!-- <WhatsappmsgsPage/> -->
   <!-- <NotificationPage/> -->
-  <DiscountsPage/>
+  <!-- <DiscountsPage/> -->
   <!-- <SellersDetailsPage/> -->
   <!-- <SellerPage/>  -->
   <!-- <NewSellerPage/> -->
@@ -23,16 +23,14 @@
   <!-- <SettingsPage/> -->
   <!-- <ProductsPage/> -->
   <!-- <WalletPage/> -->
-  <!-- <CurrentBalancePage/>
-  <LastOperationPage/>
-  <DepositOperationsPage/> -->
+  
   <!-- <BranchesPage/> -->
   <!-- <BranchChatPage/> -->
-  <ProductControlPage/>
-  <!-- <CurrentBalancePage/> -->
-  <!-- <LastOperationPage/> -->
-  <!-- <DepositOperationsPage/> -->
-  <ProductDetailsPage/>
+  <!-- <ProductControlPage/> -->
+  <CurrentBalancePage/>
+  <LastOperationPage/>
+  <DepositOperationsPage/>
+  <!-- <ProductDetailsPage/> -->
 </template>
 
 <script>
@@ -48,7 +46,7 @@
 // import LoginPage from './pages/Register/login.vue'
 // import WhatsappmsgsPage from './pages/Marketing/Whatsappmsgs.vue'
 // import NotificationPage from './pages/Marketing/Notification.vue'
-import DiscountsPage from './pages/Discounts/Discounts.vue'
+// import DiscountsPage from './pages/Discounts/Discounts.vue'
 // import SellersDetailsPage from './pages/Sellers/SellersDetails.vue'
 // import SellerPage from './pages/Sellers/Seller.vue'
 // import NewSellerPage from './pages/Sellers/NewSeller.vue'
@@ -56,13 +54,13 @@ import DiscountsPage from './pages/Discounts/Discounts.vue'
 // import SettingsPage from './pages/Settings/Settings.vue'
 // import ProductsPage from './pages/Products/Products.vue'
 // import WalletPage from './pages/Finance/Wallet.vue'
-// import CurrentBalancePage from './pages/Finance/CurrentBalance.vue'
-// import LastOperationPage from './pages/Finance/LastOperation.vue'
-// import DepositOperationsPage from './pages/Finance/DepositOperations.vue'
+import CurrentBalancePage from './pages/Finance/CurrentBalance.vue'
+import LastOperationPage from './pages/Finance/LastOperation.vue'
+import DepositOperationsPage from './pages/Finance/DepositOperations.vue'
 // import BranchesPage from './pages/Branches/Branches.vue'
 // import BranchChatPage from './pages/Chats/BranchChat.vue'
-import ProductControlPage from './pages/Products/ProductControl.vue'
-import ProductDetailsPage from './pages/Products/ProductDetails.vue'
+// import ProductControlPage from './pages/Products/ProductControl.vue'
+// import ProductDetailsPage from './pages/Products/ProductDetails.vue'
 
 export default {
   name: 'App',
@@ -80,7 +78,7 @@ export default {
     // LoginPage,
     // WhatsappmsgsPage,
     // NotificationPage,
-    DiscountsPage,
+    // DiscountsPage,
     // SellersDetailsPage,
     // SellerPage,
     // NewSellerPage,
@@ -88,24 +86,14 @@ export default {
     // SettingsPage
     // ProductsPage
     // WalletPage,
-    // CurrentBalancePage,
-    // LastOperationPage,
-    // DepositOperationsPage,
+    CurrentBalancePage,
+    LastOperationPage,
+    DepositOperationsPage,
     // BranchChatPage
-    ProductControlPage
-    ProductDetailsPage,
+    // ProductControlPage,
+    // ProductDetailsPage,
 
   }
 }
 </script>
 
-<!-- <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style> -->

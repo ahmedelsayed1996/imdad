@@ -122,7 +122,6 @@
                 </div>
               </div>
             </div>
-            <hr>
             <div class="col-6">
               <div class="card bg-light " style="border-radius: 10px;">
                 <div class="card-header d-flex justify-content-between align-items-center">
@@ -153,6 +152,9 @@
                 </div>
               </div>
             </div>
+            
+            <hr>
+            
 
 
 
@@ -160,6 +162,7 @@
         </div>
         <div class="tab-pane fade" id="tab2">
           <!-- Content for Tab 2 -->
+          <h2>احجام ونكهات المنتج</h2>
         </div>
 
       </div>
