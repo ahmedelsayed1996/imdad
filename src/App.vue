@@ -32,7 +32,7 @@
   <!-- <CurrentBalancePage/> -->
   <!-- <LastOperationPage/> -->
   <!-- <DepositOperationsPage/> -->
-  <ProductDetailsPage/>
+  <!-- <ProductDetailsPage/> -->
 </template>
 
 <script>
@@ -59,10 +59,11 @@ import DiscountsPage from './pages/Discounts/Discounts.vue'
 // import CurrentBalancePage from './pages/Finance/CurrentBalance.vue'
 // import LastOperationPage from './pages/Finance/LastOperation.vue'
 // import DepositOperationsPage from './pages/Finance/DepositOperations.vue'
+// import ProductDetailsPage from './pages/Products/ProductDetails.vue'
 // import BranchesPage from './pages/Branches/Branches.vue'
 // import BranchChatPage from './pages/Chats/BranchChat.vue'
 import ProductControlPage from './pages/Products/ProductControl.vue'
-import ProductDetailsPage from './pages/Products/ProductDetails.vue'
+// import ProductDetailsPage from './pages/Products/ProductDetails.vue'
 
 export default {
   name: 'App',
@@ -91,9 +92,10 @@ export default {
     // CurrentBalancePage,
     // LastOperationPage,
     // DepositOperationsPage,
+    // ProductDetailsPage,
     // BranchChatPage
     ProductControlPage
-    ProductDetailsPage,
+    // ProductDetailsPage,
 
   }
 }
