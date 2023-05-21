@@ -15,7 +15,7 @@
   <!-- <LoginPage/> -->
   <!-- <WhatsappmsgsPage/> -->
   <!-- <NotificationPage/> -->
-  <!-- <DiscountsPage/> -->
+  <DiscountsPage/>
   <!-- <SellersDetailsPage/> -->
   <!-- <SellerPage/>  -->
   <!-- <NewSellerPage/> -->
@@ -26,7 +26,7 @@
   <!-- <CurrentBalancePage/> -->
   <!-- <LastOperationPage/> -->
   <!-- <DepositOperationsPage/> -->
-  <ProductDetailsPage/>
+  <!-- <ProductDetailsPage/> -->
 </template>
 
 <script>
@@ -42,7 +42,7 @@
 // import LoginPage from './pages/Register/login.vue'
 // import WhatsappmsgsPage from './pages/Marketing/Whatsappmsgs.vue'
 // import NotificationPage from './pages/Marketing/Notification.vue'
-// import DiscountsPage from './pages/Discounts/Discounts.vue'
+import DiscountsPage from './pages/Discounts/Discounts.vue'
 // import SellersDetailsPage from './pages/Sellers/SellersDetails.vue'
 // import SellerPage from './pages/Sellers/Seller.vue'
 // import NewSellerPage from './pages/Sellers/NewSeller.vue'
@@ -53,7 +53,7 @@
 // import CurrentBalancePage from './pages/Finance/CurrentBalance.vue'
 // import LastOperationPage from './pages/Finance/LastOperation.vue'
 // import DepositOperationsPage from './pages/Finance/DepositOperations.vue'
-import ProductDetailsPage from './pages/Products/ProductDetails.vue'
+// import ProductDetailsPage from './pages/Products/ProductDetails.vue'
 
 export default {
   name: 'App',
@@ -71,7 +71,7 @@ export default {
     // LoginPage,
     // WhatsappmsgsPage,
     // NotificationPage,
-    // DiscountsPage,
+    DiscountsPage,
     // SellersDetailsPage,
     // SellerPage,
     // NewSellerPage,
@@ -82,7 +82,7 @@ export default {
     // CurrentBalancePage,
     // LastOperationPage,
     // DepositOperationsPage,
-    ProductDetailsPage,
+    // ProductDetailsPage,
 
   }
 }
