@@ -6,7 +6,7 @@
   <!-- <DashboardPage/> -->
   <!-- <router-link to="/customer">customer</router-link> -->
   <!-- <CustomerPage/> -->
-  <!-- <CustomerDetailsPage></CustomerDetailsPage> -->
+  <!-- <CustomerDetailsPage/> -->
   <!-- <FinancePage/> -->
   <!-- <DriverPage></DriverPage> -->
   <!-- <GeneralReportsPage/> -->
@@ -23,6 +23,12 @@
   <!-- <SettingsPage/> -->
   <!-- <ProductsPage/> -->
   <!-- <WalletPage/> -->
+  <!-- <CurrentBalancePage/>
+  <LastOperationPage/>
+  <DepositOperationsPage/> -->
+  <!-- <BranchesPage/> -->
+  <!-- <BranchChatPage/> -->
+  <ProductControlPage/>
   <!-- <CurrentBalancePage/> -->
   <!-- <LastOperationPage/> -->
   <!-- <DepositOperationsPage/> -->
@@ -54,6 +60,10 @@ import DiscountsPage from './pages/Discounts/Discounts.vue'
 // import LastOperationPage from './pages/Finance/LastOperation.vue'
 // import DepositOperationsPage from './pages/Finance/DepositOperations.vue'
 // import ProductDetailsPage from './pages/Products/ProductDetails.vue'
+// import BranchesPage from './pages/Branches/Branches.vue'
+// import BranchChatPage from './pages/Chats/BranchChat.vue'
+import ProductControlPage from './pages/Products/ProductControl.vue'
+// import ProductDetailsPage from './pages/Products/ProductDetails.vue'
 
 export default {
   name: 'App',
@@ -82,6 +92,9 @@ export default {
     // CurrentBalancePage,
     // LastOperationPage,
     // DepositOperationsPage,
+    // ProductDetailsPage,
+    // BranchChatPage
+    ProductControlPage
     // ProductDetailsPage,
 
   }

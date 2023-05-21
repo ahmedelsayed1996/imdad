@@ -53,52 +53,105 @@
             <table class="table   text-black"  >
                 <thead>
                     <tr>
-                        <th class="align-top"><input class="form-check-input" type="checkbox" value="" id="checkAll"></th>
+                        <th class="align-top">#SL</th>
+                        <th><mark>صورة العميل</mark></th>
                         <th><mark>الاسم</mark></th>
+                        <th>  <mark> نوع النشاط</mark></th>
+                        <th>  <mark>>عنوان  </mark></th>
                         <th>  <mark>رقم الجوال</mark></th>
-                        <th>  <mark>>البريد الالكترونى </mark></th>
-                        <th>  <mark>المدينة</mark></th>
-                        <th>  <mark>عدد الطلبات</mark></th>
-                        <th>  <mark>تعديل</mark></th>
+                        <th>  <mark>اجمالي الطلبات</mark></th>
+                        <th>  <mark>توثيق الحساب </mark></th>
+                        <th>  <mark>محضور / غير محضور </mark></th>
                         
                     </tr>
                 </thead>
 
                 <tbody>
                     <tr>
-                        <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
-                        <td>Ali</td>
-                        <td>+555615132 </td>
-                        <td>aaa@aaaa.aaaa</td>
+                        <td>1</td>
+                        <td><img src="" alt="avatar"/></td>
+                        <td>essam </td>
+                        <td>البقالات</td>
                         <td>صنعاء</td>
-                        <td>23</td>
+                        <td>+65654623</td>
                         <td>
-                            <i class="bi bi-pencil-fill btn btn-warning"></i>
-                            <i class="bi bi-trash btn btn-danger"></i>
+                            0
+                        </td>
+                        <td>
+                            <div class="form-group ">
+                                <label for="switcher1"></label>
+                                <div class="form-check form-switch">
+                                  <input type="checkbox" id="switcher1" v-model="switcher1" class="form-check-input">
+                                  <label class="form-check-label" for="switcher1"></label>
+                                </div>
+                              </div>
+                        </td>
+                        <td>
+                            <div class="form-group ">
+                                <!-- <label for="switcher1">تلقى الإشعارات عن طريق الإيميلات</label> -->
+                                <div class="form-check form-switch">
+                                  <input type="checkbox" id="switcher1" v-model="switcher1" class="form-check-input">
+                                  <label class="form-check-label" for="switcher1"></label>
+                                </div>
+                              </div>
                         </td>
                     </tr>
                     <tr>
-                        <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
-                        <td>Ahmed</td>
-                        <td></td>
-                        <td></td>
+                        <td>1</td>
+                        <td><img src="" alt="avatar"/></td>
+                        <td>essam </td>
+                        <td>البقالات</td>
                         <td>صنعاء</td>
-                        <td></td>
+                        <td>+65654623</td>
                         <td>
-                            <i class="bi bi-pencil-fill btn btn-warning"></i>
-                            <i class="bi bi-trash btn btn-danger"></i>
+                            0
+                        </td>
+                        <td>
+                            <div class="form-group ">
+                                <label for="switcher1"></label>
+                                <div class="form-check form-switch">
+                                  <input type="checkbox" id="switcher1" v-model="switcher1" class="form-check-input">
+                                  <label class="form-check-label" for="switcher1"></label>
+                                </div>
+                              </div>
+                        </td>
+                        <td>
+                            <div class="form-group ">
+                                <!-- <label for="switcher1">تلقى الإشعارات عن طريق الإيميلات</label> -->
+                                <div class="form-check form-switch">
+                                  <input type="checkbox" id="switcher1" v-model="switcher1" class="form-check-input">
+                                  <label class="form-check-label" for="switcher1"></label>
+                                </div>
+                              </div>
                         </td>
                     </tr>
                     <tr>
-                        <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
-                        <td>نورة</td>
-                        <td></td>
-                        <td></td>
+                        <td>1</td>
+                        <td><img src="" alt="avatar"/></td>
+                        <td>essam </td>
+                        <td>البقالات</td>
                         <td>صنعاء</td>
-                        <td></td>
+                        <td>+65654623</td>
                         <td>
-                            <i class="bi bi-pencil-fill btn btn-warning"></i>
-                            <i class="bi bi-trash btn btn-danger"></i>
+                            0
+                        </td>
+                        <td>
+                            <div class="form-group ">
+                                <label for="switcher1"></label>
+                                <div class="form-check form-switch">
+                                  <input type="checkbox" id="switcher1" v-model="switcher1" class="form-check-input">
+                                  <label class="form-check-label" for="switcher1"></label>
+                                </div>
+                              </div>
+                        </td>
+                        <td>
+                            <div class="form-group ">
+                                <!-- <label for="switcher1">تلقى الإشعارات عن طريق الإيميلات</label> -->
+                                <div class="form-check form-switch">
+                                  <input type="checkbox" id="switcher1" v-model="switcher1" class="form-check-input">
+                                  <label class="form-check-label" for="switcher1"></label>
+                                </div>
+                              </div>
                         </td>
                     </tr>
                 </tbody>

@@ -19,12 +19,11 @@
                 <button type="button" class="btn btn-primary btn-sm mx-2" >
                     تعديل اسعار وتوفير منتجات
                 </button>
-                <button type="button" class="btn btn-imdad btn-sm mx-2" data-bs-toggle="modal"
-                    data-bs-target="#staticBackdrop">
+                <button type="button" class="btn btn-imdad btn-sm mx-2" >
                     إضافة منتج جديد
                 </button>
             </form>
-            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            <!-- <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
                 aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content text-bg-light">
@@ -95,11 +94,10 @@
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">إرسال الطلب</button>
-                            <!-- <button type="button" class="btn btn-primary">Understood</button> -->
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="d-flex justify-content-center w-100 mt-3  ">
                 <table>
 

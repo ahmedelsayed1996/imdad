@@ -6,7 +6,7 @@
           <div class="sidebar-header">
             <h2>Chat</h2>
             <div class="search-container">
-              <input type="text" v-model="search" placeholder="Search">
+              <input type="text" v-model="search" placeholder="    Search">
               <i class="fas fa-search"></i>
             </div>
           </div>
