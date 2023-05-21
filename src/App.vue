@@ -26,11 +26,11 @@
   
   <!-- <BranchesPage/> -->
   <!-- <BranchChatPage/> -->
-  <!-- <ProductControlPage/> -->
-  <CurrentBalancePage/>
-  <LastOperationPage/>
-  <DepositOperationsPage/>
-  <!-- <ProductDetailsPage/> -->
+  <ProductControlPage/>
+  <!-- <CurrentBalancePage/> -->
+  <!-- <LastOperationPage/> -->
+  <!-- <DepositOperationsPage/> -->
+  <ProductDetailsPage/>
 </template>
 
 <script>
@@ -54,13 +54,13 @@
 // import SettingsPage from './pages/Settings/Settings.vue'
 // import ProductsPage from './pages/Products/Products.vue'
 // import WalletPage from './pages/Finance/Wallet.vue'
-import CurrentBalancePage from './pages/Finance/CurrentBalance.vue'
-import LastOperationPage from './pages/Finance/LastOperation.vue'
-import DepositOperationsPage from './pages/Finance/DepositOperations.vue'
+// import CurrentBalancePage from './pages/Finance/CurrentBalance.vue'
+// import LastOperationPage from './pages/Finance/LastOperation.vue'
+// import DepositOperationsPage from './pages/Finance/DepositOperations.vue'
 // import BranchesPage from './pages/Branches/Branches.vue'
 // import BranchChatPage from './pages/Chats/BranchChat.vue'
-// import ProductControlPage from './pages/Products/ProductControl.vue'
-// import ProductDetailsPage from './pages/Products/ProductDetails.vue'
+import ProductControlPage from './pages/Products/ProductControl.vue'
+import ProductDetailsPage from './pages/Products/ProductDetails.vue'
 
 export default {
   name: 'App',
@@ -86,12 +86,12 @@ export default {
     // SettingsPage
     // ProductsPage
     // WalletPage,
-    CurrentBalancePage,
-    LastOperationPage,
-    DepositOperationsPage,
+    // CurrentBalancePage,
+    // LastOperationPage,
+    // DepositOperationsPage,
     // BranchChatPage
-    // ProductControlPage,
-    // ProductDetailsPage,
+    ProductControlPage
+    ProductDetailsPage,
 
   }
 }
