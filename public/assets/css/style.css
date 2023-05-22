@@ -1065,7 +1065,7 @@ dt {
     margin-top: 0;
     padding-bottom: 30px;
     position: fixed;
-    top: 70px;
+    /* top: 70px; */
 }
 
 .side-menu .waves-effect .waves-ripple {

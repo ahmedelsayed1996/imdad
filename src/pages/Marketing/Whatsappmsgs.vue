@@ -12,8 +12,9 @@
                 </div>
 
                 <div class="mb-3">
+                    <h5 class="card-title d-flex"> العنوان:</h5>
+                    <input type="text" class="form-control bg-light" placeholder="اكتب العنوان" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
                     <h5 class="card-title d-flex"> الرسالة:</h5>
-                    <label for="exampleFormControlTextarea1" class="form-label"></label>
                     <textarea class="form-control bg-light" id="exampleFormControlTextarea1" rows="3"
                         placeholder="اكتب الرسالة هنا"></textarea>
                 </div>

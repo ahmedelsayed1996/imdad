@@ -47,8 +47,8 @@
                     <div class="">
                       <div class="card-body text-right">
                         <h5 class="card-title ">شوفان ابيض</h5>
-                        <p class="card-text"> 123456</p>
-                        <p class="card-text"> 10</p><br>
+                        <p class="card-text"> BER-WAT-OG-12-EG</p>
+                        <p class="card-text"> 250 x 24 غرام </p><br>
                         <div class="price-input">
                           <div class="row">
                             
