@@ -15,7 +15,7 @@
   <!-- <LoginPage/> -->
   <!-- <WhatsappmsgsPage/> -->
   <!-- <NotificationPage/> -->
-  <DiscountsPage/>
+  <!-- <DiscountsPage/> -->
   <!-- <SellersDetailsPage/> -->
   <!-- <SellerPage/>  -->
   <!-- <NewSellerPage/> -->
@@ -28,11 +28,12 @@
   <DepositOperationsPage/> -->
   <!-- <BranchesPage/> -->
   <!-- <BranchChatPage/> -->
-  <ProductControlPage/>
+  <!-- <ProductControlPage/> -->
   <!-- <CurrentBalancePage/> -->
   <!-- <LastOperationPage/> -->
   <!-- <DepositOperationsPage/> -->
   <!-- <ProductDetailsPage/> -->
+  <router-view></router-view>
 </template>
 
 <script>
@@ -48,7 +49,7 @@
 // import LoginPage from './pages/Register/login.vue'
 // import WhatsappmsgsPage from './pages/Marketing/Whatsappmsgs.vue'
 // import NotificationPage from './pages/Marketing/Notification.vue'
-import DiscountsPage from './pages/Discounts/Discounts.vue'
+// import DiscountsPage from './pages/Discounts/Discounts.vue'
 // import SellersDetailsPage from './pages/Sellers/SellersDetails.vue'
 // import SellerPage from './pages/Sellers/Seller.vue'
 // import NewSellerPage from './pages/Sellers/NewSeller.vue'
@@ -62,7 +63,7 @@ import DiscountsPage from './pages/Discounts/Discounts.vue'
 // import ProductDetailsPage from './pages/Products/ProductDetails.vue'
 // import BranchesPage from './pages/Branches/Branches.vue'
 // import BranchChatPage from './pages/Chats/BranchChat.vue'
-import ProductControlPage from './pages/Products/ProductControl.vue'
+// import ProductControlPage from './pages/Products/ProductControl.vue'
 // import ProductDetailsPage from './pages/Products/ProductDetails.vue'
 
 export default {
@@ -81,7 +82,7 @@ export default {
     // LoginPage,
     // WhatsappmsgsPage,
     // NotificationPage,
-    DiscountsPage,
+    // DiscountsPage,
     // SellersDetailsPage,
     // SellerPage,
     // NewSellerPage,
@@ -94,7 +95,7 @@ export default {
     // DepositOperationsPage,
     // ProductDetailsPage,
     // BranchChatPage
-    ProductControlPage
+    // ProductControlPage
     // ProductDetailsPage,
 
   }

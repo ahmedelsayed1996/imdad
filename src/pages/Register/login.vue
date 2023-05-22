@@ -31,11 +31,15 @@
             <label class="form-check-label text-right" for="checkboxes-4">تذكرني</label>
           </div>
         </div>
-        <button type="submit" class="btn btn-imdad d-flex justify-content-center">ادخل</button>
+        <button type="submit" class="btn  d-flex justify-content-center" > <router-link class="router-btn btn-imdad btn-lg"  to="/s">ادخل</router-link></button>
+       
       </form>
     </div>
   </div>
 </div>
+
+
+
 
 
 </template>
@@ -79,5 +83,10 @@ export default {
   background-color: #5435b7;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.router-btn{
+  color: aliceblue;
+  background-color: purple;
 }
 </style>
