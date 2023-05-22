@@ -9,7 +9,7 @@
     </div>
     <div class="card-body">
       <form @submit="onSubmit" @reset="onReset" v-if="show">
-        <div class="form-group">
+        <div class="form-group text-right">
           <label for="input-2" class="text-right">رقم التليفون:</label>
           <div class="input-group">
             <input v-model="form.phone" type="number" class="form-control bg-light" id="input-2" placeholder="أدخل الرقم" required>
@@ -21,7 +21,7 @@
             </div>
           </div>
         </div>
-        <div class="form-group">
+        <div class="form-group text-right">
           <label for="input-3" class="text-right">الرقم السري:</label>
           <input type="password" class="form-control bg-light" id="input-3" v-model="form.password" required>
         </div>

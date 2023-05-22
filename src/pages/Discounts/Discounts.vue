@@ -1,11 +1,11 @@
 <template>
   <div class="container">
     <div class="d-flex">
-      <h2 class="ml-auto">منتجات التخفيضات</h2>
+      <h2 class="ml-auto headLine">منتجات التخفيضات</h2>
       <div class="mt-2">
         <a href="" class="mr-3 ml-3">تصدير</a>
         <a href="" class="mr-3 ml-3">استيراد</a>
-        <button type="button" class="btn btn-success mr-auto">اضافة منتج</button>
+        <button type="button" class="btn btn-imdad mr-auto">اضافة منتج</button>
       </div>
 
 
@@ -173,16 +173,16 @@
         <td><input type="checkbox"></td>
         <td><img src="https://files.refurbed.com/ii/samsung-galaxy-s20-1581675180.jpg" alt="Product Image" width="50"></td>
         <td>+Samsung s20</td>
-        <td class="status-cell"><span class="active-status">Active</span></td>
+        <td class="status-cell"><span class="active-status text-black">Active</span></td>
         <td>10</td>
-        <td>Type 1</td>
-        <td>Vendor 1</td>
+        <td>موبايل</td>
+        <td>Samsung </td>
       </tr>
       <tr>
         <td><input type="checkbox"></td>
         <td><img src="https://files.refurbed.com/ii/samsung-galaxy-s20-1581675180.jpg" alt="Product Image" width="50"></td>
         <td>+Samsung s20</td>
-        <td class="status-cell"><span class="inactive-status">Inactive</span></td>
+        <td class="status-cell"><span class="inactive-status text-black">Inactive</span></td>
         <td>5</td>
         <td>Type 2</td>
         <td>Vendor 2</td>

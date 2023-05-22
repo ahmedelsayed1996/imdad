@@ -8,8 +8,8 @@
   <!-- <CustomerPage/> -->
   <!-- <CustomerDetailsPage/> -->
   <!-- <FinancePage/> -->
-  <!-- <DriverPage></DriverPage> -->
-  <!-- <GeneralReportsPage/> -->
+  <!-- <DriverPage/> -->
+    <GeneralReportsPage/>
   <!-- <analyticsPage/> -->
   <!-- <VerifyCodePage/> -->
   <!-- <LoginPage/> -->
@@ -23,9 +23,7 @@
   <!-- <SettingsPage/> -->
   <!-- <ProductsPage/> -->
   <!-- <WalletPage/> -->
-  <!-- <CurrentBalancePage/>
-  <LastOperationPage/>
-  <DepositOperationsPage/> -->
+  
   <!-- <BranchesPage/> -->
   <!-- <BranchChatPage/> -->
   <!-- <ProductControlPage/> -->
@@ -43,7 +41,7 @@
 // import CustomerDetailsPage from './pages/customer/customerdetails.vue'
 // import FinancePage from './pages/Finance/Finance.vue'
 // import DriverPage from './pages/Driver/driver.vue'
-// import GeneralReportsPage from './pages/Reports/generalreports.vue'
+import GeneralReportsPage from './pages/Reports/generalreports.vue'
 // import analyticsPage from './pages/Analytics/analytics.vue'
 // import VerifyCodePage from './pages/Register/verifycode.vue'
 // import LoginPage from './pages/Register/login.vue'
@@ -60,7 +58,6 @@
 // import CurrentBalancePage from './pages/Finance/CurrentBalance.vue'
 // import LastOperationPage from './pages/Finance/LastOperation.vue'
 // import DepositOperationsPage from './pages/Finance/DepositOperations.vue'
-// import ProductDetailsPage from './pages/Products/ProductDetails.vue'
 // import BranchesPage from './pages/Branches/Branches.vue'
 // import BranchChatPage from './pages/Chats/BranchChat.vue'
 // import ProductControlPage from './pages/Products/ProductControl.vue'
@@ -75,7 +72,7 @@ export default {
     // CustomerDetailsPage,
     // FinancePage,
     // DriverPage,
-    // GeneralReportsPage,
+    GeneralReportsPage,
     // BranchesPage,
     // analyticsPage,
     // VerifyCodePage,
@@ -93,7 +90,6 @@ export default {
     // CurrentBalancePage,
     // LastOperationPage,
     // DepositOperationsPage,
-    // ProductDetailsPage,
     // BranchChatPage
     // ProductControlPage
     // ProductDetailsPage,
@@ -102,13 +98,3 @@ export default {
 }
 </script>
 
-<!-- <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style> -->
