@@ -9,7 +9,7 @@
   <!-- <CustomerDetailsPage/> -->
   <!-- <FinancePage/> -->
   <!-- <DriverPage/> -->
-    <GeneralReportsPage/>
+    <!-- <GeneralReportsPage/> -->
   <!-- <analyticsPage/> -->
   <!-- <VerifyCodePage/> -->
   <!-- <LoginPage/> -->
@@ -41,7 +41,7 @@
 // import CustomerDetailsPage from './pages/customer/customerdetails.vue'
 // import FinancePage from './pages/Finance/Finance.vue'
 // import DriverPage from './pages/Driver/driver.vue'
-import GeneralReportsPage from './pages/Reports/generalreports.vue'
+// import GeneralReportsPage from './pages/Reports/generalreports.vue'
 // import analyticsPage from './pages/Analytics/analytics.vue'
 // import VerifyCodePage from './pages/Register/verifycode.vue'
 // import LoginPage from './pages/Register/login.vue'
@@ -72,7 +72,7 @@ export default {
     // CustomerDetailsPage,
     // FinancePage,
     // DriverPage,
-    GeneralReportsPage,
+    // GeneralReportsPage,
     // BranchesPage,
     // analyticsPage,
     // VerifyCodePage,
