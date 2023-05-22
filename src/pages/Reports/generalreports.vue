@@ -83,7 +83,7 @@
               </select>
               <div id="table-container" v-html="tableHTML"></div>
             </div>
-            <div class="w-25 d-flex">hello</div>
+            
           </div>
           <div class="tab-pane fade" id="custom">
             <h3>العملاء</h3>

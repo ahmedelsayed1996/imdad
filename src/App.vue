@@ -9,7 +9,7 @@
   <!-- <CustomerDetailsPage/> -->
   <!-- <FinancePage/> -->
   <!-- <DriverPage/> -->
-    <GeneralReportsPage/>
+    <!-- <GeneralReportsPage/> -->
   <!-- <analyticsPage/> -->
   <!-- <VerifyCodePage/> -->
   <!-- <LoginPage/> -->
@@ -17,10 +17,10 @@
   <!-- <NotificationPage/> -->
   <!-- <DiscountsPage/> -->
   <!-- <SellersDetailsPage/> -->
-  <!-- <SellerPage/>  -->
-  <!-- <NewSellerPage/> -->
+  <!-- <NewSellerPage/>  -->
+  
   <!-- <PendingProductsPage/> -->
-  <!-- <SettingsPage/> -->
+  <SettingsPage/>
   <!-- <ProductsPage/> -->
   <!-- <WalletPage/> -->
   
@@ -40,7 +40,7 @@
 // import CustomerDetailsPage from './pages/customer/customerdetails.vue'
 // import FinancePage from './pages/Finance/Finance.vue'
 // import DriverPage from './pages/Driver/driver.vue'
-import GeneralReportsPage from './pages/Reports/generalreports.vue'
+// import GeneralReportsPage from './pages/Reports/generalreports.vue'
 // import analyticsPage from './pages/Analytics/analytics.vue'
 // import VerifyCodePage from './pages/Register/verifycode.vue'
 // import LoginPage from './pages/Register/login.vue'
@@ -48,10 +48,9 @@ import GeneralReportsPage from './pages/Reports/generalreports.vue'
 // import NotificationPage from './pages/Marketing/Notification.vue'
 // import DiscountsPage from './pages/Discounts/Discounts.vue'
 // import SellersDetailsPage from './pages/Sellers/SellersDetails.vue'
-// import SellerPage from './pages/Sellers/Seller.vue'
 // import NewSellerPage from './pages/Sellers/NewSeller.vue'
 // import PendingProductsPage from './pages/Products/PendingProducts.vue'
-// import SettingsPage from './pages/Settings/Settings.vue'
+import SettingsPage from './pages/Settings/Settings.vue'
 // import ProductsPage from './pages/Products/Products.vue'
 // import WalletPage from './pages/Finance/Wallet.vue'
 // import CurrentBalancePage from './pages/Finance/CurrentBalance.vue'
@@ -71,7 +70,7 @@ export default {
     // CustomerDetailsPage,
     // FinancePage,
     // DriverPage,
-    GeneralReportsPage,
+    // GeneralReportsPage,
     // BranchesPage,
     // analyticsPage,
     // VerifyCodePage,
@@ -80,10 +79,10 @@ export default {
     // NotificationPage,
     // DiscountsPage,
     // SellersDetailsPage,
-    // SellerPage,
+    
     // NewSellerPage,
     // PendingProductsPage,
-    // SettingsPage
+    SettingsPage
     // ProductsPage
     // WalletPage,
     // CurrentBalancePage,
