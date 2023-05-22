@@ -196,6 +196,13 @@
 
 
   </div>
+  <!-- <template>
+  <div>
+    <router-link to="/register">Home</router-link>
+   
+    <router-view></router-view>
+  </div>
+</template> -->
 </template>
   
 <script>
