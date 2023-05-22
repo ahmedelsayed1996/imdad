@@ -9,7 +9,7 @@
   <!-- <CustomerDetailsPage/> -->
   <!-- <FinancePage/> -->
   <!-- <DriverPage/> -->
-    <!-- <GeneralReportsPage/> -->
+    <GeneralReportsPage/>
   <!-- <analyticsPage/> -->
   <!-- <VerifyCodePage/> -->
   <!-- <LoginPage/> -->
@@ -26,11 +26,11 @@
   
   <!-- <BranchesPage/> -->
   <!-- <BranchChatPage/> -->
-  <ProductControlPage/>
+  <!-- <ProductControlPage/> -->
   <!-- <CurrentBalancePage/> -->
   <!-- <LastOperationPage/> -->
   <!-- <DepositOperationsPage/> -->
-  <ProductDetailsPage/>
+  <!-- <ProductDetailsPage/> -->
 </template>
 
 <script>
@@ -40,7 +40,7 @@
 // import CustomerDetailsPage from './pages/customer/customerdetails.vue'
 // import FinancePage from './pages/Finance/Finance.vue'
 // import DriverPage from './pages/Driver/driver.vue'
-// import GeneralReportsPage from './pages/Reports/generalreports.vue'
+import GeneralReportsPage from './pages/Reports/generalreports.vue'
 // import analyticsPage from './pages/Analytics/analytics.vue'
 // import VerifyCodePage from './pages/Register/verifycode.vue'
 // import LoginPage from './pages/Register/login.vue'
@@ -59,8 +59,8 @@
 // import DepositOperationsPage from './pages/Finance/DepositOperations.vue'
 // import BranchesPage from './pages/Branches/Branches.vue'
 // import BranchChatPage from './pages/Chats/BranchChat.vue'
-import ProductControlPage from './pages/Products/ProductControl.vue'
-import ProductDetailsPage from './pages/Products/ProductDetails.vue'
+// import ProductControlPage from './pages/Products/ProductControl.vue'
+// import ProductDetailsPage from './pages/Products/ProductDetails.vue'
 
 export default {
   name: 'App',
@@ -71,7 +71,7 @@ export default {
     // CustomerDetailsPage,
     // FinancePage,
     // DriverPage,
-    // GeneralReportsPage,
+    GeneralReportsPage,
     // BranchesPage,
     // analyticsPage,
     // VerifyCodePage,
@@ -90,8 +90,8 @@ export default {
     // LastOperationPage,
     // DepositOperationsPage,
     // BranchChatPage
-    ProductControlPage
-    ProductDetailsPage,
+    // ProductControlPage
+    // ProductDetailsPage,
 
   }
 }
