@@ -492,21 +492,33 @@
                 </div>
                 <div class="container d-flex">
                   <div class="number-input mx-2">
-                    <label for="number1">من :</label>
+                    <label for="number1">من </label>
                     <div class="container">
                       <i class="bi bi-chevron-up fs-3 text-primary "></i>
                       <div></div>
-                      <input type="number">
+                      <input type="number" value="00" >
+                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                      <div></div>
+                    </div>:<div class="container">
+                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                      <div></div>
+                      <input type="number" value="00">
                       <i class="bi bi-chevron-down fs-3 text-primary"></i>
                       <div></div>
                     </div>
                   </div>
                   <div class="number-input mx-2">
-                    <label for="number2">إلي :</label>
+                    <label for="number2">إلي </label>
                     <div class="container">
                       <i class="bi bi-chevron-up fs-3 text-primary "></i>
                       <div></div>
-                      <input type="number">
+                      <input type="number" value="00">
+                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                      <div></div>
+                    </div>:<div class="container">
+                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                      <div></div>
+                      <input type="number" value="00">
                       <i class="bi bi-chevron-down fs-3 text-primary"></i>
                       <div></div>
                     </div>
@@ -524,21 +536,33 @@
                 </div>
                 <div class="container d-flex">
                   <div class="number-input mx-2">
-                    <label for="number1">من :</label>
+                    <label for="number1">من </label>
                     <div class="container">
                       <i class="bi bi-chevron-up fs-3 text-primary "></i>
                       <div></div>
-                      <input type="number">
+                      <input type="number" value="00">
+                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                      <div></div>
+                    </div>:<div class="container">
+                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                      <div></div>
+                      <input type="number" value="00">
                       <i class="bi bi-chevron-down fs-3 text-primary"></i>
                       <div></div>
                     </div>
                   </div>
                   <div class="number-input mx-2">
-                    <label for="number2">إلي :</label>
+                    <label for="number2">إلي </label>
                     <div class="container">
                       <i class="bi bi-chevron-up fs-3 text-primary "></i>
                       <div></div>
-                      <input type="number">
+                      <input type="number" value="00">
+                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                      <div></div>
+                    </div>:<div class="container">
+                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                      <div></div>
+                      <input type="number" value="00">
                       <i class="bi bi-chevron-down fs-3 text-primary"></i>
                       <div></div>
                     </div>
@@ -557,21 +581,33 @@
                 </div>
                 <div class="container d-flex">
                   <div class="number-input mx-2">
-                    <label for="number1">من :</label>
+                    <label for="number1">من </label>
                     <div class="container">
                       <i class="bi bi-chevron-up fs-3 text-primary "></i>
                       <div></div>
-                      <input type="number">
+                      <input type="number" value="00">
+                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                      <div></div>
+                    </div>:<div class="container">
+                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                      <div></div>
+                      <input type="number" value="00">
                       <i class="bi bi-chevron-down fs-3 text-primary"></i>
                       <div></div>
                     </div>
                   </div>
                   <div class="number-input mx-2">
-                    <label for="number2">إلي :</label>
+                    <label for="number2">إلي </label>
                     <div class="container">
                       <i class="bi bi-chevron-up fs-3 text-primary "></i>
                       <div></div>
-                      <input type="number">
+                      <input type="number" value="00">
+                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                      <div></div>
+                    </div>:<div class="container">
+                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                      <div></div>
+                      <input type="number" value="00">
                       <i class="bi bi-chevron-down fs-3 text-primary"></i>
                       <div></div>
                     </div>
@@ -589,21 +625,33 @@
                 </div>
                 <div class="container d-flex">
                   <div class="number-input mx-2">
-                    <label for="number1">من :</label>
+                    <label for="number1">من </label>
                     <div class="container">
                       <i class="bi bi-chevron-up fs-3 text-primary "></i>
                       <div></div>
-                      <input type="number">
+                      <input type="number" value="00">
+                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                      <div></div>
+                    </div>:<div class="container">
+                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                      <div></div>
+                      <input type="number" value="00">
                       <i class="bi bi-chevron-down fs-3 text-primary"></i>
                       <div></div>
                     </div>
                   </div>
                   <div class="number-input mx-2">
-                    <label for="number2">إلي :</label>
+                    <label for="number2">إلي </label>
                     <div class="container">
                       <i class="bi bi-chevron-up fs-3 text-primary "></i>
                       <div></div>
-                      <input type="number">
+                      <input type="number" value="00">
+                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                      <div></div>
+                    </div>:<div class="container">
+                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                      <div></div>
+                      <input type="number" value="00">
                       <i class="bi bi-chevron-down fs-3 text-primary"></i>
                       <div></div>
                     </div>
@@ -621,21 +669,33 @@
                 </div>
                 <div class="container d-flex">
                   <div class="number-input mx-2">
-                    <label for="number1">من :</label>
+                    <label for="number1">من </label>
                     <div class="container">
                       <i class="bi bi-chevron-up fs-3 text-primary "></i>
                       <div></div>
-                      <input type="number">
+                      <input type="number" value="00">
+                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                      <div></div>
+                    </div>:<div class="container">
+                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                      <div></div>
+                      <input type="number" value="00">
                       <i class="bi bi-chevron-down fs-3 text-primary"></i>
                       <div></div>
                     </div>
                   </div>
                   <div class="number-input mx-2">
-                    <label for="number2">إلي :</label>
+                    <label for="number2">إلي </label>
                     <div class="container">
                       <i class="bi bi-chevron-up fs-3 text-primary "></i>
                       <div></div>
-                      <input type="number">
+                      <input type="number" value="00">
+                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                      <div></div>
+                    </div>:<div class="container">
+                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                      <div></div>
+                      <input type="number" value="00">
                       <i class="bi bi-chevron-down fs-3 text-primary"></i>
                       <div></div>
                     </div>
@@ -653,21 +713,33 @@
                 </div>
                 <div class="container d-flex">
                   <div class="number-input mx-2">
-                    <label for="number1">من :</label>
+                    <label for="number1">من </label>
                     <div class="container">
                       <i class="bi bi-chevron-up fs-3 text-primary "></i>
                       <div></div>
-                      <input type="number">
+                      <input type="number" value="00">
+                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                      <div></div>
+                    </div>:<div class="container">
+                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                      <div></div>
+                      <input type="number" value="00">
                       <i class="bi bi-chevron-down fs-3 text-primary"></i>
                       <div></div>
                     </div>
                   </div>
                   <div class="number-input mx-2">
-                    <label for="number2">إلي :</label>
+                    <label for="number2">إلي </label>
                     <div class="container">
                       <i class="bi bi-chevron-up fs-3 text-primary "></i>
                       <div></div>
-                      <input type="number">
+                      <input type="number" value="00">
+                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                      <div></div>
+                    </div>:<div class="container">
+                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                      <div></div>
+                      <input type="number" value="00">
                       <i class="bi bi-chevron-down fs-3 text-primary"></i>
                       <div></div>
                     </div>
@@ -685,21 +757,33 @@
                 </div>
                 <div class="container d-flex">
                   <div class="number-input mx-2">
-                    <label for="number1">من :</label>
+                    <label for="number1">من </label>
                     <div class="container">
                       <i class="bi bi-chevron-up fs-3 text-primary "></i>
                       <div></div>
-                      <input type="number">
+                      <input type="number" value="00">
+                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                      <div></div>
+                    </div>:<div class="container">
+                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                      <div></div>
+                      <input type="number" value="00">
                       <i class="bi bi-chevron-down fs-3 text-primary"></i>
                       <div></div>
                     </div>
                   </div>
                   <div class="number-input mx-2">
-                    <label for="number2">إلي :</label>
+                    <label for="number2">إلي </label>
                     <div class="container">
                       <i class="bi bi-chevron-up fs-3 text-primary "></i>
                       <div></div>
-                      <input type="number">
+                      <input type="number" value="00">
+                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                      <div></div>
+                    </div>:<div class="container">
+                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                      <div></div>
+                      <input type="number" value="00">
                       <i class="bi bi-chevron-down fs-3 text-primary"></i>
                       <div></div>
                     </div>

@@ -20,7 +20,7 @@
   <!-- <NewSellerPage/>  -->
   
   <!-- <PendingProductsPage/> -->
-  <SettingsPage/>
+  <!-- <SettingsPage/> -->
   <!-- <ProductsPage/> -->
   <!-- <WalletPage/> -->
   
@@ -51,7 +51,7 @@
 // import SellersDetailsPage from './pages/Sellers/SellersDetails.vue'
 // import NewSellerPage from './pages/Sellers/NewSeller.vue'
 // import PendingProductsPage from './pages/Products/PendingProducts.vue'
-import SettingsPage from './pages/Settings/Settings.vue'
+// import SettingsPage from './pages/Settings/Settings.vue'
 // import ProductsPage from './pages/Products/Products.vue'
 // import WalletPage from './pages/Finance/Wallet.vue'
 // import CurrentBalancePage from './pages/Finance/CurrentBalance.vue'
@@ -83,7 +83,7 @@ export default {
     
     // NewSellerPage,
     // PendingProductsPage,
-    SettingsPage
+    // SettingsPage
     // ProductsPage
     // WalletPage,
     // CurrentBalancePage,

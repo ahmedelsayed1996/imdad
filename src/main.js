@@ -6,6 +6,9 @@ import Discounts from './pages/Discounts/Discounts'
 import DashboardPage from './pages/dashboard'
 import SettingsPage from './pages/Settings/Settings'
 import WhatsappmsgsPage from './pages/Marketing/Whatsappmsgs'
+import CommissionsPage from './pages/commission/commissions'
+import BranchChatPage from './pages/Chats/BranchChat'
+import CustomerPage from './pages/customer/customer'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -15,6 +18,9 @@ const router = createRouter({
     { path: '/dashboard', component: DashboardPage },
     { path: '/settings', component: SettingsPage },
     { path: '/msgs', component: WhatsappmsgsPage },
+    { path: '/commissions', component: CommissionsPage },
+    { path: '/branchchat', component: BranchChatPage },
+    { path: '/customer', component: CustomerPage },
   ]
 })
 

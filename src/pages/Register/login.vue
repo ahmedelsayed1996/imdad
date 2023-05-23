@@ -31,7 +31,7 @@
             <label class="form-check-label text-right" for="checkboxes-4">تذكرني</label>
           </div>
         </div>
-        <button type="submit" class="btn  d-flex justify-content-center" > <router-link class="router-btn btn-imdad btn-lg"  to="/s">ادخل</router-link></button>
+        <button type="submit" class="btn  d-flex justify-content-center" > <router-link class="router-btn btn-imdad btn-lg"  to="/dashboard">ادخل</router-link></button>
        
       </form>
     </div>
