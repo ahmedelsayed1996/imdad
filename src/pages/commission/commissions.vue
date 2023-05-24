@@ -12,14 +12,14 @@
     <div class=" container-fluid">
         <!-- الجزء الأول -->
         
-        <!-- <div class="row mt-5 text-right">
-            <div class="col-md-4">
+        <div class="row mt-5 text-right">
+            <div class="col-md-6">
                 <div class="form-group">
                     <label for="text-input " class="fs-3 text-black"> اسم العمولة</label>
-                    <input type="text" class="form-control bg-light" id="text-input" placeholder="ادخل اسم العمولة">
+                    <input type="text" class="form-control text-bg-light " id="text-input" placeholder="ادخل اسم العمولة">
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class="form-group">
                     <label for="dropdown-select" class="fs-3 text-black">نوع العمولة</label>
                     <select class="form-control bg-light text-black fs-6" id="dropdown-select">
@@ -33,16 +33,32 @@
             <div class="col-md-6 ">
                 <div class="form-group ">
                     <label for="dropdown-select" class="fs-3 text-black">اسم البائع</label>
-                    <select class="form-control bg-light text-black fs-6" id="dropdown-select">
+                    <!-- <select class="form-control bg-light text-black fs-6" id="dropdown-select">
                         <option value="option1" >عصام</option>
-                        <option value="option2">عصام</option>
-                        <option value="option3">حسب المنتج</option>
-                        <option value="option4">حسب الفئة</option>
+                        <option value="option2">احمد</option>
+                        <option value="option3">حسين </option>
+                        <option value="option4">مصطفي </option>
                         
-                    </select>
-                </div>
+                    </select> -->
+                    <div>
+                      <select class="form-control bg-light text-black fs-6" id="dropdown-select" v-model="selectedOption">
+                        <option value="">اختر اسمًا</option>
+                        <option value="عصام">عصام</option>
+                        <option value="أحمد">أحمد</option>
+                        <option value="حسين">حسين</option>
+                      </select>
+                      <button @click="addOption">إضافة </button>
+                      <p class="fs-3 text-black"> اسم البائع: {{ displaySelectedOption }}</p>
+                    </div>
             </div>
-        </div> -->
+            </div>
+            <div class="col-md-6 ">
+              <div class="form-group ">
+                  <label for="text-input-3" class="fs-3 text-black">نسبة العمولة </label>
+                  <input type="text" class="form-control bg-light text-black" id="text-input-3" placeholder="15 %">
+              </div>
+          </div>
+        </div>
 
         <!-- الجزء الثاني -->
         <!-- <div class="row mt-5 text-right">
@@ -60,7 +76,7 @@
                 
             </div>
         </div> -->
-        <div>
+        <!-- <div> -->
             <!-- <ul class="nav nav-tabs d-flex " style="justify-content:space-around;">
               <li class="nav-item ">
                 <a class="nav-link border" data-toggle="tab" href="#sales"><i class="mdi mdi-store"></i> المبيعات</a>
@@ -81,7 +97,7 @@
                   طلبا</a>
               </li>
             </ul> -->
-    
+<!--     
             <div class="tab-content">
               <div class="tab-pane fade show active" id="sales">
                 <h3 class="headLine my-3">اختر نوع العمولة   :</h3>
@@ -91,7 +107,7 @@
                     <option value="table2">  علي حسب نوع البائع</option>
                     
                   </select>
-                  <!-- <button class="btn btn-imdad w-25 ">عرض</button> -->
+               
     
                   <div id="table-container" v-html="tableHTML"></div>
     
@@ -99,7 +115,7 @@
               </div>
               
             </div>
-          </div>
+          </div> -->
     
     
     </div>
@@ -109,18 +125,47 @@ export default {
     name: "CommissionsPage",
     data() {
     return {
-      selectedTable: "",
-      tableHTML: "",
-    };
+      selectedOptions: [],
+      options: [
+        { label: 'أحمد', value: 'أحمد' },
+        { label: 'محمد', value: 'محمد' },
+        { label: 'علي', value: 'علي' }
+      ]
+    }
   },
-  watch: {
-    selectedTable() {
-      if (this.selectedTable === "table1") {
-        this.tableHTML = "<div class='row mt-5 text-right'><div class='col-md-4'><div class='form-group'><label for='dropdown-select' class='fs-3 text-black'>اختر نوع المنتج </label><select class='form-control bg-light text-black fs-6' id='dropdown-select'><option value='option1' class='text-black'>مياه</option><option value='option2'>مشروبات غازيه</option><option value='option3'>الكترونيات</option><option value='option4'>منظفات</option></select></div></div><div class='col-md-4'><div class='form-group'><label for='text-input ' class='fs-3 text-black'>  العمولة</label><input type='text' class='form-control bg-light' id='text-input' placeholder='ادخل  العمولة'></div></div></div>";
-      } else if (this.selectedTable === "table2") {
-        this.tableHTML = "<div class='row mt-5 text-right'><div class='col-md-4'><div class='form-group'><label for='dropdown-select' class='fs-3 text-black'>اختر نوع البائع </label><select class='form-control bg-light text-black fs-6' id='dropdown-select'><option value='option1' class='text-black'>عميل تجزئة</option><option value='option2'> عميل جملة</option><option value='option3'>كبار العملاء</option></select></div></div><div class='col-md-4'><div class='form-group'><label for='text-input ' class='fs-3 text-black'>  العمولة</label><input type='text' class='form-control bg-light' id='text-input' placeholder='ادخل  العمولة'></div></div></div>";
-      } 
-    },
+  computed: {
+    displaySelectedOption() {
+      if (this.selectedOptions.length === 0) {
+        return '';
+      } else if (this.selectedOptions.length === 1) {
+        return this.selectedOptions[0];
+      } else {
+        return this.selectedOptions.join(' و ');
+      }
+    }
   },
+  methods: {
+    addOption() {
+      const optionExists = this.selectedOptions.includes(this.selectedOption);
+      if (!optionExists) {
+        this.selectedOptions.push(this.selectedOption);
+      }
+    }
+  }
+  //   data() {
+  //   return {
+  //     selectedTable: "",
+  //     tableHTML: "",
+  //   };
+  // },
+  // watch: {
+  //   selectedTable() {
+  //     if (this.selectedTable === "table1") {
+  //       this.tableHTML = "<div class='row mt-5 text-right'><div class='col-md-4'><div class='form-group'><label for='dropdown-select' class='fs-3 text-black'>اختر نوع المنتج </label><select class='form-control bg-light text-black fs-6' id='dropdown-select'><option value='option1' class='text-black'>مياه</option><option value='option2'>مشروبات غازيه</option><option value='option3'>الكترونيات</option><option value='option4'>منظفات</option></select></div></div><div class='col-md-4'><div class='form-group'><label for='text-input ' class='fs-3 text-black'>  العمولة</label><input type='text' class='form-control bg-light' id='text-input' placeholder='ادخل  العمولة'></div></div></div>";
+  //     } else if (this.selectedTable === "table2") {
+  //       this.tableHTML = "<div class='row mt-5 text-right'><div class='col-md-4'><div class='form-group'><label for='dropdown-select' class='fs-3 text-black'>اختر نوع البائع </label><select class='form-control bg-light text-black fs-6' id='dropdown-select'><option value='option1' class='text-black'>عميل تجزئة</option><option value='option2'> عميل جملة</option><option value='option3'>كبار العملاء</option></select></div></div><div class='col-md-4'><div class='form-group'><label for='text-input ' class='fs-3 text-black'>  العمولة</label><input type='text' class='form-control bg-light' id='text-input' placeholder='ادخل  العمولة'></div></div></div>";
+  //     } 
+  //   },
+  // },
 }
 </script>
