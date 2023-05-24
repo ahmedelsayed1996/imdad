@@ -10,6 +10,7 @@ import CommissionsPage from './pages/commission/commissions'
 import BranchChatPage from './pages/Chats/BranchChat'
 import CustomerPage from './pages/customer/customer'
 import CommissionPage from './pages/commission/commissionforseller'
+// import CommissionPage from './pages/commission/commission'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -23,6 +24,7 @@ const router = createRouter({
     { path: '/branchchat', component: BranchChatPage },
     { path: '/customer', component: CustomerPage },
     { path: '/commission', component: CommissionPage },
+    // { path: '/Commission', component: CommissionPage },
   ]
 })
 

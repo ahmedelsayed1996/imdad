@@ -103,8 +103,8 @@
                 <h3 class="headLine my-3">اختر نوع العمولة   :</h3>
                 <div class="w-75  d-inline">
                   <select class=" form-select w-50 " id="table-dropdown" v-model="selectedTable">
-                    <option selected value="table1">علي حسب نوع المنتج</option>
-                    <option value="table2">  علي حسب نوع البائع</option>
+                    <option value="table1">علي حسب نوع البائع</option>
+                    <option selected  value="table2">العامة</option>
                     
                   </select>
                
