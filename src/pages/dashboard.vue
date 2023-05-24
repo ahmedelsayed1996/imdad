@@ -1442,7 +1442,53 @@
                                 </div>
                             </div>
                         </div>
+    <!-- Button to trigger the modal -->
+  <div class="bg-gray rounded p-3">
+    <span class="float-start fs-5">عندك طلب خاص؟</span>
+    <button class="btn btn-primary float-end rounded" data-bs-toggle="modal" data-bs-target="#myModal">اضغط هنا</button>
+  </div>
+
+  <!-- Modal HTML code -->
+  <div class="modal" id="myModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content bg-light">
+      <div class="modal-header">
+        <h5 class="modal-title ms-auto">ادخل معلومات طلبك الخاص</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="product-name" class="form-label text-end" style="text-align: right;">اسم المنتج</label>
+          <input type="text" class="form-control bg-light" id="product-name" placeholder="اسم المنتج">
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="quantity" class="form-label text-end" style="text-align: right;">الكمية</label>
+            <input type="text" class="form-control bg-light" id="quantity" placeholder="الكمية">
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="price" class="form-label text-end" style="text-align: right;">السعر المتوقع</label>
+            <input type="text" class="form-control bg-light" id="price" placeholder="السعر المتوقع">
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="description" class="form-label text-end" style="text-align: right;">الوصف</label>
+          <input type="text" class="form-control bg-light" id="description" placeholder="الوصف">
+        </div>
+        <div class="mb-3">
+          <label for="upload-img" class="form-label text-end" style="text-align: right;">ارفع صورة اذا عندك</label>
+          <input type="file" class="form-control bg-light" id="upload-img">
+        </div>
+        <button type="button" class="btn btn-primary w-100">إرسال</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
                     </div>
+  
+
                     <!-- END ROW -->
                     <!-- end col -->
                     <!-- <div class="col-xl-4">
@@ -1459,6 +1505,7 @@
                 <!-- container-fluid -->
             </div>
             <!-- content -->
+            
             <footer class="footer">
                 ©2022 imdad <span class="d-none d-sm-inline-block">
                     imdad2022.com</span>.
