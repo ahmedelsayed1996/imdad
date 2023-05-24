@@ -1,18 +1,21 @@
 <template>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-            <h2 class="ml-auto headLine"> العمولات</h2>
-        </nav>
-        <div class="m-2">
-            <button type="button" class="btn btn-imdad mx-2 mr-auto"> حفظ</button>
-            <button type="button" class="btn btn-danger mr-auto">إلغاء</button>
-        </div>
-    </header>
-    <div class=" container-fluid">
-        <!-- الجزء الأول -->
-        
-        <div class="row mt-5 text-right">
+      <h2 class="ml-auto headLine"> العمولات</h2>
+    </nav>
+    <div class="m-2">
+      <router-link to="/commissionseller">
+        <button type="button" class="btn btn-imdad mx-2 mr-auto">إنشاء</button>
+      </router-link>
+
+      <button type="button" class="btn btn-danger mr-auto">إستيراد</button>
+    </div>
+  </header>
+  <!-- الجزء الأول -->
+  <div class=" container-fluid">
+
+    <!-- <div class="row mt-5 text-right">
             <div class="col-md-6">
                 <div class="form-group">
                     <label for="text-input " class="fs-3 text-black"> اسم العمولة</label>
@@ -33,13 +36,7 @@
             <div class="col-md-6 ">
                 <div class="form-group ">
                     <label for="dropdown-select" class="fs-3 text-black">اسم البائع</label>
-                    <!-- <select class="form-control bg-light text-black fs-6" id="dropdown-select">
-                        <option value="option1" >عصام</option>
-                        <option value="option2">احمد</option>
-                        <option value="option3">حسين </option>
-                        <option value="option4">مصطفي </option>
-                        
-                    </select> -->
+                    
                     <div>
                       <select class="form-control bg-light text-black fs-6" id="dropdown-select" v-model="selectedOption">
                         <option value="">اختر اسمًا</option>
@@ -58,10 +55,10 @@
                   <input type="text" class="form-control bg-light text-black" id="text-input-3" placeholder="15 %">
               </div>
           </div>
-        </div>
+        </div> -->
+    <!-- الجزء الثاني -->
 
-        <!-- الجزء الثاني -->
-        <!-- <div class="row mt-5 text-right">
+    <!-- <div class="row mt-5 text-right">
             <div class="col-md-6">
                 <div class="form-group">
                     <label for="text-input-3" class="fs-3 text-black">نسبة عمولة الشريك</label>
@@ -76,8 +73,8 @@
                 
             </div>
         </div> -->
-        <!-- <div> -->
-            <!-- <ul class="nav nav-tabs d-flex " style="justify-content:space-around;">
+    <!-- <div> -->
+    <!-- <ul class="nav nav-tabs d-flex " style="justify-content:space-around;">
               <li class="nav-item ">
                 <a class="nav-link border" data-toggle="tab" href="#sales"><i class="mdi mdi-store"></i> المبيعات</a>
               </li>
@@ -97,8 +94,8 @@
                   طلبا</a>
               </li>
             </ul> -->
-<!--     
-            <div class="tab-content">
+
+    <!--    <div class="tab-content">
               <div class="tab-pane fade show active" id="sales">
                 <h3 class="headLine my-3">اختر نوع العمولة   :</h3>
                 <div class="w-75  d-inline">
@@ -116,14 +113,42 @@
               
             </div>
           </div> -->
-    
-    
-    </div>
+
+    <table class="table table-secondary ">
+      <thead>
+        <tr>
+          <th class="text-black" scope="col">#</th>
+          <th class="text-black" scope="col">اسم العمولة</th>
+          <th class="text-black" scope="col">نوع العمولة</th>
+          <th class="text-black" scope="col">النسبة المئوية للعمولة العامة</th>
+          <th class="text-black" scope="col">النسبة المئوية لعمولة البائع </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th class="text-black" scope="row">1</th>
+          <td class="text-black">عمولة أ</td>
+          <td class="text-black">عامة</td>
+          <td class="text-black">10:00</td>
+          <td class="text-black">00:00</td>
+        </tr>
+        <tr>
+          <th class="text-black" scope="row">2</th>
+          <td class="text-black">عمولة ب</td>
+          <td class="text-black">حسب البائع</td>
+          <td class="text-black">10:00</td>
+          <td class="text-black">20:00</td>
+        </tr>
+
+      </tbody>
+    </table>
+
+  </div>
 </template>
 <script>
 export default {
-    name: "CommissionsPage",
-    data() {
+  name: "CommissionsPage",
+  data() {
     return {
       selectedOptions: [],
       options: [

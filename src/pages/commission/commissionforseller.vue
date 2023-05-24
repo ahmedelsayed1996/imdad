@@ -47,7 +47,7 @@
                 </div>
             </div>
             <div class="col-md-6 ">
-                <div class="col-md-6" v-show="selectedOption1 !== 'option2'">
+                <div class="col-md-6" v-show="selectedOption1 === 'option1'">
                     <label for="text-input-3" class="fs-3 text-black">نسبة العمولة </label>
                     <input type="text" class="form-control bg-light text-black" id="text-input-3" placeholder="15 %">
                 </div>
@@ -57,21 +57,122 @@
         <!-- الجزء الثاني -->
         <div class="row mt-5 text-right">
             <div class="col-md-6" v-show="selectedOption1 === 'option2'">
-              <div class="form-group">
-                <label for="text-input-3" class="fs-3 text-black">نسبة عمولة الشريك</label>
-                <input type="text" class="form-control text-bg-light" id="text-input-3" placeholder="15 %">
-              </div>
+                <div class="form-group">
+                    <label for="text-input-3" class="fs-3 text-black">نسبة عمولة الشريك</label>
+                    <input type="text" class="form-control text-bg-light" id="text-input-3" placeholder="15 %">
+                </div>
             </div>
-          </div>>
+        </div>>
+
+        <div class="row mt-5 text-right" v-show="selectedOption1 === 'option3'">
+            <button type="button" class="btn btn-imdad mx-2 w-25" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                اضف عمولة</button>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">المنتج</th>
+                        <th scope="col">مع </th>
+                        <th scope="col">اسم المنتج</th>
+                        <th scope="col"> السعر المستهدف</th>
+                        <th scope="col">السعر فوق العمولة </th>
+                        <th scope="col">هامش الربح </th>
+
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>المنتج</td>
+                        <td>سعر محدد</td>
+                        <td>مكرونة</td>
+                        <td>500</td>
+                        <td>10:00</td>
+                        <td>00:00</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+            <div class="modal fade " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content text-bg-light">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">إنشاء عموله للمنتج</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-6 my-2">
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            منتج
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">المنتج</a></li>
+                                            <li><a class="dropdown-item" href="#">فئة المنتج </a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-6 my-2 ">
+                                    <label for="inputPassword5" class="form-label">العمولة فوق السعر</label>
+                                    <input type="text" id="inputPassword5" class="form-control text-bg-light"
+                                        aria-labelledby="passwordHelpBlock">
+                                </div>
+                                <div class="col-6 my-2">
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            اختر المنتج
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">[FRN-523] مكرونة حواء</a></li>
+                                            <li><a class="dropdown-item" href="#">[FRFNMN-5563] علكة</a></li>
+                                            <li><a class="dropdown-item" href="#">[DCN-55223] موبايل</a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-6 my-2 ">
+                                    <label for="inputPassword5" class="form-label">السعر المستهدف</label>
+                                    <input type="text" id="inputPassword5" class="form-control text-bg-light"
+                                        aria-labelledby="passwordHelpBlock">
+                                </div>
+                                
+                                <div class="col-6 my-2">
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            سعر محدد
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#"> سعر محدد </a></li>
+                                            <li><a class="dropdown-item" href="#">هامش الربح</a></li>
+                                            <li><a class="dropdown-item" href="#">عمولة مستثناء</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">حفظ</button>
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">إلغاء</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
 </template>
 <script>
 export default {
-    name: "CommissionPage",
+    name: "CommissionSellerPage",
     data() {
         return {
-            selectedOption1:"",
+            selectedOption1: "",
             selectedOptions: [],
             options: [
                 { label: 'أحمد', value: 'أحمد' },

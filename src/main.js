@@ -9,7 +9,7 @@ import WhatsappmsgsPage from './pages/Marketing/Whatsappmsgs'
 import CommissionsPage from './pages/commission/commissions'
 import BranchChatPage from './pages/Chats/BranchChat'
 import CustomerPage from './pages/customer/customer'
-import CommissionPage from './pages/commission/commissionforseller'
+import CommissionSellerPage from './pages/commission/commissionforseller'
 // import CommissionPage from './pages/commission/commission'
 
 const router = createRouter({
@@ -23,7 +23,7 @@ const router = createRouter({
     { path: '/commissions', component: CommissionsPage },
     { path: '/branchchat', component: BranchChatPage },
     { path: '/customer', component: CustomerPage },
-    { path: '/commission', component: CommissionPage },
+    { path: '/commissionseller', component: CommissionSellerPage },
     // { path: '/Commission', component: CommissionPage },
   ]
 })
