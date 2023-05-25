@@ -5,9 +5,10 @@
         <div class="topbar">
             <!-- LOGO -->
             <div class="topbar-left">
-                <a href="#" class="logo">
+                <a href="/dashboard" class="logo">
                     <span class="logo-light">
-                        <i class="mdi mdi-camera-control"></i> إمداد لسوق الجملة
+                        <i class="mdi mdi-camera-control"></i>
+                         إمداد لسوق الجملة
                     </span>
                     <span>
 
@@ -17,6 +18,7 @@
                     </span>
                 </a>
             </div>
+
             <nav class="navbar-custom">
                 <ul class="navbar-right list-inline float-right mb-0">
                     <!-- language-->
@@ -48,44 +50,42 @@
                         <div class="dropdown-menu dropdown-menu-right dropdown-menu-animated dropdown-menu-lg px-1">
                             <!-- item-->
                             <h6 class="dropdown-item-text">
-                                Notifications
+                                الاشعارات
                             </h6>
                             <div class="slimscroll notification-item-list">
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item active">
                                     <div class="notify-icon bg-success"><i class="mdi mdi-cart-outline"></i></div>
-                                    <p class="notify-details"><b>Your order is placed</b><span class="text-muted">Dummy text
-                                            of the printing and typesetting industry.</span></p>
+                                    <p class="notify-details"><b>تم طلب اوردر</b><span class="text-muted"> 
+                                           من العيسوي للمنتجات</span></p>
                                 </a>
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item">
                                     <div class="notify-icon bg-danger"><i class="mdi mdi-message-text-outline"></i></div>
-                                    <p class="notify-details"><b>New Message received</b><span class="text-muted">You have
-                                            87 unread messages</span></p>
+                                    <p class="notify-details"><b>رسالة جديده</b><span class="text-muted">لديك 75 رسالة غير مقروءه</span></p>
                                 </a>
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item">
                                     <div class="notify-icon bg-info"><i class="mdi mdi-filter-outline"></i></div>
-                                    <p class="notify-details"><b>Your item is shipped</b><span class="text-muted">It is a
-                                            long established fact that a reader will</span></p>
+                                    <p class="notify-details"><b>تم شحن منتجك</b><span class="text-muted">...............</span></p>
                                 </a>
                                 <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <!-- <a href="javascript:void(0);" class="dropdown-item notify-item">
                                     <div class="notify-icon bg-success"><i class="mdi mdi-message-text-outline"></i></div>
                                     <p class="notify-details"><b>New Message received</b><span class="text-muted">You have
                                             87 unread messages</span></p>
-                                </a>
+                                </a> -->
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item">
                                     <div class="notify-icon bg-warning"><i class="mdi mdi-cart-outline"></i></div>
-                                    <p class="notify-details"><b>Your order is placed</b><span class="text-muted">Dummy text
-                                            of the printing and typesetting industry.</span></p>
+                                    <p class="notify-details"><b>تم انشاء طلبك</b><span class="text-muted">............</span></p>
                                 </a>
                             </div>
                             <!-- All-->
-                            <a href="javascript:void(0);" class="dropdown-item text-center notify-all text-primary">
-                                View all <i class="fi-arrow-right"></i>
-                            </a>
+                            <router-link   to="/notification"><a  class="dropdown-item text-center notify-all text-primary">
+                                رؤية الكل <i class="fi-arrow-right"></i>
+                            </a></router-link>
+                            
                         </div>
                     </li>
                     <!-- profile -->
@@ -98,15 +98,17 @@
                             </a>
                             <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
                                 <!-- item-->
-                                <a class="dropdown-item" href="#"><i class="mdi mdi-account-circle"></i> Profile</a>
-                                <a class="dropdown-item" href="#"><i class="mdi mdi-wallet"></i> Wallet</a>
-                                <a class="dropdown-item d-block" href="#"><span
+                                <a class="dropdown-item" href="#"><i class="mdi mdi-account-circle"></i> الصفحة الشخصية</a>
+                                <a class="dropdown-item" href="/wallet"><i class="mdi mdi-wallet"></i> المحفظة</a>
+                                <a class="dropdown-item d-block" href="/settings"><span
                                         class="badge badge-success float-right">11</span><i class="mdi mdi-settings"></i>
-                                    Settings</a>
-                                <a class="dropdown-item" href="#"><i class="mdi mdi-lock-open-outline"></i> Lock screen</a>
+                                    الاعدادات
+                                </a>
+                                <!-- <a class="dropdown-item" href="#"><i class="mdi mdi-lock-open-outline"></i> Lock screen
+                                </a> -->
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item text-danger" href="#"><i class="mdi mdi-power text-danger"></i>
-                                    Logout</a>
+                                <a class="dropdown-item text-danger" href="/"><i class="mdi mdi-power text-danger"></i>
+                                    تسجيل الخروج</a>
                             </div>
                         </div>
                     </li>
@@ -132,7 +134,7 @@
         <!-- Top Bar End -->
         <!-- ========== Left Sidebar Start ========== -->
         <div class="left side-menu">
-            <div class="slimscroll-menu h-100" id="remove-scroll">
+            <div class="slimscroll-menu " id="remove-scroll">
                 <!--- Sidemenu -->
                 <div id="sidebar-menu">
                     <!-- Left Menu Start -->
