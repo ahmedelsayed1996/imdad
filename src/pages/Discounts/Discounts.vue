@@ -1,11 +1,11 @@
 <template>
   <div class="container-fluid">
     <div class="row">
-      <SidebarPage class="col-3 sidebar"  id="sidebar"/>
+      <!-- <SidebarPage class="col-3 sidebar"  id="sidebar"/> -->
       <div class="col-9 content-page">
         <div class="d-flex align-items-center">
 
-          <h2 class="ml-auto headLine">منتجات التخفيضات</h2>
+          <h4 class="ml-auto headLine">منتجات التخفيضات</h4>
           <div class="mt-2">
             <a href="" class="mr-3 ml-3">تصدير</a>
             <a href="" class="mr-3 ml-3">استيراد</a>
@@ -107,17 +107,16 @@
             <div class="row mb-3  ">
               <div class="col-md-6 mr-2 ml-2">
                 <div class="input-group">
-                  <input type="text" class="form-control bg-light" placeholder="بحث">
-                  <div class="input-group-prepend ">
-                    <span class="input-group-text bg-light">
+                  <input type="text" class="form-control bg-light " placeholder="بحث">
+                  <div class="input-group-prepend ml-2">
+                    <span class="input-group-text bg-light ">
                       <i class="bi bi-search text-dark"></i>
                     </span>
                   </div>
                 </div>
               </div>
               <div class="col-md d-flex">
-
-                <div class="dropdown">
+                <div class="dropdown mr-2">
                   <button class="btn btn-body dropdown-toggle borderr" type="button" id="dropdown1" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
                     بائع المنتج
@@ -129,8 +128,7 @@
                   </div>
                 </div>
 
-
-                <div class="dropdown ml-2 mr-2">
+                <div class="dropdown">
                   <button class="btn btn-body dropdown-toggle borderr" type="button" id="dropdown2" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
                     اشارة الى
@@ -143,20 +141,26 @@
                 </div>
 
                 <div class="">
-                  <button type="button" class="btn btn-body borderr" style="width: 100px;">خيارات اخرى</button>
+                  <button type="button" class="btn btn-body borderr d-none d-md-block" >خيارات
+                    اخرى</button>
+                  <button type="button" class="btn btn-body borderr d-md-none" >خيارات</button>
                 </div>
+
                 <div class="">
-                  <button type="button" class="btn btn-secondary borderr ml-2 mr-2" disabled>حفظ</button>
+                  <button type="button" class="btn btn-secondary borderr " disabled>حفظ</button>
                 </div>
+
                 <div class="">
-                  <button type="button" class="btn btn-body borderr">ترتيب</button>
+                  <button type="button" class="btn btn-body borderr d-none d-md-block">ترتيب</button>
+                  <button type="button" class="btn btn-body borderr d-md-none">ترتيب</button>
                 </div>
               </div>
+
 
             </div>
           </div>
         </div>
-        <div class="table-responsive">
+        <div class="table-responsive" id="tab1">
           <table class="table table-bordered table-secondary text-right">
             <thead class="thead-dark">
               <tr>
@@ -187,8 +191,8 @@
                 <td>+Samsung s20</td>
                 <td class="status-cell"><span class="inactive-status text-black">Inactive</span></td>
                 <td>5</td>
-                <td>Type 2</td>
-                <td>Vendor 2</td>
+                <td>موبايل</td>
+                <td>Samsung</td>
               </tr>
               <!-- Add more rows for other products -->
             </tbody>
@@ -207,11 +211,11 @@
 </template>
   
 <script>
-import SidebarPage from '../../components/Sidebar/Sidebar.vue'
+// import SidebarPage from '../../components/Sidebar/Sidebar.vue'
 
 export default {
   components: {
-    SidebarPage
+    // SidebarPage
   },
   name: 'DiscountsPage',
 
@@ -240,6 +244,7 @@ export default {
 
 .borderr {
   border: solid 1px;
+  margin: 1px;
 }
 
 .borderr:hover {
