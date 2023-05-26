@@ -447,9 +447,9 @@
                                         <i class="mdi mdi-pause bg-primary  text-white"></i>
                                     </div> -->
                                         <div>
-                                            <h5 class="font-16"> المبيعات اليوم  </h5>
+                                            <h5 class="font-16" style="text-align: center;"> المبيعات اليوم  </h5>
                                         </div>
-                                        <h3 class="mt-4">108</h3>
+                                        <h3 class="mt-4" style="text-align: center;">108</h3>
                                         <!-- <div class="progress mt-4" style="height: 4px;">
                                         <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"
                                             aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
@@ -467,9 +467,9 @@
                                         <i class="mdi mdi-pause bg-primary  text-white"></i>
                                     </div> -->
                                         <div>
-                                            <h5 class="font-16">العملاء </h5>
+                                            <h5 class="font-16" style="text-align: center;">العملاء </h5>
                                         </div>
-                                        <h3 class="mt-4">95</h3>
+                                        <h3 class="mt-4" style="text-align: center;">95</h3>
                                         <!-- <div class="progress mt-4" style="height: 4px;">
                                         <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"
                                             aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
@@ -489,9 +489,9 @@
                                         <i class="mdi mdi-pause bg-primary  text-white"></i>
                                     </div> -->
                                         <div>
-                                            <h5 class="font-16">الدردشه </h5>
+                                            <h5 class="font-16" style="text-align: center;">الدردشه </h5>
                                         </div>
-                                        <h3 class="mt-4">850</h3>
+                                        <h3 class="mt-4" style="text-align: center;">850</h3>
                                         <!-- <div class="progress mt-4" style="height: 4px;">
                                         <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"
                                             aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
@@ -511,9 +511,9 @@
                                         <i class="mdi mdi-pause bg-primary  text-white"></i>
                                     </div> -->
                                         <div>
-                                            <h5 class="font-16"> اجمالي المدفوعات الرقمية </h5>
+                                            <h5 class="font-16" style="text-align: center;"> اجمالي المدفوعات الرقمية </h5>
                                         </div>
-                                        <h3 class="mt-4">43</h3>
+                                        <h3 class="mt-4" style="text-align: center;">43</h3>
                                         <!-- <div class="progress mt-4" style="height: 4px;">
                                         <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"
                                             aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
