@@ -495,32 +495,32 @@
                     <div class="number-input mx-2">
                       <label for="number1">من </label>
                       <div class="container">
-                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <i class="bi bi-chevron-up fs-3 text-primary" @click="startTimeHours++"></i>
                         <div></div>
-                        <input type="number" value="00" >
-                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <input type="number" v-model="startTimeHours">
+                        <i class="bi bi-chevron-down fs-3 text-primary" @click="startTimeHours--"></i>
                         <div></div>
                       </div>:<div class="container">
-                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <i class="bi bi-chevron-up fs-3 text-primary" @click="startTimeMinutes++"></i>
                         <div></div>
-                        <input type="number" value="00">
-                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <input type="number" v-model="startTimeMinutes">
+                        <i class="bi bi-chevron-down fs-3 text-primary" @click="startTimeMinutes--"></i>
                         <div></div>
                       </div>
                     </div>
                     <div class="number-input mx-2">
                       <label for="number2">إلي </label>
                       <div class="container">
-                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <i class="bi bi-chevron-up fs-3 text-primary" @click="endTimeHours++"></i>
                         <div></div>
-                        <input type="number" value="00">
-                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <input type="number" v-model="endTimeHours">
+                        <i class="bi bi-chevron-down fs-3 text-primary" @click="endTimeHours--"></i>
                         <div></div>
                       </div>:<div class="container">
-                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <i class="bi bi-chevron-up fs-3 text-primary" @click="endTimeMinutes++"></i>
                         <div></div>
-                        <input type="number" value="00">
-                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <input type="number" v-model="endTimeMinutes">
+                        <i class="bi bi-chevron-down fs-3 text-primary" @click="endTimeMinutes--"></i>
                         <div></div>
                       </div>
                     </div>
@@ -530,7 +530,7 @@
                   <div class="d-flex pt-4">
                     <label for="switcher1">الاحد</label>
                     <div class="form-check form-switch">
-                      <input type="checkbox" id="switcher1" v-model="switcher1" class="form-check-input">
+                      <input type="checkbox" id="switcher1" v-model="switcher2" class="form-check-input">
                       <label class="form-check-label" for="switcher1"></label>
                     </div>
                   </div>
@@ -538,32 +538,32 @@
                     <div class="number-input mx-2">
                       <label for="number1">من </label>
                       <div class="container">
-                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <i class="bi bi-chevron-up fs-3 text-primary" @click="startTimeHours2++"></i>
                         <div></div>
-                        <input type="number" value="00">
-                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <input type="number" v-model="startTimeHours2">
+                        <i class="bi bi-chevron-down fs-3 text-primary" @click="startTimeHours2--"></i>
                         <div></div>
                       </div>:<div class="container">
-                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <i class="bi bi-chevron-up fs-3 text-primary" @click="startTimeMinutes2++"></i>
                         <div></div>
-                        <input type="number" value="00">
-                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <input type="number" v-model="startTimeMinutes2">
+                        <i class="bi bi-chevron-down fs-3 text-primary" @click="startTimeMinutes2--"></i>
                         <div></div>
                       </div>
                     </div>
                     <div class="number-input mx-2">
                       <label for="number2">إلي </label>
                       <div class="container">
-                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <i class="bi bi-chevron-up fs-3 text-primary" @click="endTimeHours2++"></i>
                         <div></div>
-                        <input type="number" value="00">
-                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <input type="number" v-model="endTimeHours2">
+                        <i class="bi bi-chevron-down fs-3 text-primary" @click="endTimeHours2--"></i>
                         <div></div>
                       </div>:<div class="container">
-                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <i class="bi bi-chevron-up fs-3 text-primary" @click="endTimeMinutes2++"></i>
                         <div></div>
-                        <input type="number" value="00">
-                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <input type="number" v-model="endTimeMinutes2">
+                        <i class="bi bi-chevron-down fs-3 text-primary" @click="endTimeMinutes2--"></i>
                         <div></div>
                       </div>
                     </div>
@@ -573,7 +573,7 @@
                   <div class="d-flex pt-4">
                     <label for="switcher1">الاثنين</label>
                     <div class="form-check form-switch">
-                      <input type="checkbox" id="switcher1" v-model="switcher1" class="form-check-input">
+                      <input type="checkbox" id="switcher1" v-model="switcher3" class="form-check-input">
                       <label class="form-check-label" for="switcher1"></label>
                     </div>
                   </div>
@@ -581,32 +581,32 @@
                     <div class="number-input mx-2">
                       <label for="number1">من </label>
                       <div class="container">
-                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <i class="bi bi-chevron-up fs-3 text-primary" @click="startTimeHours3++"></i>
                         <div></div>
-                        <input type="number" value="00">
-                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <input type="number" v-model="startTimeHours3">
+                        <i class="bi bi-chevron-down fs-3 text-primary" @click="startTimeHours3--"></i>
                         <div></div>
                       </div>:<div class="container">
-                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <i class="bi bi-chevron-up fs-3 text-primary" @click="startTimeMinutes3++"></i>
                         <div></div>
-                        <input type="number" value="00">
-                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <input type="number" v-model="startTimeMinutes3">
+                        <i class="bi bi-chevron-down fs-3 text-primary" @click="startTimeMinutes3--"></i>
                         <div></div>
                       </div>
                     </div>
                     <div class="number-input mx-2">
                       <label for="number2">إلي </label>
                       <div class="container">
-                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <i class="bi bi-chevron-up fs-3 text-primary" @click="endTimeHours3++"></i>
                         <div></div>
-                        <input type="number" value="00">
-                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <input type="number" v-model="endTimeHours3">
+                        <i class="bi bi-chevron-down fs-3 text-primary" @click="endTimeHours3--"></i>
                         <div></div>
                       </div>:<div class="container">
-                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <i class="bi bi-chevron-up fs-3 text-primary" @click="endTimeMinutes3++"></i>
                         <div></div>
-                        <input type="number" value="00">
-                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <input type="number" v-model="endTimeMinutes3">
+                        <i class="bi bi-chevron-down fs-3 text-primary" @click="endTimeMinutes3--"></i>
                         <div></div>
                       </div>
                     </div>
@@ -616,7 +616,7 @@
                   <div class="d-flex pt-4">
                     <label for="switcher1">الثلاثاء</label>
                     <div class="form-check form-switch">
-                      <input type="checkbox" id="switcher1" v-model="switcher1" class="form-check-input">
+                      <input type="checkbox" id="switcher1" v-model="switcher4" class="form-check-input">
                       <label class="form-check-label" for="switcher1"></label>
                     </div>
                   </div>
@@ -624,32 +624,32 @@
                     <div class="number-input mx-2">
                       <label for="number1">من </label>
                       <div class="container">
-                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <i class="bi bi-chevron-up fs-3 text-primary" @click="startTimeHours4++"></i>
                         <div></div>
-                        <input type="number" value="00">
-                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <input type="number" v-model="startTimeHours4">
+                        <i class="bi bi-chevron-down fs-3 text-primary" @click="startTimeHours4--"></i>
                         <div></div>
                       </div>:<div class="container">
-                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <i class="bi bi-chevron-up fs-3 text-primary" @click="startTimeMinutes4++"></i>
                         <div></div>
-                        <input type="number" value="00">
-                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <input type="number" v-model="startTimeMinutes4">
+                        <i class="bi bi-chevron-down fs-3 text-primary" @click="startTimeMinutes4--"></i>
                         <div></div>
                       </div>
                     </div>
                     <div class="number-input mx-2">
                       <label for="number2">إلي </label>
                       <div class="container">
-                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <i class="bi bi-chevron-up fs-3 text-primary" @click="endTimeHours4++"></i>
                         <div></div>
-                        <input type="number" value="00">
-                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <input type="number" v-model="endTimeHours4">
+                        <i class="bi bi-chevron-down fs-3 text-primary" @click="endTimeHours4--"></i>
                         <div></div>
                       </div>:<div class="container">
-                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <i class="bi bi-chevron-up fs-3 text-primary" @click="endTimeMinutes4++"></i>
                         <div></div>
-                        <input type="number" value="00">
-                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <input type="number" v-model="endTimeMinutes4">
+                        <i class="bi bi-chevron-down fs-3 text-primary" @click="endTimeMinutes4--"></i>
                         <div></div>
                       </div>
                     </div>
@@ -659,7 +659,7 @@
                   <div class="d-flex pt-4">
                     <label for="switcher1">الاربعاء</label>
                     <div class="form-check form-switch">
-                      <input type="checkbox" id="switcher1" v-model="switcher1" class="form-check-input">
+                      <input type="checkbox" id="switcher1" v-model="switcher5" class="form-check-input">
                       <label class="form-check-label" for="switcher1"></label>
                     </div>
                   </div>
@@ -667,32 +667,32 @@
                     <div class="number-input mx-2">
                       <label for="number1">من </label>
                       <div class="container">
-                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <i class="bi bi-chevron-up fs-3 text-primary" @click="startTimeHours5++"></i>
                         <div></div>
-                        <input type="number" value="00">
-                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <input type="number" v-model="startTimeHours5">
+                        <i class="bi bi-chevron-down fs-3 text-primary" @click="startTimeHours5--"></i>
                         <div></div>
                       </div>:<div class="container">
-                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <i class="bi bi-chevron-up fs-3 text-primary" @click="startTimeMinutes5++"></i>
                         <div></div>
-                        <input type="number" value="00">
-                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <input type="number" v-model="startTimeMinutes5">
+                        <i class="bi bi-chevron-down fs-3 text-primary" @click="startTimeMinutes5--"></i>
                         <div></div>
                       </div>
                     </div>
                     <div class="number-input mx-2">
                       <label for="number2">إلي </label>
                       <div class="container">
-                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <i class="bi bi-chevron-up fs-3 text-primary" @click="endTimeHours5++"></i>
                         <div></div>
-                        <input type="number" value="00">
-                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <input type="number" v-model="endTimeHours5">
+                        <i class="bi bi-chevron-down fs-3 text-primary" @click="endTimeHours5--"></i>
                         <div></div>
                       </div>:<div class="container">
-                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <i class="bi bi-chevron-up fs-3 text-primary" @click="endTimeMinutes5++"></i>
                         <div></div>
-                        <input type="number" value="00">
-                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <input type="number" v-model="endTimeMinutes5">
+                        <i class="bi bi-chevron-down fs-3 text-primary" @click="endTimeMinutes5--"></i>
                         <div></div>
                       </div>
                     </div>
@@ -702,7 +702,7 @@
                   <div class="d-flex pt-4">
                     <label for="switcher1">الخميس</label>
                     <div class="form-check form-switch">
-                      <input type="checkbox" id="switcher1" v-model="switcher1" class="form-check-input">
+                      <input type="checkbox" id="switcher1" v-model="switcher6" class="form-check-input">
                       <label class="form-check-label" for="switcher1"></label>
                     </div>
                   </div>
@@ -710,32 +710,32 @@
                     <div class="number-input mx-2">
                       <label for="number1">من </label>
                       <div class="container">
-                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <i class="bi bi-chevron-up fs-3 text-primary" @click="startTimeHours6++"></i>
                         <div></div>
-                        <input type="number" value="00">
-                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <input type="number" v-model="startTimeHours6">
+                        <i class="bi bi-chevron-down fs-3 text-primary" @click="startTimeHours6--"></i>
                         <div></div>
                       </div>:<div class="container">
-                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <i class="bi bi-chevron-up fs-3 text-primary" @click="startTimeMinutes6++"></i>
                         <div></div>
-                        <input type="number" value="00">
-                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <input type="number" v-model="startTimeMinutes6">
+                        <i class="bi bi-chevron-down fs-3 text-primary" @click="startTimeMinutes6--"></i>
                         <div></div>
                       </div>
                     </div>
                     <div class="number-input mx-2">
                       <label for="number2">إلي </label>
                       <div class="container">
-                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <i class="bi bi-chevron-up fs-3 text-primary" @click="endTimeHours6++"></i>
                         <div></div>
-                        <input type="number" value="00">
-                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <input type="number" v-model="endTimeHours6">
+                        <i class="bi bi-chevron-down fs-3 text-primary" @click="endTimeHours6--"></i>
                         <div></div>
                       </div>:<div class="container">
-                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <i class="bi bi-chevron-up fs-3 text-primary" @click="endTimeMinutes6++"></i>
                         <div></div>
-                        <input type="number" value="00">
-                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <input type="number" v-model="endTimeMinutes6">
+                        <i class="bi bi-chevron-down fs-3 text-primary" @click="endTimeMinutes6--"></i>
                         <div></div>
                       </div>
                     </div>
@@ -745,7 +745,7 @@
                   <div class="d-flex pt-4">
                     <label for="switcher1">الجمعة</label>
                     <div class="form-check form-switch">
-                      <input type="checkbox" id="switcher1" v-model="switcher1" class="form-check-input">
+                      <input type="checkbox" id="switcher1" v-model="switcher7" class="form-check-input">
                       <label class="form-check-label" for="switcher1"></label>
                     </div>
                   </div>
@@ -753,32 +753,32 @@
                     <div class="number-input mx-2">
                       <label for="number1">من </label>
                       <div class="container">
-                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <i class="bi bi-chevron-up fs-3 text-primary" @click="startTimeHours7++"></i>
                         <div></div>
-                        <input type="number" value="00">
-                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <input type="number" v-model="startTimeHours7">
+                        <i class="bi bi-chevron-down fs-3 text-primary" @click="startTimeHours7--"></i>
                         <div></div>
                       </div>:<div class="container">
-                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <i class="bi bi-chevron-up fs-3 text-primary" @click="startTimeMinutes7++"></i>
                         <div></div>
-                        <input type="number" value="00">
-                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <input type="number" v-model="startTimeMinutes7">
+                        <i class="bi bi-chevron-down fs-3 text-primary" @click="startTimeMinutes7--"></i>
                         <div></div>
                       </div>
                     </div>
                     <div class="number-input mx-2">
                       <label for="number2">إلي </label>
                       <div class="container">
-                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <i class="bi bi-chevron-up fs-3 text-primary" @click="endTimeHours7++"></i>
                         <div></div>
-                        <input type="number" value="00">
-                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <input type="number" v-model="endTimeHours7">
+                        <i class="bi bi-chevron-down fs-3 text-primary" @click="endTimeHours7--"></i>
                         <div></div>
                       </div>:<div class="container">
-                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <i class="bi bi-chevron-up fs-3 text-primary" @click="endTimeMinutes7++"></i>
                         <div></div>
-                        <input type="number" value="00">
-                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <input type="number" v-model="endTimeMinutes7">
+                        <i class="bi bi-chevron-down fs-3 text-primary" @click="endTimeMinutes7--"></i>
                         <div></div>
                       </div>
                     </div>
@@ -808,8 +808,7 @@
                 </div>
               </div>
             </div>
-            <div
-              v-else-if="menuItems[selectedIndex].label === 'اتفاقية الاستخدام' || menuItems[selectedIndex].label === 'سياسة الخصوصية'">
+            <div v-else-if="menuItems[selectedIndex].label === 'اتفاقية الاستخدام' || menuItems[selectedIndex].label === 'سياسة الخصوصية'">
               <!-- Content for 'اتفاقية الاستخدام' and 'سياسة الخصوصية' menu items -->
               <p>محتوى قائمة اتفاقية الاستخدام وسياسة الخصوصية</p>
             </div>
@@ -823,6 +822,7 @@
 <script>
 export default {
   name: 'SettingsPage',
+  
   data() {
     return {
       menuItems: [
@@ -835,6 +835,41 @@ export default {
         { label: 'سياسة الخصوصية', icon: 'bi-lock' },
       ],
       selectedIndex: 0,
+      switcher1: false,
+      switcher2: false,
+      switcher3: false,
+      switcher4: false,
+      switcher5: false,
+      switcher6: false,
+      switcher7: false,
+      startTimeHours: 0,
+      startTimeMinutes: 0,
+      endTimeHours: 0,
+      endTimeMinutes: 0,
+      startTimeHours2: 0,
+      startTimeMinutes2: 0,
+      endTimeHours2: 0,
+      endTimeMinutes2: 0,
+      startTimeHours3: 0,
+      startTimeMinutes3: 0,
+      endTimeHours3: 0,
+      endTimeMinutes3: 0,
+      startTimeHours4: 0,
+      startTimeMinutes4: 0,
+      endTimeHours4: 0,
+      endTimeMinutes4: 0,
+      startTimeHours5: 0,
+      startTimeMinutes5: 0,
+      endTimeHours5: 0,
+      endTimeMinutes5: 0,
+      startTimeHours6: 0,
+      startTimeMinutes6: 0,
+      endTimeHours6: 0,
+      endTimeMinutes6: 0,
+      startTimeHours7: 0,
+      startTimeMinutes7: 0,
+      endTimeHours7: 0,
+      endTimeMinutes7: 0,
     };
   },
   methods: {
