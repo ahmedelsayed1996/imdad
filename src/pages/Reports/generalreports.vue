@@ -1,4 +1,14 @@
 <template>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <h2 class="ml-auto headLine"> التقارير</h2>
+    </nav>
+    <div class="m-2">
+        <!-- <button type="button" class="btn btn-imdad mx-2 mr-auto"> حفظ</button>
+        <button type="button" class="btn btn-danger mr-auto">إلغاء</button> -->
+    </div>
+</header>
   <div class="container-fluid ">
     <div class="row my-3">
       <div class="input-group   col-sm-12 col-xl-6">

@@ -15,10 +15,23 @@
 }
 </style>
 <template>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+            <h2 class="ml-auto headLine"> البائعين</h2>
+            <button type="button" class="btn btn-success mx-1 " id="export"> <i class="bi bi-person"></i>
+                استيراد البائعين</button>
+            <button type="button" class="btn btn-imdad mx-1"> + اضافة بائع جديد</button>
+        </nav>
+        <div class="m-2">
+            <!-- <button type="button" class="btn btn-imdad mx-2 mr-auto"> حفظ</button>
+            <button type="button" class="btn btn-danger mr-auto">إلغاء</button> -->
+        </div>
+    </header>
     <div class="container-fuild p-2 border shadow m-2 ">
         <div class="container p-0 text-bg-light">
             <div class=" col-12 p-0 text-bg-light">
-                <div class="d-flex justify-content-between align-items-center text-bg-light">
+                <!-- <div class="d-flex justify-content-between align-items-center text-bg-light">
                     <div>
                         <button type="button" class="btn btn-success btn-sm " id="export"> <i class="bi bi-person"></i>
                             استيراد البائعين</button>
@@ -33,7 +46,7 @@
                             </ol>
                         </nav>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
         <form class="form d-flex justify-item-bettwen p-0 w-50 m-auto"  >
@@ -78,9 +91,11 @@
                         <td>0</td>
                         <td >بيع</td>
                         <td>
-                            <i class="bi bi-box-arrow-in-up-right btn btn-success"></i>
-                            <i class="bi bi-pencil-fill btn btn-warning"></i>
-                            <i class="bi bi-trash btn btn-danger"></i>
+                            <i class="mx-1 bi bi-box-arrow-in-up-right btn btn-success"></i>
+                        <router-link to="/sellersdetails">
+                            <i class="mx-1 bi bi-pencil-fill btn btn-warning"></i>
+                        </router-link>
+                            <i class="mx-1 bi bi-trash btn btn-danger"></i>
                         </td>
                     </tr>
                    

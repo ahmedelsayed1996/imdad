@@ -1,10 +1,24 @@
 <template>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <h2 class="ml-auto headLine"> العملاء</h2>
+        <!-- <button type="button" class="btn btn-success mx-1 " id="export"> <i class="bi bi-person"></i>
+            استيراد العملاء</button>
+        <button type="button" class="btn btn-imdad mx-1"> + اضافة عميل جديد</button> -->
+        <button type="button" class="btn btn-danger btn-sm">حذف العميل</button>
+    </nav>
+    <div class="m-2">
+        <!-- <button type="button" class="btn btn-imdad mx-2 mr-auto"> حفظ</button>
+        <button type="button" class="btn btn-danger mr-auto">إلغاء</button> -->
+    </div>
+</header>
   <div class="container p-2">
     <div class="card col-12 bg-light">
       <div class="card-body d-flex justify-content-between align-items-center ">
-        <button type="button" class="btn btn-danger btn-sm">حذف العميل</button>
+        
         <div>
-          <div class="text-start">العملاء</div>
+          <!-- <div class="text-start">العملاء</div> -->
           <nav aria-label="breadcrumb" dir="rtl">
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="#" style="text-decoration: none;">العملاء</a></li>
@@ -19,7 +33,7 @@
   <div class="container">
     <div class="row  ">
       
-      <div class="col-7  ">
+      <div class="col-md-7 col-sm-12 ">
         <div class="card m-2 bg-light">
           <div class="card-header" dir="rtl">
             <span class="card-title text-left"> <img width="30vw" src="https://w7.pngwing.com/pngs/481/915/png-transparent-computer-icons-user-avatar-woman-avatar-computer-business-conversation-thumbnail.png" alt=""> </span>
@@ -45,8 +59,8 @@
                   <p class="m-0"><b>100.01</b> </p>
                 </div>
               </div>
-            </div>
-            <div class="row mt-3">
+            <!-- </div>
+            <div class="row mt-3"> -->
               <div class="col-sm-4">
                 <div class="card p-2 text-center btn-imdad ">
                   <p class="m-0"> المنتجات فى سلة العميل</p>
@@ -122,7 +136,7 @@
         </div>
 
       </div>
-      <div class="col-5">
+      <div class="col-md-5 col-sm-12">
         <div class="card m-2 text-bg-light">
           <div class="card-header">
             <a href="" style="text-decoration: none;">تعديل </a>

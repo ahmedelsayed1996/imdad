@@ -20,7 +20,7 @@
   <div class="container ">
     <div class="row">
       
-      <div class="col-7">
+      <div class="col-md-7 col-sm-12">
         <div class="card m-2 text-bg-light">
           <div class="card-header" dir="rtl">
             <span class="card-title text-right"><b>Naif Ahmed</b></span>
@@ -48,8 +48,8 @@
                   <p class="m-0"><b>100.01</b> </p>
                 </div>
               </div>
-            </div>
-            <div class="row mt-3">
+            <!-- </div> -->
+            <!-- <div class="row "> -->
               <div class="col-sm-4">
                 <div class="card p-2 text-center btn-imdad ">
                   <p class="m-0"> طلبات جارى التوصيل</p>
@@ -157,7 +157,7 @@
 
       </div>
 
-      <div class="col-5">
+      <div class="col-md-5 col-sm-12">
         <div class="card m-2 text-bg-light">
           <div class="card-header">
             <a href="" style="text-decoration: none;font-weight:bold">تعديل </a>

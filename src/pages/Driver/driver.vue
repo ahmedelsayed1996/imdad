@@ -1,6 +1,16 @@
 <template>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+            <h2 class="ml-auto headLine"> الموصل</h2>
+            <button class="btn btn-lg mx-2 mr-auto m-3 btn-imdad">تتبع</button>
+        </nav>
+        <div class="m-2">
+            <!-- <button type="button" class="btn btn-imdad mx-2 mr-auto"> حفظ</button>
+            <button type="button" class="btn btn-danger mr-auto">إلغاء</button> -->
+        </div>
+    </header>
     <div class="container-fluid ">
-        <button class="btn btn-success d-flex m-3 btn-imdad">تتبع</button>
         <div class="row">
             <div class="col-sm-6 col-xl-6">
                 <canvas id="circle" width="100" height="100"></canvas>

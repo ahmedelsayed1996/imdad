@@ -1,8 +1,22 @@
 <template>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+            <h2 class="ml-auto headLine"> الفروع</h2>
+            <!-- <button type="button" class="btn btn-success mx-1 " id="export"> <i class="bi bi-person"></i>
+                استيراد العملاء</button>
+            <button type="button" class="btn btn-imdad mx-1"> + اضافة عميل جديد</button> -->
+            <!-- <button type="button" class="btn btn-danger btn-sm">حذف العميل</button> -->
+            <button type="button" class="btn btn-outline-dark   btn-sm p-2 m-2 " id="add-btn">اضافة فرع جديد
+                +</button>
+        </nav>
+        <div class="m-2">
+            <!-- <button type="button" class="btn btn-imdad mx-2 mr-auto"> حفظ</button>
+            <button type="button" class="btn btn-danger mr-auto">إلغاء</button> -->
+        </div>
+    </header>
     <div class="container-fluid">
         <div class="d-flex justify-content-end">
-            <button type="button" class="btn btn-outline-dark   btn-sm p-2 m-2 ml-auto mr-5" id="add-btn">اضافة فرع جديد
-                +</button>
         </div>
         <div class="card-body">
 

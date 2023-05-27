@@ -1,7 +1,22 @@
 <template>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+            <!-- <h2 class="ml-auto headLine"> البائعين</h2> -->
+            <h3 class="headLine">>أخر العمليات</h3>
+
+            <!-- <button type="button" class="btn btn-success mx-1 " id="export"> <i class="bi bi-person"></i>
+                استيراد البائعين</button>
+            <button type="button" class="btn btn-imdad mx-1"> + اضافة بائع جديد</button> -->
+        </nav>
+        <div class="m-2">
+            <!-- <button type="button" class="btn btn-imdad mx-2 mr-auto"> حفظ</button>
+            <button type="button" class="btn btn-danger mr-auto">إلغاء</button> -->
+        </div>
+    </header>
 <div class="container">
     <div class="row">
-        <h3 class="headLine">>أخر العمليات</h3>
+        
         <div class="table-responsive col-md-12 text-white text-bg-light">
             <table class="table   text-black">
                 <thead>

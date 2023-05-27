@@ -8,7 +8,7 @@
                 <a href="/dashboard" class="logo">
                     <span class="logo-light">
                         <i class="mdi mdi-camera-control"></i>
-                         إمداد لسوق الجملة
+                        إمداد لسوق الجملة
                     </span>
                     <span>
 
@@ -56,18 +56,20 @@
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item active">
                                     <div class="notify-icon bg-success"><i class="mdi mdi-cart-outline"></i></div>
-                                    <p class="notify-details"><b>تم طلب اوردر</b><span class="text-muted"> 
-                                           من العيسوي للمنتجات</span></p>
+                                    <p class="notify-details"><b>تم طلب اوردر</b><span class="text-muted">
+                                            من العيسوي للمنتجات</span></p>
                                 </a>
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item">
                                     <div class="notify-icon bg-danger"><i class="mdi mdi-message-text-outline"></i></div>
-                                    <p class="notify-details"><b>رسالة جديده</b><span class="text-muted">لديك 75 رسالة غير مقروءه</span></p>
+                                    <p class="notify-details"><b>رسالة جديده</b><span class="text-muted">لديك 75 رسالة غير
+                                            مقروءه</span></p>
                                 </a>
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item">
                                     <div class="notify-icon bg-info"><i class="mdi mdi-filter-outline"></i></div>
-                                    <p class="notify-details"><b>تم شحن منتجك</b><span class="text-muted">...............</span></p>
+                                    <p class="notify-details"><b>تم شحن منتجك</b><span
+                                            class="text-muted">...............</span></p>
                                 </a>
                                 <!-- item-->
                                 <!-- <a href="javascript:void(0);" class="dropdown-item notify-item">
@@ -78,14 +80,15 @@
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item">
                                     <div class="notify-icon bg-warning"><i class="mdi mdi-cart-outline"></i></div>
-                                    <p class="notify-details"><b>تم انشاء طلبك</b><span class="text-muted">............</span></p>
+                                    <p class="notify-details"><b>تم انشاء طلبك</b><span
+                                            class="text-muted">............</span></p>
                                 </a>
                             </div>
                             <!-- All-->
-                            <router-link   to="/notification"><a  class="dropdown-item text-center notify-all text-primary">
-                                رؤية الكل <i class="fi-arrow-right"></i>
-                            </a></router-link>
-                            
+                            <router-link to="/notification"><a class="dropdown-item text-center notify-all text-primary">
+                                    رؤية الكل <i class="fi-arrow-right"></i>
+                                </a></router-link>
+
                         </div>
                     </li>
                     <!-- profile -->
@@ -98,8 +101,10 @@
                             </a>
                             <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
                                 <!-- item-->
-                                <a class="dropdown-item" href="#"><i class="mdi mdi-account-circle"></i> الصفحة الشخصية</a>
-                                <a class="dropdown-item" href="/wallet"><i class="mdi mdi-wallet"></i> المحفظة</a>
+                                <a class="dropdown-item" href="#"><i class="mdi mdi-account-circle"></i> الصفحة الشخصية
+                                </a>
+                                <router-link to="/wallet">
+                                <a class="dropdown-item"><i class="mdi mdi-wallet"></i> المحفظة</a></router-link>
                                 <a class="dropdown-item d-block" href="/settings"><span
                                         class="badge badge-success float-right">11</span><i class="mdi mdi-settings"></i>
                                     الاعدادات
@@ -150,7 +155,7 @@
 
 
                         <li>
-                            <a href="#" class="waves-effect">
+                            <a href="" class="waves-effect">
                                 <span class="badge badge-success badge-pill float-right">9+
                                 </span>
                                 <span> لوحة التحكم
@@ -158,11 +163,6 @@
                                 </span>
                                 <i class="icon-accelerator"></i>
                             </a>
-                        </li>
-
-                        <li>
-                            <a href="calendar.html" class="waves-effect"><span> طلبات الشراء
-                                    <i class="icon-calendar"></i></span></a>
                         </li>
 
                         <li>
@@ -214,11 +214,13 @@
                                         class="icon-pencil-ruler"></i><span class="float-right menu-arrow"><i
                                             class="mdi mdi-chevron-right"> </i></span> </span> </a>
                             <ul class="submenu">
-                                <li><a href="#">منتجات</a></li>
-                                <li><a href="#">المخزون والاسعار</a></li>
-                                <li><a href="#">استيراد من ملف </a></li>
-                                <li><a href="#">تصدير من ملف</a></li>
-                                <li><a href="#">المواصفات والخصائص</a></li>
+
+                                <li><router-link to="/products">منتجات</router-link></li>
+                                <li><router-link to="#">المخزون والاسعار</router-link></li>
+                                <li><router-link to="#">استيراد من ملف </router-link></li>
+                                <li><router-link to="#">تصدير من ملف</router-link></li>
+                                <li><router-link to="#">المواصفات والخصائص</router-link></li>
+
 
                             </ul>
                         </li>
@@ -231,10 +233,11 @@
                                             class="mdi mdi-chevron-right"></i></span>
                                 </span> </a>
                             <ul class="submenu">
-                                <li><a href="#">انشاء جديد</a></li>
-                                <li><a href="#">مكتمل المنتجات</a></li>
+                                <li><router-link to="productcontrol">انشاء جديد</router-link></li>
+                                <li><router-link to="/products">منتجات</router-link></li>
                                 <li><a href="#">تم حصر المنتجات</a></li>
-                                <li><a href="#"> المنتجات معلقة</a></li>
+                                <li><router-link to="/pendingproducts">المنتجات معلقة</router-link></li>
+
 
                             </ul>
                         </li>
@@ -244,12 +247,7 @@
                                         class="icon-pencil-ruler"></i><span class="float-right menu-arrow"><i
                                             class="mdi mdi-chevron-right"> </i></span> </span> </a>
                             <ul class="submenu">
-                                <li><a href="#">منتجات</a></li>
-                                <li><a href="#">المخزون والاسعار</a></li>
-                                <li><a href="#">استيراد من ملف </a></li>
-                                <li><a href="#">تصدير من ملف</a></li>
-                                <li><a href="#">المواصفات والخصائص</a></li>
-
+                                <li><router-link to="/branches">عرض</router-link></li>
                             </ul>
                         </li>
 
@@ -258,9 +256,18 @@
                                     الموصل <i class="icon-todolist-check"></i><span
                                         class="badge badge-pill badge-danger float-right">8</span> </span></a>
                             <ul class="submenu">
-                                <li><a href="#">انشاء جديد</a></li>
-                                <li><a href="#">عرض</a></li>
+                                <li><router-link to="/driver">عرض</router-link></li>
 
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="waves-effect"><span> العمولة <i
+                                        class="icon-graph"></i><span class="float-right menu-arrow"><i
+                                            class="mdi mdi-chevron-right"></i></span>
+                                </span></a>
+                            <ul class="submenu">
+                                <li><router-link to="/commissions">عرض</router-link></li>
                             </ul>
                         </li>
 
@@ -270,12 +277,10 @@
                                             class="mdi mdi-chevron-right"></i></span>
                                 </span></a>
                             <ul class="submenu">
-                                <li><a href="#">Morris Chart</a></li>
-                                <li><a href="#">Chartist Chart</a></li>
-                                <li><a href="#">Chartjs Chart</a></li>
-                                <li><a href="#">Flot Chart</a></li>
-                                <li><a href="#">C3 Chart</a></li>
-                                <li><a href="#">Jquery Knob Chart</a></li>
+                                <li><router-link to="/finance">عرض المالية</router-link></li>
+                                <li><router-link to="/wallet">المحفظة</router-link></li>
+                                <li><router-link to="/lastoperation">اخر العمليات</router-link></li>
+
                             </ul>
                         </li>
 
@@ -285,9 +290,7 @@
                                             class="mdi mdi-chevron-right"></i></span>
                                 </span></a>
                             <ul class="submenu">
-                                <li><a href="#">Basic Tables</a></li>
-                                <li><a href="#">Data Table</a></li>
-
+                                <li><router-link to="/generalreports">عرض التقارير</router-link></li>
                             </ul>
                         </li>
 
@@ -297,13 +300,10 @@
                                             class="mdi mdi-chevron-right"></i></span></span>
                             </a>
                             <ul class="submenu">
-                                <li><a href="#"> البنرات</a></li>
-                                <li><a href="#">الشعارات </a></li>
-                                <li><a href="#">قسم التخفيضات </a></li>
-                                <li><a href="#"> تسويق وعروض في الموقع والتطبيق</a></li>
-                                <li><a href="#"> التخفيضات</a></li>
-                                <li><a href="#"> التسويق عبر رسائل الواتس</a></li>
-
+                                <li><router-link to="#"> البنرات</router-link></li>
+                                <li><router-link to="/notification"> الإشعارات</router-link></li>
+                                <li><router-link to="/dicounts"> قسم التخفيضات </router-link></li>
+                                <li><router-link to="/msgs"> تسويق وعروض عبر رسائل الواتس</router-link></li>
                             </ul>
                         </li>
 
@@ -313,9 +313,7 @@
                                             class="mdi mdi-chevron-right"></i></span></span>
                             </a>
                             <ul class="submenu">
-                                <li><a href="#">Material Design</a></li>
-                                <li><a href="#">Font Awesome</a></li>
-
+                                <li><router-link to="/newseller">عرض البائعين</router-link></li>
                             </ul>
                         </li>
 
@@ -323,10 +321,11 @@
                             <a href="javascript:void(0);" class="waves-effect"><span> العملاء <i class="icon-map"></i><span
                                         class="float-right menu-arrow"><i class="mdi mdi-chevron-right"></i></span>
                                 </span></a>
-                            <!-- <ul class="submenu">
-                                <li><a href="#"> Google Map</a></li>
-                                <li><a href="#"> Vector Map</a></li>
-                            </ul> -->
+                            <ul class="submenu">
+                                <li><router-link to="/customer"> عرض العملاء</router-link></li>
+
+
+                            </ul>
                         </li>
 
                         <li>
@@ -335,12 +334,14 @@
                                             class="mdi mdi-chevron-right"></i></span>
                                 </span></a>
                             <ul class="submenu">
-                                <li><a href="#"> السياسة الخصوصية للبائع </a></li>
-                                <li><a href="#"> اتفاقيه الموصل</a></li>
-                                <li><a href="#"> السياسة الخصوصية للموصل </a></li>
-                                <li><a href="#"> اتفاقيه الاستخدام</a></li>
-                                <li><a href="#"> سياسه الخصوصيه</a></li>
-                                <li><a href="#"> شروط الاستخدام</a></li>
+                                <li><router-link to="/settings">الاعدادات</router-link></li>
+                                <li><router-link to="#"> السياسة الخصوصية للبائع </router-link></li>
+                                <li><router-link to="#"> اتفاقيه الموصل</router-link></li>
+                                <li><router-link to="#"> السياسة الخصوصية للموصل </router-link></li>
+                                <li><router-link to="#"> اتفاقيه الاستخدام</router-link></li>
+                                <li><router-link to="#"> سياسه الخصوصيه</router-link></li>
+                                <li><router-link to="#"> شروط الاستخدام</router-link></li>
+
                             </ul>
                         </li>
                         <li>
@@ -349,21 +350,22 @@
                                             class="mdi mdi-chevron-right"></i></span>
                                 </span></a>
                             <ul class="submenu">
-                                <li><a href="#"> العملاء</a></li>
-                                <li><a href="#"> البائعين</a></li>
-                                <li><a href="#"> الموصلين</a></li>
-                                <li><a href="#"> الفروع</a></li>
+                                <li><router-link to="/customerchat">العملاء</router-link></li>
+                                <li><router-link to="/sellerchat">البائعين</router-link></li>
+                                <li><router-link to="/driverchat">الموصلين</router-link></li>
+                                <li><router-link to="/branchchat">الفروع</router-link></li>
+
                             </ul>
                         </li>
                         <li>
-                            <a href="javascript:void(0);" class="waves-effect"><span> التعديلات <i
+                            <a href="javascript:void(0);" class="waves-effect"><span> التحليلات <i
                                         class="icon-download"></i><span class="float-right menu-arrow"><i
                                             class="mdi mdi-chevron-right"></i></span>
                                 </span></a>
-                            <!-- <ul class="submenu">
-                                <li><a href="#"> Google Map</a></li>
-                                <li><a href="#"> Vector Map</a></li>
-                            </ul> -->
+                            <ul class="submenu">
+                                <li><router-link to="/analytics">عرض التحليلات</router-link></li>
+
+                            </ul>
                         </li>
                         <li>
                             <a href="javascript:void(0);" class="waves-effect"><span> اعدادات الصفحات <i
@@ -425,7 +427,7 @@
                         <div class="row align-items-center">
                             <div class="col-sm-12">
                                 <h4 class="page-title  justify-content-center d-flex"> مرحباً بك عزيزي الادمن في منصة إمداد
-                                    سوق الجملة</h4>
+                                    لسوق الجملة</h4>
                             </div>
                             <!-- <div class="col-sm-6">
                                 <ol class="breadcrumb float-right">
@@ -447,7 +449,7 @@
                                         <i class="mdi mdi-pause bg-primary  text-white"></i>
                                     </div> -->
                                         <div>
-                                            <h5 class="font-16"> المبيعات اليوم  </h5>
+                                            <h5 class="font-16"> المبيعات اليوم </h5>
                                         </div>
                                         <h3 class="mt-4">108</h3>
                                         <!-- <div class="progress mt-4" style="height: 4px;">
@@ -461,7 +463,8 @@
                         </div>
 
                         <div class="col-sm-6 col-xl-3">
-                            <router-link to="/customer"><div class="card card-image  ">
+                            <router-link to="/customer">
+                                <div class="card card-image  ">
                                     <div class="card-heading p-4">
                                         <!-- <div class="mini-stat-icon float-right">
                                         <i class="mdi mdi-pause bg-primary  text-white"></i>
@@ -476,14 +479,16 @@
                                     </div> -->
                                         <!-- <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span></p> -->
                                     </div>
-                                </div></router-link>
-                                
-                           
+                                </div>
+                            </router-link>
+
+
                         </div>
 
                         <div class="col-sm-6 col-xl-3">
-                            
-                                <router-link   to="/branchchat"><div class="card card-image  ">
+
+                            <router-link to="/branchchat">
+                                <div class="card card-image  ">
                                     <div class="card-heading p-4">
                                         <!-- <div class="mini-stat-icon float-right">
                                         <i class="mdi mdi-pause bg-primary  text-white"></i>
@@ -498,13 +503,14 @@
                                     </div> -->
                                         <!-- <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span></p> -->
                                     </div>
-                                </div></router-link>
-                                
-                           
+                                </div>
+                            </router-link>
+
+
                         </div>
 
                         <div class="col-sm-6 col-xl-3">
-                            <a href="#">
+                            <router-link to="/finance">
                                 <div class="card card-image  ">
                                     <div class="card-heading p-4">
                                         <!-- <div class="mini-stat-icon float-right">
@@ -521,7 +527,7 @@
                                         <!-- <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span></p> -->
                                     </div>
                                 </div>
-                            </a>
+                            </router-link>
                         </div>
 
                         <!-- <div class="col-sm-6 col-xl-2">
@@ -655,94 +661,110 @@
                     <h3 class="headLine"> محفظة إدارة إمداد:</h3>
                     <div class="row">
                         <div class="col-sm-6 col-xl-4">
-                            <div class="card">
-                                <div class="card-heading p-4">
-                                    <div class="mini-stat-icon float-right">
-                                        <i class="mdi mdi-pause bg-primary  text-white"></i>
+                            <router-link to="/currentbalance">
+                                <div class="card">
+                                    <div class="card-heading p-4">
+                                        <div class="mini-stat-icon float-right">
+                                            <i class="mdi mdi-pause bg-primary  text-white"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="font-16 text-light">الرصيد الحالي</h5>
+                                        </div>
+                                        <h3 class="mt-4">35 ري</h3>
+                                        <div class="progress mt-4" style="height: 4px;">
+                                            <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"
+                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span>
+                                        </p>
                                     </div>
-                                    <div>
-                                        <h5 class="font-16 text-light">الرصيد الحالي</h5>
-                                    </div>
-                                    <h3 class="mt-4">35 ري</h3>
-                                    <div class="progress mt-4" style="height: 4px;">
-                                        <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"
-                                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span></p>
                                 </div>
-                            </div>
+                            </router-link>
                         </div>
                         <div class="col-sm-6 col-xl-4">
-                            <div class="card">
-                                <div class="card-heading p-4">
-                                    <div class="mini-stat-icon float-right">
-                                        <i class="mdi mdi-briefcase-check bg-success text-white"></i>
+                            <router-link to="/finance">
+                                <div class="card">
+                                    <div class="card-heading p-4">
+                                        <div class="mini-stat-icon float-right">
+                                            <i class="mdi mdi-briefcase-check bg-success text-white"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="font-16 text-light">إجمالي الارباح</h5>
+                                        </div>
+                                        <h3 class="mt-4">265 ري</h3>
+                                        <div class="progress mt-4" style="height: 4px;">
+                                            <div class="progress-bar bg-success" role="progressbar" style="width: 88%"
+                                                aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <p class="text-muted mt-2 mb-0"> النسبة المئوية<span class="float-right">88%</span>
+                                        </p>
                                     </div>
-                                    <div>
-                                        <h5 class="font-16 text-light">إجمالي الارباح</h5>
-                                    </div>
-                                    <h3 class="mt-4">265 ري</h3>
-                                    <div class="progress mt-4" style="height: 4px;">
-                                        <div class="progress-bar bg-success" role="progressbar" style="width: 88%"
-                                            aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <p class="text-muted mt-2 mb-0"> النسبة المئوية<span class="float-right">88%</span></p>
                                 </div>
-                            </div>
+                            </router-link>
+
                         </div>
                         <div class="col-sm-6 col-xl-4">
-                            <div class="card">
-                                <div class="card-heading p-4">
-                                    <div class="mini-stat-icon float-right">
-                                        <i class="mdi mdi-clock bg-warning text-white"></i>
+                            <router-link to="/depositoperations">
+                                <div class="card">
+                                    <div class="card-heading p-4">
+                                        <div class="mini-stat-icon float-right">
+                                            <i class="mdi mdi-clock bg-warning text-white"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="font-16 text-light">طلبات الايداع </h5>
+                                        </div>
+                                        <h3 class="mt-4">447 ري</h3>
+                                        <div class="progress mt-4" style="height: 4px;">
+                                            <div class="progress-bar bg-warning" role="progressbar" style="width: 68%"
+                                                aria-valuenow="68" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <p class="text-muted mt-2 mb-0"> النسبة المئوية<span class="float-right">68%</span>
+                                        </p>
                                     </div>
-                                    <div>
-                                        <h5 class="font-16 text-light">طلبات الايداع </h5>
-                                    </div>
-                                    <h3 class="mt-4">447 ري</h3>
-                                    <div class="progress mt-4" style="height: 4px;">
-                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 68%"
-                                            aria-valuenow="68" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <p class="text-muted mt-2 mb-0"> النسبة المئوية<span class="float-right">68%</span></p>
                                 </div>
-                            </div>
+                            </router-link>
                         </div>
                         <div class="col-sm-6 col-xl-6">
-                            <div class="card">
-                                <div class="card-heading p-4">
-                                    <div class="mini-stat-icon float-right">
-                                        <i class="mdi mdi-motorbike bg-danger text-white"></i>
+                            <router-link to="/lastoperation">
+                                <div class="card">
+                                    <div class="card-heading p-4">
+                                        <div class="mini-stat-icon float-right">
+                                            <i class="mdi mdi-motorbike bg-danger text-white"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="font-16 text-light"> اجمالي الحركة المالية في المحفظة</h5>
+                                        </div>
+                                        <h3 class="mt-4">86 ري</h3>
+                                        <div class="progress mt-4" style="height: 4px;">
+                                            <div class="progress-bar bg-danger" role="progressbar" style="width: 82%"
+                                                aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <p class="text-muted mt-2 mb-0">النسبة المئوية<span class="float-right">82%</span>
+                                        </p>
                                     </div>
-                                    <div>
-                                        <h5 class="font-16 text-light"> اجمالي الحركة المالية في المحفظة</h5>
-                                    </div>
-                                    <h3 class="mt-4">86 ري</h3>
-                                    <div class="progress mt-4" style="height: 4px;">
-                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 82%"
-                                            aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <p class="text-muted mt-2 mb-0">النسبة المئوية<span class="float-right">82%</span></p>
                                 </div>
-                            </div>
+                            </router-link>
                         </div>
                         <div class="col-sm-6 col-xl-6">
-                            <div class="card">
-                                <div class="card-heading p-4">
-                                    <div class="mini-stat-icon float-right">
-                                        <i class="mdi mdi-calendar bg-warning text-white"></i>
+                            <router-link to="/finance">
+                                <div class="card">
+                                    <div class="card-heading p-4">
+                                        <div class="mini-stat-icon float-right">
+                                            <i class="mdi mdi-calendar bg-warning text-white"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="font-16 text-light">معدل العمليات اليومية </h5>
+                                        </div>
+                                        <h3 class="mt-4">447 ري</h3>
+                                        <div class="progress mt-4" style="height: 4px;">
+                                            <div class="progress-bar bg-warning" role="progressbar" style="width: 68%"
+                                                aria-valuenow="68" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <p class="text-muted mt-2 mb-0"> النسبة المئوية<span class="float-right">68%</span>
+                                        </p>
                                     </div>
-                                    <div>
-                                        <h5 class="font-16 text-light">معدل العمليات اليومية </h5>
-                                    </div>
-                                    <h3 class="mt-4">447 ري</h3>
-                                    <div class="progress mt-4" style="height: 4px;">
-                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 68%"
-                                            aria-valuenow="68" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <p class="text-muted mt-2 mb-0"> النسبة المئوية<span class="float-right">68%</span></p>
                                 </div>
-                            </div>
+                            </router-link>
                         </div>
 
                     </div>
@@ -788,104 +810,272 @@
                         <div class="col-xl-6 row ">
                             <h3 class="headLine col-xl-12 justify-content-start">المنتجات الاكثر مبيعا :</h3>
                             <div class="col-sm-6 col-xl-4">
-                                <div class="card mb-3 bg-light text-right">
-                                    <img src="https://kddi-h.assetsadobe3.com/is/image/content/dam/au-com/mobile/mb_img_58.jpg?scl=1"
-                                        class="card-img-top " alt="ايفون 13">
-                                    <div class="card-body">
-                                        <h5 class="card-title">ايفون 13</h5>
-                                        <!-- <p class="card-text">موبايل ابل</p> -->
-                                        <!-- <p class="card-text">خصم 10%</p> -->
-                                        <button class="btn btn-primary btn-block rounded-pill " @click="addToCart">500
-                                            قطعة</button>
+                                <router-link to="/productdetails">
+                                    <div class="card mb-3 bg-light text-right">
+                                        <img src="https://kddi-h.assetsadobe3.com/is/image/content/dam/au-com/mobile/mb_img_58.jpg?scl=1"
+                                            class="card-img-top " alt="ايفون 13">
+                                        <div class="card-body">
+                                            <h5 class="card-title">ايفون 13</h5>
+                                            <!-- <p class="card-text">موبايل ابل</p> -->
+                                            <!-- <p class="card-text">خصم 10%</p> -->
+                                            <button class="btn btn-primary btn-block rounded-pill " @click="addToCart">500
+                                                قطعة</button>
+                                        </div>
                                     </div>
-                                </div>
+                                </router-link>
                             </div>
                             <div class="col-sm-6 col-xl-4">
-                                <div class="card mb-3 bg-light text-right">
-                                    <img src="https://sary-production.imgix.net/media/582022-06-08T09%3A43%3A34.324Z.jpg"
-                                        class="card-img-top " alt="ايفون 13">
-                                    <div class="card-body">
-                                        <h5 class="card-title"> زيت كريستال</h5>
-                                        <!-- <p class="card-text">موبايل ابل</p> -->
-                                        <!-- <p class="card-text">خصم 10%</p> -->
-                                        <button class="btn btn-primary btn-block rounded-pill " @click="addToCart">400
-                                            قطعة</button>
+                                <router-link to="/productdetails">
+                                    <div class="card mb-3 bg-light text-right">
+                                        <img src="https://sary-production.imgix.net/media/582022-06-08T09%3A43%3A34.324Z.jpg"
+                                            class="card-img-top " alt="ايفون 13">
+                                        <div class="card-body">
+                                            <h5 class="card-title"> زيت كريستال</h5>
+                                            <!-- <p class="card-text">موبايل ابل</p> -->
+                                            <!-- <p class="card-text">خصم 10%</p> -->
+                                            <button class="btn btn-primary btn-block rounded-pill " @click="addToCart">400
+                                                قطعة</button>
+                                        </div>
                                     </div>
-                                </div>
+                                </router-link>
                             </div>
                             <div class="col-sm-6 col-xl-4">
-                                <div class="card mb-3 bg-light text-right">
-                                    <img src="https://sary-production.imgix.net/product/package/2022/7/105.jpg"
-                                        class="card-img-top " alt="ايفون 13">
-                                    <div class="card-body">
-                                        <h5 class="card-title"> مكرونة حواء </h5>
-                                        <!-- <p class="card-text">موبايل ابل</p> -->
-                                        <!-- <p class="card-text">خصم 10%</p> -->
-                                        <button class="btn btn-primary btn-block rounded-pill " @click="addToCart">300
-                                            قطعة</button>
+                                <router-link to="/productdetails">
+                                    <div class="card mb-3 bg-light text-right">
+                                        <img src="https://sary-production.imgix.net/product/package/2022/7/105.jpg"
+                                            class="card-img-top " alt="ايفون 13">
+                                        <div class="card-body">
+                                            <h5 class="card-title"> مكرونة حواء </h5>
+                                            <!-- <p class="card-text">موبايل ابل</p> -->
+                                            <!-- <p class="card-text">خصم 10%</p> -->
+                                            <button class="btn btn-primary btn-block rounded-pill " @click="addToCart">300
+                                                قطعة</button>
+                                        </div>
                                     </div>
-                                </div>
+                                </router-link>
                             </div>
                             <div class="col-sm-6 col-xl-4">
-                                <div class="card mb-3 bg-light text-right">
-                                    <img src="https://sary-production.imgix.net/product/package/2022/9/3.jpg"
-                                        class="card-img-top " alt="ايفون 13">
-                                    <div class="card-body">
-                                        <h5 class="card-title"> فيجيتار</h5>
-                                        <!-- <p class="card-text">موبايل ابل</p> -->
-                                        <!-- <p class="card-text">خصم 10%</p> -->
-                                        <button class="btn btn-primary btn-block rounded-pill " @click="addToCart">200
-                                            قطعة</button>
+                                <router-link to="/productdetails">
+                                    <div class="card mb-3 bg-light text-right">
+                                        <img src="https://sary-production.imgix.net/product/package/2022/9/3.jpg"
+                                            class="card-img-top " alt="ايفون 13">
+                                        <div class="card-body">
+                                            <h5 class="card-title"> فيجيتار</h5>
+                                            <!-- <p class="card-text">موبايل ابل</p> -->
+                                            <!-- <p class="card-text">خصم 10%</p> -->
+                                            <button class="btn btn-primary btn-block rounded-pill " @click="addToCart">200
+                                                قطعة</button>
+                                        </div>
                                     </div>
-                                </div>
+                                </router-link>
+
                             </div>
                             <div class="col-sm-6 col-xl-4">
-                                <div class="card mb-3 bg-light text-right">
-                                    <img src="https://sary-production.imgix.net/product/package/2022/7/62230002644922022031"
-                                        class="card-img-top " alt="ايفون 13">
-                                    <div class="card-body">
-                                        <h5 class="card-title"> سمن روابي</h5>
-                                        <!-- <p class="card-text">موبايل ابل</p> -->
-                                        <!-- <p class="card-text">خصم 10%</p> -->
-                                        <button class="btn btn-primary btn-block rounded-pill " @click="addToCart">150
-                                            قطعة</button>
+                                <router-link to="/productdetails">
+                                    <div class="card mb-3 bg-light text-right">
+                                        <img src="https://sary-production.imgix.net/product/package/2022/7/62230002644922022031"
+                                            class="card-img-top " alt="ايفون 13">
+                                        <div class="card-body">
+                                            <h5 class="card-title"> سمن روابي</h5>
+                                            <!-- <p class="card-text">موبايل ابل</p> -->
+                                            <!-- <p class="card-text">خصم 10%</p> -->
+                                            <button class="btn btn-primary btn-block rounded-pill " @click="addToCart">150
+                                                قطعة</button>
+                                        </div>
                                     </div>
-                                </div>
+                                </router-link>
                             </div>
                             <div class="col-sm-6 col-xl-4">
-                                <div class="card mb-3 bg-light text-right">
-                                    <img src="https://sary-production.imgix.net/media/142022-05-23T11%3A37%3A55.477Z.jpg"
-                                        class="card-img-top " alt="ايفون 13">
-                                    <div class="card-body">
-                                        <h5 class="card-title"> مكرونة الملكه</h5>
-                                        <!-- <p class="card-text">موبايل ابل</p> -->
-                                        <!-- <p class="card-text">خصم 10%</p> -->
-                                        <button class="btn btn-primary btn-block rounded-pill " @click="addToCart">100
-                                            قطعة</button>
+                                <router-link to="/productdetails">
+                                    <div class="card mb-3 bg-light text-right">
+                                        <img src="https://sary-production.imgix.net/media/142022-05-23T11%3A37%3A55.477Z.jpg"
+                                            class="card-img-top " alt="ايفون 13">
+                                        <div class="card-body">
+                                            <h5 class="card-title"> مكرونة الملكه</h5>
+                                            <!-- <p class="card-text">موبايل ابل</p> -->
+                                            <!-- <p class="card-text">خصم 10%</p> -->
+                                            <button class="btn btn-primary btn-block rounded-pill " @click="addToCart">100
+                                                قطعة</button>
+                                        </div>
                                     </div>
-                                </div>
+                                </router-link>
                             </div>
 
-                            
-                            
+
+
 
                         </div>
                         <div class="col-xl-6 row ">
                             <h3 class="headLine col-xl-12 justify-content-start">افضل بائع بحسب كمية الطلبات :</h3>
                             <div class="col-sm-6 col-xl-4">
+                                <router-link to="/sellersdetails">
+                                    <div class="card align-item-center">
+                                        <div class="card-heading p-4">
+                                            <div>
+                                                <h5 class="font-16 " style="background-color: purple;color:white">
+
+                                                    14563 ري </h5>
+                                            </div>
+                                            <div class="mini-stat-icon float-right d-block">
+                                                <img src="assets/images/user-3.jpg" alt=""
+                                                    class="rounded-circle thumb-md aling-item-center">
+                                            </div><br />
+
+                                            <h5 class="mt-4 text-light ">شركه بن ربيع</h5>
+                                            <!-- <div class="progress mt-4" style="height: 4px;">
+                                            <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"
+                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span>
+                                        </p> -->
+                                        </div>
+                                    </div>
+                                </router-link>
+                            </div>
+                            <div class="col-sm-6 col-xl-4">
+                                <router-link to="/sellersdetails">
+                                    <div class="card align-item-center">
+                                        <div class="card-heading p-4">
+                                            <div>
+                                                <h5 class="font-16 " style="background-color:rgb(126, 3, 120);color:white">
+
+                                                    11368 ري </h5>
+                                            </div>
+                                            <div class="mini-stat-icon float-right d-block">
+                                                <img src="assets/images/user-4.jpg" alt=""
+                                                    class="rounded-circle thumb-md aling-item-center">
+                                            </div><br />
+
+                                            <h5 class="mt-4 text-light"> شائع واولاده للتجاره </h5>
+                                            <!-- <div class="progress mt-4" style="height: 4px;">
+                                            <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"
+                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span>
+                                        </p> -->
+                                        </div>
+                                    </div>
+                                </router-link>
+                            </div>
+                            <div class="col-sm-6 col-xl-4">
+                                <router-link to="/sellersdetails">
+                                    <div class="card align-item-center">
+                                        <div class="card-heading p-4">
+                                            <div>
+                                                <h5 class="font-16 " style="background-color:rgb(126, 3, 120);color:white">
+
+                                                    10862 ري </h5>
+                                            </div>
+                                            <div class="mini-stat-icon float-right d-block">
+                                                <img src="assets/images/user-5.jpg" alt=""
+                                                    class="rounded-circle thumb-md aling-item-center">
+                                            </div><br />
+
+                                            <h5 class="mt-4 text-light"> Qader Food</h5>
+                                            <!-- <div class="progress mt-4" style="height: 4px;">
+                                            <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"
+                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span>
+                                        </p> -->
+                                        </div>
+                                    </div>
+                                </router-link>
+                            </div>
+                            <div class="col-sm-6 col-xl-4">
+                                <router-link to="/sellersdetails">
+                                    <div class="card align-item-center">
+                                        <div class="card-heading p-4">
+                                            <div>
+                                                <h5 class="font-16 " style="background-color:rgb(126, 3, 120);color:white">
+
+                                                    9615 ري </h5>
+                                            </div>
+                                            <div class="mini-stat-icon float-right d-block">
+                                                <img src="assets/images/user-3.jpg" alt=""
+                                                    class="rounded-circle thumb-md aling-item-center">
+                                            </div><br />
+
+                                            <h5 class="mt-4 text-light">مؤسسة الغراسي</h5>
+                                            <!-- <div class="progress mt-4" style="height: 4px;">
+                                            <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"
+                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span>
+                                        </p> -->
+                                        </div>
+                                    </div>
+                                </router-link>
+                            </div>
+                            <div class="col-sm-6 col-xl-4">
+                                <router-link to="/sellersdetails">
+                                    <div class="card align-item-center">
+                                        <div class="card-heading p-4">
+                                            <div>
+                                                <h5 class="font-16 " style="background-color:rgb(126, 3, 120);color:white">
+
+                                                    8133 ري </h5>
+                                            </div>
+                                            <div class="mini-stat-icon float-right d-block">
+                                                <img src="assets/images/user-3.jpg" alt=""
+                                                    class="rounded-circle thumb-md aling-item-center">
+                                            </div><br />
+
+                                            <h5 class="mt-4 text-light">شركه بن عوض النقيب</h5>
+                                            <!-- <div class="progress mt-4" style="height: 4px;">
+                                            <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"
+                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span>
+                                        </p> -->
+                                        </div>
+                                    </div>
+                                </router-link>
+                            </div>
+                            <div class="col-sm-6 col-xl-4">
+                                <router-link to="/sellersdetails">
+                                    <div class="card align-item-center">
+                                        <div class="card-heading p-4">
+                                            <div>
+                                                <h5 class="font-16 " style="background-color:rgb(126, 3, 120);color:white">
+
+                                                    5665 ري </h5>
+                                            </div>
+                                            <div class="mini-stat-icon float-right d-block">
+                                                <img src="assets/images/user-3.jpg" alt=""
+                                                    class="rounded-circle thumb-md aling-item-center">
+                                            </div><br />
+
+                                            <h5 class="mt-4 text-light">شركه مياه حده </h5>
+                                            <!-- <div class="progress mt-4" style="height: 4px;">
+                                            <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"
+                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span>
+                                        </p> -->
+                                        </div>
+                                    </div>
+                                </router-link>
+                            </div>
+
+                        </div>
+                        <h3 class="headLine col-xl-12 justify-content-start">افضل بائع بحسب عدد الطلبات</h3>
+
+                        <div class="col-sm-6 col-xl-4">
+                            <router-link to="/sellersdetails">
                                 <div class="card align-item-center">
                                     <div class="card-heading p-4">
                                         <div>
                                             <h5 class="font-16 " style="background-color: purple;color:white">
-
-                                                14563 ري </h5>
+                                                الطلبات :
+                                                45 </h5>
                                         </div>
                                         <div class="mini-stat-icon float-right d-block">
                                             <img src="assets/images/user-3.jpg" alt=""
                                                 class="rounded-circle thumb-md aling-item-center">
                                         </div><br />
 
-                                        <h5 class="mt-4 text-light ">شركه بن ربيع</h5>
+                                        <h5 class="mt-4 text-light"> QADERFOOD </h5>
                                         <!-- <div class="progress mt-4" style="height: 4px;">
                                             <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"
                                                 aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
@@ -894,21 +1084,23 @@
                                         </p> -->
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-sm-6 col-xl-4">
+                            </router-link>
+                        </div>
+                        <div class="col-sm-6 col-xl-4">
+                            <router-link to="/sellersdetails">
                                 <div class="card align-item-center">
                                     <div class="card-heading p-4">
                                         <div>
-                                            <h5 class="font-16 " style="background-color:rgb(126, 3, 120);color:white">
-
-                                                11368 ري </h5>
+                                            <h5 class="font-16 " style="background-color: purple;color:white">
+                                                الطلبات :
+                                                40 </h5>
                                         </div>
                                         <div class="mini-stat-icon float-right d-block">
                                             <img src="assets/images/user-4.jpg" alt=""
                                                 class="rounded-circle thumb-md aling-item-center">
                                         </div><br />
 
-                                        <h5 class="mt-4 text-light"> شائع واولاده للتجاره </h5>
+                                        <h5 class="mt-4 text-light">شائع واولاده</h5>
                                         <!-- <div class="progress mt-4" style="height: 4px;">
                                             <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"
                                                 aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
@@ -917,21 +1109,23 @@
                                         </p> -->
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-sm-6 col-xl-4">
+                            </router-link>
+                        </div>
+                        <div class="col-sm-6 col-xl-4">
+                            <router-link to="/sellersdetails">
                                 <div class="card align-item-center">
                                     <div class="card-heading p-4">
                                         <div>
-                                            <h5 class="font-16 " style="background-color:rgb(126, 3, 120);color:white">
-
-                                                10862 ري </h5>
+                                            <h5 class="font-16 " style="background-color: purple;color:white">
+                                                الطلبات :
+                                                38 </h5>
                                         </div>
                                         <div class="mini-stat-icon float-right d-block">
                                             <img src="assets/images/user-5.jpg" alt=""
                                                 class="rounded-circle thumb-md aling-item-center">
                                         </div><br />
 
-                                        <h5 class="mt-4 text-light"> Qader Food</h5>
+                                        <h5 class="mt-4 text-light">مؤسسه الغراسي </h5>
                                         <!-- <div class="progress mt-4" style="height: 4px;">
                                             <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"
                                                 aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
@@ -940,21 +1134,23 @@
                                         </p> -->
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-sm-6 col-xl-4">
+                            </router-link>
+                        </div>
+                        <div class="col-sm-6 col-xl-4">
+                            <router-link to="/sellersdetails">
                                 <div class="card align-item-center">
                                     <div class="card-heading p-4">
                                         <div>
-                                            <h5 class="font-16 " style="background-color:rgb(126, 3, 120);color:white">
-
-                                                9615 ري </h5>
+                                            <h5 class="font-16 " style="background-color: purple;color:white">
+                                                الطلبات :
+                                                20 </h5>
                                         </div>
                                         <div class="mini-stat-icon float-right d-block">
                                             <img src="assets/images/user-3.jpg" alt=""
                                                 class="rounded-circle thumb-md aling-item-center">
                                         </div><br />
 
-                                        <h5 class="mt-4 text-light">مؤسسة الغراسي</h5>
+                                        <h5 class="mt-4 text-light"> شركه بن ربيع</h5>
                                         <!-- <div class="progress mt-4" style="height: 4px;">
                                             <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"
                                                 aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
@@ -963,21 +1159,23 @@
                                         </p> -->
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-sm-6 col-xl-4">
+                            </router-link>
+                        </div>
+                        <div class="col-sm-6 col-xl-4">
+                            <router-link to="/sellersdetails">
                                 <div class="card align-item-center">
                                     <div class="card-heading p-4">
                                         <div>
-                                            <h5 class="font-16 " style="background-color:rgb(126, 3, 120);color:white">
-
-                                                8133 ري </h5>
+                                            <h5 class="font-16 " style="background-color: purple;color:white">
+                                                الطلبات :
+                                                15 </h5>
                                         </div>
                                         <div class="mini-stat-icon float-right d-block">
                                             <img src="assets/images/user-3.jpg" alt=""
                                                 class="rounded-circle thumb-md aling-item-center">
                                         </div><br />
 
-                                        <h5 class="mt-4 text-light">شركه بن عوض النقيب</h5>
+                                        <h5 class="mt-4 text-light">شركة بن ربيع</h5>
                                         <!-- <div class="progress mt-4" style="height: 4px;">
                                             <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"
                                                 aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
@@ -986,21 +1184,23 @@
                                         </p> -->
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-sm-6 col-xl-4">
+                            </router-link>
+                        </div>
+                        <div class="col-sm-6 col-xl-4">
+                            <router-link to="/sellersdetails">
                                 <div class="card align-item-center">
                                     <div class="card-heading p-4">
                                         <div>
-                                            <h5 class="font-16 " style="background-color:rgb(126, 3, 120);color:white">
-
-                                                5665 ري </h5>
+                                            <h5 class="font-16 " style="background-color: purple;color:white">
+                                                الطلبات :
+                                                5 </h5>
                                         </div>
                                         <div class="mini-stat-icon float-right d-block">
                                             <img src="assets/images/user-3.jpg" alt=""
                                                 class="rounded-circle thumb-md aling-item-center">
                                         </div><br />
 
-                                        <h5 class="mt-4 text-light">شركه مياه حده </h5>
+                                        <h5 class="mt-4 text-light">مياه حده </h5>
                                         <!-- <div class="progress mt-4" style="height: 4px;">
                                             <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"
                                                 aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
@@ -1009,147 +1209,7 @@
                                         </p> -->
                                     </div>
                                 </div>
-                            </div>
-
-                        </div>
-                        <h3 class="headLine col-xl-12 justify-content-start">افضل بائع بحسب عدد الطلبات</h3>
-                        <div class="col-sm-6 col-xl-4">
-                            <div class="card align-item-center">
-                                <div class="card-heading p-4">
-                                    <div>
-                                        <h5 class="font-16 " style="background-color: purple;color:white">
-                                            الطلبات :
-                                            45 </h5>
-                                    </div>
-                                    <div class="mini-stat-icon float-right d-block">
-                                        <img src="assets/images/user-3.jpg" alt=""
-                                            class="rounded-circle thumb-md aling-item-center">
-                                    </div><br />
-
-                                    <h5 class="mt-4 text-light"> QADERFOOD </h5>
-                                    <!-- <div class="progress mt-4" style="height: 4px;">
-                                            <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"
-                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                        <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span>
-                                        </p> -->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-xl-4">
-                            <div class="card align-item-center">
-                                <div class="card-heading p-4">
-                                    <div>
-                                        <h5 class="font-16 " style="background-color: purple;color:white">
-                                            الطلبات :
-                                            40 </h5>
-                                    </div>
-                                    <div class="mini-stat-icon float-right d-block">
-                                        <img src="assets/images/user-4.jpg" alt=""
-                                            class="rounded-circle thumb-md aling-item-center">
-                                    </div><br />
-
-                                    <h5 class="mt-4 text-light">شائع واولاده</h5>
-                                    <!-- <div class="progress mt-4" style="height: 4px;">
-                                            <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"
-                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                        <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span>
-                                        </p> -->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-xl-4">
-                            <div class="card align-item-center">
-                                <div class="card-heading p-4">
-                                    <div>
-                                        <h5 class="font-16 " style="background-color: purple;color:white">
-                                            الطلبات :
-                                            38 </h5>
-                                    </div>
-                                    <div class="mini-stat-icon float-right d-block">
-                                        <img src="assets/images/user-5.jpg" alt=""
-                                            class="rounded-circle thumb-md aling-item-center">
-                                    </div><br />
-
-                                    <h5 class="mt-4 text-light">مؤسسه الغراسي </h5>
-                                    <!-- <div class="progress mt-4" style="height: 4px;">
-                                            <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"
-                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                        <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span>
-                                        </p> -->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-xl-4">
-                            <div class="card align-item-center">
-                                <div class="card-heading p-4">
-                                    <div>
-                                        <h5 class="font-16 " style="background-color: purple;color:white">
-                                            الطلبات :
-                                            20 </h5>
-                                    </div>
-                                    <div class="mini-stat-icon float-right d-block">
-                                        <img src="assets/images/user-3.jpg" alt=""
-                                            class="rounded-circle thumb-md aling-item-center">
-                                    </div><br />
-
-                                    <h5 class="mt-4 text-light"> شركه بن ربيع</h5>
-                                    <!-- <div class="progress mt-4" style="height: 4px;">
-                                            <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"
-                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                        <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span>
-                                        </p> -->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-xl-4">
-                            <div class="card align-item-center">
-                                <div class="card-heading p-4">
-                                    <div>
-                                        <h5 class="font-16 " style="background-color: purple;color:white">
-                                            الطلبات :
-                                            15 </h5>
-                                    </div>
-                                    <div class="mini-stat-icon float-right d-block">
-                                        <img src="assets/images/user-3.jpg" alt=""
-                                            class="rounded-circle thumb-md aling-item-center">
-                                    </div><br />
-
-                                    <h5 class="mt-4 text-light">شركة بن ربيع</h5>
-                                    <!-- <div class="progress mt-4" style="height: 4px;">
-                                            <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"
-                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                        <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span>
-                                        </p> -->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-xl-4">
-                            <div class="card align-item-center">
-                                <div class="card-heading p-4">
-                                    <div>
-                                        <h5 class="font-16 " style="background-color: purple;color:white">
-                                            الطلبات :
-                                            5 </h5>
-                                    </div>
-                                    <div class="mini-stat-icon float-right d-block">
-                                        <img src="assets/images/user-3.jpg" alt=""
-                                            class="rounded-circle thumb-md aling-item-center">
-                                    </div><br />
-
-                                    <h5 class="mt-4 text-light">مياه حده </h5>
-                                    <!-- <div class="progress mt-4" style="height: 4px;">
-                                            <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"
-                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                        <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span>
-                                        </p> -->
-                                </div>
-                            </div>
+                            </router-link>
                         </div>
                     </div>
 
@@ -1286,7 +1346,7 @@
 
 
                                     <div class="table-responsive">
-                                        <table class="table table-hover">
+                                        <table class="table ">
                                             <thead>
                                                 <tr>
                                                     <th scope="col">الاسم</th>
@@ -1322,7 +1382,9 @@
                                                     <td>5/10/2023</td>
                                                     <td>
                                                         <div>
-                                                            <a href="#" class="btn btn-primary btn-sm">تعديل</a>
+                                                            <router-link to="/customerdetails"><a href="#"
+                                                                    class="btn btn-primary ">تعديل</a></router-link>
+
                                                         </div>
                                                     </td>
                                                 </tr>
@@ -1350,7 +1412,9 @@
                                                     <td>10/5/2023</td>
                                                     <td>
                                                         <div>
-                                                            <a href="#" class="btn btn-primary btn-sm">تعديل</a>
+                                                            <router-link to="/customerdetails"><a href="#"
+                                                                    class="btn btn-primary ">تعديل</a></router-link>
+
                                                         </div>
                                                     </td>
                                                 </tr>
@@ -1378,7 +1442,9 @@
                                                     <td>10/5/2023</td>
                                                     <td>
                                                         <div>
-                                                            <a href="#" class="btn btn-primary btn-sm">تعديل</a>
+                                                            <router-link to="/customerdetails"><a href="#"
+                                                                    class="btn btn-primary ">تعديل</a></router-link>
+
                                                         </div>
                                                     </td>
                                                 </tr>
@@ -1406,7 +1472,9 @@
                                                     <td>10/5/2023</td>
                                                     <td>
                                                         <div>
-                                                            <a href="#" class="btn btn-primary btn-sm">تعديل</a>
+                                                            <router-link to="/customerdetails"><a href="#"
+                                                                    class="btn btn-primary btn-sm">تعديل</a></router-link>
+
                                                         </div>
                                                     </td>
                                                 </tr>
@@ -1434,7 +1502,9 @@
                                                     <td>10/5/2023</td>
                                                     <td>
                                                         <div>
-                                                            <a href="#" class="btn btn-primary btn-sm">تعديل</a>
+                                                            <router-link to="/customerdetails"><a href="#"
+                                                                    class="btn btn-primary btn-sm">تعديل</a></router-link>
+
                                                         </div>
                                                     </td>
                                                 </tr>
@@ -1444,52 +1514,78 @@
                                 </div>
                             </div>
                         </div>
-    <!-- Button to trigger the modal -->
-  <div class="bg-gray rounded p-3">
-    <span class="float-start fs-5">عندك طلب خاص؟</span>
-    <button class="btn btn-primary float-end rounded" data-bs-toggle="modal" data-bs-target="#myModal">اضغط هنا</button>
-  </div>
+                        <!-- Button to trigger the modal -->
+                        <header>
+                            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                                <div class="bg-gray rounded p-3">
+                                    <!-- <span class="float-start fs-5">ع</span> -->
 
-  <!-- Modal HTML code -->
-  <div class="modal" id="myModal" tabindex="-1" role="dialog">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content bg-light">
-      <div class="modal-header">
-        <h5 class="modal-title ms-auto">ادخل معلومات طلبك الخاص</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="mb-3">
-          <label for="product-name" class="form-label text-end" style="text-align: right;">اسم المنتج</label>
-          <input type="text" class="form-control bg-light" id="product-name" placeholder="اسم المنتج">
-        </div>
-        <div class="row">
-          <div class="col-md-6 mb-3">
-            <label for="quantity" class="form-label text-end" style="text-align: right;">الكمية</label>
-            <input type="text" class="form-control bg-light" id="quantity" placeholder="الكمية">
-          </div>
-          <div class="col-md-6 mb-3">
-            <label for="price" class="form-label text-end" style="text-align: right;">السعر المتوقع</label>
-            <input type="text" class="form-control bg-light" id="price" placeholder="السعر المتوقع">
-          </div>
-        </div>
-        <div class="mb-3">
-          <label for="description" class="form-label text-end" style="text-align: right;">الوصف</label>
-          <input type="text" class="form-control bg-light" id="description" placeholder="الوصف">
-        </div>
-        <div class="mb-3">
-          <label for="upload-img" class="form-label text-end" style="text-align: right;">ارفع صورة اذا عندك</label>
-          <input type="file" class="form-control bg-light" id="upload-img">
-        </div>
-        <button type="button" class="btn btn-primary w-100">إرسال</button>
-      </div>
-    </div>
-  </div>
-</div>
+                                </div>
+                                <h2 class="ml-auto headLine"> عندك طلب خاص؟</h2>
+                                <!-- <button type="button" class="btn btn-success mx-1 " id="export"> <i class="bi bi-person"></i>
+                                    استيراد العملاء</button>
+                                <button type="button" class="btn btn-imdad mx-1"> + اضافة عميل جديد</button> -->
+                                <!-- <button type="button" class="btn btn-danger btn-sm">حذف العميل</button> -->
+                                <button class="btn btn-primary float-end rounded" data-bs-toggle="modal"
+                                    data-bs-target="#myModal">اضغط هنا</button>
+                            </nav>
+                            <div class="m-2">
+                                <!-- <button type="button" class="btn btn-imdad mx-2 mr-auto"> حفظ</button>
+                                <button type="button" class="btn btn-danger mr-auto">إلغاء</button> -->
+                            </div>
+                        </header>
+
+
+                        <!-- Modal HTML code -->
+                        <div class="modal text-black text-right" id="myModal" tabindex="-1" role="dialog">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content bg-light">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title ms-auto">ادخل معلومات طلبك الخاص</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="mb-3">
+                                            <label for="product-name" class="form-label text-end"
+                                                style="text-align: right;">اسم المنتج</label>
+                                            <input type="text" class="form-control bg-light" id="product-name"
+                                                placeholder="اسم المنتج">
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6 mb-3">
+                                                <label for="quantity" class="form-label text-end"
+                                                    style="text-align: right;">الكمية</label>
+                                                <input type="text" class="form-control bg-light" id="quantity"
+                                                    placeholder="الكمية">
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <label for="price" class="form-label text-end"
+                                                    style="text-align: right;">السعر المتوقع</label>
+                                                <input type="text" class="form-control bg-light" id="price"
+                                                    placeholder="السعر المتوقع">
+                                            </div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="description" class="form-label text-end"
+                                                style="text-align: right;">الوصف</label>
+                                            <input type="text" class="form-control bg-light" id="description"
+                                                placeholder="الوصف">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="upload-img" class="form-label text-end"
+                                                style="text-align: right;">ارفع صورة اذا عندك</label>
+                                            <input type="file" class="form-control bg-light" id="upload-img">
+                                        </div>
+                                        <button type="button" class="btn btn-primary w-100">إرسال</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
 
                     </div>
-  
+
 
                     <!-- END ROW -->
                     <!-- end col -->
@@ -1507,7 +1603,7 @@
                 <!-- container-fluid -->
             </div>
             <!-- content -->
-            
+
             <footer class="footer">
                 ©2022 imdad <span class="d-none d-sm-inline-block">
                     imdad2022.com</span>.
@@ -1518,7 +1614,8 @@
         <!-- End Right content here -->
         <!-- ============================================================== -->
     </div>
-<!-- END wrapper --></template>
+    <!-- END wrapper -->
+</template>
 
 <script>
 import '../../public/assets/css/style.css'

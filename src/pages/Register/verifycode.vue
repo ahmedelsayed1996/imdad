@@ -14,7 +14,9 @@
             <input type="text" class="form-control bg-light" maxlength="1" v-model="code[3]" @keyup="handleInput(3, $event)"
               required ref="input3">
           </div>
-          <b-button type="submit" variant="primary" class="verification-button btn-imdad btn-lg">تحقٌق</b-button>
+          <router-link   to="/dashboard">
+             <b-button type="submit" variant="primary" class="verification-button btn-imdad btn-lg">تحقٌق</b-button>
+          </router-link>
         </form>
       </div>
     </b-card>

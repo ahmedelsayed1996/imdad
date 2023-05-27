@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <div class="messenger-container">
       <div class="sidebar">
         <div class="sidebar-header">
@@ -212,4 +212,4 @@
     margin-left: 10px;
     padding: 5px 10px;
   }
-  </style>
+  </style> -->

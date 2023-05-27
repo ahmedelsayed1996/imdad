@@ -1,10 +1,24 @@
 <template>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+            <!-- <h2 class="ml-auto headLine"> البائعين</h2> -->
+            <div class=" headLine fs-3 my-3"> التحليلات </div>
+            <!-- <button type="button" class="btn btn-success mx-1 " id="export"> <i class="bi bi-person"></i>
+                استيراد البائعين</button>
+            <button type="button" class="btn btn-imdad mx-1"> + اضافة بائع جديد</button> -->
+        </nav>
+        <div class="m-2">
+            <!-- <button type="button" class="btn btn-imdad mx-2 mr-auto"> حفظ</button>
+            <button type="button" class="btn btn-danger mr-auto">إلغاء</button> -->
+        </div>
+    </header>
     <div>
         <!-- Header -->
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12 text-start">
-                    <h5 class="">التحليلات</h5>
+                    <h5 class=""></h5>
                 </div>
             </div>
         </div>
@@ -257,8 +271,8 @@
                         <td>90210</td>
                         <td>USA</td>
                         <td>
-                            <a href="#" class="btn btn-primary btn-sm">Edit</a>
-                            <a href="#" class="btn btn-danger btn-sm">Delete</a>
+                            <a href="#" class="btn btn-warning mx-2">تعديل</a>
+                            <a href="#" class="btn btn-danger mx-2">حذف</a>
                         </td>
                     </tr>
                     <!-- <tr>

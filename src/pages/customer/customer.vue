@@ -15,14 +15,25 @@
 }
 </style>
 <template>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+            <h2 class="ml-auto headLine"> العملاء</h2>
+            <button type="button" class="btn btn-success mx-1 " id="export"> <i class="bi bi-person"></i>
+                استيراد العملاء</button>
+            <button type="button" class="btn btn-imdad mx-1"> + اضافة عميل جديد</button>
+        </nav>
+        <div class="m-2">
+            <!-- <button type="button" class="btn btn-imdad mx-2 mr-auto"> حفظ</button>
+            <button type="button" class="btn btn-danger mr-auto">إلغاء</button> -->
+        </div>
+    </header>
     <div class="container-fuild p-2  ">
         <div class="container p-0 text-bg-light">
             <div class=" col-12 p-0 text-bg-light">
-                <div class="d-flex justify-content-between align-items-center text-bg-light">
+                <!-- <div class="d-flex justify-content-between align-items-center text-bg-light">
                     <div>
-                        <button type="button" class="btn btn-success btn-sm " id="export"> <i class="bi bi-person"></i>
-                            استيراد العملاء</button>
-                        <button type="button" class="btn btn-imdad btn-sm"> + اضافة عميل جديد</button>
+                        
                     </div>
                     <div>
                         <div class="text-start mb-2 pr-4">العملاء</div>
@@ -33,7 +44,7 @@
                             </ol>
                         </nav>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
         <form class="form d-flex justify-content-between p-0 w-50 m-auto"  >
@@ -95,6 +106,12 @@
                                 </div>
                               </div>
                         </td>
+                        <td>
+                            <router-link to="/customerdetails">
+                                <button class="btn btn-primary">تعديل</button>
+                            </router-link>
+                        </td>
+                        
                     </tr>
                     <tr>
                         <td>1</td>
@@ -124,6 +141,12 @@
                                 </div>
                               </div>
                         </td>
+                        <td>
+                            <router-link to="/customerdetails">
+                                <button class="btn btn-primary">تعديل</button>
+                            </router-link>
+                        </td>
+                        
                     </tr>
                     <tr>
                         <td>1</td>
@@ -153,6 +176,12 @@
                                 </div>
                               </div>
                         </td>
+                        <td>
+                            <router-link to="/customerdetails">
+                                <button class="btn btn-primary">تعديل</button>
+                            </router-link>
+                        </td>
+                        
                     </tr>
                 </tbody>
             </table>

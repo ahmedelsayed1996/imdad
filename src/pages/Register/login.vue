@@ -3,7 +3,7 @@
   <div>
     <!-- Add your image here -->
   </div>
-  <div class="card" style="width: 30rem; margin: 10rem 8rem 10rem 8rem; background-color: aliceblue;">
+  <div class="card" style="width: 30rem; margin: 10rem 8rem 10rem 8rem; background-color: aliceblue; ">
     <div class="card-header">
       <h5 class="card-title text-right">تسجيل الدخول</h5>
     </div>
@@ -31,7 +31,7 @@
             <label class="form-check-label text-right" for="checkboxes-4">تذكرني</label>
           </div>
         </div>
-        <button type="submit" class="btn  d-flex justify-content-center" > <router-link class="router-btn btn-imdad btn-lg"  to="/dashboard">ادخل</router-link></button>
+        <button type="submit" class="btn  d-flex justify-content-center" > <router-link class="router-btn btn-imdad btn-lg"  to="/verifycode">ادخل</router-link></button>
        
       </form>
     </div>

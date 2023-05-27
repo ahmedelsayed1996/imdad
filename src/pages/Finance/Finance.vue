@@ -1,6 +1,16 @@
 <template>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+            <h1 class="headLine">  قسم المالية :</h1> <br />
+            <!-- <h2 class="ml-auto headLine"> العمولات</h2> -->
+        </nav>
+        <div class="m-2">
+            <!-- <button type="button" class="btn btn-imdad mx-2 mr-auto"> حفظ</button>
+            <button type="button" class="btn btn-danger mr-auto">إلغاء</button> -->
+        </div>
+    </header>
     <div class="container-fluid ">
-        <h1 class="headLine"> قسم المالية :</h1> <br />
         <div class="row">
             <div class="col-sm-6 col-xl-4">
                 <a href="#">

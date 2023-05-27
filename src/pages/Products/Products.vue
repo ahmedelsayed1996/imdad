@@ -19,9 +19,11 @@
                 <button type="button" class="btn btn-primary btn-sm mx-2" >
                     تعديل اسعار وتوفير منتجات
                 </button>
+            <router-link to="/productcontrol">
                 <button type="button" class="btn btn-imdad btn-sm mx-2" >
                     إضافة منتج جديد
                 </button>
+            </router-link>
             </form>
             <!-- <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
                 aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -104,8 +106,7 @@
                     <thead>
                         <tr>
                             <th><mark> #SL</mark></th>
-                            <th><mark> صوره</mark></th>
-                            
+                            <th><mark> صوره</mark></th> 
                             <th><mark> اسم المنتج</mark></th>
                             <th><mark> الصنف</mark></th>
                             <th><mark> كود المنتج</mark></th>
@@ -132,7 +133,8 @@
                             <td>5465 ر.ي</td>
                             <td>الادارة </td>
                             <td>
-                                <i class="bi bi-eye btn btn-primary mx-2"></i>
+                                <router-link to="/productdetails">
+                                <i class="bi bi-eye btn btn-primary mx-2"></i></router-link>
                                 <i class="bi bi-pencil-fill btn btn-warning mx-2"></i>
                                 <i class="bi bi-trash btn btn-danger"></i>
                             </td>
@@ -156,7 +158,8 @@
                             <td>5465 ر.ي</td>
                             <td>الادارة </td>
                             <td>
-                                <i class="bi bi-eye btn btn-primary mx-2"></i>
+                                <router-link to="/productdetails">
+                                    <i class="bi bi-eye btn btn-primary mx-2"></i></router-link>
                                 <i class="bi bi-pencil-fill btn btn-warning mx-2"></i>
                                 <i class="bi bi-trash btn btn-danger"></i>
                             </td>                            
@@ -180,7 +183,8 @@
                             <td>الادارة </td>
 
                             <td>
-                                <i class="bi bi-eye btn btn-primary mx-2"></i>
+                                <router-link to="/productdetails">
+                                    <i class="bi bi-eye btn btn-primary mx-2"></i></router-link>
                                 <i class="bi bi-pencil-fill btn btn-warning mx-2"></i>
                                 <i class="bi bi-trash btn btn-danger"></i>
                             </td>                            
@@ -202,7 +206,8 @@
                             <td> الادارة</td>
 
                             <td>
-                                <i class="bi bi-eye btn btn-primary mx-2"></i>
+                                <router-link to="/productdetails">
+                                    <i class="bi bi-eye btn btn-primary mx-2"></i></router-link>
                                 <i class="bi bi-pencil-fill btn btn-warning mx-2"></i>
                                 <i class="bi bi-trash btn btn-danger"></i>
                             </td>                            
