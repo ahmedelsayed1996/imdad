@@ -2,7 +2,7 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-      <h2 class="ml-auto headLine"> العمولات</h2>
+      <h2 class="ml-auto headLine text-black"> العمولات</h2>
     </nav>
     <div class="m-2">
       <router-link to="/commissionseller">

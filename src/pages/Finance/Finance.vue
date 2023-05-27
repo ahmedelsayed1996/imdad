@@ -2,7 +2,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-            <h1 class="headLine">  قسم المالية :</h1> <br />
+            <h1 class="headLine text-black">  قسم المالية :</h1> <br />
             <!-- <h2 class="ml-auto headLine"> العمولات</h2> -->
         </nav>
         <div class="m-2">
@@ -33,7 +33,7 @@
                 </a>
             </div>
             <div class="col-sm-6 col-xl-4">
-                <a href="#">
+            <router-link to="/generalreports">
                     <div class="card card-image  ">
                         <div class="card-heading p-4">
 
@@ -45,15 +45,15 @@
                              <div class="progress-bar bg-primary" role="progressbar" style="width: 75%" aria-valuenow="75"
                                 aria-valuemin="0" aria-valuemax="100">
                             </div>
-                        </div> -->
+                          </div> -->
                             <button class="btn btn-success">معرفه التفاصيل</button>
                             <!-- <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span></p> -->
                         </div>
                     </div>
-                </a>
+            </router-link>
             </div>
             <div class="col-sm-6 col-xl-4">
-                <a href="#">
+                <router-link to="/wallet">
                     <div class="card card-image  ">
                         <div class="card-heading p-4">
 
@@ -70,7 +70,7 @@
                             <!-- <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span></p> -->
                         </div>
                     </div>
-                </a>
+                </router-link>
             </div>
             <!-- <div class="col-sm-6 col-xl-6">
                 <a href="#">

@@ -4090,7 +4090,7 @@ table.focus-on tbody tr.focused td {
     display: flex;
     direction: rtl;
     justify-content: start;
-    color: black;
+    color: black !important;
 }
 
 .card-image {

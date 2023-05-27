@@ -49,7 +49,7 @@
                 </div> -->
             </div>
         </div>
-        <form class="form d-flex justify-item-bettwen p-0 w-50 m-auto"  >
+        <form class="form d-flex justify-item-bettwen p-0 w-75 mx-auto"  >
             <div class="form-group mx-sm-3 mb-2 flex-grow-1 ">
                 <input type="text" class="form-control"
                     placeholder="ابحث عن طريق اسم البائع او رقم الهاتف او بالبريد الالكترونى">
@@ -90,7 +90,7 @@
                         <td>20</td>
                         <td>0</td>
                         <td >بيع</td>
-                        <td>
+                        <td class="d-flex">
                             <i class="mx-1 bi bi-box-arrow-in-up-right btn btn-success"></i>
                         <router-link to="/sellersdetails">
                             <i class="mx-1 bi bi-pencil-fill btn btn-warning"></i>

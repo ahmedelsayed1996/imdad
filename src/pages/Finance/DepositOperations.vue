@@ -55,18 +55,17 @@
                                 <tbody>
                                     <tr>
                                         <td>#545338</td>
-                                        <td><span>20/5/2023</span><span>12:00 AM</span> </td>
+                                        <td><span>20/5/2023</span><br/><span>12:00 AM</span> </td>
                                         <td>السبت</td>
                                         <td>5331.25 ر.ي</td>
                                         <td>3 ر.ي</td>
                                         <td>45432.52 ر.ي</td>
                                         <!-- <td></td> -->
                                         <td>VISA</td>
-                                       
                                     </tr>
                                     <tr>
                                         <td>#545338</td>
-                                        <td><span>20/5/2023</span><span>12:00 AM</span> </td>
+                                        <td><span>20/5/2023</span><br/><span>12:00 AM</span> </td>
                                         <td>السبت</td>
                                         <td>5331.25 ر.ي</td>
                                         <td>3 ر.ي</td>

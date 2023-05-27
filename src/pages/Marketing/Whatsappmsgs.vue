@@ -5,7 +5,7 @@
         <div class="card " style="width: 30rem; background-color:lightgray;">
             <img src="https://emdadb2b.com/imdad2022/storage/app/public/company/2022-06-20-62b0d4a963f4e.png"
                 style="width: 200px; align-self: center;" class="card-img-top mt-2" alt="">
-            <div class="card-body">
+            <div class="card-body d-block">
                 <div class="mb-3">
                     <label for="formFile" class="form-label d-flex">اختر الصورة المراد ارسالها</label>
                     <input class="form-control bg-light" type="file" id="formFile">

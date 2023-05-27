@@ -3,7 +3,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
         <!-- <h2 class="ml-auto headLine"> البائعين</h2> -->
-        <div class="container headLine fs-5 my-3">المراسلات مع الفروع</div>
+        <div class="container headLine fs-5 my-3 text-black">المراسلات مع الفروع</div>
         <!-- <button type="button" class="btn btn-success mx-1 " id="export"> <i class="bi bi-person"></i>
             استيراد البائعين</button>
         <button type="button" class="btn btn-imdad mx-1"> + اضافة بائع جديد</button> -->

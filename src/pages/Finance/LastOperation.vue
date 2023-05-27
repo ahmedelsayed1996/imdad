@@ -39,7 +39,7 @@
                 <tbody>
                     <tr>
                         <td>545338</td>
-                        <td><span>19/5/2023</span><span>12:00 AM</span> </td>
+                        <td><span>19/5/2023</span><br/><span>12:00 AM</span> </td>
                         <td>شراء</td>
                         <td>#534354</td>
                         <td>عصام</td>
@@ -50,7 +50,7 @@
                     </tr>
                     <tr>
                         <td>545338</td>
-                        <td><span>19/5/2023</span><span>12:00 AM</span> </td>
+                        <td><span>19/5/2023</span><br/><span>12:00 AM</span> </td>
                         <td>شراء</td>
                         <td>#534354</td>
                         <td>احمد</td>

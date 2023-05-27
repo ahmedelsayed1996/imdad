@@ -1,5 +1,5 @@
 <template>
-  <div class="container headLine fs-5 my-3">المراسلات مع العملاء</div>
+  <div class="container headLine fs-5 my-3 text-black">المراسلات مع العملاء</div>
   <div class="container">
     <div class="messenger-container">
       <div class="sidebar" :class="{ 'sidebar-hidden': !showSidebar }">

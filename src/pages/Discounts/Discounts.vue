@@ -1,17 +1,27 @@
 <template>
-  <div class="container-fluid">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="d-flex align-items-center">
+
+        <h4 class="ml-auto headLine text-black">منتجات التخفيضات</h4>
+        
+         
+      </div>
+    </nav>
+    <div class="m-2">
+      <a href="" class="mr-3 ml-3 ">تصدير</a>
+      <a href="" class="mr-3 ml-3 " >استيراد</a>
+      <button type="button" class="btn btn-imdad mr-automx-2 mr-auto ">اضافة منتج</button>
+   
+        <!-- <button type="button" class="btn btn-imdad mx-2 mr-auto"> حفظ</button>
+        <button type="button" class="btn btn-danger mr-auto">إلغاء</button> -->
+    </div>
+  </header>
+  <div class="container">
     <div class="row">
       <!-- <SidebarPage class="col-3 sidebar"  id="sidebar"/> -->
       <div class="col-9 content-page">
-        <div class="d-flex align-items-center">
-
-          <h4 class="ml-auto headLine">منتجات التخفيضات</h4>
-          <div class="mt-2">
-            <a href="" class="mr-3 ml-3">تصدير</a>
-            <a href="" class="mr-3 ml-3">استيراد</a>
-            <button type="button" class="btn btn-imdad mr-auto">اضافة منتج</button>
-          </div>
-        </div>
+        
         <!-- <div class="row">
           <div class="col-md-4">
             <div class="card mb-3 bg-light text-right">

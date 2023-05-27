@@ -18,7 +18,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
     
-            <h2 class="ml-auto headLine"> العملاء</h2>
+            <h2 class="ml-auto headLine text-black"> العملاء</h2>
             <button type="button" class="btn btn-success mx-1 " id="export"> <i class="bi bi-person"></i>
                 استيراد العملاء</button>
             <button type="button" class="btn btn-imdad mx-1"> + اضافة عميل جديد</button>

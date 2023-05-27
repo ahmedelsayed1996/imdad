@@ -1,24 +1,10 @@
 <template>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    
-            <!-- <h2 class="ml-auto headLine"> البائعين</h2> -->
-            <div class=" headLine fs-3 my-3"> التحليلات </div>
-            <!-- <button type="button" class="btn btn-success mx-1 " id="export"> <i class="bi bi-person"></i>
-                استيراد البائعين</button>
-            <button type="button" class="btn btn-imdad mx-1"> + اضافة بائع جديد</button> -->
-        </nav>
-        <div class="m-2">
-            <!-- <button type="button" class="btn btn-imdad mx-2 mr-auto"> حفظ</button>
-            <button type="button" class="btn btn-danger mr-auto">إلغاء</button> -->
-        </div>
-    </header>
     <div>
         <!-- Header -->
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12 text-start">
-                    <h5 class=""></h5>
+                    <h5 class="">التحليلات</h5>
                 </div>
             </div>
         </div>
@@ -242,40 +228,41 @@
           </div>
         </div> -->
         <div class="container tab-pane fade" id="products">
-            <table class="table ">
-                <thead>
-                    <tr>
-                        <th scope="col">تحليلات المنتجات</th>
-                        <th scope="col">الكميات</th>
-                        <th scope="col">المبيعات</th>
-                        <th scope="col">مرات الاضافة الى السلة</th>
-                        <th scope="col">المبيعات</th>
-                        <th scope="col">مرات الطلب</th>
-                        <th scope="col">تكلفة المنتج</th>
-                        <th scope="col">ارباح المنتج</th>
-                        <th scope="col">الكمية المباعة</th>
-                        <th scope="col">العملاء الذين اضافوا بريدهم</th>
-                        <th scope="col">عدد التقييمات</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>John</td>
-                        <td>Doe</td>
-                        <td>john.doe@example.com</td>
-                        <td>(123) 456-7890</td>
-                        <td>123 Main St</td>
-                        <td>Anytown</td>
-                        <td>CA</td>
-                        <td>90210</td>
-                        <td>USA</td>
-                        <td>
-                            <a href="#" class="btn btn-warning mx-2">تعديل</a>
-                            <a href="#" class="btn btn-danger mx-2">حذف</a>
-                        </td>
-                    </tr>
-                    <!-- <tr>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">تحليلات المنتجات</th>
+                            <th scope="col">الكميات</th>
+                            <th scope="col">المبيعات</th>
+                            <th scope="col">مرات الاضافة الى السلة</th>
+                            <th scope="col">المبيعات</th>
+                            <th scope="col">مرات الطلب</th>
+                            <th scope="col">تكلفة المنتج</th>
+                            <th scope="col">ارباح المنتج</th>
+                            <th scope="col">الكمية المباعة</th>
+                            <th scope="col">العملاء الذين اضافوا بريدهم</th>
+                            <th scope="col">عدد التقييمات</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>John</td>
+                            <td>Doe</td>
+                            <td>john.doe@example.com</td>
+                            <td>(123) 456-7890</td>
+                            <td>123 Main St</td>
+                            <td>Anytown</td>
+                            <td>CA</td>
+                            <td>90210</td>
+                            <td>USA</td>
+                            <td>
+                                <a href="#" class="btn btn-primary btn-sm">Edit</a>
+                                <a href="#" class="btn btn-danger btn-sm">Delete</a>
+                            </td>
+                        </tr>
+                        <!-- <tr>
               <th scope="row">2</th>
               <td>Jane</td>
               <td>Smith</td>

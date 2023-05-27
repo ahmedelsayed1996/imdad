@@ -1345,8 +1345,8 @@
                                 <div class="card-body">
 
 
-                                    <div class="table-responsive">
-                                        <table class="table ">
+                                       <!-- <div class="table-responsive"> -->
+                                        <table class="table table-responsive">
                                             <thead>
                                                 <tr>
                                                     <th scope="col">الاسم</th>
@@ -1510,7 +1510,7 @@
                                                 </tr>
                                             </tbody>
                                         </table>
-                                    </div>
+                                    <!-- </div> -->
                                 </div>
                             </div>
                         </div>

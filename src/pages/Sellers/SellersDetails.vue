@@ -315,7 +315,6 @@ export default {
 
 <style>
 .index {
-  
 }
 
 .switch {

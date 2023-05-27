@@ -2,7 +2,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-            <h2 class="ml-auto headLine"> الموصل</h2>
+            <h2 class="ml-auto headLine text-black"> الموصل</h2>
             <button class="btn btn-lg mx-2 mr-auto m-3 btn-imdad">تتبع</button>
         </nav>
         <div class="m-2">
@@ -134,8 +134,8 @@
                     <div class="card-body ">
 
 
-                        <div class="table-responsive ">
-                            <table class="table">
+                        <div class="table table-responsive ">
+                            <table class="table ">
                                 <thead >
                                     <tr >
                                         <th class="text-black" scope="col">الاسم</th>

@@ -8,7 +8,7 @@
         <div class="card-header">
       <h5 class="card-title text-right">تسجيل الدخول</h5>
     </div>
-    <div class="card-body">
+    <div class="card-body d-block">
       <form @submit="onSubmit" @reset="onReset" v-if="show">
         <div class="form-group text-right">
           <label for="input-2" class="text-right">رقم التليفون:</label>
