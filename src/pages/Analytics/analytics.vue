@@ -228,40 +228,41 @@
           </div>
         </div> -->
         <div class="container tab-pane fade" id="products">
-            <table class="table ">
-                <thead>
-                    <tr>
-                        <th scope="col">تحليلات المنتجات</th>
-                        <th scope="col">الكميات</th>
-                        <th scope="col">المبيعات</th>
-                        <th scope="col">مرات الاضافة الى السلة</th>
-                        <th scope="col">المبيعات</th>
-                        <th scope="col">مرات الطلب</th>
-                        <th scope="col">تكلفة المنتج</th>
-                        <th scope="col">ارباح المنتج</th>
-                        <th scope="col">الكمية المباعة</th>
-                        <th scope="col">العملاء الذين اضافوا بريدهم</th>
-                        <th scope="col">عدد التقييمات</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>John</td>
-                        <td>Doe</td>
-                        <td>john.doe@example.com</td>
-                        <td>(123) 456-7890</td>
-                        <td>123 Main St</td>
-                        <td>Anytown</td>
-                        <td>CA</td>
-                        <td>90210</td>
-                        <td>USA</td>
-                        <td>
-                            <a href="#" class="btn btn-primary btn-sm">Edit</a>
-                            <a href="#" class="btn btn-danger btn-sm">Delete</a>
-                        </td>
-                    </tr>
-                    <!-- <tr>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">تحليلات المنتجات</th>
+                            <th scope="col">الكميات</th>
+                            <th scope="col">المبيعات</th>
+                            <th scope="col">مرات الاضافة الى السلة</th>
+                            <th scope="col">المبيعات</th>
+                            <th scope="col">مرات الطلب</th>
+                            <th scope="col">تكلفة المنتج</th>
+                            <th scope="col">ارباح المنتج</th>
+                            <th scope="col">الكمية المباعة</th>
+                            <th scope="col">العملاء الذين اضافوا بريدهم</th>
+                            <th scope="col">عدد التقييمات</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>John</td>
+                            <td>Doe</td>
+                            <td>john.doe@example.com</td>
+                            <td>(123) 456-7890</td>
+                            <td>123 Main St</td>
+                            <td>Anytown</td>
+                            <td>CA</td>
+                            <td>90210</td>
+                            <td>USA</td>
+                            <td>
+                                <a href="#" class="btn btn-primary btn-sm">Edit</a>
+                                <a href="#" class="btn btn-danger btn-sm">Delete</a>
+                            </td>
+                        </tr>
+                        <!-- <tr>
               <th scope="row">2</th>
               <td>Jane</td>
               <td>Smith</td>
@@ -277,9 +278,11 @@
                 <a href="#" class="btn btn-danger btn-sm">Delete</a>
               </td>
             </tr> -->
-                </tbody>
-            </table>
+                    </tbody>
+                </table>
+            </div>
         </div>
+
 
         <!-- العملاء -->
 
@@ -344,34 +347,36 @@
                 </div>
             </div>
             <div class="row">
-  <div class="col-6">
-    <div class="card btn-imdad">
-      <div class="card-body">
-        <h5 class="card-title text-start">Left Card</h5>
-        <div class="col-9 ">
-            <p class="text-end">
-                <span>خريطة الموقع </span>
-                <button class="btn btn-primary">الموقع</button>
-            </p>
-          </div>
-          
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut mauris sit amet magna venenatis gravida. Fusce et interdum lorem. Morbi nec sapien a libero vestibulum tempor. Curabitur posuere mauris quis consectetur viverra. </p>
-      </div>
-    </div>
-  </div>
-  <div class="col-6">
-    <div class="card btn-imdad">
-      <div class="card-header ">
-        <h5>Right Card</h5>
-      </div>
-      <div class="card-body">
-        <div class="row">
-          
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+                <div class="col-6">
+                    <div class="card btn-imdad">
+                        <div class="card-body">
+                            <h5 class="card-title text-start">Left Card</h5>
+                            <div class="col-9 ">
+                                <p class="text-end">
+                                    <span>خريطة الموقع </span>
+                                    <button class="btn btn-primary">الموقع</button>
+                                </p>
+                            </div>
+
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut mauris sit
+                                amet magna venenatis gravida. Fusce et interdum lorem. Morbi nec sapien a libero vestibulum
+                                tempor. Curabitur posuere mauris quis consectetur viverra. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card btn-imdad">
+                        <div class="card-header ">
+                            <h5>Right Card</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
         </div>
@@ -455,7 +460,7 @@
                         </div>
                     </div>
                 </div>
-               
+
             </div>
         </div>
 
