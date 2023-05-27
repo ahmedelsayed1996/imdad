@@ -1,16 +1,16 @@
 <template>
     <div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
+        <!-- <div class="container-fluid"> -->
           <a class="navbar-brand" href="#">
             لوحه تحكم المنتج
           </a>
           <img src="https://static-00.iconduck.com/assets.00/shopping-cart-icon-512x462-yrde1eu0.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top me-2">
-        </div>
+        <!-- </div> -->
       </nav>
-      <div class="container mt-4">
+      <!-- <div class="container mt-4"> -->
         <!-- Rest of your page content goes here -->
-        <form class="form d-flex justify-content-between p-0 ">
+        <form class="form d-flex justify-content-between p-2 ">
             <div class="form-group mx-sm-3 mb-2 flex-grow-1">
                 <input type="text" class="form-control" placeholder="ابحث عن المنتج">
 
@@ -19,7 +19,7 @@
             <!-- <button type="button" class="btn btn-primary btn-sm mx-2" >
                 تعديل اسعار وتوفير منتجات
             </button> -->
-            <button type="button" class="btn btn-primary btn-sm mx-2" data-bs-toggle="modal"
+            <button type="button" class="btn btn-primary mb-2  mx-2" data-bs-toggle="modal"
                 data-bs-target="#staticBackdrop">
                 إضافة منتج جديد
             </button>
@@ -100,7 +100,7 @@
                     </div>
                 </div>
             </div>
-        <div class="d-flex justify-content-center w-100 mt-3  ">
+        <div class="d-flex justify-content-center w-100 mt-3 p-2 ">
           <table>
             
           <thead>
@@ -159,7 +159,7 @@
         
           </table>
         </div>
-      </div>
+      <!-- </div> -->
     </div>
   </template>
   
