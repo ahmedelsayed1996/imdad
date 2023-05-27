@@ -59,22 +59,24 @@
           <div class="tab-pane fade show active" id="sales">
             <h3 class="headLine my-3">اختر التقرير الفرعي :</h3>
             <div class="w-75  d-inline">
-              <select class=" form-select w-75 " id="table-dropdown" v-model="selectedTable">
-                <option selected value="table1">مبيعات المنتجات</option>
-                <option value="table2"> مبيعات التصنيفات</option>
-                <option value="table3"> مبيعات الماركات</option>
-                <option value="table4"> مبيعات الاكواد</option>
-                <option value="table5"> مبيعات كوبونات التخفيض</option>
-                <option value="table6"> مبيعات المدن</option>
-                <option value="table7"> مبيعات الفروع</option>
-                <option value="table8">طلبات المنتجات</option>
-                <option value="table9">تصنيف البائعين </option>
-                <option value="table14">ارباح المنصه </option>
-                <option value="table15">عمولات الموصلين </option>
-                <option value="table16">عمولات العملاء </option>
-                <option value="table17"> ملخص </option>
-              </select>
-              <button class="btn btn-imdad w-25 ">عرض</button>
+              <div class="d-flex">
+                <select class=" form-select w-75 " id="table-dropdown" v-model="selectedTable">
+                  <option selected value="table1">مبيعات المنتجات</option>
+                  <option value="table2"> مبيعات التصنيفات</option>
+                  <option value="table3"> مبيعات الماركات</option>
+                  <option value="table4"> مبيعات الاكواد</option>
+                  <option value="table5"> مبيعات كوبونات التخفيض</option>
+                  <option value="table6"> مبيعات المدن</option>
+                  <option value="table7"> مبيعات الفروع</option>
+                  <option value="table8">طلبات المنتجات</option>
+                  <option value="table9">تصنيف البائعين </option>
+                  <option value="table14">ارباح المنصه </option>
+                  <option value="table15">عمولات الموصلين </option>
+                  <option value="table16">عمولات العملاء </option>
+                  <option value="table17"> ملخص </option>
+                </select>
+                <!-- <button class="btn btn-imdad w-25 ">عرض</button> -->
+              </div>
 
               <div id="table-container" v-html="tableHTML"></div>
 
@@ -83,14 +85,17 @@
           <div class="tab-pane fade" id="products">
             <h3 class="headLine my-3">اختر التقرير الفرعي :</h3>
             <div class="w-75  d-inline">
-              <button class="btn btn-imdad w-25 d-inline ">عرض</button>
-              <select class=" form-select w-75 " id="table-dropdown" v-model="selectedTable">
-                <option value="table10" selected >المنتجات الاكثر مبيعا  </option>
-                <option value="table11">  اعلمني عند التوفير</option>
-                <option value="table12"> المنتجات الاكثر ربحا </option>
-                <option value="table13">  السلالات المتروكة</option>
-               
-              </select>
+              <div class="d-flex">
+                
+                <select class=" form-select w-75 " id="table-dropdown" v-model="selectedTable">
+                  <option value="table10" selected >المنتجات الاكثر مبيعا  </option>
+                  <option value="table11">  اعلمني عند التوفير</option>
+                  <option value="table12"> المنتجات الاكثر ربحا </option>
+                  <option value="table13">  السلالات المتروكة</option>
+                
+                </select>
+                <!-- <button class="btn btn-imdad w-25 d-inline ">عرض</button> -->
+              </div>
               <div id="table-container" v-html="tableHTML"></div>
             </div>
             

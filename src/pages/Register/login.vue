@@ -3,8 +3,9 @@
   <div>
     <!-- Add your image here -->
   </div>
-  <div class="card" style="width: 30rem; margin: 10rem 8rem 10rem 8rem; background-color: aliceblue; ">
-    <div class="card-header">
+  <div class="card-wrapper">
+      <div class="card"  style="width: 30rem;  background-color: aliceblue;">
+        <div class="card-header">
       <h5 class="card-title text-right">تسجيل الدخول</h5>
     </div>
     <div class="card-body">
@@ -37,7 +38,7 @@
     </div>
   </div>
 </div>
-
+ </div>
 
 
 
@@ -77,7 +78,7 @@ export default {
 </script>
 
 <style>
-* {}
+
 
 #bgform {
   background-color: #5435b7;
@@ -85,7 +86,17 @@ export default {
   background-repeat: no-repeat;
 }
 
-.router-btn{
+.card-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+
+.router-btn {
   color: aliceblue;
   background-color: purple;
 }

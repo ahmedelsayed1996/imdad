@@ -19,11 +19,9 @@
                 <button type="button" class="btn btn-primary btn-sm mx-2" >
                     تعديل اسعار وتوفير منتجات
                 </button>
-            <router-link to="/productcontrol">
                 <button type="button" class="btn btn-imdad btn-sm mx-2" >
                     إضافة منتج جديد
                 </button>
-            </router-link>
             </form>
             <!-- <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
                 aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -61,35 +59,35 @@
                                     </select>
                                   </div>
         
-                                <div class="col-md-6">
-                                  <label for="inputState" class="form-label">وحده المنتج</label>
-                                  <select id="inputState" class="form-select">
-                                    <option value="1" selected >حبه</option>
-                                    <option value="2">غرام</option>
-                                    <option value="3">كيلو</option>
-                                  </select>
-                                </div>
-                                <div class="col-md-6">
-                                    <label for="inputPassword4" class="form-label">  الكميه في كل وحدة</label>
-                                    <input type="text" class="form-control bg-light" id="inputPassword4" placeholder="الكميه في كل وحدة">
-                                  </div>
-                                  <div class="col-md-6">
-                                    <label for="inputPassword4" class="form-label">  الكميه في كل كرتونة</label>
-                                    <input type="text" class="form-control bg-light" id="inputPassword4" placeholder="الكميه في كل كرتونة">
-                                  </div>
-                                  <div class="col-md-6">
-                                    <label for="inputPassword4" class="form-label">   سعر المنتج  </label>
-                                    <input type="text" class="form-control bg-light" id="inputPassword4" placeholder="سعر المنتج">
-                                  </div>
+                                    <div class="col-md-6">
+                                      <label for="inputState" class="form-label">وحده المنتج</label>
+                                      <select id="inputState" class="form-select">
+                                        <option value="1" selected >حبه</option>
+                                        <option value="2">غرام</option>
+                                        <option value="3">كيلو</option>
+                                      </select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputPassword4" class="form-label">  الكميه في كل وحدة</label>
+                                        <input type="text" class="form-control bg-light" id="inputPassword4" placeholder="الكميه في كل وحدة">
+                                      </div>
+                                      <div class="col-md-6">
+                                        <label for="inputPassword4" class="form-label">  الكميه في كل كرتونة</label>
+                                        <input type="text" class="form-control bg-light" id="inputPassword4" placeholder="الكميه في كل كرتونة">
+                                      </div>
+                                      <div class="col-md-6">
+                                        <label for="inputPassword4" class="form-label">   سعر المنتج  </label>
+                                        <input type="text" class="form-control bg-light" id="inputPassword4" placeholder="سعر المنتج">
+                                      </div>
         
-                                  <div class="col-md-6">
-                                    <label for="inputPassword4" class="form-label">  الكميه  المتواجدة بالمستودع </label>
-                                    <input type="text" class="form-control bg-light" id="inputPassword4" placeholder="الكميه المتواجدة في المستودع">
-                                  </div>
-                                  <div class="col-md-12">
-                                    <label for="inputPassword4" class="form-label"> ارفع صورة للمنتج</label>
-                                    <input type="file" class="form-control bg-light" id="inputPassword4" placeholder="الكميه في كل وحدة">
-                                  </div>
+                                      <div class="col-md-6">
+                                        <label for="inputPassword4" class="form-label">  الكميه  المتواجدة بالمستودع </label>
+                                        <input type="text" class="form-control bg-light" id="inputPassword4" placeholder="الكميه المتواجدة في المستودع">
+                                      </div>
+                                      <div class="col-md-12">
+                                        <label for="inputPassword4" class="form-label"> ارفع صورة للمنتج</label>
+                                        <input type="file" class="form-control bg-light" id="inputPassword4" placeholder="الكميه في كل وحدة">
+                                      </div>
         
         
                               </form>
@@ -106,7 +104,8 @@
                     <thead>
                         <tr>
                             <th><mark> #SL</mark></th>
-                            <th><mark> صوره</mark></th> 
+                            <th><mark> صوره</mark></th>
+                            
                             <th><mark> اسم المنتج</mark></th>
                             <th><mark> الصنف</mark></th>
                             <th><mark> كود المنتج</mark></th>
@@ -133,8 +132,7 @@
                             <td>5465 ر.ي</td>
                             <td>الادارة </td>
                             <td>
-                                <router-link to="/productdetails">
-                                <i class="bi bi-eye btn btn-primary mx-2"></i></router-link>
+                                <i class="bi bi-eye btn btn-primary mx-2"></i>
                                 <i class="bi bi-pencil-fill btn btn-warning mx-2"></i>
                                 <i class="bi bi-trash btn btn-danger"></i>
                             </td>
@@ -158,8 +156,7 @@
                             <td>5465 ر.ي</td>
                             <td>الادارة </td>
                             <td>
-                                <router-link to="/productdetails">
-                                    <i class="bi bi-eye btn btn-primary mx-2"></i></router-link>
+                                <i class="bi bi-eye btn btn-primary mx-2"></i>
                                 <i class="bi bi-pencil-fill btn btn-warning mx-2"></i>
                                 <i class="bi bi-trash btn btn-danger"></i>
                             </td>                            
@@ -183,8 +180,7 @@
                             <td>الادارة </td>
 
                             <td>
-                                <router-link to="/productdetails">
-                                    <i class="bi bi-eye btn btn-primary mx-2"></i></router-link>
+                                <i class="bi bi-eye btn btn-primary mx-2"></i>
                                 <i class="bi bi-pencil-fill btn btn-warning mx-2"></i>
                                 <i class="bi bi-trash btn btn-danger"></i>
                             </td>                            
@@ -206,8 +202,7 @@
                             <td> الادارة</td>
 
                             <td>
-                                <router-link to="/productdetails">
-                                    <i class="bi bi-eye btn btn-primary mx-2"></i></router-link>
+                                <i class="bi bi-eye btn btn-primary mx-2"></i>
                                 <i class="bi bi-pencil-fill btn btn-warning mx-2"></i>
                                 <i class="bi bi-trash btn btn-danger"></i>
                             </td>                            

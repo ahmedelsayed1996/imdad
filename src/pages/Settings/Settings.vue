@@ -8,7 +8,7 @@
 
     <div class="container mt-5">
       <div class="row">
-        <div class="col-5">
+        <div class="col-md-5 col-sm-12">
           <div class="card bg-light mb-3 rounded-3 p-3">
             <h4 class="d-flex">اسم المنشاة</h4>
             <p class="d-flex">امداد</p>
@@ -23,7 +23,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-7">
+        <div class="col-md-7 col-sm-12">
           <div class="card bg-light mb-3 rounded-3 p-3">
             <div>
               <h2 class="h2 d-flex p-2 mb-3">{{ menuItems[selectedIndex].label }}</h2>
@@ -472,343 +472,337 @@
               </div>
             </div>
             <div v-else-if="menuItems[selectedIndex].label === 'مواعيد عمل الفروع'">
-              <!-- Content for 'مواعيد عمل الفروع' menu item -->
-              <div class="row">
-                <h3 class="col-6">اختر الفرع </h3>
-                <div class="col-6"><select class="form-select" aria-label="Default select example">
-                    <option selected>امداد- صنعاء</option>
-                    <option value="1">امداد - الوحدة</option>
-                    <option value="2">امداد - السبعين</option>
-                    <option value="3">امداد - الحيدة</option>
-                  </select></div>
-              </div>
-              <div class="form-group d-flex">
-                <div class="d-flex pt-4">
-                  <label for="switcher1">السبت</label>
-                  <div class="form-check form-switch">
-                    <input type="checkbox" id="switcher1" v-model="switcher1" class="form-check-input">
-                    <label class="form-check-label" for="switcher1"></label>
-                  </div>
+              <div class="table-responsive">
+                <!-- Content for 'مواعيد عمل الفروع' menu item -->
+                <div class="row">
+                  <h3 class="col-6">اختر الفرع </h3>
+                  <div class="col-6"><select class="form-select" aria-label="Default select example">
+                      <option selected>امداد- صنعاء</option>
+                      <option value="1">امداد - الوحدة</option>
+                      <option value="2">امداد - السبعين</option>
+                      <option value="3">امداد - الحيدة</option>
+                    </select></div>
                 </div>
-                <div class="container d-flex">
-                  <div class="number-input mx-2">
-                    <label for="number1">من </label>
-                    <div class="container">
-                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
-                      <div></div>
-                      <input type="number" value="00" >
-                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
-                      <div></div>
-                    </div>:<div class="container">
-                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
-                      <div></div>
-                      <input type="number" value="00">
-                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
-                      <div></div>
+                <div class="form-group d-flex">
+                  <div class="d-flex pt-4">
+                    <label for="switcher1">السبت</label>
+                    <div class="form-check form-switch">
+                      <input type="checkbox" id="switcher1" v-model="switcher1" class="form-check-input">
+                      <label class="form-check-label" for="switcher1"></label>
                     </div>
                   </div>
-                  <div class="number-input mx-2">
-                    <label for="number2">إلي </label>
-                    <div class="container">
-                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
-                      <div></div>
-                      <input type="number" value="00">
-                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
-                      <div></div>
-                    </div>:<div class="container">
-                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
-                      <div></div>
-                      <input type="number" value="00">
-                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
-                      <div></div>
+                  <div class="container d-flex">
+                    <div class="number-input mx-2">
+                      <label for="number1">من </label>
+                      <div class="container">
+                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <div></div>
+                        <input type="number" value="00" >
+                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <div></div>
+                      </div>:<div class="container">
+                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <div></div>
+                        <input type="number" value="00">
+                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <div></div>
+                      </div>
                     </div>
-                  </div>
-                </div>
-
-              </div>
-              <div class="form-group d-flex">
-                <div class="d-flex pt-4">
-                  <label for="switcher1">الاحد</label>
-                  <div class="form-check form-switch">
-                    <input type="checkbox" id="switcher1" v-model="switcher1" class="form-check-input">
-                    <label class="form-check-label" for="switcher1"></label>
-                  </div>
-                </div>
-                <div class="container d-flex">
-                  <div class="number-input mx-2">
-                    <label for="number1">من </label>
-                    <div class="container">
-                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
-                      <div></div>
-                      <input type="number" value="00">
-                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
-                      <div></div>
-                    </div>:<div class="container">
-                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
-                      <div></div>
-                      <input type="number" value="00">
-                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
-                      <div></div>
-                    </div>
-                  </div>
-                  <div class="number-input mx-2">
-                    <label for="number2">إلي </label>
-                    <div class="container">
-                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
-                      <div></div>
-                      <input type="number" value="00">
-                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
-                      <div></div>
-                    </div>:<div class="container">
-                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
-                      <div></div>
-                      <input type="number" value="00">
-                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
-                      <div></div>
+                    <div class="number-input mx-2">
+                      <label for="number2">إلي </label>
+                      <div class="container">
+                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <div></div>
+                        <input type="number" value="00">
+                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <div></div>
+                      </div>:<div class="container">
+                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <div></div>
+                        <input type="number" value="00">
+                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <div></div>
+                      </div>
                     </div>
                   </div>
                 </div>
-
-              </div>
-
-              <div class="form-group d-flex">
-                <div class="d-flex pt-4">
-                  <label for="switcher1">الاثنين</label>
-                  <div class="form-check form-switch">
-                    <input type="checkbox" id="switcher1" v-model="switcher1" class="form-check-input">
-                    <label class="form-check-label" for="switcher1"></label>
-                  </div>
-                </div>
-                <div class="container d-flex">
-                  <div class="number-input mx-2">
-                    <label for="number1">من </label>
-                    <div class="container">
-                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
-                      <div></div>
-                      <input type="number" value="00">
-                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
-                      <div></div>
-                    </div>:<div class="container">
-                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
-                      <div></div>
-                      <input type="number" value="00">
-                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
-                      <div></div>
+                <div class="form-group d-flex">
+                  <div class="d-flex pt-4">
+                    <label for="switcher1">الاحد</label>
+                    <div class="form-check form-switch">
+                      <input type="checkbox" id="switcher1" v-model="switcher1" class="form-check-input">
+                      <label class="form-check-label" for="switcher1"></label>
                     </div>
                   </div>
-                  <div class="number-input mx-2">
-                    <label for="number2">إلي </label>
-                    <div class="container">
-                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
-                      <div></div>
-                      <input type="number" value="00">
-                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
-                      <div></div>
-                    </div>:<div class="container">
-                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
-                      <div></div>
-                      <input type="number" value="00">
-                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
-                      <div></div>
+                  <div class="container d-flex">
+                    <div class="number-input mx-2">
+                      <label for="number1">من </label>
+                      <div class="container">
+                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <div></div>
+                        <input type="number" value="00">
+                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <div></div>
+                      </div>:<div class="container">
+                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <div></div>
+                        <input type="number" value="00">
+                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <div></div>
+                      </div>
                     </div>
-                  </div>
-                </div>
-
-              </div>
-              <div class="form-group d-flex">
-                <div class="d-flex pt-4">
-                  <label for="switcher1">الثلاثاء</label>
-                  <div class="form-check form-switch">
-                    <input type="checkbox" id="switcher1" v-model="switcher1" class="form-check-input">
-                    <label class="form-check-label" for="switcher1"></label>
-                  </div>
-                </div>
-                <div class="container d-flex">
-                  <div class="number-input mx-2">
-                    <label for="number1">من </label>
-                    <div class="container">
-                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
-                      <div></div>
-                      <input type="number" value="00">
-                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
-                      <div></div>
-                    </div>:<div class="container">
-                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
-                      <div></div>
-                      <input type="number" value="00">
-                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
-                      <div></div>
-                    </div>
-                  </div>
-                  <div class="number-input mx-2">
-                    <label for="number2">إلي </label>
-                    <div class="container">
-                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
-                      <div></div>
-                      <input type="number" value="00">
-                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
-                      <div></div>
-                    </div>:<div class="container">
-                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
-                      <div></div>
-                      <input type="number" value="00">
-                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
-                      <div></div>
+                    <div class="number-input mx-2">
+                      <label for="number2">إلي </label>
+                      <div class="container">
+                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <div></div>
+                        <input type="number" value="00">
+                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <div></div>
+                      </div>:<div class="container">
+                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <div></div>
+                        <input type="number" value="00">
+                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <div></div>
+                      </div>
                     </div>
                   </div>
                 </div>
-
-              </div>
-              <div class="form-group d-flex">
-                <div class="d-flex pt-4">
-                  <label for="switcher1">الاربعاء</label>
-                  <div class="form-check form-switch">
-                    <input type="checkbox" id="switcher1" v-model="switcher1" class="form-check-input">
-                    <label class="form-check-label" for="switcher1"></label>
-                  </div>
-                </div>
-                <div class="container d-flex">
-                  <div class="number-input mx-2">
-                    <label for="number1">من </label>
-                    <div class="container">
-                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
-                      <div></div>
-                      <input type="number" value="00">
-                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
-                      <div></div>
-                    </div>:<div class="container">
-                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
-                      <div></div>
-                      <input type="number" value="00">
-                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
-                      <div></div>
+                <div class="form-group d-flex">
+                  <div class="d-flex pt-4">
+                    <label for="switcher1">الاثنين</label>
+                    <div class="form-check form-switch">
+                      <input type="checkbox" id="switcher1" v-model="switcher1" class="form-check-input">
+                      <label class="form-check-label" for="switcher1"></label>
                     </div>
                   </div>
-                  <div class="number-input mx-2">
-                    <label for="number2">إلي </label>
-                    <div class="container">
-                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
-                      <div></div>
-                      <input type="number" value="00">
-                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
-                      <div></div>
-                    </div>:<div class="container">
-                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
-                      <div></div>
-                      <input type="number" value="00">
-                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
-                      <div></div>
+                  <div class="container d-flex">
+                    <div class="number-input mx-2">
+                      <label for="number1">من </label>
+                      <div class="container">
+                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <div></div>
+                        <input type="number" value="00">
+                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <div></div>
+                      </div>:<div class="container">
+                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <div></div>
+                        <input type="number" value="00">
+                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <div></div>
+                      </div>
                     </div>
-                  </div>
-                </div>
-
-              </div>
-              <div class="form-group d-flex">
-                <div class="d-flex pt-4">
-                  <label for="switcher1">الخميس</label>
-                  <div class="form-check form-switch">
-                    <input type="checkbox" id="switcher1" v-model="switcher1" class="form-check-input">
-                    <label class="form-check-label" for="switcher1"></label>
-                  </div>
-                </div>
-                <div class="container d-flex">
-                  <div class="number-input mx-2">
-                    <label for="number1">من </label>
-                    <div class="container">
-                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
-                      <div></div>
-                      <input type="number" value="00">
-                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
-                      <div></div>
-                    </div>:<div class="container">
-                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
-                      <div></div>
-                      <input type="number" value="00">
-                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
-                      <div></div>
-                    </div>
-                  </div>
-                  <div class="number-input mx-2">
-                    <label for="number2">إلي </label>
-                    <div class="container">
-                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
-                      <div></div>
-                      <input type="number" value="00">
-                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
-                      <div></div>
-                    </div>:<div class="container">
-                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
-                      <div></div>
-                      <input type="number" value="00">
-                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
-                      <div></div>
+                    <div class="number-input mx-2">
+                      <label for="number2">إلي </label>
+                      <div class="container">
+                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <div></div>
+                        <input type="number" value="00">
+                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <div></div>
+                      </div>:<div class="container">
+                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <div></div>
+                        <input type="number" value="00">
+                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <div></div>
+                      </div>
                     </div>
                   </div>
                 </div>
-
-              </div>
-              <div class="form-group d-flex">
-                <div class="d-flex pt-4">
-                  <label for="switcher1">الجمعة</label>
-                  <div class="form-check form-switch">
-                    <input type="checkbox" id="switcher1" v-model="switcher1" class="form-check-input">
-                    <label class="form-check-label" for="switcher1"></label>
+                <div class="form-group d-flex">
+                  <div class="d-flex pt-4">
+                    <label for="switcher1">الثلاثاء</label>
+                    <div class="form-check form-switch">
+                      <input type="checkbox" id="switcher1" v-model="switcher1" class="form-check-input">
+                      <label class="form-check-label" for="switcher1"></label>
+                    </div>
+                  </div>
+                  <div class="container d-flex">
+                    <div class="number-input mx-2">
+                      <label for="number1">من </label>
+                      <div class="container">
+                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <div></div>
+                        <input type="number" value="00">
+                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <div></div>
+                      </div>:<div class="container">
+                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <div></div>
+                        <input type="number" value="00">
+                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <div></div>
+                      </div>
+                    </div>
+                    <div class="number-input mx-2">
+                      <label for="number2">إلي </label>
+                      <div class="container">
+                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <div></div>
+                        <input type="number" value="00">
+                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <div></div>
+                      </div>:<div class="container">
+                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <div></div>
+                        <input type="number" value="00">
+                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <div></div>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div class="container d-flex">
-                  <div class="number-input mx-2">
-                    <label for="number1">من </label>
-                    <div class="container">
-                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
-                      <div></div>
-                      <input type="number" value="00">
-                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
-                      <div></div>
-                    </div>:<div class="container">
-                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
-                      <div></div>
-                      <input type="number" value="00">
-                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
-                      <div></div>
+                <div class="form-group d-flex">
+                  <div class="d-flex pt-4">
+                    <label for="switcher1">الاربعاء</label>
+                    <div class="form-check form-switch">
+                      <input type="checkbox" id="switcher1" v-model="switcher1" class="form-check-input">
+                      <label class="form-check-label" for="switcher1"></label>
                     </div>
                   </div>
-                  <div class="number-input mx-2">
-                    <label for="number2">إلي </label>
-                    <div class="container">
-                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
-                      <div></div>
-                      <input type="number" value="00">
-                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
-                      <div></div>
-                    </div>:<div class="container">
-                      <i class="bi bi-chevron-up fs-3 text-primary "></i>
-                      <div></div>
-                      <input type="number" value="00">
-                      <i class="bi bi-chevron-down fs-3 text-primary"></i>
-                      <div></div>
+                  <div class="container d-flex">
+                    <div class="number-input mx-2">
+                      <label for="number1">من </label>
+                      <div class="container">
+                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <div></div>
+                        <input type="number" value="00">
+                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <div></div>
+                      </div>:<div class="container">
+                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <div></div>
+                        <input type="number" value="00">
+                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <div></div>
+                      </div>
+                    </div>
+                    <div class="number-input mx-2">
+                      <label for="number2">إلي </label>
+                      <div class="container">
+                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <div></div>
+                        <input type="number" value="00">
+                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <div></div>
+                      </div>:<div class="container">
+                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <div></div>
+                        <input type="number" value="00">
+                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <div></div>
+                      </div>
                     </div>
                   </div>
                 </div>
-
-              </div>
-              <button type="button" class="btn btn-imdad my-2 " data-bs-toggle="modal" data-bs-target="#exampleModal7">
-                حفظ التغيرات </button>
-              <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content text-bg-light">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel">تاكيد </h1>
-                      <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                <div class="form-group d-flex">
+                  <div class="d-flex pt-4">
+                    <label for="switcher1">الخميس</label>
+                    <div class="form-check form-switch">
+                      <input type="checkbox" id="switcher1" v-model="switcher1" class="form-check-input">
+                      <label class="form-check-label" for="switcher1"></label>
                     </div>
-                    <div class="modal-body">
-                      <h4>
-                        هل انت متأكد من تغير وقت التشغيل
-                      </h4>
+                  </div>
+                  <div class="container d-flex">
+                    <div class="number-input mx-2">
+                      <label for="number1">من </label>
+                      <div class="container">
+                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <div></div>
+                        <input type="number" value="00">
+                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <div></div>
+                      </div>:<div class="container">
+                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <div></div>
+                        <input type="number" value="00">
+                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <div></div>
+                      </div>
                     </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">إلغاء</button>
-                      <button type="button" class="btn btn-primary" data-bs-dismiss="modal">تأكيد</button>
+                    <div class="number-input mx-2">
+                      <label for="number2">إلي </label>
+                      <div class="container">
+                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <div></div>
+                        <input type="number" value="00">
+                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <div></div>
+                      </div>:<div class="container">
+                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <div></div>
+                        <input type="number" value="00">
+                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group d-flex">
+                  <div class="d-flex pt-4">
+                    <label for="switcher1">الجمعة</label>
+                    <div class="form-check form-switch">
+                      <input type="checkbox" id="switcher1" v-model="switcher1" class="form-check-input">
+                      <label class="form-check-label" for="switcher1"></label>
+                    </div>
+                  </div>
+                  <div class="container d-flex">
+                    <div class="number-input mx-2">
+                      <label for="number1">من </label>
+                      <div class="container">
+                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <div></div>
+                        <input type="number" value="00">
+                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <div></div>
+                      </div>:<div class="container">
+                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <div></div>
+                        <input type="number" value="00">
+                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <div></div>
+                      </div>
+                    </div>
+                    <div class="number-input mx-2">
+                      <label for="number2">إلي </label>
+                      <div class="container">
+                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <div></div>
+                        <input type="number" value="00">
+                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <div></div>
+                      </div>:<div class="container">
+                        <i class="bi bi-chevron-up fs-3 text-primary "></i>
+                        <div></div>
+                        <input type="number" value="00">
+                        <i class="bi bi-chevron-down fs-3 text-primary"></i>
+                        <div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button type="button" class="btn btn-imdad my-2 " data-bs-toggle="modal" data-bs-target="#exampleModal7">
+                  حفظ التغيرات </button>
+                <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content text-bg-light">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">تاكيد </h1>
+                        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                      </div>
+                      <div class="modal-body">
+                        <h4>
+                          هل انت متأكد من تغير وقت التشغيل
+                        </h4>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">إلغاء</button>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">تأكيد</button>
+                      </div>
                     </div>
                   </div>
                 </div>

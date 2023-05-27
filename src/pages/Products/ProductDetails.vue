@@ -26,16 +26,16 @@
       <div class="tab-content mt-3">
         <div class="tab-pane fade show active" id="tab1">
           <div class="row">
-            <div class="col-6">
+            <div class="col-md-6 col-sm-12">
               <div class="card-header">
-                  <div class="">
-                    
-                    <div>
-                      
-                      <button class="btn btn-primary rounded-circle">حفظ </button>
-                    </div>
+                <div class="">
+
+                  <div>
+
+                    <button class="btn btn-primary rounded-circle">حفظ </button>
                   </div>
                 </div>
+              </div>
               <div class="card bg-light" style="border-radius: 10px;">
                 <div class="card mb-3" style="max-width: 540px;">
                   <div class=" d-flex g-0 bg-light product-card">
@@ -51,7 +51,7 @@
                         <p class="card-text"> 250 x 24 غرام </p><br>
                         <div class="price-input">
                           <div class="row">
-                            
+
                             <div class="col">
                               <input type="text" class="form-control bg-light" placeholder="5000">
                             </div>
@@ -60,7 +60,7 @@
                             </div>
                           </div>
                         </div>
-                       
+
                       </div>
                     </div>
 
@@ -68,22 +68,22 @@
 
                   </div>
                   <div class="availability-switch bg-light">
-                          <div class="row mt-3">
-                            <div class="col text-end">
-                              <p class="card-text">هل ترغب باظهار هذا المنتج بالتطبيق؟ هل هو متوفر؟</p>
-                            </div>
-                            <div class="col text-start">
-                              <div class="form-check form-switch">
-                                <input class="form-check-input" type="checkbox" id="switchBox">
-                              </div>
-                            </div>
-                          </div>
+                    <div class="row mt-3">
+                      <div class="col text-end">
+                        <p class="card-text">هل ترغب باظهار هذا المنتج بالتطبيق؟ هل هو متوفر؟</p>
+                      </div>
+                      <div class="col text-start">
+                        <div class="form-check form-switch">
+                          <input class="form-check-input" type="checkbox" id="switchBox">
                         </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
 
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-md-6 col-sm-12">
               <div class="card bg-light" style="border-radius: 10px;">
                 <div class="card-body">
                   <canvas id="myChart" width="20" height="20"></canvas>
@@ -91,7 +91,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-md-6 col-sm-12">
               <div class="card bg-light" style="border-radius: 10px;">
                 <div class="card-header">
                   <div class="d-flex justify-content-between align-items-center">
@@ -104,31 +104,30 @@
                 </div>
                 <div class="card-body">
                   <div class="row mb-3">
-                    <div class="col">
+                    <div class="col m-1">
                       <input type="text" class="form-control bg-light" placeholder="الكمية من">
                     </div>
-                    <div class="col">
+                    <div class="col m-1">
                       <input type="text" class="form-control bg-light" placeholder="الكمية الى">
                     </div>
-                    <div class="col">
+                    <div class="col m-1">
                       <input type="text" class="form-control bg-light" placeholder="سعر البيع">
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="col">
+                  
+                </div>
+                <div class="col">
                       <button class="btn btn-success btn-block">اضافة كمية</button>
                     </div>
-                  </div>
-                </div>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-md-6 col-sm-12">
               <div class="card bg-light " style="border-radius: 10px;">
                 <div class="card-header d-flex justify-content-between align-items-center">
                   <h5 class="card-title">سعر السوق</h5>
                 </div>
-                <div class="card-body">
-                  <div class="d-flex justify-content-between">
+                <div class="">
+                  <div class="d-flex justify-items-center justify-content-between mt-2">
                     <div>
                       <p class="card-text">اقل سعر</p>
                       <p class="card-text">9.000 ريال</p>
@@ -152,9 +151,9 @@
                 </div>
               </div>
             </div>
-            
+
             <hr>
-            
+
 
 
 
@@ -176,28 +175,28 @@ import Chart from 'chart.js/auto';
 export default {
   name: "ProductDetailsPage",
   mounted() {
-        console.log("chart start")
-        const ctx = document.getElementById('myChart');
-        new Chart(ctx, {
-            type: 'bar',
-            data: {
-                labels: ['Oct', 'Nov', 'Dec', 'Jan', 'Feb', 'Mar','Apr','May'],
-                datasets: [{
-                    label: 'عرض الطلبات',
-                    data: [11, 8, 3, 5, 2, 3,2,7],
-                    borderWidth: 1,
-                    backgroundColor: ['darkblue'],
-                }]
-            },
-            options: {
-                scales: {
-                    y: {
-                        beginAtZero: true
-                    }
-                }
-            }
-        });
-    }
+    console.log("chart start")
+    const ctx = document.getElementById('myChart');
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['Oct', 'Nov', 'Dec', 'Jan', 'Feb', 'Mar', 'Apr', 'May'],
+        datasets: [{
+          label: 'عرض الطلبات',
+          data: [11, 8, 3, 5, 2, 3, 2, 7],
+          borderWidth: 1,
+          backgroundColor: ['darkblue'],
+        }]
+      },
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true
+          }
+        }
+      }
+    });
+  }
 };
 
 </script>
@@ -224,5 +223,6 @@ export default {
 
 .availability-text {
   font-size: 16px;
-}</style>
+}
+</style>
 

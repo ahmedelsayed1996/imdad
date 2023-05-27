@@ -291,9 +291,11 @@
                 <a href="#" class="btn btn-danger btn-sm">Delete</a>
               </td>
             </tr> -->
-                </tbody>
-            </table>
+                    </tbody>
+                </table>
+            </div>
         </div>
+
 
         <!-- العملاء -->
 
@@ -358,34 +360,36 @@
                 </div>
             </div>
             <div class="row">
-  <div class="col-6">
-    <div class="card btn-imdad">
-      <div class="card-body">
-        <h5 class="card-title text-start">Left Card</h5>
-        <div class="col-9 ">
-            <p class="text-end">
-                <span>خريطة الموقع </span>
-                <button class="btn btn-primary">الموقع</button>
-            </p>
-          </div>
-          
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut mauris sit amet magna venenatis gravida. Fusce et interdum lorem. Morbi nec sapien a libero vestibulum tempor. Curabitur posuere mauris quis consectetur viverra. </p>
-      </div>
-    </div>
-  </div>
-  <div class="col-6">
-    <div class="card btn-imdad">
-      <div class="card-header ">
-        <h5>Right Card</h5>
-      </div>
-      <div class="card-body">
-        <div class="row">
-          
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+                <div class="col-6">
+                    <div class="card btn-imdad">
+                        <div class="card-body">
+                            <h5 class="card-title text-start">Left Card</h5>
+                            <div class="col-9 ">
+                                <p class="text-end">
+                                    <span>خريطة الموقع </span>
+                                    <button class="btn btn-primary">الموقع</button>
+                                </p>
+                            </div>
+
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut mauris sit
+                                amet magna venenatis gravida. Fusce et interdum lorem. Morbi nec sapien a libero vestibulum
+                                tempor. Curabitur posuere mauris quis consectetur viverra. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card btn-imdad">
+                        <div class="card-header ">
+                            <h5>Right Card</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
         </div>
@@ -469,7 +473,7 @@
                         </div>
                     </div>
                 </div>
-               
+
             </div>
         </div>
 

@@ -15,13 +15,12 @@
 </header>
     <div class="container">
       <div class="messenger-container">
-        <div class="sidebar">
+        <div class="sidebar" :class="{ 'sidebar-hidden': !showSidebar }">
           <div class="sidebar-header">
             <h2>Chat</h2>
-            <div class="search-container">
-              <input type="text" v-model="search" placeholder="    Search">
-              <i class="fas fa-search"></i>
-            </div>
+            <!-- <button class="toggle-sidebar" @click="showSidebar = !showSidebar">
+    <i class="fas" :class="{ 'fa-chevron-left': showSidebar, 'fa-chevron-right': !showSidebar }"></i>
+  </button> -->
           </div>
           <div class="chat-list">
             <div
@@ -72,6 +71,7 @@
     data() {
       return {
         search: '',
+        showSidebar: true,
         chats: [
         {
             name: 'Ahmed',
@@ -383,5 +383,27 @@
   ::-webkit-scrollbar-track {
     background-color: #f5f6f8;
   }
+  /* .sidebar-hidden {
+  transform: translateX(100%);
+  transition: transform 0.3s;
+} */
+@media (max-width: 767px) {
+  .messenger-container {
+    flex-direction: column;
+  }
+  
+  .sidebar {
+    flex: 1;
+    border-right: none;
+    border-bottom: 1px solid #dddfe2;
+  }
+  
+  .chat-window {
+    flex: 1;
+    border-top: none;
+  }
+}
+
+
   </style>
   
