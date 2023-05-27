@@ -21,11 +21,11 @@ import CurrentBalancePage from './pages/Finance/CurrentBalance'
 import DepositOperationsPage from './pages/Finance/DepositOperations'
 import FinancePage from './pages/Finance/Finance'
 import LastOperationPage from './pages/Finance/LastOperation'
-import WalletPage from './pages/Finance/Wallet'
+// import WalletPage from './pages/Finance/Wallet'
 import NotificationPage from './pages/Marketing/Notification'
 import PendingProductsPage from './pages/Products/PendingProducts'
 import ProductControlPage from './pages/Products/ProductControl'
-// import ProductDetailsPage from './pages/Products/ProductDetails'
+import ProductDetailsPage from './pages/Products/ProductDetails'
 import ProductsPage from './pages/Products/Products'
 import verifycode from './pages/Register/verifycode'
 import generalreports from './pages/Reports/generalreports'
@@ -56,7 +56,7 @@ const router = createRouter({
     { path: '/depositoperations', component: DepositOperationsPage },
     { path: '/finance', component: FinancePage },
     { path: '/lastoperation', component: LastOperationPage },
-    { path: '/wallet', component: WalletPage },
+    // { path: '/wallet', component: WalletPage },
     { path: '/notification', component: NotificationPage },
     { path: '/pendingproducts', component: PendingProductsPage },
     { path: '/productcontrol', component: ProductControlPage },
@@ -64,7 +64,7 @@ const router = createRouter({
     { path: '/generalreports', component: generalreports },
     { path: '/newseller', component: NewSeller },
     // { path: '/settings', component: Settings },
-    // { path: '/productdetails', component: ProductDetailsPage },
+    { path: '/productdetails', component: ProductDetailsPage },
   ]
 })
 
