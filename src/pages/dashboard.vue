@@ -158,18 +158,22 @@
                             <a href="" class="waves-effect">
                                 <span class="badge badge-success badge-pill float-right">9+
                                 </span>
+                                <i class="icon-accelerator"></i>
                                 <span> لوحة التحكم
 
                                 </span>
-                                <i class="icon-accelerator"></i>
                             </a>
                         </li>
 
                         <li>
-                            <a href="javascript:void(0);" class="waves-effect"><span> طلبات الشراء
-                                    <i class="icon-mail-open"></i><span class="float-right menu-arrow"><i
-                                            class="mdi mdi-chevron-right"></i></span>
-                                </span></a>
+                            <a href="javascript:void(0);" class="waves-effect">
+                                
+                                <i class="icon-mail-open"></i>
+                                <span> طلبات الشراء
+                                </span>
+                               
+                            </a>
+                            
                             <ul class="submenu">
 
                                 <li><a href="#">إضافة جديد </a></li>
@@ -177,9 +181,11 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="javascript:void(0);" class="waves-effect"><span> طلبات خاصة
-                                    <i class="icon-paper-sheet"></i><span class="float-right menu-arrow"><i
-                                            class="mdi mdi-chevron-right"></i></span>
+                            <a href="javascript:void(0);" class="waves-effect">
+                                <i class="icon-paper-sheet"></i>
+                                <span> طلبات خاصة
+                                    <!-- <span class="float-right menu-arrow"><i
+                                            class="mdi mdi-chevron-right"></i></span> -->
                                 </span></a>
                             <ul class="submenu">
                                 <li><a href="#">قائمة</a></li>
@@ -188,9 +194,11 @@
                         </li>
 
                         <li>
-                            <a href="javascript:void(0);" class="waves-effect"><span> الاقسام
-                                    <i class="icon-paper-sheet"></i><span class="float-right menu-arrow"><i
-                                            class="mdi mdi-chevron-right"></i></span>
+                            <a href="javascript:void(0);" class="waves-effect">
+                                <i class="icon-paper-sheet"></i>
+                                <span> الاقسام
+                                    <!-- <span class="float-right menu-arrow"><i
+                                            class="mdi mdi-chevron-right"></i></span> -->
                                 </span></a>
                             <ul class="submenu">
                                 <li><a href="#">قائمة</a></li>
@@ -199,9 +207,11 @@
                         </li>
 
                         <li>
-                            <a href="javascript:void(0);" class="waves-effect"><span> العلامة التجارية
-                                    <i class="icon-paper-sheet"></i><span class="float-right menu-arrow"><i
-                                            class="mdi mdi-chevron-right"></i></span>
+                            <a href="javascript:void(0);" class="waves-effect">
+                                <i class="icon-paper-sheet"></i>
+                                <span> العلامة التجارية
+                                    <!-- <span class="float-right menu-arrow"><i
+                                            class="mdi mdi-chevron-right"></i></span> -->
                                 </span></a>
                             <ul class="submenu">
                                 <li><a href="#">قائمة</a></li>
@@ -210,9 +220,12 @@
                         </li>
 
                         <li>
-                            <a href="javascript:void(0);" class="waves-effect"><span>منتجات امداد في المخازن <i
-                                        class="icon-pencil-ruler"></i><span class="float-right menu-arrow"><i
-                                            class="mdi mdi-chevron-right"> </i></span> </span> </a>
+                            <a href="javascript:void(0);" class="waves-effect">
+                                <i class="icon-pencil-ruler"></i>
+                                <span>منتجات امداد في المخازن 
+                                        <!-- <span class="float-right menu-arrow"><i
+                                            class="mdi mdi-chevron-right"> </i></span> -->
+                                         </span> </a>
                             <ul class="submenu">
 
                                 <li><router-link to="/products">منتجات</router-link></li>
@@ -228,9 +241,11 @@
 
 
                         <li>
-                            <a href="javascript:void(0);" class="waves-effect"> <span> منتجات البائعين
-                                    <i class="icon-diamond"></i> <span class="float-right menu-arrow"><i
-                                            class="mdi mdi-chevron-right"></i></span>
+                            <a href="javascript:void(0);" class="waves-effect"> 
+                                <i class="icon-diamond"></i> 
+                                <span> منتجات البائعين
+                                    <!-- <span class="float-right menu-arrow"><i
+                                            class="mdi mdi-chevron-right"></i></span> -->
                                 </span> </a>
                             <ul class="submenu">
                                 <li><router-link to="productcontrol">انشاء جديد</router-link></li>
@@ -243,28 +258,40 @@
                         </li>
 
                         <li>
-                            <a href="javascript:void(0);" class="waves-effect"><span> الفروع ونقاط البيع <i
-                                        class="icon-pencil-ruler"></i><span class="float-right menu-arrow"><i
-                                            class="mdi mdi-chevron-right"> </i></span> </span> </a>
+                            <a href="javascript:void(0);" class="waves-effect">
+                                <i
+                                    class="icon-pencil-ruler"></i>
+                                <span> الفروع ونقاط البيع 
+                                        <!-- <span class="float-right menu-arrow"><i
+                                            class="mdi mdi-chevron-right"> </i></span> -->
+                                         </span> </a>
                             <ul class="submenu">
                                 <li><router-link to="/branches">عرض</router-link></li>
                             </ul>
                         </li>
 
                         <li>
-                            <a href="javascript:void(0);" class="waves-effect"><span>
-                                    الموصل <i class="icon-todolist-check"></i><span
-                                        class="badge badge-pill badge-danger float-right">8</span> </span></a>
+                            <a href="javascript:void(0);" class="waves-effect">
+                                <i class="icon-todolist-check"></i>
+                                <span>
+                                    الموصل 
+                                    <!-- <span
+                                        class="badge badge-pill badge-danger float-right">8</span> -->
+                                     </span></a>
                             <ul class="submenu">
                                 <li><router-link to="/driver">عرض</router-link></li>
 
 
                             </ul>
                         </li>
+
                         <li>
-                            <a href="javascript:void(0);" class="waves-effect"><span> العمولة <i
-                                        class="icon-graph"></i><span class="float-right menu-arrow"><i
-                                            class="mdi mdi-chevron-right"></i></span>
+                            <a href="javascript:void(0);" class="waves-effect">
+                               
+                                <i class="icon-graph"></i>
+                                <span> العمولة 
+                                        <!-- <span class="float-right menu-arrow"><i
+                                            class="mdi mdi-chevron-right"></i></span> -->
                                 </span></a>
                             <ul class="submenu">
                                 <li><router-link to="/commissions">عرض</router-link></li>
@@ -272,9 +299,11 @@
                         </li>
 
                         <li>
-                            <a href="javascript:void(0);" class="waves-effect"><span> المالية <i
-                                        class="icon-graph"></i><span class="float-right menu-arrow"><i
-                                            class="mdi mdi-chevron-right"></i></span>
+                            <a href="javascript:void(0);" class="waves-effect">
+                                <i class="icon-graph"></i>
+                                <span> المالية 
+                                        <!-- <span class="float-right menu-arrow"><i
+                                            class="mdi mdi-chevron-right"></i></span> -->
                                 </span></a>
                             <ul class="submenu">
                                 <li><router-link to="/finance">عرض المالية</router-link></li>
@@ -285,9 +314,11 @@
                         </li>
 
                         <li>
-                            <a href="javascript:void(0);" class="waves-effect"><span> التقارير
-                                    <i class="icon-spread"></i><span class="float-right menu-arrow"><i
-                                            class="mdi mdi-chevron-right"></i></span>
+                            <a href="javascript:void(0);" class="waves-effect">
+                                <i class="icon-spread"></i>
+                                <span> التقارير
+                                    <!-- <span class="float-right menu-arrow"><i
+                                            class="mdi mdi-chevron-right"></i></span> -->
                                 </span></a>
                             <ul class="submenu">
                                 <li><router-link to="/generalreports">عرض التقارير</router-link></li>
@@ -295,9 +326,12 @@
                         </li>
 
                         <li>
-                            <a href="javascript:void(0);" class="waves-effect"><span> التسويق
-                                    <i class="icon-coffee"></i> <span class="float-right menu-arrow"><i
-                                            class="mdi mdi-chevron-right"></i></span></span>
+                            <a href="javascript:void(0);" class="waves-effect">
+                                <i class="icon-coffee"></i> 
+                                <span> التسويق
+                                    <!-- <span class="float-right menu-arrow"><i
+                                            class="mdi mdi-chevron-right"></i></span> -->
+                                        </span>
                             </a>
                             <ul class="submenu">
                                 <li><router-link to="#"> البنرات</router-link></li>
@@ -308,9 +342,12 @@
                         </li>
 
                         <li>
-                            <a href="javascript:void(0);" class="waves-effect"><span> البائعين علي المنصة
-                                    <i class="icon-coffee"></i> <span class="float-right menu-arrow"><i
-                                            class="mdi mdi-chevron-right"></i></span></span>
+                            <a href="javascript:void(0);" class="waves-effect">
+                                <i class="icon-coffee"></i>
+                                <span> البائعين علي المنصة
+                                     <!-- <span class="float-right menu-arrow"><i
+                                            class="mdi mdi-chevron-right"></i></span> -->
+                                        </span>
                             </a>
                             <ul class="submenu">
                                 <li><router-link to="/newseller">عرض البائعين</router-link></li>
@@ -318,8 +355,11 @@
                         </li>
 
                         <li>
-                            <a href="javascript:void(0);" class="waves-effect"><span> العملاء <i class="icon-map"></i><span
-                                        class="float-right menu-arrow"><i class="mdi mdi-chevron-right"></i></span>
+                            <a href="javascript:void(0);" class="waves-effect">
+                                <i class="icon-map"></i>
+                                <span> العملاء 
+                                    <!-- <span
+                                        class="float-right menu-arrow"><i class="mdi mdi-chevron-right"></i></span> -->
                                 </span></a>
                             <ul class="submenu">
                                 <li><router-link to="/customer"> عرض العملاء</router-link></li>
@@ -329,9 +369,11 @@
                         </li>
 
                         <li>
-                            <a href="javascript:void(0);" class="waves-effect"><span> الاعدادات <i
-                                        class="icon-pencil"></i><span class="float-right menu-arrow"><i
-                                            class="mdi mdi-chevron-right"></i></span>
+                            <a href="javascript:void(0);" class="waves-effect">
+                                <i class="icon-pencil"></i>
+                                <span> الاعدادات 
+                                        <!-- <span class="float-right menu-arrow"><i
+                                            class="mdi mdi-chevron-right"></i></span> -->
                                 </span></a>
                             <ul class="submenu">
                                 <li><router-link to="/settings">الاعدادات</router-link></li>
@@ -345,9 +387,11 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="javascript:void(0);" class="waves-effect"><span> المراسلات والدعم الفني <i
-                                        class="icon-paper-sheet"></i><span class="float-right menu-arrow"><i
-                                            class="mdi mdi-chevron-right"></i></span>
+                            <a href="javascript:void(0);" class="waves-effect">
+                                <i class="icon-paper-sheet"></i>
+                                <span> المراسلات والدعم الفني 
+                                        <!-- <span class="float-right menu-arrow"><i
+                                            class="mdi mdi-chevron-right"></i></span> -->
                                 </span></a>
                             <ul class="submenu">
                                 <li><router-link to="/customerchat">العملاء</router-link></li>
@@ -358,9 +402,11 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="javascript:void(0);" class="waves-effect"><span> التحليلات <i
-                                        class="icon-download"></i><span class="float-right menu-arrow"><i
-                                            class="mdi mdi-chevron-right"></i></span>
+                            <a href="javascript:void(0);" class="waves-effect">
+                                <i class="icon-download"></i>
+                                <span> التحليلات 
+                                        <!-- <span class="float-right menu-arrow"><i
+                                            class="mdi mdi-chevron-right"></i></span> -->
                                 </span></a>
                             <ul class="submenu">
                                 <li><router-link to="/analytics">عرض التحليلات</router-link></li>
@@ -368,9 +414,11 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="javascript:void(0);" class="waves-effect"><span> اعدادات الصفحات <i
-                                        class="icon-pencil-ruler"></i><span class="float-right menu-arrow"><i
-                                            class="mdi mdi-chevron-right"></i></span>
+                            <a href="javascript:void(0);" class="waves-effect">
+                                <i class="icon-pencil-ruler"></i>
+                                <span> اعدادات الصفحات 
+                                        <!-- <span class="float-right menu-arrow"><i
+                                            class="mdi mdi-chevron-right"></i></span> -->
                                 </span></a>
                             <!-- <ul class="submenu">
                                 <li><a href="#"> Google Map</a></li>
@@ -378,9 +426,11 @@
                             </ul> -->
                         </li>
                         <li>
-                            <a href="javascript:void(0);" class="waves-effect"><span> اعدادات الموقع والتطبيق <i
-                                        class="icon-pencil"></i><span class="float-right menu-arrow"><i
-                                            class="mdi mdi-chevron-right"></i></span>
+                            <a href="javascript:void(0);" class="waves-effect">
+                                <i class="icon-pencil"></i>
+                                <span> اعدادات الموقع والتطبيق 
+                                        <!-- <span class="float-right menu-arrow"><i
+                                            class="mdi mdi-chevron-right"></i></span> -->
                                 </span></a>
                             <!-- <ul class="submenu">
                                 <li><a href="#"> Google Map</a></li>
@@ -388,9 +438,11 @@
                             </ul> -->
                         </li>
                         <li>
-                            <a href="javascript:void(0);" class="waves-effect"><span> اعدادات النشاط التجاري <i
-                                        class="icon-cloud-download"></i><span class="float-right menu-arrow"><i
-                                            class="mdi mdi-chevron-right"></i></span>
+                            <a href="javascript:void(0);" class="waves-effect">
+                                <i class="icon-cloud-download"></i>
+                                <span> اعدادات النشاط التجاري 
+                                        <!-- <span class="float-right menu-arrow"><i
+                                            class="mdi mdi-chevron-right"></i></span> -->
                                 </span></a>
                             <!-- <ul class="submenu">
                                 <li><a href="#"> Google Map</a></li>
@@ -398,9 +450,11 @@
                             </ul> -->
                         </li>
                         <li>
-                            <a href="javascript:void(0);" class="waves-effect"><span> معلومات النشاط التجاري <i
-                                        class="icon-folder"></i><span class="float-right menu-arrow"><i
-                                            class="mdi mdi-chevron-right"></i></span>
+                            <a href="javascript:void(0);" class="waves-effect">
+                                <i class="icon-folder"></i>
+                                <span> معلومات النشاط التجاري 
+                                        <!-- <span class="float-right menu-arrow"><i
+                                            class="mdi mdi-chevron-right"></i></span> -->
                                 </span></a>
                             <!-- <ul class="submenu">
                                 <li><a href="#"> Google Map</a></li>

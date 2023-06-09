@@ -32,7 +32,7 @@ import CurrentBalancePage from './pages/Finance/CurrentBalance'
 import DepositOperationsPage from './pages/Finance/DepositOperations'
 
 import WalletPage from './pages/Finance/Wallet'
-
+import SealsPage from './pages/Seals/Seals'
 const router = createRouter({
   history: createWebHistory(),
   routes: [
@@ -66,6 +66,8 @@ const router = createRouter({
     { path: '/commissions', component: CommissionsPage },
     { path: '/commissionseller', component: CommissionSellerPage },
     { path: '/wallet', component: WalletPage },
+    { path: '/seals', component: SealsPage },
+
   ]
 })
 

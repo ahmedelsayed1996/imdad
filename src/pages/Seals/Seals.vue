@@ -2,88 +2,107 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-            <h1 class="headLine text-black">  قسم المالية :</h1> <br />
-            <!-- <h2 class="ml-auto headLine"> العمولات</h2> -->
+            <h1 class="headLine text-black"> قسم المنتجات :</h1> <br />
+
         </nav>
         <div class="m-2">
-            <!-- <button type="button" class="btn btn-imdad mx-2 mr-auto"> حفظ</button>
-            <button type="button" class="btn btn-danger mr-auto">إلغاء</button> -->
+
         </div>
     </header>
     <div class="container-fluid ">
         <div class="row">
-            <div class="col-sm-6 col-xl-4">
-                <router-link to="/seals">
+            <div class="col-sm-6 col-xl-3">
+                <a href="#">
                     <div class="card card-image  ">
-                    
                         <div class="card-heading p-4">
+
                             <div>
-                                <h5 class="font-16"> المبيعات </h5>
+                                <h5 class="font-16"> الطلبات الجديده </h5>
                             </div>
-                            <h3 class="mt-4">108 طلب</h3>
+                            <h3 class="mt-4">10</h3>
                             <!-- <div class="progress mt-4" style="height: 4px;"> 
                              <div class="progress-bar bg-primary" role="progressbar" style="width: 75%" aria-valuenow="75"
                                 aria-valuemin="0" aria-valuemax="100">
                             </div>
                         </div> -->
-                            <button class="btn btn-success">معرفه التفاصيل</button>
+                            <button class="btn btn-success">متابعه </button>
                             <!-- <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span></p> -->
                         </div>
-                        
                     </div>
-                </router-link>
+                </a>
             </div>
-            <div class="col-sm-6 col-xl-4">
-            <router-link to="/generalreports">
+            <div class="col-sm-6 col-xl-3">
+                <router-link to="/generalreports">
                     <div class="card card-image  ">
                         <div class="card-heading p-4">
 
                             <div>
-                                <h5 class="font-16">التقارير </h5>
+                                <h5 class="font-16">جاري التوصيل </h5>
                             </div>
-                            <h3 class="mt-4">108 طلب</h3>
+                            <h3 class="mt-4">153</h3>
                             <!-- <div class="progress mt-4" style="height: 4px;"> 
                              <div class="progress-bar bg-primary" role="progressbar" style="width: 75%" aria-valuenow="75"
                                 aria-valuemin="0" aria-valuemax="100">
                             </div>
                           </div> -->
-                            <button class="btn btn-success">معرفه التفاصيل</button>
-                            <!-- <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span></p> -->
-                        </div>
-                    </div>
-            </router-link>
-            </div>
-            <div class="col-sm-6 col-xl-4">
-                <router-link to="/wallet">
-                    <div class="card card-image  ">
-                        <div class="card-heading p-4">
-
-                            <div>
-                                <h5 class="font-16"> المحفظه </h5>
-                            </div>
-                            <h3 class="mt-4">108 طلب</h3>
-                            <!-- <div class="progress mt-4" style="height: 4px;"> 
-                             <div class="progress-bar bg-primary" role="progressbar" style="width: 75%" aria-valuenow="75"
-                                aria-valuemin="0" aria-valuemax="100">
-                            </div>
-                        </div> -->
-                            <button class="btn btn-success">معرفه التفاصيل</button>
+                            <button class="btn btn-success"> متابعه</button>
                             <!-- <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span></p> -->
                         </div>
                     </div>
                 </router-link>
             </div>
-            <!-- <div class="col-sm-6 col-xl-6">
+            <div class="col-sm-6 col-xl-3">
+                <router-link to="/">
+                    <div class="card card-image  ">
+                        <div class="card-heading p-4">
+
+                            <div>
+                                <h5 class="font-16"> المبيعات </h5>
+                            </div>
+                            <h3 class="mt-4">105318 ر.ي </h3>
+                            <!-- <div class="progress mt-4" style="height: 4px;"> 
+                             <div class="progress-bar bg-primary" role="progressbar" style="width: 75%" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div> -->
+                            <button class="btn btn-success"> المزيد</button>
+                            <!-- <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span></p> -->
+                        </div>
+                    </div>
+                </router-link>
+
+            </div>
+            <div class="col-sm-6 col-xl-3">
+                <router-link to="/wallet">
+                    <div class="card card-image  ">
+                        <div class="card-heading p-4">
+
+                            <div>
+                                <h5 class="font-16"> مجموع الطلبات </h5>
+                            </div>
+                            <h3 class="mt-4">10</h3>
+                            <!-- <div class="progress mt-4" style="height: 4px;"> 
+                             <div class="progress-bar bg-primary" role="progressbar" style="width: 75%" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div> -->
+                            <button class="btn btn-success"> المزيد</button>
+                            <!-- <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span></p> -->
+                        </div>
+                    </div>
+                </router-link>
+            </div>
+            <div class="col-sm-6 col-xl-3">
                 <a href="#">
                     <div class="card card-image  ">
                         <div class="card-heading p-4">
 
                             <div>
-                                <h5 class="font-16"> المدفوعات الرقميه </h5>
+                                <h5 class="font-16">مصادر الزيارات</h5>
                             </div>
-                            <h3 class="mt-4">108 طلب</h3>
-                            
-                            <button class="btn btn-success">معرفه التفاصيل</button>
+                            <h3 class="mt-4">اخري 10</h3>
+
+                            <!-- <button class="btn btn-success">معرفه التفاصيل</button> -->
                         </div>
                     </div>
                 </a>
@@ -94,72 +113,53 @@
                         <div class="card-heading p-4">
 
                             <div>
-                                <h5 class="font-16"> التقارير </h5>
+                                <h5 class="font-16"> اخر المنتجات مبيعا </h5>
                             </div>
-                            <h3 class="mt-4">108 %</h3>
-                            
-                            <button class="btn btn-success">معرفه التفاصيل</button>
+                            <p>ايفون 13 برو ماكس</p>
+                            <p>قطعه واحده</p>
+                            <!-- <h6 class="mt-4">ا</h6> -->
+
+                            <!-- <button class="btn btn-success">معرفه التفاصيل</button> -->
                         </div>
                     </div>
                 </a>
-            </div> -->
+            </div>
+            <div class="col-sm-6 col-xl-3 ">
+                <a href="#">
+                    <div class="card card-image  ">
+                        <div class="card-heading p-4">
+
+                            <div>
+                                <h5 class="font-16"> اخر المنتجات التي تم بيعها </h5>
+                            </div>
+                            <!-- <h3 class="mt-4">108 %</h3> -->
+                            <p>ايفون 13 برو ماكس</p>
+                            <p>قطعه واحده</p>
+                            <!-- <button class="btn btn-success">معرفه التفاصيل</button> -->
+                        </div>
+                    </div>
+                </a>
+            </div>
         </div>
 
         <!-- start row -->
         <!-- <h1 class="headLine"> تقارير الزيارات :</h1> <br /> -->
         <div class="row">
-
-            <!-- <div class="col-sm-6 col-xl-6">
-                <a href="#">
-                    <div class="card card-image  ">
-                        <div class="card-heading p-4">
-
-                            <div>
-                                <h5 class="font-16"> مصادر الزيارات </h5>
-                            </div>
-                            <h3 class="mt-4">108 طلب</h3>
-                             <div class="progress mt-4" style="height: 4px;"> 
-                             <div class="progress-bar bg-primary" role="progressbar" style="width: 75%" aria-valuenow="75"
-                                aria-valuemin="0" aria-valuemax="100">
-                            </div>
-                        </div> 
-                            <button class="btn btn-success">معرفه التفاصيل</button>
-                             <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span></p> 
-                        </div>
-                    </div>
-                </a>
+            <div class="col-sm-12 col-xl-6">
+                <LinePage />
             </div>
-            
-            <div class="col-sm-6 col-xl-6">
-                <a href="#">
-                    <div class="card card-image  ">
-                        <div class="card-heading p-4">
 
-                            <div>
-                                <h5 class="font-16"> اخر المنتجات التي تم بيعها</h5>
-                            </div>
-                            <h3 class="mt-4">108 طلب</h3>
-                             <div class="progress mt-4" style="height: 4px;"> 
-                             <div class="progress-bar bg-primary" role="progressbar" style="width: 75%" aria-valuenow="75"
-                                aria-valuemin="0" aria-valuemax="100">
-                            </div>
-                        </div> 
-                            <button class="btn btn-success">معرفه التفاصيل</button>
-                             <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span></p> 
-                        </div>
-                    </div>
-                </a>
-            </div> -->
-            <div class="col-sm-12 col-xl-12">
-                <canvas id="finace" width="50" height="50"></canvas>
+            <div class="col-sm-12 col-xl-6">
+                <DoughnutPage />
+
             </div>
-            <div class="col-sm-6 card  text-bg-light">
+            <!-- المنتجات -->
+            <!-- <div class="col-sm-6 card  text-bg-light">
                 <div class="card-header" style="display: flex; justify-content: space-between; align-items: center;">
                     <div>
                         <a href="#" class="float-left headLine" style="text-decoration: none;">المنتجات الاكثر مبيعا </a>
                     </div>
                     <div dir="rtl">
-                        <!-- <h6 class="card-title text-right" style="display: inline-block;">احدث الطلبات</h6> -->
                         <button class="btn-dark  fs-5 " style="display: inline-block;"><i class="bi bi-gift"></i></button>
                     </div>
                 </div>
@@ -217,7 +217,6 @@
                         </a>
                     </div>
                     <div dir="rtl">
-                        <!-- <h6 class="card-title text-right" style="display: inline-block;">احدث الطلبات</h6> -->
                         <button class="btn-dark  fs-5 " style="display: inline-block;"><i class="bi bi-gift"></i></button>
                     </div>
                 </div>
@@ -271,7 +270,9 @@
                         </table>
                     </div>
                 </div>
-            </div>
+            </div> -->
+
+
             <!-- <div class="col-sm-6 col-xl-12 row">
                 <h3 class="headLine col-xl-12 justify-content-start">المنتجات الاكثر مبيعا :</h3>
                             <div class="col-sm-6 col-xl-2">
@@ -384,25 +385,25 @@
                                 aria-valuemin="0" aria-valuemax="100">
                             </div>
                         </div> 
-                            <button class="btn btn-success">معرفه التفاصيل</button>
-                            <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span></p> 
-                        </div>
+                        <button class="btn btn-success">معرفه التفاصيل</button>
+                        <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span></p> 
                     </div>
-                </a>
+                </div>
+            </a>
+        </div> -->
+
+            <!-- <div class="col-sm-6 col-xl-6">
+                <h5 class="font-16 text-black d-flex"> اجمالي عدد المبيعات </h5>
+                <canvas id="myChart" width="400" height="400"></canvas>
+
             </div> -->
 
-            <div class="col-sm-6 col-xl-6">
-                <h5 class="font-16 text-black d-flex"> اجمالي عدد المبيعات </h5>
-                <!-- <canvas id="myChart" width="400" height="400"></canvas> -->
-                <DoughnutPage />
-            </div>
-            
-            <div class="col-sm-6 col-xl-6">
-                <!-- <LineChartPage/> -->
-                <!-- <LinePage/> -->
-            </div>
-            <div class="col-sm-6 col-xl-6">
+            <div class="col-sm-12 col-xl-6">
+                <LineChartPage />
 
+            </div>
+            <div class="col-sm-6 col-xl-6">
+                <canvas id="finace" width="50" height="50"></canvas>
             </div>
         </div>
         <!-- end row -->
@@ -413,9 +414,9 @@
 <script>
 import '../../.././public/assets/css/style.css'
 // import Chart from 'chart.js/auto';
-// import LineChartPage from '../../components/charts/linechart.vue'
+import LineChartPage from '../../components/charts/linechart.vue'
 import DoughnutPage from '../../components/charts/doughnut.vue'
-// import LinePage from '../../components/charts/line.vue'
+import LinePage from '../../components/charts/line.vue'
 import Chart from 'chart.js/auto';
 // const data = {
 //   labels: 'Dataset 1',
@@ -430,51 +431,14 @@ import Chart from 'chart.js/auto';
 //   ]
 // };
 export default {
-    name: 'FinancePage',
+    name: 'SealsPage',
     components: {
-        // LineChartPage,
+        LineChartPage,
         DoughnutPage,
-        // LinePage,
+        LinePage,
     },
     mounted() {
         console.log("chart start")
-        // const ctx = document.getElementById('finace');
-        // new Chart(ctx, {
-        //     type: 'line',
-        //     data: data,
-        //     options: {
-        //         responsive: true,
-        //         interaction: {
-        //             mode: 'index',
-        //             intersect: false,
-        //         },
-        //         stacked: false,
-        //         plugins: {
-        //             title: {
-        //                 display: true,
-        //                 text: 'اجمالي عدد المبيعات'
-        //             }
-        //         },
-        //         scales: {
-        //             y: {
-        //                 type: 'linear',
-        //                 display: true,
-        //                 position: 'left',
-        //             },
-        //             y1: {
-        //                 type: 'linear',
-        //                 display: true,
-        //                 position: 'right',
-
-        //                 // grid line settings
-        //                 grid: {
-        //                     drawOnChartArea: false, // only want the grid lines for one axis to show up
-        //                 },
-        //             },
-        //         }
-        //     },
-
-        // });
         const data = [
             { year: 2010, count: 10 },
             { year: 2011, count: 20 },
@@ -495,6 +459,7 @@ export default {
             document.getElementById('finace'),
             {
                 type: 'bar',
+                color: 'red', 
                 data: {
                     labels: data.map(row => row.year),
                     datasets: [
@@ -503,10 +468,12 @@ export default {
                             data: data.map(row => row.count)
                         }
                     ]
-                }
+                },
+                backgroundColor: 'red'
             }
         );
-    }
+    },
+
 
 }
 </script>

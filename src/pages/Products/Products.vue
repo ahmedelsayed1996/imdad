@@ -3,7 +3,7 @@
         <div class="row">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <!-- <div class="container-fluid"> -->
-                    <a class="navbar-brand" href="#">جدول المنتجات
+                    <a class="navbar-brand" href="/dashboard">جدول المنتجات
                     </a>
                     <img src="https://static-00.iconduck.com/assets.00/shopping-cart-icon-512x462-yrde1eu0.png" alt="Logo"
                         width="30" height="30" class="d-inline-block align-text-top me-2">
@@ -13,15 +13,15 @@
                 <!-- Rest of your page content goes here -->
                 <form class="form d-flex justify-content-between p-2 ">
                     <div class="form-group mx-sm-3 mb-2 flex-grow-1">
-                        <input type="text" class="form-control" placeholder="ابحث عن المنتج">
+                        <input type="text" class="form-control text-bg-light" placeholder="ابحث عن المنتج" style="border: 1px solid lightgray;">
                     </div>
-                    <button type="submit" class="btn btn-imdad mb-2  mx-2" id="search-button">ابدأ البحث</button>
+                    <button style="background-color: #9651aa;" type="submit" class="btn btn-imdad mb-2  mx-2" id="search-button">ابدأ البحث</button>
                     <router-link to="">
-                    <button type="button" class="btn btn-primary mx-2" >
+                    <button type="button" class="btn btn-imdad2 mx-2" >
                         تعديل اسعار وتوفير منتجات
                     </button></router-link>
                     <router-link to="/productcontrol">
-                    <button type="button" class="btn btn-imdad  mx-2" >
+                    <button type="button" class="btn btn-imdad  mx-2" style="background-color: #9651aa;" >
                         إضافة منتج جديد
                     </button></router-link>
                 </form>
@@ -113,6 +113,7 @@
                                 <th><mark> حجم المنتج</mark></th>
                                 <th><mark> متوفر</mark></th>
                                 <th><mark> سعر البيع</mark></th>
+                                <th><mark> سعر الشراء</mark></th>
                                 <th><mark>  البائع</mark></th>
                                 <th><mark>العمليات </mark></th>
                             </tr>
@@ -131,10 +132,11 @@
                                     <label class="form-check-label" for="switcher1"></label>
                                   </div></td>
                                 <td>5465 ر.ي</td>
+                                <td>3123 ر.ي</td>
                                 <td>الادارة </td>
                                 <td class="d-flex">
                                     <router-link to="/productdetails">
-                                    <i class="bi bi-eye btn btn-primary "></i></router-link>
+                                    <i class="bi bi-eye btn btn-imdad2 "></i></router-link>
                                     <i class="bi bi-pencil-fill btn btn-warning mx-2"></i>
                                     <i class="bi bi-trash btn btn-danger"></i>
                                 </td>
@@ -149,15 +151,16 @@
                                 <td>#355433f</td>
                                 <td> 500 * 24 غرام</td>
                                 <td><div class="form-check form-switch">
-                                    <input type="checkbox" id="switcher1" v-model="switcher1" class="form-check-input">
+                                    <input type="checkbox" id="switcher1" v-model="switcher1" class="form-check-input" >
                                     <label class="form-check-label" for="switcher1"></label>
                                   </div></td>
         
                                 <td>5465 ر.ي</td>
+                                <td>3123 ر.ي</td>
                                 <td>الادارة </td>
                                 <td class="d-flex">
                                     <router-link to="/productdetails">
-                                        <i class="bi bi-eye btn btn-primary "></i></router-link>
+                                        <i class="bi bi-eye btn btn-imdad2 "></i></router-link>
                                     <i class="bi bi-pencil-fill btn btn-warning mx-2"></i>
                                     <i class="bi bi-trash btn btn-danger"></i>
                                 </td>
@@ -176,10 +179,11 @@
                                     <label class="form-check-label" for="switcher1"></label>
                                   </div></td>
                                 <td>5465 ر.ي</td>
+                                <td>3123 ر.ي</td>
                                 <td>الادارة </td>
                                 <td class="d-flex">
                                     <router-link to="/productdetails">
-                                        <i class="bi bi-eye btn btn-primary "></i></router-link>
+                                        <i class="bi bi-eye btn btn-imdad2 "></i></router-link>
                                     <i class="bi bi-pencil-fill btn btn-warning mx-2"></i>
                                     <i class="bi bi-trash btn btn-danger"></i>
                                 </td>
@@ -197,10 +201,11 @@
                                     <label class="form-check-label" for="switcher1"></label>
                                   </div></td>
                                 <td>5465 ر.ي</td>
+                                <td>3123 ر.ي</td>
                                 <td> الادارة</td>
                                 <td class="d-flex">
                                     <router-link to="/productdetails">
-                                        <i class="bi bi-eye btn btn-primary "></i></router-link>
+                                        <i class="bi bi-eye btn btn-imdad2 "></i></router-link>
                                     <i class="bi bi-pencil-fill btn btn-warning mx-2"></i>
                                     <i class="bi bi-trash btn btn-danger"></i>
                                 </td>
@@ -245,4 +250,8 @@ th {
 
 tr:nth-child(even) {
     background-color: #f2f2f2;
-}</style>
+}
+.form-check-input:checked{
+    background-color:#5447ce;
+}
+</style>

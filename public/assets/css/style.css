@@ -2,6 +2,10 @@
 
 * {
     direction: rtl;
+    
+}
+a{
+    text-decoration: none;
 }
 
 body {
@@ -10,6 +14,7 @@ body {
     font-family: "Poppins", sans-serif;
     color: #a5a6ad;
     font-size: 13px;
+    
 }
 
 @media (max-width: 991px) {
@@ -1060,7 +1065,7 @@ dt {
 .side-menu {
     width: 240px;
     z-index: 10;
-    background: #222437;
+    background: #4c1e58;
     bottom: 0;
     margin-top: 0;
     padding-bottom: 30px;
@@ -1116,7 +1121,7 @@ dt {
 
 #sidebar-menu>ul>li>a.mm-active {
     color: #f6f6f6 !important;
-    background-color: #2e304a;
+    background-color: #4c1e58;
 }
 
 #sidebar-menu .menu-title {
@@ -4094,14 +4099,19 @@ table.focus-on tbody tr.focused td {
 }
 
 .card-image {
-    background-color: purple;
+    background-color: #9651aa;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
     align-items: center;
 }
+
 .btn-imdad{
-    background-color: purple;
+    background-color: #9651aa;
+    color: white;
+  }
+  .btn-imdad2{
+    background-color: #5447ce;
     color: white;
   }
   /* #add-btn:hover{
@@ -4110,6 +4120,11 @@ table.focus-on tbody tr.focused td {
   } */
 .btn-imdad:hover{
     background-color: white;
-    color: purple;
-    border: solid 1px purple;
+    color: #9651aa;
+    border: solid 1px #9651aa;
+}
+.btn-imdad2:hover{
+    background-color: #5447ce;
+    color: white;
+    /* border: solid 1px #9651aa; */
 }

@@ -2,7 +2,7 @@
     <div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <!-- <div class="container-fluid"> -->
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="/dashboard">
             لوحه تحكم المنتج
           </a>
           <img src="https://static-00.iconduck.com/assets.00/shopping-cart-icon-512x462-yrde1eu0.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top me-2">
@@ -12,15 +12,15 @@
         <!-- Rest of your page content goes here -->
         <form class="form d-flex justify-content-between p-2 ">
             <div class="form-group mx-sm-3 mb-2 flex-grow-1">
-                <input type="text" class="form-control" placeholder="ابحث عن المنتج">
+                <input type="text" class="form-control text-bg-light" placeholder="ابحث عن المنتج" style="border: 1px solid lightgray;">
 
             </div>
-            <button type="submit" class="btn btn-imdad mb-2  mx-2" id="search-button">ابدأ البحث</button>
+            <button type="submit" class="btn btn-imdad mb-2  mx-2" id="search-button" style="background-color: #9651aa;">ابدأ البحث</button>
             <!-- <button type="button" class="btn btn-primary btn-sm mx-2" >
                 تعديل اسعار وتوفير منتجات
             </button> -->
-            <button type="button" class="btn btn-primary mb-2  mx-2" data-bs-toggle="modal"
-                data-bs-target="#staticBackdrop">
+            <button type="button" class="btn btn-imdad2 mb-2  mx-2" data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop" >
                 إضافة منتج جديد
             </button>
         </form>
@@ -101,13 +101,13 @@
                 </div>
             </div>
         <div class="d-flex justify-content-center w-100 mt-3 p-2 ">
-          <table>
+          <table class="table">
             
           <thead>
               <tr>
               <!-- <th><mark> #SL</mark></th> -->
               <th><mark> صوره المنتج</mark></th>
-              <!-- <th><mark>اسم التاجر</mark></th> -->
+              
               <th><mark> اسم المنتج</mark></th>
               <th><mark> حجم المنتج</mark></th>
               <th><mark> اضافة المنتج</mark></th>
@@ -123,36 +123,37 @@
                 <td><img src="https://cdnprod.mafretailproxy.com/sys-master-root/h13/h79/44951084204062/480Wx480H_349917_main.jpg" alt="a" class="rounded-circle " style="width: 50px;"/></td>
                 <td>فيتا بلس</td>
               <td>500 * 24 غرام</td>
-              <td><button class="btn btn-primary">إضافة</button></td>
-              <td class="btn btn-light">إضافة منتج اخر</td>
+              <td><button class="btn btn-imdad2">إضافة</button></td>
+              <td><button class="btn btn-light">إضافة حجم اخر</button></td>
             </tr>
             <tr>
                 <td><img src="https://cdnprod.mafretailproxy.com/sys-master-root/h13/h79/44951084204062/480Wx480H_349917_main.jpg" alt="a" class="rounded-circle " style="width: 50px;"/></td>
                 <td>فيتا بلس</td>
               <td>500 * 24 غرام</td>
-              <td><button class="btn btn-primary">إضافة</button></td>
-              <td class="btn btn-light">إضافة منتج اخر</td>
+              <td><button class="btn btn-imdad2">إضافة</button></td>
+              <td><button class="btn btn-light">إضافة حجم اخر</button></td>
             </tr>
             <tr>
                 <td><img src="https://cdnprod.mafretailproxy.com/sys-master-root/h13/h79/44951084204062/480Wx480H_349917_main.jpg" alt="a" class="rounded-circle " style="width: 50px;"/></td>
                 <td>فيتا بلس</td>
               <td>500 * 24 غرام</td>
-              <td><button class="btn btn-primary">إضافة</button></td>
-              <td class="btn btn-light">إضافة منتج اخر</td>
+              <td><button class="btn btn-imdad2">إضافة</button></td>
+              <td><button class="btn btn-light">إضافة حجم اخر</button></td>
             </tr>
             <tr>
                 <td><img src="https://cdnprod.mafretailproxy.com/sys-master-root/h13/h79/44951084204062/480Wx480H_349917_main.jpg" alt="a" class="rounded-circle " style="width: 50px;"/></td>
                 <td>فيتا بلس</td>
               <td>500 * 24 غرام</td>
-              <td><button class="btn btn-primary">إضافة</button></td>
-              <td class="btn btn-light">إضافة منتج اخر</td>
-            </tr>
+              <td><button class="btn btn-imdad2">إضافة</button></td>
+              <td><button class="btn btn-light">إضافة حجم اخر</button></td>
+                        </tr>
             <tr>
                 <td><img src="https://cdnprod.mafretailproxy.com/sys-master-root/h13/h79/44951084204062/480Wx480H_349917_main.jpg" alt="a" class="rounded-circle " style="width: 50px;"/></td>
                 <td>فيتا بلس</td>
               <td>500 * 24 غرام</td>
-              <td><button class="btn btn-primary">إضافة</button></td>
-              <td class="btn btn-light">إضافة منتج اخر</td>
+              <td><button class="btn btn-imdad2">إضافة</button></td>
+              <td><button class="btn btn-light">إضافة حجم اخر</button></td>
+              
             </tr>
            
           </tbody>
