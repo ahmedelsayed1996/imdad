@@ -19,7 +19,7 @@
           <div class="card text-center rounded-0 border-0">
             <div class="card-body text-bg-light " style="flex-direction:column">
               <i class="fas fa-money-bill-wave fa-3x mb-3"></i>
-              <h5 class="card-title">الإيداع قيد المعالجة</h5>
+              <h5 class="card-title">طلبات الإيداع  </h5>
               <p class="card-text mb-0"> المبالغ التي تتم معالجتها</p>
               <p class="card-text"><mark>1000 ر.ي</mark></p>
             </div>
@@ -29,7 +29,7 @@
           <div class="card text-center rounded-0 border-0">
             <div class="card-body text-bg-light" style="flex-direction:column">
               <i class="fas fa-history fa-3x mb-3"></i>
-              <h5 class="card-title">آخر عملية إيداع</h5>
+              <h5 class="card-title">التقارير</h5>
               <p class="card-text mb-0"> 19/5/2023</p>
               <p class="card-text"><mark>150 ر.ي</mark></p>
             </div>
