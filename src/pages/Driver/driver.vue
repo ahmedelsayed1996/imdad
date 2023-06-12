@@ -17,33 +17,33 @@
             </div>
             <div class="col-sm-6 col-xl-6 row mt-3">
                 <div class="col-sm-6 col-xl-4">
-                    <div class="card">
+                    <div class="card  bg-light ">
                         <div class="card-heading p-4">
                             <div class="mini-stat-icon float-right">
                                 <i class="mdi mdi-store bg-primary  text-white"></i>
                             </div>
                             <div>
-                                <h5 class="font-16 text-white"> الاجمالي</h5>
+                                <h5 class="font-16 text-black "> الاجمالي</h5>
                             </div>
-                            <h3 class="mt-4 text-white">35 </h3>
+                            <h3 class="mt-4 text-black">35 </h3>
                             <div class="progress mt-4" style="height: 4px;">
                                 <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"
                                     aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span></p>
+                            <p class="text-black mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span></p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6 col-xl-4">
-                    <div class="card">
+                    <div class="card  bg-light">
                         <div class="card-heading p-4">
                             <div class="mini-stat-icon float-right">
                                 <i class="mdi mdi-briefcase-check bg-success text-white"></i>
                             </div>
                             <div>
-                                <h5 class="font-16 text-white">تم التسليم </h5>
+                                <h5 class="font-16 text-black">تم التسليم </h5>
                             </div>
-                            <h3 class="mt-4 text-white">265 </h3>
+                            <h3 class="mt-4 text-black">265 </h3>
                             <div class="progress mt-4" style="height: 4px;">
                                 <div class="progress-bar bg-success" role="progressbar" style="width: 88%"
                                     aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
@@ -53,15 +53,15 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-xl-4">
-                    <div class="card">
+                    <div class="card  bg-light">
                         <div class="card-heading p-4">
                             <div class="mini-stat-icon float-right">
                                 <i class="mdi mdi-car bg-warning text-white"></i>
                             </div>
                             <div>
-                                <h5 class="font-16 text-white"> قيد التوصيل </h5>
+                                <h5 class="font-16 text-black"> قيد التوصيل </h5>
                             </div>
-                            <h3 class="mt-4 text-white">78</h3>
+                            <h3 class="mt-4 text-black">78</h3>
                             <div class="progress mt-4" style="height: 4px;">
                                 <div class="progress-bar bg-warning" role="progressbar" style="width: 68%"
                                     aria-valuenow="68" aria-valuemin="0" aria-valuemax="100"></div>
@@ -71,15 +71,15 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-xl-4">
-                    <div class="card">
+                    <div class="card  bg-light">
                         <div class="card-heading p-4">
                             <div class="mini-stat-icon float-right">
                                 <i class="mdi mdi-wallet-travel bg-danger text-white"></i>
                             </div>
                             <div>
-                                <h5 class="font-16 text-white">انتظار الشحن</h5>
+                                <h5 class="font-16 text-black">انتظار الشحن</h5>
                             </div>
-                            <h3 class="mt-4 text-white">86 </h3>
+                            <h3 class="mt-4 text-black">86 </h3>
                             <div class="progress mt-4" style="height: 4px;">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 82%" aria-valuenow="82"
                                     aria-valuemin="0" aria-valuemax="100"></div>
@@ -89,15 +89,15 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-xl-4">
-                    <div class="card">
+                    <div class="card  bg-light">
                         <div class="card-heading p-4">
                             <div class="mini-stat-icon float-right ">
                                 <i class="mdi mdi-file-excel-box bg-danger text-white "></i>
                             </div>
                             <div>
-                                <h5 class="font-16 text-white"> تم الرفض  </h5>
+                                <h5 class="font-16 text-black"> تم الرفض  </h5>
                             </div>
-                            <h3 class="mt-4 text-white">447 </h3>
+                            <h3 class="mt-4 text-black">447 </h3>
                             <div class="progress mt-4" style="height: 4px;">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 68%"
                                     aria-valuenow="68" aria-valuemin="0" aria-valuemax="100"></div>
@@ -107,15 +107,15 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-xl-4">
-                    <div class="card">
+                    <div class="card  bg-light">
                         <div class="card-heading p-4">
                             <div class="mini-stat-icon float-right">
                                 <i class="mdi mdi-calendar bg-warning text-white"></i>
                             </div>
                             <div>
-                                <h5 class="font-16 text-white">الشحنات المرتجعه</h5>
+                                <h5 class="font-16 text-black">الشحنات المرتجعه</h5>
                             </div>
-                            <h3 class="mt-4 text-white">45</h3>
+                            <h3 class="mt-4 text-black">45</h3>
                             <div class="progress mt-4" style="height: 4px;">
                                 <div class="progress-bar bg-warning" role="progressbar" style="width: 68%"
                                     aria-valuenow="68" aria-valuemin="0" aria-valuemax="100"></div>
@@ -129,7 +129,7 @@
         <hr style="border: 2px solid black;"/>
         <div class="row">
             <div class="col-xl-12 ">
-                <h4 class="mt-0 header-title mb-4 headLine btn btn-success w-25"> إضافة موصل :</h4>
+                <h4 class="mt-0 header-title mb-4 headLine btn btn-imdad2 w-25"> إضافة موصل :</h4>
                 <div class="card m-b-30 text-bg-light ">
                     <div class="card-body ">
 
@@ -165,7 +165,7 @@
                                         <td></td>
                                         <td>
                                             <div>
-                                                <a href="#" class="btn btn-primary btn-sm">تعديل</a>
+                                                <a href="#" class="btn btn-imdad2 btn-sm">تعديل</a>
                                             </div>
                                         </td>
                                         <td>
