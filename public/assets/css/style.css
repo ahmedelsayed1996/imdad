@@ -4107,8 +4107,8 @@ table.focus-on tbody tr.focused td {
 }
 
 .btn-imdad{
-    background-color: #9651aa;
-    color: white;
+    background-color: #9651aa !important;
+    color: white !important;
   }
   .btn-imdad2{
     background-color: #5447ce;
@@ -4119,9 +4119,9 @@ table.focus-on tbody tr.focused td {
   color: aliceblue;
   } */
 .btn-imdad:hover{
-    background-color: white;
-    color: #9651aa;
-    border: solid 1px #9651aa;
+    background-color: white !important;
+    color: #9651aa !important;
+    border: solid 1px #9651aa !important;
 }
 .btn-imdad2:hover{
     background-color: #5447ce;

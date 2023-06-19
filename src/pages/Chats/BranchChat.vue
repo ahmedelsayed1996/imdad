@@ -58,7 +58,7 @@
           </div>
           <div class="chat-input">
             <input v-model="newMessage" @keydown.enter="sendMessage" placeholder="Type your message...">
-            <button @click="sendMessage">Send</button>
+            <button @click="sendMessage" class="btn btn-imdad2">Send</button>
           </div>
         </div>
       </div>

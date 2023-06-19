@@ -1,6 +1,6 @@
 <template>
   <div class="table-container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light ">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           منتجات معلقة
@@ -11,9 +11,9 @@
     <div class="container mt-4 p-4">
       <!-- Search Bar -->
       <div class="row">
-        <form class="form d-flex">
+        <form class="form d-flex w-100">
           <div class="form-group mx-sm-3 mb-2 flex-grow-1">
-            <input type="text" class="form-control" placeholder="ابحث عن المنتج">
+            <input type="text" class="form-control bg-light" placeholder="ابحث عن المنتج">
           </div>
           <button type="submit" class="btn btn-imdad mb-2 btn-sm" id="search-button">ابدأ البحث</button>
         </form>

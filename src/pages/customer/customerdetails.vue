@@ -2,7 +2,7 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-        <h2 class="ml-auto headLine text-black" > العملاء</h2>
+        <h2 class="ml-auto headLine text-dark" > العملاء</h2>
         <!-- <button type="button" class="btn btn-success mx-1 " id="export"> <i class="bi bi-person"></i>
             استيراد العملاء</button>
         <button type="button" class="btn btn-imdad mx-1"> + اضافة عميل جديد</button> -->
@@ -19,7 +19,7 @@
         
         <div>
           <!-- <div class="text-start">العملاء</div> -->
-          <nav aria-label="breadcrumb" dir="rtl">
+          <nav aria-label="breadcrumb" >
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="#" style="text-decoration: none;">العملاء</a></li>
               <li class="breadcrumb-item active" aria-current="page">تفاصيل العميل</li>
@@ -36,8 +36,8 @@
       <div class="col-md-7 col-sm-12 ">
         <div class="card m-2 bg-light">
           <div class="card-header" dir="rtl">
-            <span class="card-title text-left"> <img width="30vw" src="https://w7.pngwing.com/pngs/481/915/png-transparent-computer-icons-user-avatar-woman-avatar-computer-business-conversation-thumbnail.png" alt=""> </span>
-            <span class="card-title text-right"><b>Naif Ahmed</b></span>
+            <span class="card-title left"> <img width="30vw" src="https://w7.pngwing.com/pngs/481/915/png-transparent-computer-icons-user-avatar-woman-avatar-computer-business-conversation-thumbnail.png" alt=""> </span>
+            <span class="card-title float-right"><b class="text-dark">Naif Ahmed</b></span>
           </div>
           <div class="card-body">
             <div class="row">
@@ -84,9 +84,9 @@
         </div>
 
 
-        <div class="card m-2 text-bg-light">
+        <div class="card m-2 bg-light">
           <div class="card-header text-right">
-            <h6 class="card-title">ملاحظات</h6>
+            <h6 class="card-title text-dark">ملاحظات</h6>
           </div>
           <div class="card-body d-flex flex-column">
             <textarea dir="rtl" class="form-control mb-3 bg-light"></textarea>
@@ -95,28 +95,28 @@
         </div>
 
 
-        <div class="card m-2 text-bg-light">
+        <div class="card m-2 bg-light">
           <div class="card-header" style="display: flex; justify-content: space-between; align-items: center;">
             <div>
-              <a href="#" class="float-left" style="text-decoration: none;">جميع الطلبات</a>
+              <h6 class="float-left text-dark"  style="text-decoration: none;">جميع الطلبات</h6>
             </div>
             <div dir="rtl">
-              <h6 class="card-title text-right" style="display: inline-block;">احدث الطلبات</h6>
+              <h6 class="card-title text-right text-dark" style="display: inline-block;">احدث الطلبات</h6>
               <button class="btn btn-imdad btn-sm " style="display: inline-block;">اضافة طلب جديد +</button>
             </div>
           </div>
 
           <div class="card-body">
             <div class="table-responsive">
-              <table class="table" dir="rtl">
+              <table class="table text-dark" dir="rtl">
                 <thead>
                   <tr>
-                    <th> رقم الطلب</th>
-                    <th>تاريخ التعديل</th>
-                    <th>الشحن</th>
-                    <th>الدفع</th>
-                    <th>حالة الطلب</th>
-                    <th> المجموع</th>
+                    <th class="text-dark"> رقم الطلب</th>
+                    <th class="text-dark">تاريخ التعديل</th>
+                    <th class="text-dark">الشحن</th>
+                    <th class="text-dark">الدفع</th>
+                    <th class="text-dark">حالة الطلب</th>
+                    <th class="text-dark"> المجموع</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -137,22 +137,22 @@
 
       </div>
       <div class="col-md-5 col-sm-12">
-        <div class="card m-2 text-bg-light">
+        <div class="card m-2  bg-light">
           <div class="card-header">
-            <a href="" style="text-decoration: none;">تعديل </a>
-            <span style="float:right;"><b>البيانات الشخصية</b></span>
+            <a href="" style="text-decoration: none;" class="text-dark">تعديل </a>
+            <h6 style="float:right;"><b class="text-dark">البيانات الشخصية</b></h6>
           </div>
 
           <div class="card-body">
 
-            <div class="text-right">
+            <div class="text-right text-dark">
               <div class="p-1">
                 <i class="bi bi-telephone-fill" style="float:left;"></i>
                 <span><b>رقم العميل :</b> 96000000000</span>
               </div>
               <div class="p-1">
                 <i style="float:left;">@</i>
-                <span> test@test.test<b> : ايميل العميل </b></span>
+                <span><b>  ايميل العميل :</b> test@test.test</span>
               </div>
               <div class="p-1">
                 <!-- <i class="bi-alarm" style="float:left;"></i> -->
@@ -172,12 +172,12 @@
           </div>
 
         </div>
-        <div class="card m-2 text-bg-light">
-          <div class="card-header">
-            <span><b>اعدادات حساب العميل</b></span>
+        <div class="card m-2 bg-light">
+          <div class="card-header d-flex text-dark">
+            <span><h6>اعدادات حساب العميل</h6></span>
           </div>
           <div class="card-body">
-            <div class="text-right">
+            <div class="text-right text-dark">
               <div class="p-1 row">
                 <div class="col"><span><b>حظر العميل</b></span></div>
                 <div class="col">

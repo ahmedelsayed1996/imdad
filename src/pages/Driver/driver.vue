@@ -2,7 +2,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-            <h2 class="ml-auto headLine text-black"> الموصل</h2>
+            <h2 class="ml-auto headLine text-dark"> الموصل</h2>
             <button class="btn btn-lg mx-2 mr-auto m-3 btn-imdad">تتبع</button>
         </nav>
         <div class="m-2">
@@ -23,14 +23,14 @@
                                 <i class="mdi mdi-store bg-primary  text-white"></i>
                             </div>
                             <div>
-                                <h5 class="font-16 text-black "> الاجمالي</h5>
+                                <h5 class="font-16 text-dark "> الاجمالي</h5>
                             </div>
-                            <h3 class="mt-4 text-black">35 </h3>
+                            <h3 class="mt-4 text-dark">35 </h3>
                             <div class="progress mt-4" style="height: 4px;">
                                 <div class="progress-bar bg-primary" role="progressbar" style="width: 75%"
                                     aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <p class="text-black mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span></p>
+                            <p class="text-dark mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span></p>
                         </div>
                     </div>
                 </div>
@@ -41,9 +41,9 @@
                                 <i class="mdi mdi-briefcase-check bg-success text-white"></i>
                             </div>
                             <div>
-                                <h5 class="font-16 text-black">تم التسليم </h5>
+                                <h5 class="font-16 text-dark">تم التسليم </h5>
                             </div>
-                            <h3 class="mt-4 text-black">265 </h3>
+                            <h3 class="mt-4 text-dark">265 </h3>
                             <div class="progress mt-4" style="height: 4px;">
                                 <div class="progress-bar bg-success" role="progressbar" style="width: 88%"
                                     aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
@@ -59,9 +59,9 @@
                                 <i class="mdi mdi-car bg-warning text-white"></i>
                             </div>
                             <div>
-                                <h5 class="font-16 text-black"> قيد التوصيل </h5>
+                                <h5 class="font-16 text-dark"> قيد التوصيل </h5>
                             </div>
-                            <h3 class="mt-4 text-black">78</h3>
+                            <h3 class="mt-4 text-dark">78</h3>
                             <div class="progress mt-4" style="height: 4px;">
                                 <div class="progress-bar bg-warning" role="progressbar" style="width: 68%"
                                     aria-valuenow="68" aria-valuemin="0" aria-valuemax="100"></div>
@@ -77,9 +77,9 @@
                                 <i class="mdi mdi-wallet-travel bg-danger text-white"></i>
                             </div>
                             <div>
-                                <h5 class="font-16 text-black">انتظار الشحن</h5>
+                                <h5 class="font-16 text-dark">انتظار الشحن</h5>
                             </div>
-                            <h3 class="mt-4 text-black">86 </h3>
+                            <h3 class="mt-4 text-dark">86 </h3>
                             <div class="progress mt-4" style="height: 4px;">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 82%" aria-valuenow="82"
                                     aria-valuemin="0" aria-valuemax="100"></div>
@@ -95,9 +95,9 @@
                                 <i class="mdi mdi-file-excel-box bg-danger text-white "></i>
                             </div>
                             <div>
-                                <h5 class="font-16 text-black"> تم الرفض  </h5>
+                                <h5 class="font-16 text-dark"> تم الرفض  </h5>
                             </div>
-                            <h3 class="mt-4 text-black">447 </h3>
+                            <h3 class="mt-4 text-dark">447 </h3>
                             <div class="progress mt-4" style="height: 4px;">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 68%"
                                     aria-valuenow="68" aria-valuemin="0" aria-valuemax="100"></div>
@@ -113,9 +113,9 @@
                                 <i class="mdi mdi-calendar bg-warning text-white"></i>
                             </div>
                             <div>
-                                <h5 class="font-16 text-black">الشحنات المرتجعه</h5>
+                                <h5 class="font-16 text-dark">الشحنات المرتجعه</h5>
                             </div>
-                            <h3 class="mt-4 text-black">45</h3>
+                            <h3 class="mt-4 text-dark">45</h3>
                             <div class="progress mt-4" style="height: 4px;">
                                 <div class="progress-bar bg-warning" role="progressbar" style="width: 68%"
                                     aria-valuenow="68" aria-valuemin="0" aria-valuemax="100"></div>
@@ -130,22 +130,22 @@
         <div class="row">
             <div class="col-xl-12 ">
                 <h4 class="mt-0 header-title mb-4 headLine btn btn-imdad2 w-25"> إضافة موصل :</h4>
-                <div class="card m-b-30 text-bg-light ">
-                    <div class="card-body ">
+                <div class="card m-b-30 bg-light ">
+                    <div class="card-body bg-light">
 
 
-                        <div class="table table-responsive ">
+                        <div class="table bg-light ">
                             <table class="table ">
                                 <thead >
                                     <tr >
-                                        <th class="text-black" scope="col">الاسم</th>
-                                        <th class="text-black" scope="col">المنطقة </th>
-                                        <th class="text-black" scope="col">عدد الطلبات</th>
-                                        <th class="text-black" scope="col">المرتجع </th>
-                                        <th class="text-black" scope="col">الرصيد</th>
-                                        <th class="text-black" scope="col"> تسويه الرصيد</th>
-                                        <th class="text-black" scope="col"> تعديل</th>
-                                        <th class="text-black" scope="col">حذف </th>
+                                        <th class="text-dark" scope="col">الاسم</th>
+                                        <th class="text-dark" scope="col">المنطقة </th>
+                                        <th class="text-dark" scope="col">عدد الطلبات</th>
+                                        <th class="text-dark" scope="col">المرتجع </th>
+                                        <th class="text-dark" scope="col">الرصيد</th>
+                                        <th class="text-dark" scope="col"> تسويه الرصيد</th>
+                                        <th class="text-dark" scope="col"> تعديل</th>
+                                        <th class="text-dark" scope="col">حذف </th>
                                     </tr>
                                 </thead>
                                 <tbody >

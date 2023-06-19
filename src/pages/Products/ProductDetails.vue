@@ -4,11 +4,11 @@
 <template>
   <div id="app" class="container">
     <div class="row mt-3">
-      <div class="col text-right">
+      <div class="col text-right text-dark">
         <h1>شوفان</h1>
       </div>
       <div class="col text-left">
-        <button class="btn btn-primary">عودة</button>
+        <button class="btn btn-imdad2">عودة</button>
       </div>
     </div>
 
@@ -32,11 +32,11 @@
 
                   <div>
 
-                    <button class="btn btn-primary rounded-circle">حفظ </button>
+                    <button class="btn btn-imdad2 rounded-circle">حفظ </button>
                   </div>
                 </div>
               </div>
-              <div class="card bg-light" style="border-radius: 10px;">
+              <div class="card bg-light text-dark" style="border-radius: 10px;">
                 <div class="card mb-3" style="max-width: 540px;">
                   <div class=" d-flex g-0 bg-light product-card">
                     <div class=" ">
@@ -95,10 +95,10 @@
               <div class="card bg-light" style="border-radius: 10px;">
                 <div class="card-header">
                   <div class="d-flex justify-content-between align-items-center">
-                    <h5 class="card-title font-weight-bold">تغيير السعر حسب الكمية</h5>
+                    <h5 class="card-title font-weight-bold text-dark">تغيير السعر حسب الكمية</h5>
                     <div>
                       <button class="btn btn-danger me-2">حذف الاسعار</button>
-                      <button class="btn btn-success">حفظ الاسعار</button>
+                      <button class="btn btn-imdad2 mx-2">حفظ الاسعار</button>
                     </div>
                   </div>
                 </div>
@@ -117,16 +117,16 @@
                   
                 </div>
                 <div class="col">
-                      <button class="btn btn-success btn-block">اضافة كمية</button>
+                      <button class="btn btn-imdad2 btn-block">اضافة كمية</button>
                     </div>
               </div>
             </div>
             <div class="col-md-6 col-sm-12">
               <div class="card bg-light " style="border-radius: 10px;">
                 <div class="card-header d-flex justify-content-between align-items-center">
-                  <h5 class="card-title">سعر السوق</h5>
+                  <h5 class="card-title text-dark">سعر السوق</h5>
                 </div>
-                <div class="">
+                <div class=" text-dark">
                   <div class="d-flex justify-items-center justify-content-between mt-2">
                     <div>
                       <p class="card-text">اقل سعر</p>

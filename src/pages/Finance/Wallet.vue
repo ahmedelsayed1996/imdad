@@ -7,9 +7,9 @@
         <div class="col-md-4 mb-3 ">
           <div class="card text-center rounded-0 border-0 "  >
             <router-link to="/currentbalance">
-            <div class="card-body text-bg-light" style="flex-direction:column">
+            <div class="card-body bg-light text-dark" style="flex-direction:column">
               <i class="fas fa-wallet fa-3x mb-3"></i>
-              <h5 class="card-title">رصيدك الحالي</h5>
+              <h5 class="card-title ">رصيدك الحالي</h5>
               <p class="card-text mb-0">إجمالي العمليات</p>
               <p class="card-text"><mark>500 ر.ي</mark></p>
             </div></router-link>
@@ -17,7 +17,7 @@
         </div>
         <div class="col-md-4 mb-3">
           <div class="card text-center rounded-0 border-0">
-            <div class="card-body text-bg-light " style="flex-direction:column">
+            <div class="card-body bg-light text-dark " style="flex-direction:column">
               <i class="fas fa-money-bill-wave fa-3x mb-3"></i>
               <h5 class="card-title">طلبات الإيداع  </h5>
               <p class="card-text mb-0"> المبالغ التي تتم معالجتها</p>
@@ -27,7 +27,7 @@
         </div>
         <div class="col-md-4 mb-3">
           <div class="card text-center rounded-0 border-0">
-            <div class="card-body text-bg-light" style="flex-direction:column">
+            <div class="card-body bg-light text-dark" style="flex-direction:column">
               <i class="fas fa-history fa-3x mb-3"></i>
               <h5 class="card-title">التقارير</h5>
               <p class="card-text mb-0"> 19/5/2023</p>
@@ -45,7 +45,7 @@
       </div>
       <div class="row mt-3 justify-content-center">
         <div class="col-md-4 mb-3">
-          <div class="card2 text-center rounded-0">
+          <div class="card2 text-center rounded-0 text-dark">
             <div class="card-header">
               <h5 class="card-title mb-0">آخر العمليات</h5>
             </div>
@@ -59,7 +59,7 @@
           </div>
         </div>
         <div class="col-md-4 mb-3">
-          <div class="card2 text-center rounded-0">
+          <div class="card2 text-center rounded-0 text-dark">
             <div class="card-header">
               <h5 class="card-title mb-0"> كشف الحساب والايداعات</h5>
             </div>
@@ -73,7 +73,7 @@
           </div>
         </div>
         <div class="col-md-4 mb-3">
-          <div class="card2 text-center rounded-0">
+          <div class="card2 text-center rounded-0 text-dark">
             <div class="card-header">
               <h5 class="card-title mb-0"> شبكات الدفع المفعلة</h5>
             </div>

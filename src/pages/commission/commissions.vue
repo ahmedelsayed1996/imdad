@@ -2,14 +2,14 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-      <h2 class="ml-auto headLine text-black"> العمولات</h2>
+      <h2 class="ml-auto headLine text-dark"> العمولات</h2>
     </nav>
     <div class="m-2">
       <router-link to="/commissionseller">
         <button type="button" class="btn btn-imdad mx-2 mr-auto">إنشاء</button>
       </router-link>
 
-      <button type="button" class="btn btn-danger mr-auto">إستيراد</button>
+      <button type="button" class="btn btn-imdad2 mr-auto">إستيراد</button>
     </div>
   </header>
   <!-- الجزء الأول -->
@@ -18,15 +18,15 @@
     <!-- <div class="row mt-5 text-right">
             <div class="col-md-6">
                 <div class="form-group">
-                    <label for="text-input " class="fs-3 text-black"> اسم العمولة</label>
+                    <label for="text-input " class="fs-3 text-dark"> اسم العمولة</label>
                     <input type="text" class="form-control text-bg-light " id="text-input" placeholder="ادخل اسم العمولة">
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="form-group">
-                    <label for="dropdown-select" class="fs-3 text-black">نوع العمولة</label>
-                    <select class="form-control bg-light text-black fs-6" id="dropdown-select">
-                        <option value="option1" class="text-black">عامة</option>
+                    <label for="dropdown-select" class="fs-3 text-dark">نوع العمولة</label>
+                    <select class="form-control bg-light text-dark fs-6" id="dropdown-select">
+                        <option value="option1" class="text-dark">عامة</option>
                         <option value="option2">حسب البائع</option>
                         <option value="option3">حسب المنتج</option>
                         <option value="option4">حسب الفئة</option>
@@ -35,24 +35,24 @@
             </div>
             <div class="col-md-6 ">
                 <div class="form-group ">
-                    <label for="dropdown-select" class="fs-3 text-black">اسم البائع</label>
+                    <label for="dropdown-select" class="fs-3 text-dark">اسم البائع</label>
                     
                     <div>
-                      <select class="form-control bg-light text-black fs-6" id="dropdown-select" v-model="selectedOption">
+                      <select class="form-control bg-light text-dark fs-6" id="dropdown-select" v-model="selectedOption">
                         <option value="">اختر اسمًا</option>
                         <option value="عصام">عصام</option>
                         <option value="أحمد">أحمد</option>
                         <option value="حسين">حسين</option>
                       </select>
                       <button @click="addOption">إضافة </button>
-                      <p class="fs-3 text-black"> اسم البائع: {{ displaySelectedOption }}</p>
+                      <p class="fs-3 text-dark"> اسم البائع: {{ displaySelectedOption }}</p>
                     </div>
             </div>
             </div>
             <div class="col-md-6 ">
               <div class="form-group ">
-                  <label for="text-input-3" class="fs-3 text-black">نسبة العمولة </label>
-                  <input type="text" class="form-control bg-light text-black" id="text-input-3" placeholder="15 %">
+                  <label for="text-input-3" class="fs-3 text-dark">نسبة العمولة </label>
+                  <input type="text" class="form-control bg-light text-dark" id="text-input-3" placeholder="15 %">
               </div>
           </div>
         </div> -->
@@ -61,13 +61,13 @@
     <!-- <div class="row mt-5 text-right">
             <div class="col-md-6">
                 <div class="form-group">
-                    <label for="text-input-3" class="fs-3 text-black">نسبة عمولة الشريك</label>
+                    <label for="text-input-3" class="fs-3 text-dark">نسبة عمولة الشريك</label>
                     <input type="text" class="form-control bg-light" id="text-input-3" placeholder="15 %">
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="form-group">
-                    <label for="text-input-2" class="fs-3 text-black">نسبة عمولة غير الشريك</label>
+                    <label for="text-input-2" class="fs-3 text-dark">نسبة عمولة غير الشريك</label>
                     <input type="text" class="form-control bg-light" id="text-input-2" placeholder="20:00">
                 </div>
                 
@@ -114,30 +114,44 @@
             </div>
           </div> -->
 
-    <table class="table table-secondary ">
+    <table class="table table-light">
       <thead>
         <tr>
-          <th class="text-black" scope="col">#</th>
-          <th class="text-black" scope="col">اسم العمولة</th>
-          <th class="text-black" scope="col">نوع العمولة</th>
-          <th class="text-black" scope="col">النسبة المئوية للعمولة العامة</th>
-          <th class="text-black" scope="col">النسبة المئوية لعمولة البائع </th>
+          <th class="text-dark" scope="col">#</th>
+          <th class="text-dark" scope="col">اسم العمولة</th>
+          <th class="text-dark" scope="col">نوع العمولة</th>
+          <th class="text-dark" scope="col">النسبة المئوية للعمولة العامة</th>
+          <th class="text-dark" scope="col">النسبة المئوية لعمولة البائع </th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <th class="text-black" scope="row">1</th>
-          <td class="text-black">عمولة أ</td>
-          <td class="text-black">عامة</td>
-          <td class="text-black">10:00</td>
-          <td class="text-black">00:00</td>
+          <th class="text-dark" scope="row">1</th>
+          <td class="text-dark">عمولة أ</td>
+          <td class="text-dark">عامة</td>
+          <td class="text-dark">10:00</td>
+          <td class="text-dark">00:00</td>
         </tr>
         <tr>
-          <th class="text-black" scope="row">2</th>
-          <td class="text-black">عمولة ب</td>
-          <td class="text-black">حسب البائع</td>
-          <td class="text-black">10:00</td>
-          <td class="text-black">20:00</td>
+          <th class="text-dark" scope="row">2</th>
+          <td class="text-dark">عمولة ب</td>
+          <td class="text-dark">حسب البائع</td>
+          <td class="text-dark">10:00</td>
+          <td class="text-dark">20:00</td>
+        </tr>
+        <tr>
+          <th class="text-dark" scope="row">2</th>
+          <td class="text-dark">عمولة ب</td>
+          <td class="text-dark">حسب البائع</td>
+          <td class="text-dark">10:00</td>
+          <td class="text-dark">20:00</td>
+        </tr>
+        <tr>
+          <th class="text-dark" scope="row">2</th>
+          <td class="text-dark">عمولة ب</td>
+          <td class="text-dark">حسب البائع</td>
+          <td class="text-dark">10:00</td>
+          <td class="text-dark">20:00</td>
         </tr>
 
       </tbody>
@@ -186,9 +200,9 @@ export default {
   // watch: {
   //   selectedTable() {
   //     if (this.selectedTable === "table1") {
-  //       this.tableHTML = "<div class='row mt-5 text-right'><div class='col-md-4'><div class='form-group'><label for='dropdown-select' class='fs-3 text-black'>اختر نوع المنتج </label><select class='form-control bg-light text-black fs-6' id='dropdown-select'><option value='option1' class='text-black'>مياه</option><option value='option2'>مشروبات غازيه</option><option value='option3'>الكترونيات</option><option value='option4'>منظفات</option></select></div></div><div class='col-md-4'><div class='form-group'><label for='text-input ' class='fs-3 text-black'>  العمولة</label><input type='text' class='form-control bg-light' id='text-input' placeholder='ادخل  العمولة'></div></div></div>";
+  //       this.tableHTML = "<div class='row mt-5 text-right'><div class='col-md-4'><div class='form-group'><label for='dropdown-select' class='fs-3 text-dark'>اختر نوع المنتج </label><select class='form-control bg-light text-dark fs-6' id='dropdown-select'><option value='option1' class='text-dark'>مياه</option><option value='option2'>مشروبات غازيه</option><option value='option3'>الكترونيات</option><option value='option4'>منظفات</option></select></div></div><div class='col-md-4'><div class='form-group'><label for='text-input ' class='fs-3 text-dark'>  العمولة</label><input type='text' class='form-control bg-light' id='text-input' placeholder='ادخل  العمولة'></div></div></div>";
   //     } else if (this.selectedTable === "table2") {
-  //       this.tableHTML = "<div class='row mt-5 text-right'><div class='col-md-4'><div class='form-group'><label for='dropdown-select' class='fs-3 text-black'>اختر نوع البائع </label><select class='form-control bg-light text-black fs-6' id='dropdown-select'><option value='option1' class='text-black'>عميل تجزئة</option><option value='option2'> عميل جملة</option><option value='option3'>كبار العملاء</option></select></div></div><div class='col-md-4'><div class='form-group'><label for='text-input ' class='fs-3 text-black'>  العمولة</label><input type='text' class='form-control bg-light' id='text-input' placeholder='ادخل  العمولة'></div></div></div>";
+  //       this.tableHTML = "<div class='row mt-5 text-right'><div class='col-md-4'><div class='form-group'><label for='dropdown-select' class='fs-3 text-dark'>اختر نوع البائع </label><select class='form-control bg-light text-dark fs-6' id='dropdown-select'><option value='option1' class='text-dark'>عميل تجزئة</option><option value='option2'> عميل جملة</option><option value='option3'>كبار العملاء</option></select></div></div><div class='col-md-4'><div class='form-group'><label for='text-input ' class='fs-3 text-dark'>  العمولة</label><input type='text' class='form-control bg-light' id='text-input' placeholder='ادخل  العمولة'></div></div></div>";
   //     } 
   //   },
   // },

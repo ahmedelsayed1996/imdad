@@ -4,7 +4,7 @@
     <!-- Add your image here -->
   </div>
   <div class="card-wrapper">
-      <div class="card"  style="width: 30rem;  background-color: aliceblue;">
+      <div class="card text-dark"  style="width: 30rem;  background-color: aliceblue;">
         <div class="card-header">
       <h5 class="card-title text-right">تسجيل الدخول</h5>
     </div>
@@ -15,7 +15,7 @@
           <div class="input-group">
             <input v-model="form.phone" type="number" class="form-control bg-light" id="input-2" placeholder="أدخل الرقم" required>
             <div class="input-group-prepend">
-              <div class="input-group-text text-bg-light" style="padding: 5px;  border: 1px solid black; margin-right: 5px; border-radius: 5px;">
+              <div class="input-group-text bg-light text-dark" style="padding: 5px;  border: 1px solid black; margin-right: 5px; border-radius: 5px;">
                 976+
                 <img src="../../assets/323279.png"  width="20" style="margin-right: 10px;">
               </div>
@@ -28,8 +28,8 @@
         </div>
         <div class="form-group">
           <div class="form-check">
-            <input class="form-check-input" type="checkbox" v-model="form.checked" id="checkboxes-4" value="that">
-            <label class="form-check-label text-right" for="checkboxes-4">تذكرني</label>
+            <input class="form-check-input d-flex" type="checkbox" v-model="form.checked" id="checkboxes-4" value="that">
+            <label class="form-check-label d-flex mx-3" for="checkboxes-4">تذكرني</label>
           </div>
         </div>
         <button type="submit" class="btn  d-flex justify-content-center" > <router-link class="router-btn btn-imdad btn-lg"  to="/verifycode">ادخل</router-link></button>

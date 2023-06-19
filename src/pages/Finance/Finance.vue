@@ -2,7 +2,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-            <h1 class="headLine text-black">  قسم المالية :</h1> <br />
+            <h1 class="headLine text-dark">  قسم المالية :</h1> <br />
             <!-- <h2 class="ml-auto headLine"> العمولات</h2> -->
         </nav>
         <div class="m-2">
@@ -26,7 +26,7 @@
                                 aria-valuemin="0" aria-valuemax="100">
                             </div>
                         </div> -->
-                            <button class="btn btn-success">معرفه التفاصيل</button>
+                            <button class="btn btn-imdad2">معرفه التفاصيل</button>
                             <!-- <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span></p> -->
                         </div>
                         
@@ -47,7 +47,7 @@
                                 aria-valuemin="0" aria-valuemax="100">
                             </div>
                           </div> -->
-                            <button class="btn btn-success">معرفه التفاصيل</button>
+                            <button class="btn btn-imdad2">معرفه التفاصيل</button>
                             <!-- <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span></p> -->
                         </div>
                     </div>
@@ -67,7 +67,7 @@
                                 aria-valuemin="0" aria-valuemax="100">
                             </div>
                         </div> -->
-                            <button class="btn btn-success">معرفه التفاصيل</button>
+                            <button class="btn btn-imdad2">معرفه التفاصيل</button>
                             <!-- <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span></p> -->
                         </div>
                     </div>
@@ -153,7 +153,7 @@
             <div class="col-sm-12 col-xl-12">
                 <canvas id="finace" width="50" height="50"></canvas>
             </div>
-            <div class="col-sm-6 card  text-bg-light">
+            <div class="col-sm-6 card  bg-light">
                 <div class="card-header" style="display: flex; justify-content: space-between; align-items: center;">
                     <div>
                         <a href="#" class="float-left headLine" style="text-decoration: none;">المنتجات الاكثر مبيعا </a>
@@ -210,7 +210,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 card  text-bg-light">
+            <div class="col-sm-6 card  bg-light">
                 <div class="card-header" style="display: flex; justify-content: space-between; align-items: center;">
                     <div>
                         <a href="#" class="float-left headLine" style="text-decoration: none;">اخر المنتجات التي تم طلبها
@@ -222,7 +222,7 @@
                     </div>
                 </div>
 
-                <div class="card-body">
+                <div class="card-body bg-light">
                     <div class="table-responsive">
                         <table class="table text-start" dir="rtl">
                             <thead>
@@ -392,7 +392,7 @@
             </div> -->
 
             <div class="col-sm-6 col-xl-6">
-                <h5 class="font-16 text-black d-flex"> اجمالي عدد المبيعات </h5>
+                <h5 class="font-16 text-dark d-flex"> اجمالي عدد المبيعات </h5>
                 <!-- <canvas id="myChart" width="400" height="400"></canvas> -->
                 <DoughnutPage />
             </div>

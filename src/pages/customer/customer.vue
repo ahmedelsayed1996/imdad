@@ -18,8 +18,8 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
     
-            <h2 class="ml-auto headLine text-black"> العملاء</h2>
-            <button type="button" class="btn btn-success mx-1 " id="export"> <i class="bi bi-person"></i>
+            <h2 class="ml-auto headLine text-dark"> العملاء</h2>
+            <button type="button" class="btn btn-imdad2 mx-1"> <i class="bi bi-person"></i>
                 استيراد العملاء</button>
             <button type="button" class="btn btn-imdad mx-1"> + اضافة عميل جديد</button>
         </nav>
@@ -49,7 +49,7 @@
         </div>
         <form class="form d-flex justify-content-between p-0 w-50 m-auto"  >
             <div class="form-group mx-sm-3 mb-2 flex-grow-1">
-                <input type="text" class="form-control"
+                <input type="text" class="form-control bg-light"
                     placeholder="ابحث عن طريق اسم العميل او رقم الهاتف او بالبريد الالكترونى">
             </div>
             <button type="submit" class="btn btn-imdad mb-2 btn-sm" id="search-button">ابدأ البحث</button>
@@ -61,7 +61,7 @@
 
         </div>
         <div class="table-responsive col-md-12 text-white text-bg-light">
-            <table class="table   text-black"  >
+            <table class="table   text-dark"  >
                 <thead>
                     <tr>
                         <th class="align-top">#SL</th>
@@ -108,7 +108,7 @@
                         </td>
                         <td>
                             <router-link to="/customerdetails">
-                                <button class="btn btn-primary">تعديل</button>
+                                <button class="btn btn-imdad2">تعديل</button>
                             </router-link>
                         </td>
                         
@@ -143,7 +143,7 @@
                         </td>
                         <td>
                             <router-link to="/customerdetails">
-                                <button class="btn btn-primary">تعديل</button>
+                                <button class="btn btn-imdad2">تعديل</button>
                             </router-link>
                         </td>
                         
@@ -178,7 +178,7 @@
                         </td>
                         <td>
                             <router-link to="/customerdetails">
-                                <button class="btn btn-primary">تعديل</button>
+                                <button class="btn btn-imdad2">تعديل</button>
                             </router-link>
                         </td>
                         

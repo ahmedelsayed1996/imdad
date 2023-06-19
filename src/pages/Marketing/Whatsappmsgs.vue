@@ -29,7 +29,7 @@
                 </div>
             </div>
             <div class="card-footer d-flex justify-content-start">
-                <button type="submit" class="btn btn-primary" @click="submitForm">ارسل</button>
+                <button type="submit" class="btn btn-imdad2" @click="submitForm">ارسل</button>
             </div>
 
         </div>

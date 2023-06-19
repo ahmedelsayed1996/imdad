@@ -2,7 +2,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-            <h1 class="headLine text-black"> قسم المنتجات :</h1> <br />
+            <h1 class="headLine text-dark"> قسم المنتجات :</h1> <br />
 
         </nav>
         <div class="m-2">
@@ -25,7 +25,7 @@
                                 aria-valuemin="0" aria-valuemax="100">
                             </div>
                         </div> -->
-                            <button class="btn btn-success">متابعه </button>
+                            <button class="btn btn-imdad2">متابعه </button>
                             <!-- <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span></p> -->
                         </div>
                     </div>
@@ -45,7 +45,7 @@
                                 aria-valuemin="0" aria-valuemax="100">
                             </div>
                           </div> -->
-                            <button class="btn btn-success"> متابعه</button>
+                            <button class="btn btn-imdad2"> متابعه</button>
                             <!-- <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span></p> -->
                         </div>
                     </div>
@@ -65,7 +65,7 @@
                                 aria-valuemin="0" aria-valuemax="100">
                             </div>
                         </div> -->
-                            <button class="btn btn-success"> المزيد</button>
+                            <button class="btn btn-imdad2"> المزيد</button>
                             <!-- <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span></p> -->
                         </div>
                     </div>
@@ -86,7 +86,7 @@
                                 aria-valuemin="0" aria-valuemax="100">
                             </div>
                         </div> -->
-                            <button class="btn btn-success"> المزيد</button>
+                            <button class="btn btn-imdad2"> المزيد</button>
                             <!-- <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span></p> -->
                         </div>
                     </div>
@@ -102,7 +102,7 @@
                             </div>
                             <h3 class="mt-4">اخري 10</h3>
 
-                            <!-- <button class="btn btn-success">معرفه التفاصيل</button> -->
+                            <!-- <button class="btn btn-imdad2">معرفه التفاصيل</button> -->
                         </div>
                     </div>
                 </a>
@@ -119,7 +119,7 @@
                             <p>قطعه واحده</p>
                             <!-- <h6 class="mt-4">ا</h6> -->
 
-                            <!-- <button class="btn btn-success">معرفه التفاصيل</button> -->
+                            <!-- <button class="btn btn-imdad2">معرفه التفاصيل</button> -->
                         </div>
                     </div>
                 </a>
@@ -135,7 +135,7 @@
                             <!-- <h3 class="mt-4">108 %</h3> -->
                             <p>ايفون 13 برو ماكس</p>
                             <p>قطعه واحده</p>
-                            <!-- <button class="btn btn-success">معرفه التفاصيل</button> -->
+                            <!-- <button class="btn btn-imdad2">معرفه التفاصيل</button> -->
                         </div>
                     </div>
                 </a>
@@ -365,7 +365,7 @@
                                 aria-valuemin="0" aria-valuemax="100">
                             </div>
                         </div> 
-                            <button class="btn btn-success">معرفه التفاصيل</button>
+                            <button class="btn btn-imdad2">معرفه التفاصيل</button>
                              <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span></p> 
                         </div>
                     </div>
@@ -385,7 +385,7 @@
                                 aria-valuemin="0" aria-valuemax="100">
                             </div>
                         </div> 
-                        <button class="btn btn-success">معرفه التفاصيل</button>
+                        <button class="btn btn-imdad2">معرفه التفاصيل</button>
                         <p class="text-muted mt-2 mb-0">النسبة المئوية <span class="float-right">75%</span></p> 
                     </div>
                 </div>
@@ -393,7 +393,7 @@
         </div> -->
 
             <!-- <div class="col-sm-6 col-xl-6">
-                <h5 class="font-16 text-black d-flex"> اجمالي عدد المبيعات </h5>
+                <h5 class="font-16 text-dark d-flex"> اجمالي عدد المبيعات </h5>
                 <canvas id="myChart" width="400" height="400"></canvas>
 
             </div> -->

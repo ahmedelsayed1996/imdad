@@ -1,6 +1,6 @@
 <template>
   <div class="container p-2">
-    <div class="card col-12 text-bg-light">
+    <div class="card col-12 text-dark bg-light">
       <div class="card-body d-flex justify-content-between align-items-center ">
         <div>
           <div class="text-start" style="font-weight:bold">البائعين</div>
@@ -21,7 +21,7 @@
     <div class="row">
       
       <div class="col-md-7 col-sm-12">
-        <div class="card m-2 text-bg-light">
+        <div class="card m-2 text-dark bg-light">
           <div class="card-header" dir="rtl">
             <span class="card-title text-right"><b>Naif Ahmed</b></span>
             <span class="card-title text-left"> <img width="30vw"
@@ -73,7 +73,7 @@
         </div>
 
 
-        <div class="card m-2 text-bg-light">
+        <div class="card m-2 text-bg-lighttext-dark bg-light">
           <div class="card-header text-right">
             <h6 class="card-title">ملاحظات</h6>
           </div>
@@ -95,17 +95,17 @@
             </div>
           </div>
 
-          <div class="card-body text-bg-light">
+          <div class="card-body text-dark">
             <div class="table-responsive">
               <table class="table" dir="rtl">
                 <thead>
                   <tr>
-                    <th> رقم الطلب</th>
-                    <th>تاريخ التعديل</th>
-                    <th>الشحن</th>
-                    <th>الدفع</th>
-                    <th>حالة الطلب</th>
-                    <th> المجموع</th>
+                    <th class="text-dark"> رقم الطلب</th>
+                    <th class="text-dark">تاريخ التعديل</th>
+                    <th class="text-dark">الشحن</th>
+                    <th class="text-dark">الدفع</th>
+                    <th class="text-dark">حالة الطلب</th>
+                    <th class="text-dark"> المجموع</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -135,17 +135,17 @@
             </div>
           </div>
 
-          <div class="card-body text-bg-light row">
+          <div class="card-body bg-light row">
            
-            <div class="card text-bg-light col-4">
+            <div class="card text-dark bg-light col-4">
               <img class="rounded-circle w-25" src="https://muzawed.com/wp-content/uploads/2020/01/%D8%A7%D9%86%D9%88%D8%A7%D8%B9-%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A%D8%A9-1.png" alt="صورة البطاقة" />
               <h4 class="d-flex ">البوادي</h4>
             </div>
-            <div class="card text-bg-light col-4">
+            <div class="card text-dark bg-light col-4">
               <img class="rounded-circle w-25" src="https://cdn.al-ain.com/lg/archive/inline/images/1_24.png" alt="صورة البطاقة" />
               <h4 class="d-flex ">ستار باكس</h4>
             </div>
-            <div class="card text-bg-light col-4">
+            <div class="card text-dark bg-light col-4">
               <img class="rounded-circle w-50" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgqwtCa52w4rPWxyWWr2HcaEvdheVbSdLxpg&usqp=CAU" alt="صورة البطاقة" />
               <h4 class="d-flex justify-content-center">نايك</h4>
             </div>
@@ -158,7 +158,7 @@
       </div>
 
       <div class="col-md-5 col-sm-12">
-        <div class="card m-2 text-bg-light">
+        <div class="card m-2 text-dark bg-light">
           <div class="card-header">
             <a href="" style="text-decoration: none;font-weight:bold">تعديل </a>
             <span style="float:right;"><b style="text-decoration: none;font-weight:bold">البيانات الشخصية</b></span>
@@ -201,7 +201,7 @@
           </div>
 
         </div>
-        <div class="card m-2 text-bg-light">
+        <div class="card m-2 text-dark bg-light">
           <div class="card-header">
             <span style="float:right;"><b style="text-decoration: none;font-weight:bold">اعدادات حساب البائع</b></span>
           </div>
@@ -241,14 +241,14 @@
             </div>
           </div>
 
-          <div class="card-body text-bg-light">
+          <div class="card-body text-dark">
             <div class="table-responsive">
               <table class="table" dir="rtl">
                 <thead>
                   <tr>
-                    <th> اماكن تغطيه البائع</th>
-                    <th> اماكن فروع البائع</th>
-                    <th>عدد فروع البائع</th>
+                    <th class="text-dark"> اماكن تغطيه البائع</th>
+                    <th class="text-dark"> اماكن فروع البائع</th>
+                    <th class="text-dark">عدد فروع البائع</th>
 
                   </tr>
                 </thead>

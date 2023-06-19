@@ -9,11 +9,11 @@
     <div class="container mt-5">
       <div class="row">
         <div class="col-md-5 col-sm-12">
-          <div class="card bg-light mb-3 rounded-3 p-3">
-            <h4 class="d-flex">اسم المنشاة</h4>
+          <div class="card text-dark bg-light mb-3 rounded-3 p-3">
+            <h4 class="d-flex ">اسم المنشاة</h4>
             <p class="d-flex">امداد</p>
           </div>
-          <div class="card bg-light mb-3 rounded-3 p-3">
+          <div class="card bg-light mb-3 rounded-3 p-3 text-dark">
             <ul class="list-group">
               <li v-for="(item, index) in menuItems" :key="index" class="list-group-item d-flex align-items-center"
                 :class="{ active: selectedIndex === index }" @click="selectItem(index)">
@@ -23,20 +23,20 @@
             </ul>
           </div>
         </div>
-        <div class="col-md-7 col-sm-12">
-          <div class="card bg-light mb-3 rounded-3 p-3">
+        <div class="col-md-7 col-sm-12 text-dark">
+          <div class="card bg-light mb-3 rounded-3 p-3 text-dark">
             <div>
               <h2 class="h2 d-flex p-2 mb-3">{{ menuItems[selectedIndex].label }}</h2>
             </div>
             <div v-if="menuItems[selectedIndex].label === 'التنبيهات'">
-              <div class="form-group d-flex">
+              <div class="form-group d-flex text-dark">
                 <label for="switcher1">تلقى الإشعارات عن طريق الإيميلات</label>
                 <div class="form-check form-switch">
                   <input type="checkbox" id="switcher1" v-model="switcher1" class="form-check-input">
                   <label class="form-check-label" for="switcher1"></label>
                 </div>
               </div>
-              <div class="form-group d-flex">
+              <div class="form-group d-flex text-dark">
                 <label for="switcher2">تلقى الإشعارات عن طريق رسائل الجوال</label>
                 <div class="form-check form-switch">
                   <input type="checkbox" id="switcher2" v-model="switcher2" class="form-check-input">
@@ -49,7 +49,7 @@
               <div class="form-group d-flex">
                 <label for="switcher2"> هل تريد منح الموصلين عمولة</label>
                 <div class="form-check text-start">
-                  <button type="button" class="btn btn-success mx-2" data-bs-toggle="modal"
+                  <button type="button" class="btn btn-imdad2 mx-2" data-bs-toggle="modal"
                     data-bs-target="#exampleModal">
                     <i class="bi bi-check-circle-fill  px-5 "></i>
                   </button>
@@ -61,7 +61,7 @@
               <!-- <div class="form-group d-flex">
                 <label for="switcher1">هل تريد بيع المنتجات بالاجل</label>
                 <div class="form-check text-start">
-                  <button type="button" class="btn btn-success mx-2" data-bs-toggle="modal"
+                  <button type="button" class="btn btn-imdad2 mx-2" data-bs-toggle="modal"
                     data-bs-target="#exampleModal2">
                     <i class="bi bi-check-circle-fill  px-5 "></i>
                   </button>
@@ -73,7 +73,7 @@
               <div class="form-group d-flex">
                 <label for="switcher2"> هل تريد اضافه عمولات للعملاء عن شراء كميات</label>
                 <div class="form-check text-start">
-                  <button type="button" class="btn btn-success mx-2" data-bs-toggle="modal"
+                  <button type="button" class="btn btn-imdad2 mx-2" data-bs-toggle="modal"
                     data-bs-target="#exampleModal3">
                     <i class="bi bi-check-circle-fill  px-5 "></i>
                   </button>
@@ -233,7 +233,7 @@
               <div class="form-group d-flex">
                 <label for="switcher1">هل تريد تفعيل للموصل استقبال الطلبات تلقائي</label>
                 <div class="form-check text-start">
-                  <button type="button" class="btn btn-success mx-2" data-bs-toggle="modal"
+                  <button type="button" class="btn btn-imdad2 mx-2" data-bs-toggle="modal"
                     data-bs-target="#exampleModal4">
                     <i class="bi bi-check-circle-fill  px-5 "></i>
                   </button>
@@ -274,7 +274,7 @@
                             <td>3</td>
                             <td>50 ر.ي</td>
                             <td>__</td>
-                            <td><button class="btn btn-success mx-2">تفعيل</button><button
+                            <td><button class="btn btn-imdad2 mx-2">تفعيل</button><button
                                 class="btn btn-danger">إلغاء</button></td>
                           </tr>
 
@@ -291,7 +291,7 @@
               <div class="form-group d-flex">
                 <label for="switcher2"> هل تريد تفعيل استقبال الطلبات حسب الاقرب</label>
                 <div class="form-check text-start">
-                  <button type="button" class="btn btn-success mx-2">
+                  <button type="button" class="btn btn-imdad2 mx-2">
                     <i class="bi bi-check-circle-fill  px-5 "></i>
                   </button>
                   <button type="button" class="btn btn-danger mx-2">
@@ -349,8 +349,8 @@
                       </form>
                     </div>
                     <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">إلغاء</button>
-                      <button type="button" class="btn btn-primary">حفظ </button>
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">إلغاء</button>
+                      <button type="button" class="btn btn-imdad2">حفظ </button>
                     </div>
                   </div>
                 </div>
@@ -387,7 +387,7 @@
                         <option value="2">السبعين</option>
                         <option value="3">الكل</option>
                       </select></td>
-                    <td><button type="button" class="btn btn-warning my-2 " data-bs-toggle="modal"
+                    <td><button type="button" class="btn btn-imdad2 my-2 " data-bs-toggle="modal"
                         data-bs-target="#exampleModal5"> <i class="bi bi-pencil-fill "></i> </button> </td>
                     <td>
                       <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal6">

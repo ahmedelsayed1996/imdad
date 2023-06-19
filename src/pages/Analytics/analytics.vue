@@ -4,7 +4,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12 text-start">
-                    <h5 class="">التحليلات</h5>
+                    <h5 class="d-flex">التحليلات</h5>
                 </div>
             </div>
         </div>
@@ -15,27 +15,27 @@
                 <div class="col-md-10 col-sm-12 ">
                     <ul class="nav nav-tabs d-flex justify-content-between flex-wrap">
                         <li class="nav-item p-2">
-                            <a class="nav-link" href="#sales" data-toggle="tab">
+                            <a class="nav-link bg-light text-dark" href="#sales" data-toggle="tab">
                                 <i class="bi bi-graph-up-arrow"></i><br> المبيعات
                             </a>
                         </li>
                         <li class="nav-item p-2">
-                            <a class="nav-link" href="#products" data-toggle="tab">
+                            <a class="nav-link bg-light text-dark" href="#products" data-toggle="tab">
                                 <i class="bi bi-bag"></i><br> المنتجات
                             </a>
                         </li>
                         <li class="nav-item p-2">
-                            <a class="nav-link" href="#customers" data-toggle="tab">
+                            <a class="nav-link bg-light text-dark" href="#customers" data-toggle="tab">
                                 <i class="bi bi-people"></i><br> العملاء
                             </a>
                         </li>
                         <li class="nav-item p-2">
-                            <a class="nav-link" href="#discounts" data-toggle="tab">
+                            <a class="nav-link bg-light text-dark" href="#discounts" data-toggle="tab">
                                 <i class="bi bi-cash"></i><br> الخصومات
                             </a>
                         </li>
                         <li class="nav-item p-2">
-                            <a class="nav-link" href="#baskets" data-toggle="tab">
+                            <a class="nav-link bg-light text-dark" href="#baskets" data-toggle="tab">
                                 <i class="bi bi-basket"></i><br> السلات المتروكة
                             </a>
                         </li>
@@ -51,7 +51,7 @@
         <div class="container-fluid p-4">
             <div class="row">
                 <div class="col-md-6 text-start">
-                    <button type="button" class="btn btn-outline btn-imdad">
+                    <button type="button" class="btn btn-outline btn-imdad d-flex">
                         <i class="bi bi-filter"></i> فلتر
                     </button>
                 </div>
@@ -258,7 +258,7 @@
                             <td>90210</td>
                             <td>USA</td>
                             <td>
-                                <a href="#" class="btn btn-primary btn-sm">Edit</a>
+                                <a href="#" class="btn btn-imdad2 btn-sm mx-2">Edit</a>
                                 <a href="#" class="btn btn-danger btn-sm">Delete</a>
                             </td>
                         </tr>
@@ -559,9 +559,11 @@ export default {
     padding: 10px;
     margin: 0 10px;
     text-align: center;
+    
 }
 
 .nav-tabs .nav-item .nav-link.active {
     border: none;
+    
 }
 </style>

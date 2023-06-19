@@ -7,7 +7,7 @@
                 استيراد العملاء</button>
             <button type="button" class="btn btn-imdad mx-1"> + اضافة عميل جديد</button> -->
             <!-- <button type="button" class="btn btn-danger btn-sm">حذف العميل</button> -->
-            <button type="button" class="btn btn-outline-dark   btn-sm p-2 m-2 " id="add-btn">اضافة فرع جديد
+            <button type="button" class="btn btn-imdad2   btn-sm p-2 m-2 " id="add-btn">اضافة فرع جديد
                 +</button>
         </nav>
         <div class="m-2">

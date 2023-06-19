@@ -3,7 +3,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="d-flex align-items-center">
 
-        <h4 class="ml-auto headLine text-black">منتجات التخفيضات</h4>
+        <h4 class="ml-auto headLine text-dark">منتجات التخفيضات</h4>
         
          
       </div>
@@ -100,7 +100,7 @@
           <div class="card-header">
             <ul class="nav nav-tabs card-header-tabs">
               <li class="nav-item">
-                <a class="nav-link active" href="#tab1">الكل</a>
+                <a class="nav-link active bg-light " href="#tab1">الكل</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#tab2">النشط</a>
@@ -131,10 +131,10 @@
                     aria-haspopup="true" aria-expanded="false">
                     بائع المنتج
                   </button>
-                  <div class="dropdown-menu" aria-labelledby="dropdown1">
-                    <a class="dropdown-item" href="#">Option 1</a>
-                    <a class="dropdown-item" href="#">Option 2</a>
-                    <a class="dropdown-item" href="#">Option 3</a>
+                  <div class="dropdown-menu bg-light" aria-labelledby="dropdown1">
+                    <a class="dropdown-item bg-light text-dark" href="#">Option 1</a>
+                    <a class="dropdown-item bg-light text-dark" href="#">Option 2</a>
+                    <a class="dropdown-item bg-light text-dark" href="#">Option 3</a>
                   </div>
                 </div>
 
@@ -143,10 +143,10 @@
                     aria-haspopup="true" aria-expanded="false">
                     اشارة الى
                   </button>
-                  <div class="dropdown-menu" aria-labelledby="dropdown2">
-                    <a class="dropdown-item" href="#">Option 1</a>
-                    <a class="dropdown-item" href="#">Option 2</a>
-                    <a class="dropdown-item" href="#">Option 3</a>
+                  <div class="dropdown-menu bg-light" aria-labelledby="dropdown2">
+                    <a class="dropdown-item bg-light text-dark" href="#">Option 1</a>
+                    <a class="dropdown-item bg-light text-dark" href="#">Option 2</a>
+                    <a class="dropdown-item bg-light text-dark"  href="#">Option 3</a>
                   </div>
                 </div>
 
@@ -171,16 +171,16 @@
           </div>
         </div>
         <div class="table-responsive" id="tab1">
-          <table class="table table-bordered table-secondary text-right">
-            <thead class="thead-dark">
-              <tr>
+          <table class="table text-right text-dark">
+            <thead class="text-dark">
+              <tr class="text-dark">
                 <th><input type="checkbox"></th>
-                <th></th>
-                <th>اسم المنتج</th>
-                <th>الحالة</th>
-                <th>المخزون</th>
-                <th>النوع</th>
-                <th>البائع</th>
+                <th class="text-dark">صورة المنتج</th>
+                <th class="text-dark">اسم المنتج</th>
+                <th class="text-dark">الحالة</th>
+                <th class="text-dark">المخزون</th>
+                <th class="text-dark">النوع</th>
+                <th class="text-dark">البائع</th>
               </tr>
             </thead>
             <tbody>
@@ -189,7 +189,7 @@
                 <td><img src="https://files.refurbed.com/ii/samsung-galaxy-s20-1581675180.jpg" alt="Product Image"
                     width="50"></td>
                 <td>+Samsung s20</td>
-                <td class="status-cell"><span class="active-status text-black">Active</span></td>
+                <td class="status-cell"><span class="active-status text-dark">Active</span></td>
                 <td>10</td>
                 <td>موبايل</td>
                 <td>Samsung </td>
@@ -199,7 +199,7 @@
                 <td><img src="https://files.refurbed.com/ii/samsung-galaxy-s20-1581675180.jpg" alt="Product Image"
                     width="50"></td>
                 <td>+Samsung s20</td>
-                <td class="status-cell"><span class="inactive-status text-black">Inactive</span></td>
+                <td class="status-cell"><span class="inactive-status text-dark">Inactive</span></td>
                 <td>5</td>
                 <td>موبايل</td>
                 <td>Samsung</td>

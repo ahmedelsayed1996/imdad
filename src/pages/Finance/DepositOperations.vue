@@ -34,8 +34,8 @@
                     <h3 class="headLine my-3">تم الايداع</h3>
                     <div class="row">
             
-                        <div class="table-responsive col-md-12 text-white text-bg-light">
-                            <table class="table   text-black">
+                        <div class=" col-md-12 text-white bg-light">
+                            <table class="table   text-dark">
                                 <thead>
                                     <tr>
                                         <!-- <th class="align-top"><input class="form-check-input" type="checkbox" value="" id="checkAll"></th> -->

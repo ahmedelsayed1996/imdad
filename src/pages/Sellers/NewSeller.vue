@@ -19,7 +19,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
     
             <h2 class="ml-auto headLine"> البائعين</h2>
-            <button type="button" class="btn btn-success mx-1 " id="export"> <i class="bi bi-person"></i>
+            <button type="button" class="btn btn-imdad2 mx-1 " > <i class="bi bi-person"></i>
                 استيراد البائعين</button>
             <button type="button" class="btn btn-imdad mx-1"> + اضافة بائع جديد</button>
         </nav>
@@ -33,7 +33,7 @@
             <div class=" col-12 p-0 text-bg-light">
                 <!-- <div class="d-flex justify-content-between align-items-center text-bg-light">
                     <div>
-                        <button type="button" class="btn btn-success btn-sm " id="export"> <i class="bi bi-person"></i>
+                        <button type="button" class="btn btn-imdad2 btn-sm " id="export"> <i class="bi bi-person"></i>
                             استيراد البائعين</button>
                         <button type="button" class="btn btn-imdad btn-sm"> + اضافة بائع جديد</button>
                     </div>
@@ -51,13 +51,13 @@
         </div>
         <form class="form d-flex justify-item-bettwen p-0 w-75 mx-auto"  >
             <div class="form-group mx-sm-3 mb-2 flex-grow-1 ">
-                <input type="text" class="form-control"
+                <input type="text" class="form-control bg-light"
                     placeholder="ابحث عن طريق اسم البائع او رقم الهاتف او بالبريد الالكترونى">
             </div>
             <button type="submit" class="btn btn-imdad mb-2 btn-sm" id="search-button">ابدأ البحث</button>
         </form>
         <div class="mt-3 mb-3 d-flex justify-content-end p-2">
-            <button type="button" class="btn btn-success mr-2"> <i class="bi bi-person-fill"></i> تصدير جميع البائعين
+            <button type="button" class="btn btn-imdad2 mr-2"> <i class="bi bi-person-fill"></i> تصدير جميع البائعين
             </button>
             <button type="button" class="btn btn-danger disabled mr-2 ">حذف البائعين </button>
 
@@ -91,7 +91,7 @@
                         <td>0</td>
                         <td >بيع</td>
                         <td class="d-flex">
-                            <i class="mx-1 bi bi-box-arrow-in-up-right btn btn-success"></i>
+                            <i class="mx-1 bi bi-box-arrow-in-up-right btn btn-imdad2"></i>
                         <router-link to="/sellersdetails">
                             <i class="mx-1 bi bi-pencil-fill btn btn-warning"></i>
                         </router-link>

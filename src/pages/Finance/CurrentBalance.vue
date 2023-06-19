@@ -20,7 +20,7 @@
         </div>
         <div class="row">
             <div class="col-md-6">
-                <div class="card text-bg-light d-flex">
+                <div class="card bg-light text-dark d-flex">
                     <div class="card-header d-flex">
 
                         <h5 class="card-title ">رصيد المتجر<i class="fas fa-money-bill-wave"></i></h5>
@@ -38,7 +38,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="card text-bg-light d-flex">
+                <div class="card bg-light text-dark d-flex">
                     <div class="card-header d-flex">
 
                         <h5 class="card-title ">رصيد المدفوعات الالكترونيه<i class="fas fa-money-bill-wave"></i></h5>

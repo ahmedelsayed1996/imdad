@@ -18,7 +18,7 @@
     <div class="row">
         
         <div class="table-responsive col-md-12 text-white text-bg-light">
-            <table class="table   text-black">
+            <table class="table   text-dark">
                 <thead>
                     <tr>
                         <!-- <th class="align-top"><input class="form-check-input" type="checkbox" value="" id="checkAll"></th> -->
@@ -46,7 +46,7 @@
                         <td>01351323</td>
                         <td>50 ر.ي</td>
                         <td>VISA</td>
-                        <td class="text-bg-success">ناجحة</td>
+                        <td class="btn btn-imdad2 text-light ml-5">ناجحة</td>
                     </tr>
                     <tr>
                         <td>545338</td>
@@ -57,8 +57,7 @@
                         <td>01356351323</td>
                         <td>150 ر.ي</td>
                         <td>VISA</td>
-                        <td class="text-bg-danger">فاشلة</td>
-
+                        <td class="btn btn-danger text-light ml-5">فاشلة</td>
                     </tr>
                 </tbody>
             </table>

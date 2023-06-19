@@ -49,7 +49,7 @@ const router = createRouter({
     { path: '/finance', component: FinancePage },
     { path: '/lastoperation', component: LastOperationPage },
     { path: '/generalreports', component: GeneralReportsPage },
-    { path: '/dicounts', component: Discounts },
+    { path: '/discounts', component: Discounts },
     { path: '/msgs', component: WhatsappmsgsPage },
     { path: '/newseller', component: NewSellerPage },
     { path: '/sellersdetails', component: SellersDetailsPage },    

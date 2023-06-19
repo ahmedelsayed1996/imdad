@@ -12,7 +12,7 @@
         <!-- Rest of your page content goes here -->
         <form class="form d-flex justify-content-between p-2 ">
             <div class="form-group mx-sm-3 mb-2 flex-grow-1">
-                <input type="text" class="form-control text-bg-light" placeholder="ابحث عن المنتج" style="border: 1px solid lightgray;">
+                <input type="text" class="form-control bg-light" placeholder="ابحث عن المنتج" style="border: 1px solid lightgray;">
 
             </div>
             <button type="submit" class="btn btn-imdad mb-2  mx-2" id="search-button" style="background-color: #9651aa;">ابدأ البحث</button>

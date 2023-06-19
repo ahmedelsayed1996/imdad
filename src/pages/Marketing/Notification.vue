@@ -7,12 +7,12 @@
                 style="width: 200px; align-self: center;" class="card-img-top mt-2" alt="">
             <div class="card-body d-block">
                 <div class="mb-3">
-                    <label for="formFile" class="form-label d-flex">اختر الصورة المراد ارسالها</label>
+                    <label for="formFile" class="form-label d-flex text-dark">اختر الصورة المراد ارسالها</label>
                     <input class="form-control bg-light" type="file" id="formFile">
                 </div>
 
                 <div class="mb-3">
-                    <h5 class="card-title d-flex"> الرسالة:</h5>
+                    <h5 class="card-title d-flex text-dark"> الرسالة:</h5>
                     <label for="exampleFormControlTextarea1" class="form-label"></label>
                     <textarea class="form-control bg-light" id="exampleFormControlTextarea1" rows="3"
                         placeholder="اكتب الرسالة هنا"></textarea>
@@ -25,6 +25,7 @@
                         <option value="2">بقالة</option>
                         <option value="3">اخرى</option>
                     </select>
+                    
                 </div>
                 <div class="input-group mb-3">
                     <select class="form-select" id="inputGroupSelect01">
@@ -36,7 +37,7 @@
                 </div>
             </div>
             <div class="card-footer d-flex justify-content-start">
-                <button type="submit" class="btn btn-primary" @click="submitForm">ارسل</button>
+                <button type="submit" class="btn btn-imdad2" @click="submitForm">ارسل</button>
             </div>
 
         </div>

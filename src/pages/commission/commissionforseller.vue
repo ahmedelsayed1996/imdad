@@ -2,7 +2,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-            <h2 class="ml-auto headLine text-black"> العمولات</h2>
+            <h2 class="ml-auto headLine text-dark"> العمولات</h2>
         </nav>
         <div class="m-2">
             <button type="button" class="btn btn-imdad mx-2 mr-auto"> حفظ</button>
@@ -15,15 +15,15 @@
         <div class="row mt-5 text-right">
             <div class="col-md-6">
                 <div class="form-group">
-                    <label for="text-input " class="fs-3 text-black"> اسم العمولة</label>
-                    <input type="text" class="form-control text-bg-light " id="text-input" placeholder="ادخل اسم العمولة">
+                    <label for="text-input " class="fs-3 text-dark"> اسم العمولة</label>
+                    <input type="text" class="form-control bg-light " id="text-input" placeholder="ادخل اسم العمولة">
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="form-group">
-                    <label for="dropdown-select" class="fs-3 text-black">نوع العمولة</label>
-                    <select class="form-control bg-light text-black fs-6" id="dropdown-select" v-model="selectedOption1">
-                        <option value="option1" class="text-black">عامة</option>
+                    <label for="dropdown-select" class="fs-3 text-dark">نوع العمولة</label>
+                    <select class="form-control bg-light text-dark fs-6" id="dropdown-select" v-model="selectedOption1">
+                        <option value="option1" class="text-dark">عامة</option>
                         <option value="option2">حسب البائع</option>
                         <option value="option3">حسب المنتج</option>
                         <option value="option4">حسب الفئة</option>
@@ -32,24 +32,24 @@
             </div>
             <div class="col-md-6 ">
                 <div class="form-group ">
-                    <label for="dropdown-select" class="fs-3 text-black">اسم البائع</label>
+                    <label for="dropdown-select" class="fs-3 text-dark">اسم البائع</label>
 
                     <div>
-                        <select class="form-control bg-light text-black fs-6" id="dropdown-select" v-model="selectedOption">
+                        <select class="form-control bg-light text-dark fs-6" id="dropdown-select" v-model="selectedOption">
                             <option value="">اختر اسمًا</option>
                             <option value="عصام">عصام</option>
                             <option value="أحمد">أحمد</option>
                             <option value="حسين">حسين</option>
                         </select>
-                        <button @click="addOption">إضافة </button>
-                        <p class="fs-3 text-black"> اسم البائع: {{ displaySelectedOption }}</p>
+                        <button @click="addOption" class="btn btn-imdad2 m-2">إضافة </button>
+                        <p class="fs-3 text-dark"> اسم البائع: {{ displaySelectedOption }}</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 ">
                 <div class="col-md-6" v-show="selectedOption1 === 'option1'">
-                    <label for="text-input-3" class="fs-3 text-black">نسبة العمولة </label>
-                    <input type="text" class="form-control bg-light text-black" id="text-input-3" placeholder="15 %">
+                    <label for="text-input-3" class="fs-3 text-dark">نسبة العمولة </label>
+                    <input type="text" class="form-control bg-light text-dark" id="text-input-3" placeholder="15 %">
                 </div>
             </div>
         </div>
@@ -58,46 +58,18 @@
         <div class="row mt-5 text-right">
             <div class="col-md-6" v-show="selectedOption1 === 'option2'">
                 <div class="form-group">
-                    <label for="text-input-3" class="fs-3 text-black">نسبة عمولة الشريك</label>
-                    <input type="text" class="form-control text-bg-light" id="text-input-3" placeholder="15 %">
+                    <label for="text-input-3" class="fs-3 text-dark">نسبة عمولة الشريك</label>
+                    <input type="text" class="form-control bg-light" id="text-input-3" placeholder="15 %">
                 </div>
             </div>
         </div>>
 
         <div class="row mt-5 text-right" v-show="selectedOption1 === 'option3'">
-            <button type="button" class="btn btn-imdad mx-2 w-25" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            <button type="button" class="btn btn-imdad2 m-3" data-bs-toggle="modal" data-bs-target="#test">
                 اضف عمولة</button>
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">المنتج</th>
-                        <th scope="col">مع </th>
-                        <th scope="col">اسم المنتج</th>
-                        <th scope="col"> السعر المستهدف</th>
-                        <th scope="col">السعر فوق العمولة </th>
-                        <th scope="col">هامش الربح </th>
-
-
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>المنتج</td>
-                        <td>سعر محدد</td>
-                        <td>مكرونة</td>
-                        <td>500</td>
-                        <td>10:00</td>
-                        <td>00:00</td>
-                    </tr>
-                    
-                </tbody>
-            </table>
-            <div class="modal fade " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal fade" id="test" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div class="modal-dialog">
-                    <div class="modal-content text-bg-light">
+                    <div class="modal-content bg-light">
                         <div class="modal-header">
                             <h1 class="modal-title fs-5" id="staticBackdropLabel">إنشاء عموله للمنتج</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -118,7 +90,7 @@
                                 </div>
                                 <div class="col-6 my-2 ">
                                     <label for="inputPassword5" class="form-label">العمولة فوق السعر</label>
-                                    <input type="text" id="inputPassword5" class="form-control text-bg-light"
+                                    <input type="text" id="inputPassword5" class="form-control bg-light"
                                         aria-labelledby="passwordHelpBlock">
                                 </div>
                                 <div class="col-6 my-2">
@@ -137,10 +109,10 @@
                                 </div>
                                 <div class="col-6 my-2 ">
                                     <label for="inputPassword5" class="form-label">السعر المستهدف</label>
-                                    <input type="text" id="inputPassword5" class="form-control text-bg-light"
+                                    <input type="text" id="inputPassword5" class="form-control text-dark bg-light"
                                         aria-labelledby="passwordHelpBlock">
                                 </div>
-                                
+
                                 <div class="col-6 my-2">
                                     <div class="dropdown">
                                         <button class="btn btn-secondary dropdown-toggle" type="button"
@@ -163,6 +135,35 @@
                     </div>
                 </div>
             </div>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col" class="text-dark">#</th>
+                        <th scope="col" class="text-dark">المنتج</th>
+                        <th scope="col" class="text-dark">مع </th>
+                        <th scope="col" class="text-dark">اسم المنتج</th>
+                        <th scope="col" class="text-dark"> السعر المستهدف</th>
+                        <th scope="col" class="text-dark">السعر فوق العمولة </th>
+                        <th scope="col" class="text-dark">هامش الربح </th>
+
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>المنتج</td>
+                        <td>سعر محدد</td>
+                        <td>مكرونة</td>
+                        <td>500</td>
+                        <td>10:00</td>
+                        <td>00:00</td>
+                    </tr>
+
+                </tbody>
+            </table>
+            
         </div>
 
     </div>

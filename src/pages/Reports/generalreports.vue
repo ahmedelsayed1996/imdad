@@ -10,30 +10,30 @@
     </div>
 </header>
   <div class="container-fluid ">
-    <div class="row my-3">
-      <div class="input-group   col-sm-12 col-xl-6">
-        <label class="input-group-text btn-imdad" for="inputGroupSelect01"><i class="mdi mdi-calendar "></i> تاريخ التقرير
-        </label>
-        <select class="form-select" id="inputGroupSelect01">
-          <option selected>April 22,2023 - May 21,2023</option>
-          <option selected>June 22,2023 - July 21,2023</option>
-          <option selected>Jan 22,2023 - Fab 21,2023</option>
-          <option selected>Oct 22,2023 - Dec 21,2023</option>
-        </select>
-      </div>
-      <div class="col-md-6 text-end col-sm-12">
-        <button type="button" class="btn btn-outline btn-imdad">
-            <i class="bi bi-printer"></i> طباعة
-        </button>
-    </div>
+    <div class="row" style="justify-content: space-between !important;">
+        <div class="col-md-6 col-sm-12 ">
+          <button type="button" class="btn btn-outline btn-imdad">
+              <i class="bi bi-printer"></i> طباعة
+          </button>
+        </div>
+        <div class="input-group  col-sm-12 col-xl-6  ">
+          <label class="input-group-text btn-imdad" for="inputGroupSelect01"><i class="mdi mdi-calendar "></i> تاريخ التقرير
+          </label>
+          <select class="form-select" id="inputGroupSelect01">
+            <option selected>April 22,2023 - May 21,2023</option>
+            <option selected>June 22,2023 - July 21,2023</option>
+            <option selected>Jan 22,2023 - Fab 21,2023</option>
+            <option selected>Oct 22,2023 - Dec 21,2023</option>
+          </select>
+        </div>
     </div>
 
     <div class="row">
-      <div class=" col-sm-12 col-xl-3">
+      <div class=" col-sm-12 col-xl-12">
         <h2 class="headLine mx-3">نوع التقرير :</h2>
       </div><br />
 
-      <div>
+      <div class=" col-sm-12 col-xl-12">
         <ul class="nav nav-tabs d-flex " style="justify-content:space-around;">
           <li class="nav-item ">
             <a class="nav-link border" data-toggle="tab" href="#sales"><i class="mdi mdi-store"></i> المبيعات</a>
@@ -60,7 +60,7 @@
             <h3 class="headLine my-3">اختر التقرير الفرعي :</h3>
             <div class="w-75  d-inline">
               <div class="d-flex">
-                <select class=" form-select w-75 " id="table-dropdown" v-model="selectedTable">
+                <select class=" form-select w-75 p-2" id="table-dropdown" v-model="selectedTable">
                   <option selected value="table1">مبيعات المنتجات</option>
                   <option value="table2"> مبيعات التصنيفات</option>
                   <option value="table3"> مبيعات الماركات</option>
@@ -148,7 +148,7 @@ export default {
   watch: {
     selectedTable() {
       if (this.selectedTable === "table1") {
-        this.tableHTML = "<h3 class='headLine my-3'>مبيعات المنتجات   :</h3><div class='table-responsive'><table class='table table-light' ><thead dir='rtl'><tr><th scope='col'><mark>#</mark></th><th scope='col'>الماركة</th><th scope='col'>النوع</th><th scope='col'>السعر</th><th scope='col'>الكمية المباعة</th><th scope='col'>المبيعات قبل التخفيض</th><th scope='col'>التخفيض</th><th scope='col'>اجمالي كلفه المبيعات</th><th scope='col'>صافي المبيعات</th><th scope='col'>الضرائب</th><th scope='col'>اجمالي المبيعات</th></tr></thead><tbody><tr><th scope='row'>1</th><td>zara</td><td>منتج جاهز</td><td>80 ر.ي</td><td>1</td><td>100 ر.ي</td><td>_</td><td>92 ر.ي</td><td>80 ر.ي</td> <td>12 ر.ي</td> <td>92 ر.ي</td></tr><td>2</td><td>Uturn</td><td>منتج جاهز</td><td>43 ر.ي</td><td>1</td><td>55 ر.ي</td><td>_</td><td>35 ر.ي</td><td>56 ر.ي</td><td>56 ر.ي</td><td>87 ر.ي</td></tbody></table></div>";
+        this.tableHTML = "<h3 class='headLine my-3'>مبيعات المنتجات   :</h3><div class='table-responsive text-dark'><table class='table table-light text-dark' ><thead dir='rtl'><tr><th scope='col'><mark>#</mark></th><th class='text-dark' scope='col'>الماركة</th><th class='text-dark' scope='col'>النوع</th><th class='text-dark' scope='col'>السعر</th><th class='text-dark' scope='col'>الكمية المباعة</th><th class='text-dark' scope='col'>المبيعات قبل التخفيض</th><th class='text-dark' scope='col'>التخفيض</th><th class='text-dark' scope='col'>اجمالي كلفه المبيعات</th><th class='text-dark' scope='col'>صافي المبيعات</th><th class='text-dark' scope='col'>الضرائب</th><th class='text-dark' scope='col'>اجمالي المبيعات</th></tr></thead><tbody><tr><th scope='row'>1</th><td>zara</td><td>منتج جاهز</td><td>80 ر.ي</td><td>1</td><td>100 ر.ي</td><td>_</td><td>92 ر.ي</td><td>80 ر.ي</td> <td>12 ر.ي</td> <td>92 ر.ي</td></tr><td>2</td><td>Uturn</td><td>منتج جاهز</td><td>43 ر.ي</td><td>1</td><td>55 ر.ي</td><td>_</td><td>35 ر.ي</td><td>56 ر.ي</td><td>56 ر.ي</td><td>87 ر.ي</td></tbody></table></div>";
       } else if (this.selectedTable === "table2") {
         this.tableHTML = "<h3 class='headLine my-3'>مبيعات التصنيفات  :</h3><div class='table-responsive'><table class='table table-light' ><thead dir='rtl'><tr><th scope='col'><mark>#</mark></th><th scope='col'>التصنيف</th><th scope='col'>الكمية المباعة</th><th scope='col'>المبيعات قبل التخفيض</th><th scope='col'>التخفيض </th><th scope='col'> صافي المبيعات </th><th scope='col'>الضرائب</th><th scope='col'>اجمالي المبيعات</th></tr></thead><tbody><tr><th scope='row'>1</th><td>مجموعة العناية</td><td> 19</td><td>1.300 ر.ي</td><td>_</td><td>1.300 ر.ي </td><td>65 ر.ي</td><td>1365 ر.ي</td></tr><td>2</td><td>Uturn</td><td>منتج جاهز</td><td>43 ر.ي</td><td>1</td><td>55 ر.ي</td><td>_</td><td>35 ر.ي</td></tbody></table></div>";
       } else if (this.selectedTable === "table3") {
